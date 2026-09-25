@@ -1,0 +1,7 @@
+{
+  "task_id": "DESIGN_AND_TEST_H086_H090_RETRY1",
+  "task_type": "DESIGN_AND_TEST_BATCH",
+  "status": "ERROR",
+  "error_code": "TASK_VALIDATION_OR_HANDLER_ERROR",
+  "final_oos": "not accessed"
+}
