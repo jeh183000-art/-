@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "task_id": "ANALYZE_H083_FAILURE_MODE",
+  "status": "READY",
+  "local_workspace": "/home/openclaw/btc_research",
+  "inputs": [
+    "results/failure_map_H055_H085.json",
+    "results/openclaw_review_H081_H085.json"
+  ],
+  "target_hypothesis": "H083",
+  "rules": {
+    "python_only": true,
+    "ai_calls_allowed": 0,
+    "final_oos_access": false,
+    "retune": false,
+    "new_hypotheses": false,
+    "rerun_backtest": false,
+    "use_saved_results_only": true
+  },
+  "analysis": [
+    "identify exact promotion gates H083 passed and failed",
+    "compare TRAIN vs VALIDATION expectancy and PF",
+    "check 18bp and 24bp cost stress",
+    "check +1m entry delay",
+    "check ex-top3 dependence",
+    "check 2024 vs 2025 stability",
+    "check LONG vs SHORT dependence",
+    "check bootstrap 95% CI",
+    "identify the earliest failed gate",
+    "classify failure as generalization, cost, delay, winner dependence, year instability, side dependence, bootstrap weakness, or other",
+    "do not suggest threshold changes"
+  ],
+  "local_output": "results/h083_failure_diagnostic.json",
+  "github_public_summary": {
+    "path": "btc-mailbox/inbox/h083_failure_diagnostic.summary.json",
+    "include_only": [
+      "hypothesis_id",
+      "decision",
+      "passed_gates",
+      "failed_gates",
+      "earliest_failed_gate",
+      "failure_tags",
+      "train_expectancy_bps",
+      "validation_expectancy_bps",
+      "train_pf",
+      "validation_pf",
+      "validation_24bp_expectancy_bps",
+      "delay_1m_expectancy_bps",
+      "ex_top3_expectancy_bps",
+      "year_2024_result",
+      "year_2025_result",
+      "long_result",
+      "short_result",
+      "bootstrap_ci",
+      "final_oos"
+    ],
+    "redact_strategy_logic": true
+  },
+  "stop_after_completion": true
+}
