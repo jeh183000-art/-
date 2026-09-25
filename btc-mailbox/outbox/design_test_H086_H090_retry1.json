@@ -3,7 +3,7 @@
   "protocol_version": 1,
   "task_id": "DESIGN_AND_TEST_H086_H090_RETRY1",
   "task_type": "DESIGN_AND_TEST_BATCH",
-  "status": "READY",
+  "status": "ERROR",
   "hypothesis_start": "H086",
   "hypothesis_end": "H090",
   "local_workspace": "/home/openclaw/btc_research",
@@ -78,5 +78,7 @@
     "mark_task_completed": true,
     "do_not_create_H091_plus": true,
     "wait_for_next_github_outbox_task": true
-  }
+  },
+  "bridge_updated_at_utc": "2026-09-25T09:57:26.713982+00:00",
+  "bridge_note": "TASK_VALIDATION_OR_HANDLER_ERROR"
 }
