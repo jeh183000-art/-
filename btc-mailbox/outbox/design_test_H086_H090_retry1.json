@@ -3,9 +3,9 @@
   "protocol_version": 1,
   "task_id": "DESIGN_AND_TEST_H086_H090_RETRY1",
   "task_type": "DESIGN_AND_TEST_BATCH",
-  "status": "ERROR",
-  "hypothesis_start": "H086",
-  "hypothesis_end": "H090",
+  "status": "READY",
+  "hypothesis_start": 86,
+  "hypothesis_end": 90,
   "local_workspace": "/home/openclaw/btc_research",
   "retry_of": "DESIGN_AND_TEST_H086_H090",
   "retry_reason": "Previous execution failed before research due to OpenClaw app-server startup timeout; new task_id avoids processed-registry deduplication.",
@@ -80,5 +80,9 @@
     "wait_for_next_github_outbox_task": true
   },
   "bridge_updated_at_utc": "2026-09-25T09:57:26.713982+00:00",
-  "bridge_note": "TASK_VALIDATION_OR_HANDLER_ERROR"
+  "bridge_note": "TASK_VALIDATION_OR_HANDLER_ERROR",
+  "hypothesis_start_id": "H086",
+  "hypothesis_end_id": "H090",
+  "compatibility_note": "Validator-compatible integer bounds added; research scope remains H086-H090 unchanged.",
+  "previous_format_error": "validator accepted integers only and rejected H### string IDs"
 }
