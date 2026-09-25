@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "protocol": "allowlisted_task_types_only",
+  "allowed_task_types": {
+    "DESIGN_AND_TEST_BATCH": {
+      "purpose": "Design and test a fixed batch of up to 5 new development-only hypotheses.",
+      "required_fields": [
+        "task_id",
+        "status",
+        "task_type",
+        "hypothesis_start",
+        "hypothesis_end"
+      ],
+      "max_batch_size": 5,
+      "max_ai_calls": 1,
+      "final_oos_access": false
+    },
+    "DIAGNOSTIC": {
+      "purpose": "Diagnose a saved result or pipeline failure without retuning.",
+      "required_fields": [
+        "task_id",
+        "status",
+        "task_type",
+        "target"
+      ],
+      "max_ai_calls": 0,
+      "final_oos_access": false
+    },
+    "AUDIT": {
+      "purpose": "Audit state, registries, files, or reproducibility deterministically.",
+      "required_fields": [
+        "task_id",
+        "status",
+        "task_type",
+        "target"
+      ],
+      "max_ai_calls": 0,
+      "final_oos_access": false
+    },
+    "STOP": {
+      "purpose": "Stop automation and request human review.",
+      "required_fields": [
+        "task_id",
+        "status",
+        "task_type",
+        "reason"
+      ],
+      "max_ai_calls": 0,
+      "final_oos_access": false
+    }
+  },
+  "hard_blocks": [
+    "arbitrary shell command execution from task JSON",
+    "arbitrary credential access",
+    "Final OOS access",
+    "retuning rejected hypotheses",
+    "more than 5 new hypotheses per batch",
+    "uploading raw market data or proprietary strategy details to public GitHub"
+  ],
+  "execution_rule": "Local OpenClaw may map each allowed task_type to a fixed handler. Unknown task_type must be rejected."
+}
