@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "task_id": "DIAGNOSE_H086_H090_WORKER_FAILURE",
+  "status": "READY",
+  "local_workspace": "/home/openclaw/btc_research",
+  "objective": "Diagnose why DESIGN_AND_TEST_H086_H090 worker exited with status 1, repair only the execution/pipeline defect if deterministic, and resume the exact preregistered H086-H090 task without changing hypothesis logic or research rules.",
+  "inputs": [
+    "local worker/service logs",
+    "local mailbox runner logs/state",
+    "results/failure_map_H055_H085.json",
+    "results/h083_failure_diagnostic.json",
+    "GitHub outbox DESIGN_AND_TEST_H086_H090 task"
+  ],
+  "rules": {
+    "ai_calls_allowed": 0,
+    "python_only_for_diagnosis": true,
+    "final_oos_access": false,
+    "retune": false,
+    "change_hypothesis_logic": false,
+    "change_holding_horizon": false,
+    "change_thresholds": false,
+    "generate_new_hypotheses": false,
+    "rerun_only_after_pipeline_fix": true
+  },
+  "required_actions": [
+    "capture the exact stderr/traceback/exit cause for the failed worker",
+    "classify failure as auth, CLI invocation, missing file, syntax/runtime bug, timeout, git push failure, or other",
+    "repair only the deterministic pipeline/execution issue when possible",
+    "preserve the original H086-H090 preregistration and IDs",
+    "after repair, retry DESIGN_AND_TEST_H086_H090 once",
+    "upload a public-safe diagnostic summary to btc-mailbox/inbox",
+    "mark this diagnostic task COMPLETED after successful repair or ERROR with exact public-safe cause if not repairable"
+  ],
+  "public_summary_path": "btc-mailbox/inbox/diagnose_h086_h090_worker_failure.summary.json"
+}
