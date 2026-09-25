@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task_id": "DESIGN_AND_TEST_H086_H090",
-  "status": "READY",
+  "status": "SUPERSEDED",
   "local_workspace": "/home/openclaw/btc_research",
   "private_local_inputs": [
     "results/failure_map_H055_H085.json",
@@ -88,5 +88,7 @@
     "cause": "OpenClaw app-server startup timeout",
     "research_started": false,
     "final_oos": "not accessed"
-  }
+  },
+  "superseded_by": "DESIGN_AND_TEST_H086_H090_RETRY1",
+  "superseded_reason": "Original task_id was already consumed by local processed registry after a pipeline timeout; retry issued under a new allowlisted task_id with unchanged research logic."
 }
