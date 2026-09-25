@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source": "OpenClaw local result summary",
+  "source_local_path": "/home/openclaw/btc_research/results/failure_map_H055_H085.json",
+  "scope": "H055-H085",
+  "reject_count": 30,
+  "data_unavailable_count": 1,
+  "missing_result_count": 0,
+  "near_miss": [
+    "H083"
+  ],
+  "near_miss_decision": "REJECT",
+  "final_oos": "not accessed",
+  "note": "Full failure-map JSON intentionally not copied because this GitHub repository is public."
+}
