@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "latest_completed_batch": "H081-H085",
-  "latest_decision_summary": "H081-H085 REJECT; H076 DATA_UNAVAILABLE",
-  "next_action": "failure_map_H055_H085",
+  "latest_completed_artifact": "failure_map_H055_H085",
+  "scope": "H055-H085",
+  "reject_count": 30,
+  "data_unavailable_count": 1,
+  "missing_result_count": 0,
+  "near_miss": [
+    "H083"
+  ],
+  "near_miss_decision": "REJECT",
+  "next_action": "ANALYZE_H083_FAILURE_MODE_WITHOUT_RETUNING",
   "final_oos": "not accessed"
 }
