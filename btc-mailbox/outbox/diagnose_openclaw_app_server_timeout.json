@@ -3,7 +3,7 @@
   "protocol_version": 1,
   "task_id": "DIAGNOSE_OPENCLAW_APP_SERVER_TIMEOUT",
   "task_type": "DIAGNOSTIC",
-  "status": "READY",
+  "status": "ERROR",
   "target": "OpenClaw app-server startup timeout blocking DESIGN_AND_TEST_H086_H090_RETRY1 before research begins",
   "local_workspace": "/home/openclaw/btc_research",
   "objective": "Diagnose and repair the deterministic OpenClaw app-server startup timeout. Do not change any H086-H090 research logic. After confirming the app-server starts reliably, requeue H086-H090 under a fresh task_id using the existing preregistered scope.",
@@ -37,5 +37,7 @@
     "mark this task ERROR",
     "upload a public-safe exact failure category and evidence",
     "do not retry H086-H090 until the app-server issue is resolved"
-  ]
+  ],
+  "bridge_updated_at_utc": "2026-09-25T10:05:32.353241+00:00",
+  "bridge_note": "TASK_VALIDATION_OR_HANDLER_ERROR"
 }
