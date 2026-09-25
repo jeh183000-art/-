@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task_id": "ANALYZE_H083_FAILURE_MODE",
-  "status": "READY",
+  "status": "COMPLETED",
   "local_workspace": "/home/openclaw/btc_research",
   "inputs": [
     "results/failure_map_H055_H085.json",
@@ -56,5 +56,6 @@
     ],
     "redact_strategy_logic": true
   },
-  "stop_after_completion": true
+  "stop_after_completion": true,
+  "completed_result": "btc-mailbox/inbox/h083_failure_diagnostic.summary.json"
 }
