@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task_id": "DESIGN_AND_TEST_H086_H090",
-  "status": "RUNNING",
+  "status": "READY",
   "local_workspace": "/home/openclaw/btc_research",
   "private_local_inputs": [
     "results/failure_map_H055_H085.json",
@@ -74,6 +74,19 @@
     "wait_for_next_github_outbox_task": true
   },
   "bridge_updated_at_utc": "2026-09-25T09:35:24.699172+00:00",
-  "bridge_note": "worker_pid=128040",
-  "retry_requested_at_utc": "2026-09-25T09:34:32.322628+00:00"
+  "task_type": "DESIGN_AND_TEST_BATCH",
+  "hypothesis_start": "H086",
+  "hypothesis_end": "H090",
+  "protocol_version": 1,
+  "migration_note": "Migrated from legacy task format to allowlisted DESIGN_AND_TEST_BATCH after previous worker exited on OpenClaw app-server startup timeout. Research logic unchanged.",
+  "retry_policy": {
+    "max_retries": 1,
+    "reason": "pipeline/app-server timeout only"
+  },
+  "previous_execution": {
+    "status": "FAILED",
+    "cause": "OpenClaw app-server startup timeout",
+    "research_started": false,
+    "final_oos": "not accessed"
+  }
 }
