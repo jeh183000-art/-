@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task_id": "DESIGN_AND_TEST_H086_H090",
-  "status": "RUNNING",
+  "status": "ERROR",
   "local_workspace": "/home/openclaw/btc_research",
   "private_local_inputs": [
     "results/failure_map_H055_H085.json",
@@ -73,6 +73,6 @@
     "do_not_create_H091_plus": true,
     "wait_for_next_github_outbox_task": true
   },
-  "bridge_updated_at_utc": "2026-09-25T09:24:22.104967+00:00",
-  "bridge_note": "worker_pid=126396"
+  "bridge_updated_at_utc": "2026-09-25T09:26:31.238916+00:00",
+  "bridge_note": "worker exited with status 1"
 }
