@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "mode": "continuous",
+  "poll_seconds": 60,
+  "github_repo": "jeh183000-art/-",
+  "mailbox_root": "btc-mailbox",
+  "local_workspace": "/home/openclaw/btc_research",
+  "outbox_dir": "btc-mailbox/outbox",
+  "inbox_dir": "btc-mailbox/inbox",
+  "local_result_dir": "/home/openclaw/btc_research/results",
+  "rules": {
+    "execute_ready_tasks_only": true,
+    "python_only_when_task_says_python_only": true,
+    "ai_calls_default": 0,
+    "final_oos_access": false,
+    "retune_rejected": false,
+    "max_new_hypotheses_per_cycle": 5,
+    "upload_public_summary_only": true,
+    "stop_on_policy_violation": true
+  },
+  "result_visibility": "public_summary_only",
+  "human_interaction": "results_only"
+}
