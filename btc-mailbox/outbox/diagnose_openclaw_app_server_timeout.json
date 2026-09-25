@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "protocol_version": 1,
+  "task_id": "DIAGNOSE_OPENCLAW_APP_SERVER_TIMEOUT",
+  "task_type": "DIAGNOSTIC",
+  "status": "READY",
+  "target": "OpenClaw app-server startup timeout blocking DESIGN_AND_TEST_H086_H090_RETRY1 before research begins",
+  "local_workspace": "/home/openclaw/btc_research",
+  "objective": "Diagnose and repair the deterministic OpenClaw app-server startup timeout. Do not change any H086-H090 research logic. After confirming the app-server starts reliably, requeue H086-H090 under a fresh task_id using the existing preregistered scope.",
+  "rules": {
+    "ai_calls_allowed": 0,
+    "final_oos_access": false,
+    "retune": false,
+    "change_hypothesis_logic": false,
+    "change_thresholds": false,
+    "change_holding_horizon": false,
+    "generate_new_hypotheses": false,
+    "credential_changes": false
+  },
+  "diagnostic_scope": [
+    "inspect app-server startup logs and stderr",
+    "inspect service/socket/port conflicts",
+    "inspect stale app-server processes",
+    "inspect timeout configuration and startup readiness probe",
+    "inspect missing dependencies/config/runtime environment",
+    "inspect resource exhaustion if indicated by logs",
+    "apply only a deterministic local pipeline fix supported by evidence",
+    "verify app-server can start successfully twice in a row without touching Final OOS"
+  ],
+  "success_actions": [
+    "write a local diagnostic JSON with exact root cause and fix",
+    "upload a public-safe summary to btc-mailbox/inbox/diagnose_openclaw_app_server_timeout.summary.json",
+    "create or requeue a fresh DESIGN_AND_TEST_BATCH task for H086-H090 preserving the original preregistration and research rules",
+    "do not reuse a previously consumed task_id"
+  ],
+  "failure_actions": [
+    "mark this task ERROR",
+    "upload a public-safe exact failure category and evidence",
+    "do not retry H086-H090 until the app-server issue is resolved"
+  ]
+}
