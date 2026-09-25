@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task_id": "DIAGNOSE_H086_H090_WORKER_FAILURE",
-  "status": "READY",
+  "status": "ERROR",
   "local_workspace": "/home/openclaw/btc_research",
   "objective": "Diagnose why DESIGN_AND_TEST_H086_H090 worker exited with status 1, repair only the execution/pipeline defect if deterministic, and resume the exact preregistered H086-H090 task without changing hypothesis logic or research rules.",
   "inputs": [
@@ -31,5 +31,7 @@
     "upload a public-safe diagnostic summary to btc-mailbox/inbox",
     "mark this diagnostic task COMPLETED after successful repair or ERROR with exact public-safe cause if not repairable"
   ],
-  "public_summary_path": "btc-mailbox/inbox/diagnose_h086_h090_worker_failure.summary.json"
+  "public_summary_path": "btc-mailbox/inbox/diagnose_h086_h090_worker_failure.summary.json",
+  "bridge_updated_at_utc": "2026-09-25T09:28:37.922161+00:00",
+  "bridge_note": "no registered local handler for task_id"
 }
