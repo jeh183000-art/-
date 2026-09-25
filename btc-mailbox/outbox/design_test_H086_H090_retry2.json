@@ -1,7 +1,7 @@
 {
   "task_id": "DESIGN_AND_TEST_H086_H090_RETRY2",
   "task_type": "DESIGN_AND_TEST_BATCH",
-  "status": "RUNNING",
+  "status": "COMPLETED",
   "hypothesis_start": 86,
   "hypothesis_end": 90,
   "local_workspace": "/home/openclaw/btc_research",
@@ -35,6 +35,6 @@
   },
   "execution_mode": "restricted_systemd_python_only",
   "final_oos_status": "LOCKED",
-  "bridge_updated_at_utc": "2026-09-25T11:12:14.293727+00:00",
+  "bridge_updated_at_utc": "2026-09-25T11:19:46.929021+00:00",
   "bridge_note": "restricted_systemd_unit=btc-restricted-batch-5420bd8af9857002.service"
 }
