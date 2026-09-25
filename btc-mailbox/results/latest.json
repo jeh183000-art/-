@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "latest_completed_batch": "H081-H085",
+  "latest_decision_summary": "H081-H085 REJECT; H076 DATA_UNAVAILABLE",
+  "next_action": "failure_map_H055_H085",
+  "final_oos": "not accessed"
+}
