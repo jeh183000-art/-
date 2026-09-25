@@ -1,7 +1,7 @@
 {
   "task_id": "DESIGN_AND_TEST_H091_H095",
   "task_type": "DESIGN_AND_TEST_BATCH",
-  "status": "RUNNING",
+  "status": "ERROR",
   "hypothesis_start": 91,
   "hypothesis_end": 95,
   "local_workspace": "/home/openclaw/btc_research",
@@ -63,6 +63,17 @@
     "keep_detailed_strategy_logic_local": true,
     "wait_for_next_coordinator_task": true
   },
-  "bridge_updated_at_utc": "2026-09-25T14:21:11.619964+00:00",
-  "bridge_note": "restricted_systemd_unit=btc-restricted-batch-05aa0c57a6a13cad.service"
+  "bridge_updated_at_utc": "2026-09-25T23:41:13.999218+00:00",
+  "bridge_note": "restricted_systemd_unit=btc-restricted-batch-05aa0c57a6a13cad.service",
+  "bridge_failure": {
+    "task_id": "DESIGN_AND_TEST_H091_H095",
+    "status": "ERROR",
+    "stage": "worker_recovery",
+    "error_category": "WORKER_LOST",
+    "error_summary": "Recorded worker process exited or no longer matches its recorded identity.",
+    "worker_alive": false,
+    "retry_planned": false,
+    "final_oos": "LOCKED",
+    "recorded_at_utc": "2026-09-25T23:41:13.542813+00:00"
+  }
 }
