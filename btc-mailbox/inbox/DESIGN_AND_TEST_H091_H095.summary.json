@@ -1,0 +1,11 @@
+{
+  "task_id": "DESIGN_AND_TEST_H091_H095",
+  "status": "ERROR",
+  "stage": "worker_recovery",
+  "error_category": "WORKER_LOST",
+  "error_summary": "Recorded worker process exited or no longer matches its recorded identity.",
+  "worker_alive": false,
+  "retry_planned": false,
+  "final_oos": "LOCKED",
+  "recorded_at_utc": "2026-09-25T23:41:13.542813+00:00"
+}
