@@ -1,0 +1,7 @@
+{
+  "task_id": "DIAGNOSE_OPENCLAW_APP_SERVER_TIMEOUT",
+  "task_type": "DIAGNOSTIC",
+  "status": "ERROR",
+  "error_code": "TASK_VALIDATION_OR_HANDLER_ERROR",
+  "final_oos": "not accessed"
+}
