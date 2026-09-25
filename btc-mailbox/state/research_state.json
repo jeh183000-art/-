@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "project": "BTCUSDT research",
+  "latest_completed_batch": "H081-H085",
+  "status_summary": "H076 DATA_UNAVAILABLE; H077-H085 REJECT",
+  "next_action": "BUILD_FAILURE_MAP_H055_H085",
+  "final_oos": "not accessed"
+}
