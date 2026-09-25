@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "task_id": "DESIGN_AND_TEST_H086_H090",
+  "status": "READY",
+  "local_workspace": "/home/openclaw/btc_research",
+  "private_local_inputs": [
+    "results/failure_map_H055_H085.json",
+    "results/h083_failure_diagnostic.json",
+    "local hypothesis registry",
+    "local failure registry"
+  ],
+  "objective": "Create and test five structurally new development-only hypotheses H086-H090 while avoiding all previously failed families and H083-like sparse/event-dependent structures.",
+  "rules": {
+    "ai_calls_allowed": 1,
+    "ai_call_purpose": "hypothesis design only; one call designs all five hypotheses together",
+    "python_for_all_computation": true,
+    "final_oos_access": false,
+    "retune_after_results": false,
+    "rerun_rejected": false,
+    "generate_beyond_H090": false,
+    "raw_market_data_to_github": false,
+    "proprietary_strategy_logic_to_github": false,
+    "avoid_oi_dependent_hypotheses": true
+  },
+  "preregistration": {
+    "train": "2022-2023",
+    "validation": "2024-2025",
+    "thresholds_from_train_only": true,
+    "freeze_before_validation": true,
+    "holding_horizon_fixed_before_execution": true,
+    "use_existing_next_minute_entry_exit_rules": true,
+    "use_existing_funding_boundary_rules": true,
+    "save_local_preregistered_spec_and_hash": true
+  },
+  "design_constraints": [
+    "Read the full private failure map before design.",
+    "Do not create simple threshold, horizon, side, or quantile variants of any failed family.",
+    "Do not create another H083 range-acceptance/breakout-acceptance variant.",
+    "Prefer hypotheses with materially broader expected event frequency than H083.",
+    "Each hypothesis must use a distinct economic/market microstructure rationale.",
+    "Do not use OI because H076 showed unavailable TRAIN OI coverage.",
+    "After a hypothesis is frozen, if TRAIN or VALIDATION has fewer than 100 trades, classify LOW_SAMPLE and do not modify it."
+  ],
+  "required_tests": [
+    "base round-trip cost 12bp",
+    "validation 18bp and 24bp",
+    "+1 minute delay",
+    "remove top 3 winners",
+    "2024 and 2025 separately",
+    "LONG and SHORT separately where applicable",
+    "bootstrap 95% CI"
+  ],
+  "promotion_gates": {
+    "train_expectancy_positive": true,
+    "validation_expectancy_positive": true,
+    "train_pf_min": 1.2,
+    "validation_pf_min": 1.2,
+    "validation_24bp_expectancy_positive": true,
+    "delay_1m_expectancy_positive": true,
+    "ex_top3_expectancy_positive": true,
+    "year_2024_positive": true,
+    "year_2025_positive": true,
+    "bootstrap_lower_95_positive_is_strong_evidence": true
+  },
+  "local_output": "results/openclaw_review_H086_H090.json",
+  "github_public_summary": {
+    "path": "btc-mailbox/inbox/openclaw_review_H086_H090.summary.json",
+    "include_only_public_safe_metrics": true,
+    "redact_strategy_logic": true
+  },
+  "after_completion": {
+    "mark_task_completed": true,
+    "do_not_create_H091_plus": true,
+    "wait_for_next_github_outbox_task": true
+  }
+}
