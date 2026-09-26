@@ -1,0 +1,16 @@
+{
+  "task_id": "AUDIT_H101_H105_DIAGNOSTIC_RESULT_CAPTURE",
+  "status": "READY",
+  "task_type": "AUDIT",
+  "target": "results",
+  "final_oos_access": false,
+  "purpose": "Deterministically audit why DIAGNOSE_H101_H105_HANDLER_ERROR_V2 completed with an empty saved_result_excerpt. Verify result artifact capture/serialization and the handoff between the fixed DIAGNOSTIC handler and public-safe summary generation. Compare only metadata/control-flow with the successful H096-H100 RETRY1 path. Do not design or retune hypotheses and do not access Final OOS.",
+  "constraints": {
+    "python_only": true,
+    "ai_calls_allowed": 0,
+    "retune_rejected_hypotheses": false,
+    "generate_new_hypotheses": false,
+    "raw_market_data_public": false,
+    "proprietary_strategy_logic_public": false
+  }
+}
