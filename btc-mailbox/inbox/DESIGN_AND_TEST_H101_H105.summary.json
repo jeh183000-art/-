@@ -1,0 +1,11 @@
+{
+  "task_id": "DESIGN_AND_TEST_H101_H105",
+  "status": "ERROR",
+  "stage": "handler",
+  "error_category": "HANDLER_ERROR",
+  "error_summary": "Approved local handler failed; details remain in local logs.",
+  "worker_alive": false,
+  "retry_planned": false,
+  "final_oos": "LOCKED",
+  "recorded_at_utc": "2026-09-26T01:35:41.174813+00:00"
+}
