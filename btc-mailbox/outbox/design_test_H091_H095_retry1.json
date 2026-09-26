@@ -60,7 +60,9 @@
     "train_period": "2022-01-01 through 2023-12-31 UTC",
     "validation_period": "2024-01-01 through 2025-12-31 UTC"
   },
-  "status": "READY",
+  "status": "RUNNING",
   "task_id": "DESIGN_AND_TEST_H091_H095_RETRY1",
-  "task_type": "DESIGN_AND_TEST_BATCH"
+  "task_type": "DESIGN_AND_TEST_BATCH",
+  "bridge_updated_at_utc": "2026-09-26T00:06:13.120702+00:00",
+  "bridge_note": "restricted_systemd_unit=btc-restricted-batch-e8606da9abc84d55.service"
 }
