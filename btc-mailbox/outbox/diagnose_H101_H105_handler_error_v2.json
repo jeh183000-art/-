@@ -1,0 +1,16 @@
+{
+  "task_id": "DIAGNOSE_H101_H105_HANDLER_ERROR_V2",
+  "status": "READY",
+  "task_type": "DIAGNOSTIC",
+  "target": "logs",
+  "final_oos_access": false,
+  "purpose": "Deterministically diagnose the saved H101-H105 DESIGN_AND_TEST_BATCH handler failure from approved local logs only. Identify the exact failing stage/root cause and compare it with the last successful H096-H100 RETRY1 handler path. Do not retune hypotheses, design new hypotheses, execute arbitrary commands, or access Final OOS.",
+  "constraints": {
+    "python_only": true,
+    "ai_calls_allowed": 0,
+    "retune_rejected_hypotheses": false,
+    "generate_new_hypotheses": false,
+    "proprietary_strategy_logic_public": false,
+    "raw_market_data_public": false
+  }
+}
