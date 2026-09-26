@@ -1,6 +1,6 @@
 {
   "task_id": "DIAGNOSE_AUDIT_RESULT_CAPTURE_EMPTY_V3",
-  "status": "READY",
+  "status": "COMPLETED",
   "task_type": "DIAGNOSTIC",
   "target": "results",
   "final_oos_access": false,
@@ -12,5 +12,6 @@
     "generate_new_hypotheses": false,
     "raw_market_data_public": false,
     "proprietary_strategy_logic_public": false
-  }
+  },
+  "bridge_updated_at_utc": "2026-09-26T09:18:09.836676+00:00"
 }
