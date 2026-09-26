@@ -1,7 +1,7 @@
 {
   "task_id": "DESIGN_AND_TEST_H096_H100",
   "task_type": "DESIGN_AND_TEST_BATCH",
-  "status": "READY",
+  "status": "RUNNING",
   "hypothesis_start": 96,
   "hypothesis_end": 100,
   "local_workspace": "/home/openclaw/btc_research",
@@ -62,5 +62,7 @@
     "publish_public_safe_summary": true,
     "keep_detailed_strategy_logic_local": true,
     "wait_for_next_coordinator_task": true
-  }
+  },
+  "bridge_updated_at_utc": "2026-09-26T00:15:10.178046+00:00",
+  "bridge_note": "restricted_systemd_unit=btc-restricted-batch-65bae4c757a03371.service"
 }
