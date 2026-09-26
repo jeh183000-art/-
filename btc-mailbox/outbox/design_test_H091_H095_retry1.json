@@ -1,0 +1,66 @@
+{
+  "execution_mode": "restricted_systemd_python_only",
+  "final_oos": "LOCKED",
+  "final_oos_access": false,
+  "final_oos_status": "LOCKED",
+  "github_public_summary": {
+    "path": "btc-mailbox/inbox/DESIGN_AND_TEST_H091_H095_RETRY1.summary.json"
+  },
+  "hypothesis_end": 95,
+  "hypothesis_start": 91,
+  "local_output": "results/mailbox_DESIGN_AND_TEST_H091_H095_RETRY1.json",
+  "local_workspace": "/home/openclaw/btc_research",
+  "low_sample_rule": "If TRAIN or VALIDATION has fewer than 100 trades after preregistration, classify LOW_SAMPLE and do not modify the hypothesis.",
+  "objective": "Design and test exactly five structurally distinct development-only BTCUSDT hypotheses H091-H095. Read the complete local failure registry through H090 before design. Preserve all preregistration and execution rules; do not retune rejected families or create H083 variants.",
+  "promotion_gates": {
+    "bootstrap_lower_95_positive_strong_evidence": true,
+    "delay_1m_expectancy_positive": true,
+    "ex_top3_expectancy_positive": true,
+    "train_expectancy_positive": true,
+    "train_pf_min": 1.2,
+    "validation_24bp_expectancy_positive": true,
+    "validation_expectancy_positive": true,
+    "validation_pf_min": 1.2,
+    "year_2024_positive": true,
+    "year_2025_positive": true
+  },
+  "rules": {
+    "ai_call_purpose": "Design all five hypotheses together only",
+    "ai_calls_allowed": 1,
+    "cost_bps": {
+      "base": 12,
+      "stress": [
+        18,
+        24
+      ]
+    },
+    "execution": "Preserve existing next-minute entry/exit rules and funding-boundary rules",
+    "final_oos_access": false,
+    "generate_beyond_H095": false,
+    "h083_variants": "PROHIBITED",
+    "hash_each_preregistered_spec": true,
+    "max_hypotheses": 5,
+    "open_interest": "PROHIBITED",
+    "prefer_broader_event_frequency_than_sparse_near_miss_H083": true,
+    "preregister_each_hypothesis_before_testing": true,
+    "python_for_all_computation": true,
+    "read_local_failure_registry_through": "H090",
+    "require_structurally_distinct_hypotheses": true,
+    "retune_after_results": false,
+    "retuning_rejected_families": "PROHIBITED",
+    "simple_variants_of_H086_H090": "PROHIBITED",
+    "stress_tests": [
+      "plus_1m_delay",
+      "remove_top_3_winners",
+      "split_2024_2025",
+      "split_LONG_SHORT",
+      "bootstrap_95_CI"
+    ],
+    "thresholds": "Determine on TRAIN only; freeze before VALIDATION",
+    "train_period": "2022-01-01 through 2023-12-31 UTC",
+    "validation_period": "2024-01-01 through 2025-12-31 UTC"
+  },
+  "status": "READY",
+  "task_id": "DESIGN_AND_TEST_H091_H095_RETRY1",
+  "task_type": "DESIGN_AND_TEST_BATCH"
+}
