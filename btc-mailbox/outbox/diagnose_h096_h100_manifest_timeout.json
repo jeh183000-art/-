@@ -1,0 +1,6 @@
+{
+  "task_id": "DIAGNOSE_H096_H100_MANIFEST_TIMEOUT",
+  "task_type": "DIAGNOSTIC",
+  "status": "READY",
+  "target": "Diagnose why DESIGN_AND_TEST_H096_H100 restricted worker waited for preregistration manifest until timeout without creating H096-H100 prereg specs/hashes or starting computation. Inspect the active DESIGN_AND_TEST_BATCH handler, manifest producer/design stage, handoff between the single allowed AI design call and restricted Python runner, task-specific ai_calls_allowed override behavior, manifest path/name expectations, and watcher/worker sequencing. Do not redesign hypotheses, do not retune anything, do not create a retry task, and do not access Final OOS. Return the minimal root cause and exact local fix required, then perform a synthetic manifest-handoff smoke test only if it can be done without market-data research or Final OOS access."
+}
