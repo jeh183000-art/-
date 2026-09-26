@@ -1,0 +1,16 @@
+{
+  "task_id": "DIAGNOSE_AUDIT_RESULT_CAPTURE_EMPTY_V3",
+  "status": "READY",
+  "task_type": "DIAGNOSTIC",
+  "target": "results",
+  "final_oos_access": false,
+  "purpose": "Diagnose why the completed H101-H105 result-capture audit produced only completion metadata and no findings. Report failure stage, error category, result-capture status, and whether H101-H105 remain NOT_EXECUTED. No hypothesis changes.",
+  "constraints": {
+    "python_only": true,
+    "ai_calls_allowed": 0,
+    "retune_rejected_hypotheses": false,
+    "generate_new_hypotheses": false,
+    "raw_market_data_public": false,
+    "proprietary_strategy_logic_public": false
+  }
+}
