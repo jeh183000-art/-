@@ -1,6 +1,6 @@
 {
   "task_id": "DIAGNOSE_H101_H105_HANDLER_ERROR_V2",
-  "status": "READY",
+  "status": "COMPLETED",
   "task_type": "DIAGNOSTIC",
   "target": "logs",
   "final_oos_access": false,
@@ -12,5 +12,6 @@
     "generate_new_hypotheses": false,
     "proprietary_strategy_logic_public": false,
     "raw_market_data_public": false
-  }
+  },
+  "bridge_updated_at_utc": "2026-09-26T03:53:57.274957+00:00"
 }
