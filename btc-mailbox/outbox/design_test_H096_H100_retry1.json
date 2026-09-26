@@ -1,0 +1,65 @@
+{
+  "execution_mode": "restricted_systemd_python_only",
+  "final_oos": "LOCKED",
+  "final_oos_access": false,
+  "final_oos_status": "LOCKED",
+  "github_public_summary": {
+    "path": "btc-mailbox/inbox/DESIGN_AND_TEST_H096_H100_RETRY1.summary.json"
+  },
+  "hypothesis_start": 96,
+  "hypothesis_end": 100,
+  "local_output": "results/mailbox_DESIGN_AND_TEST_H096_H100_RETRY1.json",
+  "local_workspace": "/home/openclaw/btc_research",
+  "low_sample_rule": "If TRAIN or VALIDATION has fewer than 100 trades after preregistration, classify LOW_SAMPLE and do not modify the hypothesis.",
+  "objective": "Execute the already-frozen H096-H100 batch through the restricted Python worker only. The five preregistration specs and hashes exist locally before launch. Do not design additional hypotheses, retune rejected families, or modify any spec after validation.",
+  "promotion_gates": {
+    "bootstrap_lower_95_positive_strong_evidence": true,
+    "delay_1m_expectancy_positive": true,
+    "ex_top3_expectancy_positive": true,
+    "train_expectancy_positive": true,
+    "train_pf_min": 1.2,
+    "validation_24bp_expectancy_positive": true,
+    "validation_expectancy_positive": true,
+    "validation_pf_min": 1.2,
+    "year_2024_positive": true,
+    "year_2025_positive": true
+  },
+  "rules": {
+    "ai_call_purpose": "Design all five hypotheses together only; design is already saved in prereg specs. Worker has no AI/tool access.",
+    "ai_calls_allowed": 1,
+    "cost_bps": {
+      "base": 12,
+      "stress": [
+        18,
+        24
+      ]
+    },
+    "execution": "Preserve existing next-minute entry/exit rules and funding-boundary rules",
+    "final_oos_access": false,
+    "generate_beyond_H100": false,
+    "h083_variants": "PROHIBITED",
+    "hash_each_preregistered_spec": true,
+    "max_hypotheses": 5,
+    "open_interest": "PROHIBITED",
+    "preregister_each_hypothesis_before_testing": true,
+    "python_for_all_computation": true,
+    "read_local_failure_registry_through": "H095",
+    "require_structurally_distinct_hypotheses": true,
+    "retune_after_results": false,
+    "retuning_rejected_families": "PROHIBITED",
+    "simple_variants_of_H086_H095": "PROHIBITED",
+    "stress_tests": [
+      "plus_1m_delay",
+      "remove_top_3_winners",
+      "split_2024_2025",
+      "split_LONG_SHORT",
+      "bootstrap_95_CI"
+    ],
+    "thresholds": "Determine on TRAIN only; freeze before VALIDATION",
+    "train_period": "2022-01-01 through 2023-12-31 UTC",
+    "validation_period": "2024-01-01 through 2025-12-31 UTC"
+  },
+  "status": "READY",
+  "task_id": "DESIGN_AND_TEST_H096_H100_RETRY1",
+  "task_type": "DESIGN_AND_TEST_BATCH"
+}
