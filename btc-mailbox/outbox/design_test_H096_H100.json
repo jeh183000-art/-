@@ -1,7 +1,7 @@
 {
   "task_id": "DESIGN_AND_TEST_H096_H100",
   "task_type": "DESIGN_AND_TEST_BATCH",
-  "status": "RUNNING",
+  "status": "ERROR",
   "hypothesis_start": 96,
   "hypothesis_end": 100,
   "local_workspace": "/home/openclaw/btc_research",
@@ -63,6 +63,17 @@
     "keep_detailed_strategy_logic_local": true,
     "wait_for_next_coordinator_task": true
   },
-  "bridge_updated_at_utc": "2026-09-26T00:15:10.178046+00:00",
-  "bridge_note": "restricted_systemd_unit=btc-restricted-batch-65bae4c757a03371.service"
+  "bridge_updated_at_utc": "2026-09-26T00:47:39.897648+00:00",
+  "bridge_note": "restricted_systemd_unit=btc-restricted-batch-65bae4c757a03371.service",
+  "bridge_failure": {
+    "task_id": "DESIGN_AND_TEST_H096_H100",
+    "status": "ERROR",
+    "stage": "worker_execution",
+    "error_category": "TIMEOUT",
+    "error_summary": "Worker exceeded its configured execution timeout.",
+    "worker_alive": false,
+    "retry_planned": false,
+    "final_oos": "LOCKED",
+    "recorded_at_utc": "2026-09-26T00:47:39.660565+00:00"
+  }
 }
