@@ -1,6 +1,6 @@
 {
   "task_id": "AUDIT_H101_H105_DIAGNOSTIC_RESULT_CAPTURE",
-  "status": "READY",
+  "status": "COMPLETED",
   "task_type": "AUDIT",
   "target": "results",
   "final_oos_access": false,
@@ -12,5 +12,6 @@
     "generate_new_hypotheses": false,
     "raw_market_data_public": false,
     "proprietary_strategy_logic_public": false
-  }
+  },
+  "bridge_updated_at_utc": "2026-09-26T05:29:53.613533+00:00"
 }
