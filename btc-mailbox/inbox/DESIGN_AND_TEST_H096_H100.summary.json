@@ -1,0 +1,11 @@
+{
+  "task_id": "DESIGN_AND_TEST_H096_H100",
+  "status": "ERROR",
+  "stage": "worker_execution",
+  "error_category": "TIMEOUT",
+  "error_summary": "Worker exceeded its configured execution timeout.",
+  "worker_alive": false,
+  "retry_planned": false,
+  "final_oos": "LOCKED",
+  "recorded_at_utc": "2026-09-26T00:47:39.660565+00:00"
+}
