@@ -1,0 +1,9 @@
+{
+  "original_cash_margin_cap_guards_gated": 3,
+  "spacing_literals_parameterized": 6,
+  "open_close_settlement_risk_marks": 3,
+  "research_initial_cash": 0,
+  "funding_behavior": "capital_limited=False bypasses spot cash, initial margin, and 5-contract admission branches; negative bookkeeping cash is permitted",
+  "stage_behavior": "capacity is storage only; overflow raises instead of truncating stages",
+  "event_trade_buffers": "retry from scratch with larger buffers when overflow is reported; never accept truncated ledgers"
+}
