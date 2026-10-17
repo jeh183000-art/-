@@ -1,0 +1,9 @@
+symbol,minute_bars,max_future_over_index_pct,min_future_over_index_pct,minutes_ge_plus_0_5pct,minutes_ge_plus_1pct,events_cross_plus_0_5pct,recovered_to_plus_0_2pct_same_session_0_5,events_cross_plus_1pct,recovered_to_plus_0_2pct_same_session_1
+KODEX200USDT,1900,1.5133,-0.2128,1101,149,32,29,10,9
+SKHYNIXUSDT,1900,1.0683,-0.0119,344,4,8,6,1,1
+SAMSUNGUSDT,1900,0.6594,-0.1866,4,0,4,4,0,0
+XAUUSDT,1900,0.1691,-0.0478,0,0,0,0,0,0
+XAGUSDT,1900,0.2063,-0.0579,0,0,0,0,0,0
+CLUSDT,1900,0.0002,-0.1382,0,0,0,0,0,0
+QQQUSDT,1950,0.1143,-0.0003,0,0,0,0,0,0
+TQQQUSDT,1950,0.2398,-0.0739,0,0,0,0,0,0
