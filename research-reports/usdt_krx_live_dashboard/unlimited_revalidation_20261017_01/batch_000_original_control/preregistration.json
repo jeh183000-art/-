@@ -1,0 +1,81 @@
+{
+  "run_id": "approved_20261016_01",
+  "study_period": {
+    "krx_business_date_start": "2026-01-01",
+    "krx_business_date_end": "2026-10-15",
+    "timezone": "Asia/Seoul",
+    "markets": [
+      "KRX USD futures regular session",
+      "KRX USD futures night session",
+      "Upbit KRW-USDT"
+    ],
+    "classification": "EXPLORATORY; prior user approval covers this date range and explicitly permits PAPER P&L sweeps"
+  },
+  "capital": {
+    "upbit_spot_cash_krw": 68200000,
+    "krx_futures_cash_krw": 30000000,
+    "total_initial_capital_krw": 98200000,
+    "sets_max": 5,
+    "usdt_per_set": 10000,
+    "krx_usd_contracts_per_set": 1,
+    "auto_funding_or_interaccount_netting": false
+  },
+  "strategy": {
+    "add_spacing_pp": 0.2,
+    "discount_entry_e_pp": [0.1, "0.2..4.2 step 0.2"],
+    "premium_entry_e_pp": [0.1, "0.2..3.0 step 0.2"],
+    "recovery_r_pp": ["0.1..2.0 step 0.1", "2.2..3.0 step 0.2", 3.5, 4.0, 4.5, 5.0, 6.0, 7.0, 7.2],
+    "exit_modes": ["individual", "fixed_basket"],
+    "individual_targets": "entry level + direction * R; close the corresponding spot and futures legs only",
+    "fixed_basket_target": "initial entry level + direction * R; close all active sets, then require a new entry crossing",
+    "stages": "first threshold E; subsequent stages every 0.2 percentage point toward the observed extreme; no retroactive first-bar entries; one open set per stage",
+    "direction_sign": {
+      "discount_long": 1,
+      "premium_short": -1
+    },
+    "maximum_simultaneous_sets": 5
+  },
+  "fills_and_time": {
+    "signal": "completed exact matched 1-minute close only",
+    "fill": "next continuous exact matched bar open only; cancel on missing minute, session break, or contract change",
+    "roll": "known expiry date at first regular continuous bar; close old contract and open next monthly contract using actual same-time 08:45 prices; no back-adjustment; Upbit spot remains open",
+    "single_price_auctions": "exclude regular 15:35-15:45 and night 05:50-06:00 from signal and order fills",
+    "same_minute_labels": "minute-boundary PAPER proxy, not verified simultaneous executable quotes",
+    "price_gaps": "never interpolate; retain position and revalue only at next observed quote"
+  },
+  "fees_and_costs": {
+    "upbit_krw_fee_per_side": 0.0005,
+    "kis_broker_fee_krw_per_contract_order_assumption": 600,
+    "kis_clearing_rate_of_contract_notional_assumption": 0.000003157,
+    "kis_fee_policies": ["600_krw_includes_clearing_assumed", "600_krw_plus_clearing_assumed"],
+    "adverse_slippage_bps_per_fill_per_leg": [0, 1, 2, 5, 10],
+    "historical_orderbook_or_fill_claim": false
+  },
+  "margin": {
+    "historical_rates": "Use effective-date KRX/official member margin notices; preserve source and rate type. Any dates without verified rates remain explicitly unverified and are not silently filled.",
+    "initial_and_maintenance_accounts_separate": true,
+    "delivery": "roll each held futures leg on its listed final trading date before expiration; never simulate delivery as cash settlement"
+  },
+  "reverse_strategy_gate": {
+    "historical_upbit_usdt_borrow_support": "verify by date; USDT is not presumed borrowable for the full window",
+    "account_specific_inventory_and_limit": "unverified",
+    "cost_policy": "no zero-cost assumption; reference results, if any, remain outside execution-qualified ranking",
+    "integrated_switch_strategy": "run only if borrow availability, collateral, terms, and costs are verified"
+  },
+  "cost_sweep": {
+    "discount_e_count": 22,
+    "premium_e_count": 16,
+    "recovery_r_count": 32,
+    "discount_candidate_count_per_exit_mode": 704,
+    "premium_candidate_count_per_exit_mode": 512,
+    "cost_variants_per_candidate": 10,
+    "report_batch_size_conditions": 50
+  },
+  "protection": {
+    "source_data_read_only": true,
+    "2026_final_oos_outside_approved_range_locked": true,
+    "other_research_final_oos_accessed": false,
+    "real_orders_or_borrow_requests": false,
+    "paid_purchases": false
+  }
+}

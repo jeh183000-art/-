@@ -1,0 +1,17 @@
+{
+  "run_id": "approved_20261016_01",
+  "approval_source": "User-provided attached instructions on 2026-10-16, supported by prior explicit approval of the exact 2026 range",
+  "approved_range": {
+    "start": "2026-01-01",
+    "end": "2026-10-15",
+    "timezone": "Asia/Seoul",
+    "markets": ["KRX USD futures regular", "KRX USD futures night", "Upbit KRW-USDT"]
+  },
+  "use": ["PAPER accounting", "entry threshold by recovery width sweeps", "cost sensitivity", "independent discount/premium references"],
+  "accepted_status": "EXPLORATORY; this date range is not independent Final OOS after prior approval",
+  "boundary_data": "Only actual calendar boundary records needed to attribute the first in-scope KRX night session; no synthetic records",
+  "protected": ["source data files", "2026 Final OOS outside the approved range", "other research Final OOS"],
+  "orders_submitted": false,
+  "borrow_requested": false,
+  "paid_data_purchased": false
+}

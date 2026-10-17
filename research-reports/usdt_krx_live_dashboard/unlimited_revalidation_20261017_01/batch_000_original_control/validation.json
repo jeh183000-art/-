@@ -1,0 +1,19 @@
+{
+  "strategy": "DB-0249",
+  "mode": "ORIGINAL_LIMITED_ENGINE",
+  "closed_sets": 12,
+  "completed_cycles": 3,
+  "residual_sets": 0,
+  "net_pnl_krw": 4890138.803278029,
+  "ledger_net_krw": 4890138.803278007,
+  "cycle_simple_return_pct": 8.554937368493867,
+  "sum_of_rounded_cycle_returns_pct": 8.555,
+  "cash_rejections": 656,
+  "margin_rejections": 0,
+  "cap_rejections": 0,
+  "input_rows": 184410,
+  "seconds": 32.95299999997951,
+  "engine_sha256_before": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+  "engine_sha256_after": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+  "status": "PASS"
+}
