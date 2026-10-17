@@ -1,0 +1,2 @@
+fee_policy,fees_krw,slippage_krw,slippage_bp_per_side_per_leg,funding_status,funding_krw,execution
+600_PLUS_CLEARING_ASSUMED,213943.99672199998,265917.20000000007,2,NOT_APPLICABLE_KRX_DATED_FUTURES_NOT_PERPETUAL,0,PAPER_NEXT_OPEN_PROXY_COST_ASSUMED

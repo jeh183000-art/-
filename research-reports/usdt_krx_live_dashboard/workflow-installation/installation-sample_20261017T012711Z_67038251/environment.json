@@ -1,0 +1,10 @@
+{
+  "archive_audit_python": "3.12.0",
+  "archive_audit_packages": {
+    "numpy": "2.2.6",
+    "pandas": "3.0.1",
+    "numba": "0.61.2"
+  },
+  "original_run_environment": "Not fully pinned in prior report; audit versions are not asserted to be original versions.",
+  "sample_mode": "Export existing saved DB-0249 result only; do not run backtest or sweep."
+}
