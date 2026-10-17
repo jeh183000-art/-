@@ -1,0 +1,5 @@
+period,hedge_style,spot_entry_krw,spot_exit_krw,futures_entry_usdt,futures_exit_usdt,entry_usdt_krw_daily_proxy,exit_usdt_krw_daily_proxy,short_futures_units,funding_events,funding_rate_simple_sum_pct,spot_pnl_krw,futures_pnl_krw,funding_receipts_krw,kospi_stock_sale_tax_krw,stock_broker_fee_assumed_krw,binance_taker_fees_assumed_krw,net_before_unverified_derivative_tax_krw,return_on_spot_purchase_pct
+2026-09-17_to_2026-10-16,share_matched,1745000,1272000,1264.15,956.93,1379,1352,1,174,1.064089,-473000,415361.44,16417.804112,2544,452.55,1201.160064,-45418.465952,-2.602777
+2026-09-17_to_2026-10-16,entry_krw_notional_matched,1745000,1272000,1264.15,956.93,1379,1352,1.000996493443315,174,1.064089,-473000,415775.344952,16434.164346,2544,452.55,1202.357012,-44989.397715,-2.578189
+2026-10-12_to_2026-10-16,share_matched,1605000,1272000,1206.62,956.93,1355,1352,1,24,0.644376,-333000,337580.88,8614.20505,2544,431.55,1170.04784,9049.48721,0.563831
+2026-10-12_to_2026-10-16,entry_krw_notional_matched,1605000,1272000,1206.62,956.93,1355,1352,0.9816693283871064,24,0.644376,-333000,331392.795746,8456.300886,2544,431.55,1148.600077,2724.946554,0.169779
