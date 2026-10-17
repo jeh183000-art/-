@@ -1,0 +1,7 @@
+.env*
+*.pem
+*.key
+*.sqlite*
+*-wal
+*-shm
+__pycache__/

@@ -1,0 +1,4 @@
+candidate_id,direction,exit_mode,entry_e_pp,recovery_r_pp,slippage_bps,fee_policy,cycle_id,closed_sets,cycle_net_pnl_krw,cycle_complete
+DB-0249,discount_long,fixed_basket,1.4,3.0,2.0,600_PLUS_CLEARING_ASSUMED,1,4,1673188.5266020119,1
+DB-0249,discount_long,fixed_basket,1.4,3.0,2.0,600_PLUS_CLEARING_ASSUMED,3,4,1727218.8704389958,1
+DB-0249,discount_long,fixed_basket,1.4,3.0,2.0,600_PLUS_CLEARING_ASSUMED,2,4,1489731.4062369992,1
