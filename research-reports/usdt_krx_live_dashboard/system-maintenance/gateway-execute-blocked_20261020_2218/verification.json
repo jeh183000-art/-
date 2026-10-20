@@ -1,0 +1,27 @@
+{
+  "status": "BLOCKED_LOCAL_CONTROL",
+  "reference_commit": "05c8b366b970992cc97971c3abb8faefbc77de88",
+  "checked_at_utc": "2026-10-20T22:18:00Z",
+  "auto_repair_before": true,
+  "auto_repair_after": true,
+  "settings_unchanged": true,
+  "mcp_enabled": false,
+  "mcp_token_file_exists": false,
+  "mcp_probe": "ECONNREFUSED",
+  "gateway_probe": "ECONNREFUSED",
+  "winnode_found": false,
+  "coordinate_clicks": 0,
+  "keyboard_attempts": [
+    "Control_L+e",
+    "Tab"
+  ],
+  "keyboard_focus_changed": false,
+  "gateway_manual_starts": 0,
+  "auth_changes": 0,
+  "research_started": false,
+  "final_oos_accessed": false,
+  "owner": "UNVERIFIED",
+  "main": "UNVERIFIED",
+  "conversations": "UNVERIFIED",
+  "post_shell_persistence": "UNVERIFIED"
+}
