@@ -1,0 +1,121 @@
+{
+  "status": "RECOVERED_OBSERVED",
+  "reference_commit": "5231d9a645d719c6838bc2e9f2512e39312956d4",
+  "companion": {
+    "version": "2026.9.8-1",
+    "old_pid": 15788,
+    "new_pid": 24244,
+    "profile": "existing release profile",
+    "normal_close_attempted": true,
+    "normal_close_left_process_running": true,
+    "targeted_termination_after_identity_validation": true,
+    "relaunches": 1,
+    "process_scoped_skip_update_check": true
+  },
+  "settings": {
+    "before": {
+      "EnableMcpServer": false,
+      "EnableManagedLocalGatewayAutoRepair": true
+    },
+    "after": {
+      "EnableMcpServer": true,
+      "EnableManagedLocalGatewayAutoRepair": false
+    },
+    "only_two_fields_changed": true,
+    "other_fields_preserved": true,
+    "backup_bytes": 2035,
+    "backup_sha256": "289069a1081a520ab0d3af4538b80c664a488ae390b9f59cbf7d8c8b653a36ad",
+    "final_sha256": "35f523d18bdbf4d8b45bd7cada601a374d7877eddd65a3a2898c6afaf5e57dca",
+    "private_backup_acl_restricted": true,
+    "first_replace_failed": true,
+    "failed_replace_reason": "PowerShell empty backup path argument; source unchanged",
+    "retry_replace_success": true
+  },
+  "mcp": {
+    "initialize_http": 200,
+    "tools_list_http": 200,
+    "advertised_tools": 59,
+    "server": "openclaw-tray-mcp",
+    "server_version": "2026.9.8-1",
+    "bearer_source": "existing profile local mcp-token.txt; read only into memory",
+    "browser_fetch_403_resolved": "native HTTP request without browser context headers",
+    "auto_repair_mcp_setting_get": "NOT_ACCESSIBLE_IN_THIS_VERSION",
+    "auto_repair_disk_requery": false
+  },
+  "gateway": {
+    "version": "2026.9.6",
+    "pid": 300,
+    "manual_start_commands": 1,
+    "manual_restarts": 0,
+    "automatic_systemd_start_observed_during_distro_launch": true,
+    "operator_connected": true,
+    "node_connected": true,
+    "node_paired": true,
+    "credential_source": "existing identity.DeviceToken / identity.NodeDeviceToken",
+    "authenticated_health_rpc": true,
+    "rpc_duration_ms": 5,
+    "main_agent_present": true,
+    "keepalive_windows_launcher_pid": 23016,
+    "keepalive_child_pid": 26164,
+    "keepalive_parent_is_companion": true,
+    "temporary_interactive_wsl_shells_open": 0,
+    "stability_seconds": 314.567,
+    "recent_eio": 0,
+    "recent_sqlite_corruption": 0,
+    "recent_stop_signals": 0
+  },
+  "preservation": {
+    "session_keys_backup": 16,
+    "session_keys_live": 16,
+    "session_keys_missing": 0,
+    "legacy_general_conversations_active": 3,
+    "legacy_general_conversations_archived": 7,
+    "active_chats_browser_message_access": 3,
+    "main_mcp_entries": 30,
+    "archive_blob_hash_matches": 7,
+    "archive_zstd_decode_and_jsonl_parse_success": 7,
+    "archive_jsonl_line_counts": [
+      247,
+      131,
+      245,
+      79,
+      237,
+      81,
+      89
+    ],
+    "archived_conversations_reactivated": false,
+    "device_identity_bytes_unchanged": true,
+    "gateway_registry_only_change": "lastConnected",
+    "sqlite_quick_check": "ok"
+  },
+  "scheduler": {
+    "stored_jobs": 4,
+    "individually_enabled_jobs": 3,
+    "job_definition_sha256_before": "70a1869feae24cb4a215544237aa93e99c062908aa48ab75b103addc494d454c",
+    "job_definition_sha256_after": "70a1869feae24cb4a215544237aa93e99c062908aa48ab75b103addc494d454c",
+    "run_receipts_before": 107,
+    "run_receipts_after": 107,
+    "maintenance_guard": "OPENCLAW_SKIP_CRON=1",
+    "guard_verified_in_gateway_process": true,
+    "dropin": "~/.config/systemd/user/openclaw-gateway.service.d/90-codex-maintenance.conf",
+    "guard_retained_pending_explicit_resume": true
+  },
+  "prohibited_actions": {
+    "research_resumed": false,
+    "collectors_started": false,
+    "reinstalled": false,
+    "version_updated": false,
+    "tokens_deleted": false,
+    "repaired": false,
+    "repaired_note": "No re-pairing performed",
+    "final_oos_accessed": false,
+    "wsl_shutdown": false,
+    "wsl_unregistered": false,
+    "vhd_modified_directly": false
+  },
+  "limits": [
+    "Archived conversations were decoded and validated read-only, not restored to the active sidebar.",
+    "No independent proof of the historical SIGTERM sender; lifecycle interference remains the likely cause, not a proven actor attribution.",
+    "Existing large TAR backup was not rehashed in this task."
+  ]
+}
