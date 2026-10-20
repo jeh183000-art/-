@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-20",
+  "migration": "NOT_PERFORMED",
+  "reason": "Companion-managed WSL path compatibility with D:\\OpenClaw\\WSL\\OpenClawGateway was not established; user required stopping if unsupported.",
+  "backup": {
+    "path": "D:\\Codex_Research\\_system\\openclaw_recovery_20261020\\wsl-backups\\OpenClawGateway_post_pairing_20261020.tar",
+    "bytes": 51143352320,
+    "sha256": "BBF289F9DA62474E4DD347DDA53E5C4910CACE48AE0850292200E78A7DAFF43A",
+    "tar_listing_entries": 200278,
+    "sqlite_integrity_checks": "ok"
+  },
+  "previous_backup_sha256": "BC0E7F510595961AD43CE29DEB14690FDAC898ADCCEFDA1BA9D95DC84764B6C2",
+  "gateway": {
+    "pre_backup_version": "2026.9.6",
+    "post_backup_status": "UNAVAILABLE",
+    "tray_version": "2026.9.4",
+    "new_eio_or_sqlite_corruption_seen": false,
+    "owner_and_ui_access_post_backup": "NOT_VERIFIED"
+  },
+  "wsl": {
+    "version": "3.0.3.0",
+    "distro": "OpenClawGateway",
+    "registered_path_class": "Companion app managed path under LocalAppData",
+    "other_distros_modified": false
+  },
+  "sessions": {
+    "prior_session_keys": 13,
+    "missing_keys_in_new_backup": 0,
+    "active_nodes_in_new_backup": 7,
+    "archived_transcripts_in_new_backup": 7
+  },
+  "scheduled_jobs": {
+    "enabled": 3,
+    "running_before_backup": 0,
+    "recent_statuses": ["ok", "ok", "error"]
+  },
+  "free_space_gib_after": {
+    "C": 43.74,
+    "D": 763.83
+  },
+  "research_review": "DEFERRED because migration compatibility gate did not pass; no backtest run.",
+  "report_sha256": "91F6ED13EA4EAB12AB0B11145B6427D85ED97EF14B82CDD67CCE13EB7752C16A"
+}
