@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-20",
+  "gateway_recovery": "FAILED",
+  "wsl": {
+    "version": "3.0.3.0",
+    "distro": "OpenClawGateway",
+    "last_list_state": "Stopped"
+  },
+  "companion": {
+    "version": "2026.9.8-1",
+    "auto_repair_enabled": true,
+    "keepalive_marker_present": true,
+    "keepalive_process_alive": false,
+    "connection_ui": "Authentication failed; Transport error"
+  },
+  "gateway": {
+    "configured_mode": "local",
+    "configured_port": 18789,
+    "configured_bind": "loopback",
+    "systemd_mainpid_matched_node_pid": true,
+    "systemd_nrestarts": 0,
+    "systemd_unit_result": "success",
+    "port_conflict_observed": false,
+    "oom_evidence_observed": false,
+    "sqlite_corruption_observed": false,
+    "transport_endpoint_error_timing": "after SIGTERM during systemd/user-manager shutdown",
+    "companion_or_wsl_stop_initiator": "not directly attributable from available logs; timing strongly consistent with managed WSL lifecycle/auto-repair cycles"
+  },
+  "sessions_and_jobs": {
+    "previous_backup_session_keys": 13,
+    "previous_backup_missing_session_keys": 0,
+    "enabled_cron_jobs": 3,
+    "running_cron_jobs_observed": 0,
+    "enabled_job_last_statuses": {"ok": 2, "error": 1}
+  },
+  "backup": {
+    "path": "D:\\Codex_Research\\_system\\openclaw_recovery_20261020\\wsl-backups\\OpenClawGateway_post_pairing_20261020.tar",
+    "bytes": 51143352320,
+    "last_write_time": "2026-10-20T08:32:59-04:00",
+    "previously_verified_sha256": "BBF289F9DA62474E4DD347DDA53E5C4910CACE48AE0850292200E78A7DAFF43A",
+    "previous_verification_commit": "a0837d20484449ac404ddb13c7fc2fc96630f6a7",
+    "fresh_rehash_this_run": "NOT_COMPLETED"
+  },
+  "research": {
+    "latest_computed_batch": 141,
+    "latest_computed_conditions": 7050,
+    "total_conditions": 76608,
+    "batch141_ready_for_publication": true,
+    "batch141_payload_manifest_files_verified": 22,
+    "batch141_publication_receipt": false,
+    "latest_published_batch": 140,
+    "latest_published_commit": "750f31d78f663c028d36646c086757066c9fc2ed",
+    "next_action": "Publish and verify batch_0141 from D: payload, then compute batch_0142",
+    "sweep_process_running": false,
+    "final_oos_opened": false,
+    "backtest_started": false
+  },
+  "report_sha256": "0AD5A7F434ED0F6F041177447FA11F414F8091EFDEDD5FA45541F8F3CC547EE6"
+}
