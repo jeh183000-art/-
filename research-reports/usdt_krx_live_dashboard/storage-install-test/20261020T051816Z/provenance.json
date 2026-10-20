@@ -1,0 +1,7 @@
+{
+  "classification": "TEST_ONLY",
+  "market_inputs": "NONE",
+  "source_data_hashes": [],
+  "final_oos_accessed": false,
+  "purpose": "Exercise local packaging, GitHub commit, and remote byte verification"
+}
