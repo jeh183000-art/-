@@ -1,0 +1,19 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "last_completed_batch": 142,
+  "next_unstarted_batch": 143,
+  "completed_conditions": 7100,
+  "total_conditions": 76608,
+  "batch141_commit": "22e8728f6e0d22cbf4cf318f1a70f3adf3b920d4",
+  "batch142_commit": "b418ef32757aa14be3cba123f03858bed37445fc",
+  "batch143_started": false,
+  "worker_stopped": true,
+  "collector_restart": false,
+  "final_oos_accessed": false,
+  "mcp_enabled": true,
+  "auto_repair_enabled": false,
+  "scheduler_guard_preserved": true,
+  "engine_simulation_unchanged": true,
+  "rank_basis": "Unrounded arithmetic sum of completed cycle net returns; no capital denominator for ranking",
+  "verified_at_utc": "2026-10-20T23:00:38.353Z"
+}

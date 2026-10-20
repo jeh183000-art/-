@@ -1,0 +1,502 @@
+[
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-023729",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 2992664.8007069933,
+    "event_count": 449
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-076264",
+    "status": "PASS",
+    "entry_sets": 0,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 0,
+    "event_count": 0
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-043289",
+    "status": "PASS",
+    "entry_sets": 0,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 0,
+    "event_count": 0
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-010117",
+    "status": "PASS",
+    "entry_sets": 61,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 4.907336801517422,
+    "ledger_net_krw": 14629523.986026993,
+    "event_count": 1157
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-027857",
+    "status": "PASS",
+    "entry_sets": 3,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.117347015450404,
+    "ledger_net_krw": 1370385.7479919977,
+    "event_count": 90
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-026296",
+    "status": "PASS",
+    "entry_sets": 15,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 4.426867073751364,
+    "ledger_net_krw": 9714317.106639992,
+    "event_count": 1111
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-020072",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 8.435074985150289,
+    "ledger_net_krw": 2168171.6610449925,
+    "event_count": 235
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-076044",
+    "status": "PASS",
+    "entry_sets": 0,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 0,
+    "event_count": 0
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-025045",
+    "status": "PASS",
+    "entry_sets": 3,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 1744461.9567099954,
+    "event_count": 295
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-063066",
+    "status": "PASS",
+    "entry_sets": 3,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 770070.6222280029,
+    "event_count": 566
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-014681",
+    "status": "PASS",
+    "entry_sets": 7,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 2689692.9635969866,
+    "event_count": 815
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-043773",
+    "status": "PASS",
+    "entry_sets": 0,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 0,
+    "event_count": 0
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-050346",
+    "status": "PASS",
+    "entry_sets": 6,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 5.6017331726910875,
+    "ledger_net_krw": 2757975.166860001,
+    "event_count": 368
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-037356",
+    "status": "PASS",
+    "entry_sets": 4,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.1196744708586737,
+    "ledger_net_krw": 1816586.4443810056,
+    "event_count": 40
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-063484",
+    "status": "PASS",
+    "entry_sets": 1,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 195041.1179610009,
+    "event_count": 191
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-057700",
+    "status": "PASS",
+    "entry_sets": 15,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 5.645020079691585,
+    "ledger_net_krw": 7150909.230588995,
+    "event_count": 783
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-015329",
+    "status": "PASS",
+    "entry_sets": 19,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 8.92097744845923,
+    "ledger_net_krw": 8036474.333831994,
+    "event_count": 814
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-055709",
+    "status": "PASS",
+    "entry_sets": 12,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 4436021.180413003,
+    "event_count": 1260
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-059985",
+    "status": "PASS",
+    "entry_sets": 7,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.932798845758253,
+    "ledger_net_krw": 2449840.2088650013,
+    "event_count": 220
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-027850",
+    "status": "PASS",
+    "entry_sets": 3,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.0390865043744304,
+    "ledger_net_krw": 1335982.4273229996,
+    "event_count": 129
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-042181",
+    "status": "PASS",
+    "entry_sets": 0,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 0,
+    "event_count": 0
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-056368",
+    "status": "PASS",
+    "entry_sets": 6,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 9.612470502476459,
+    "ledger_net_krw": 2144988.3119960027,
+    "event_count": 127
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-001981",
+    "status": "PASS",
+    "entry_sets": 4,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 1081398.0306639927,
+    "event_count": 565
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-036860",
+    "status": "PASS",
+    "entry_sets": 2,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 1166862.7252069958,
+    "event_count": 198
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-040877",
+    "status": "PASS",
+    "entry_sets": 1,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 5.561843738990384,
+    "ledger_net_krw": 809804.448397,
+    "event_count": 97
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-014666",
+    "status": "PASS",
+    "entry_sets": 7,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 2689692.9635969866,
+    "event_count": 815
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-061163",
+    "status": "PASS",
+    "entry_sets": 6,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 5.512138957939315,
+    "ledger_net_krw": 2966821.556390999,
+    "event_count": 309
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-051894",
+    "status": "PASS",
+    "entry_sets": 18,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 9.368687217722648,
+    "ledger_net_krw": 6249182.903117005,
+    "event_count": 367
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-019872",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 2200747.436475992,
+    "event_count": 556
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-037094",
+    "status": "PASS",
+    "entry_sets": 1,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.8369122642798152,
+    "ledger_net_krw": 559421.8081319971,
+    "event_count": 66
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-017817",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 2592864.442722991,
+    "event_count": 509
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-056001",
+    "status": "PASS",
+    "entry_sets": 6,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 1876739.6378350027,
+    "event_count": 680
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-051086",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 851062.9730660017,
+    "event_count": 969
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-070929",
+    "status": "PASS",
+    "entry_sets": 2,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.9533159273825564,
+    "ledger_net_krw": 832263.4793170018,
+    "event_count": 27
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-064952",
+    "status": "PASS",
+    "entry_sets": 27,
+    "completed_cycles": 21,
+    "score_recalculated_pct": 6.195892291017896,
+    "ledger_net_krw": 1377766.4732830029,
+    "event_count": 62
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-025396",
+    "status": "PASS",
+    "entry_sets": 8,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.1411807448604057,
+    "ledger_net_krw": 3679265.0064549935,
+    "event_count": 97
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-010381",
+    "status": "PASS",
+    "entry_sets": 62,
+    "completed_cycles": 17,
+    "score_recalculated_pct": 8.392398638720438,
+    "ledger_net_krw": 4696457.049026002,
+    "event_count": 294
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-040182",
+    "status": "PASS",
+    "entry_sets": 1,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 0.14566200691621506,
+    "ledger_net_krw": 21208.38820700091,
+    "event_count": 2
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-003584",
+    "status": "PASS",
+    "entry_sets": 10,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 2937660.246923983,
+    "event_count": 1347
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-027378",
+    "status": "PASS",
+    "entry_sets": 7,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 1.3805156328967665,
+    "ledger_net_krw": 1413509.956522999,
+    "event_count": 35
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-043361",
+    "status": "PASS",
+    "entry_sets": 0,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 0,
+    "event_count": 0
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-039744",
+    "status": "PASS",
+    "entry_sets": 1,
+    "completed_cycles": 0,
+    "score_recalculated_pct": "",
+    "ledger_net_krw": 603936.2294549986,
+    "event_count": 99
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-035787",
+    "status": "PASS",
+    "entry_sets": 2,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.550219539303847,
+    "ledger_net_krw": 1035244.0176610019,
+    "event_count": 55
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-023369",
+    "status": "PASS",
+    "entry_sets": 10,
+    "completed_cycles": 2,
+    "score_recalculated_pct": 3.821898852082305,
+    "ledger_net_krw": 2967395.7617109977,
+    "event_count": 93
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-031020",
+    "status": "PASS",
+    "entry_sets": 2,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.136175498058886,
+    "ledger_net_krw": 916076.8629830005,
+    "event_count": 24
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-068957",
+    "status": "PASS",
+    "entry_sets": 3,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 6.331799295229404,
+    "ledger_net_krw": 1399806.3889019997,
+    "event_count": 102
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-064833",
+    "status": "PASS",
+    "entry_sets": 9,
+    "completed_cycles": 4,
+    "score_recalculated_pct": 6.229831134932757,
+    "ledger_net_krw": 2008307.1639580033,
+    "event_count": 60
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-048433",
+    "status": "PASS",
+    "entry_sets": 77,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 6.964172030094558,
+    "ledger_net_krw": 20450974.437545013,
+    "event_count": 1448
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-011990",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 3,
+    "score_recalculated_pct": 5.552297906358181,
+    "ledger_net_krw": 1488425.5076899973,
+    "event_count": 247
+  },
+  {
+    "batch": "batch_0142",
+    "candidate_id": "U-024689",
+    "status": "PASS",
+    "entry_sets": 5,
+    "completed_cycles": 1,
+    "score_recalculated_pct": 3.044839241688501,
+    "ledger_net_krw": 2230649.228460996,
+    "event_count": 169
+  }
+]
