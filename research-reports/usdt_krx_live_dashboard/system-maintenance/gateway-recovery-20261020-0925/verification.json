@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "recovery_status": "BLOCKED",
+  "initial_wsl_state": {
+    "Ubuntu": "Stopped",
+    "OpenClawGateway": "Stopped"
+  },
+  "observed_after_status_query": {
+    "OpenClawGateway": "Running",
+    "systemd_user_service": "active/running; Result=success",
+    "service_process_present": true,
+    "port_18789_listener": false,
+    "windows_http_probe": "connection refused",
+    "companion_connection_states": ["Connecting", "Error", "Connecting"]
+  },
+  "systemd_transport_error": "Failed to get properties: Transport endpoint is not connected",
+  "service_lifecycle": {
+    "recent_start_stop_events": true,
+    "systemd_nrestarts": 0,
+    "external_stop_initiator": "undetermined"
+  },
+  "port_conflict_observed": false,
+  "new_eio_or_sqlite_corruption_observed": false,
+  "owner_and_ui_verification": "unavailable while gateway has no listener",
+  "scheduled_jobs": {
+    "previous_pre_backup_snapshot": {
+      "enabled": 3,
+      "running": 0
+    },
+    "current_status": "not verifiable while gateway disconnected"
+  },
+  "research_review": "deferred; research contents not inspected; no backtest started",
+  "manual_service_start_or_restart": false,
+  "report_sha256": "D807E795859ED46569F04B1FFB9BEDDC032B311416AA49FC79AB93D4811E92EB"
+}
