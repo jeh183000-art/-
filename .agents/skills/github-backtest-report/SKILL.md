@@ -1,6 +1,6 @@
 ---
 name: github-backtest-report
-description: Mandatory persistent workflow for Codex trading research, backtesting, result reports and verification. Work, cache and checkpoints on Windows D: drive; publish ChatGPT-reviewable reports, source and transaction CSVs to GitHub; verify remote SHA. Prevent Windows C: drive exhaustion.
+description: "Mandatory persistent workflow for Codex trading research, backtesting, result reports and verification. Work, cache and checkpoints on Windows D: drive; publish ChatGPT-reviewable reports, source and transaction CSVs to GitHub; verify remote SHA. Prevent Windows C: drive exhaustion."
 ---
 
 # D-drive work + GitHub verified results (Codex)
