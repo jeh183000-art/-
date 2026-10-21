@@ -1,0 +1,10 @@
+{
+  "input_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "source_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "previous_commit": "54b0d97ed8464b5e05f11bd0a5220c97547e8c0c",
+  "original_first_grid_sha256": "730e03f33bf17738ad7c48ca31e421ca6dd6cb6f1551bb36960b0a3a991750b5",
+  "control_recomputed": false,
+  "first_grid_changed": false,
+  "engine_or_signal_changed": false
+}

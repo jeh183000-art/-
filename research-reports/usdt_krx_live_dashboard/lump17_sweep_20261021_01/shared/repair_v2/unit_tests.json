@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "two_directions_one_slot",
+    "atomic_17",
+    "no_additions",
+    "insufficient_margin_all_rejected",
+    "initial_extreme_no_retroactive_entry",
+    "reversal_confirmation",
+    "signed_absolute_exit",
+    "asymmetric_entry",
+    "no_gap_fill",
+    "roll_both_sides",
+    "official_settlement",
+    "independent_audit_detects_cash_tamper",
+    "prefix_causality",
+    "SETTLE_event_vs_SETTLEMENT_account_phase",
+    "missing_settlement_detected",
+    "missing_roll_close_detected",
+    "missing_roll_open_detected"
+  ]
+}
