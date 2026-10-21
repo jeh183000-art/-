@@ -1,0 +1,8 @@
+{
+  "status": "ANCHORS_REVALIDATED_BEFORE_NEW_SWEEP",
+  "source_commit": "7f410a6be0a0de9dfe2a46fbd93b5138f21225b0",
+  "contracts": 17,
+  "spot_quantity": 170000,
+  "futures_initial_cash": 30000000,
+  "new_conditions_executed": 0
+}
