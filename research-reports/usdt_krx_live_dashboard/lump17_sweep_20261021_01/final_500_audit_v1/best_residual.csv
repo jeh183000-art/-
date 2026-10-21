@@ -1,0 +1,2 @@
+candidate_id,contracts,cycle_id,direction,entry_row,estimated_exit_cost,fees_paid,future_entry,gross_future,gross_spot,hold_minutes,net_after_exit_cost,slippage_paid,spot_entry
+L17-07-004,17,7.0,-1.0,179473.0,217757.126036,126858.466903,1338.7,969000.0000000078,1700000.0,11792.0,2232492.607061008,91891.79999999999,1364.0

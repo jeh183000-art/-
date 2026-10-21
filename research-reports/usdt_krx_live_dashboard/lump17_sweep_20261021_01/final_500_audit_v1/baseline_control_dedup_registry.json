@@ -1,0 +1,27 @@
+{
+  "status": "EXISTING_CONTROL_DEDUPLICATION_REGISTRY_NOT_A_NEW_EXPERIMENT",
+  "new_conditions": 0,
+  "reason": "Exclude the already reproduced 17-contract baseline from future adaptive new-condition registrations. Existing first 50 conditions and executed results are unchanged.",
+  "reference_commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+  "conditions": [
+    {
+      "candidate_id": "CONTROL-S1-050-LUMP17",
+      "group": "CONTROL_EXCLUDED_FROM_NEW_CONDITION_COUNT",
+      "rule_sha256": "f291d540cf087ae8142872153b7276cbb7c90b4ac551d98613d13fa640ac338c",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.5,
+        "short_recovery_pp": 0.5,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      }
+    }
+  ]
+}

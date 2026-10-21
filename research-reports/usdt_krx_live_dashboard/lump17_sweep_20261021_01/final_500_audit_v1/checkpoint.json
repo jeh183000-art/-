@@ -1,0 +1,8 @@
+{
+  "status": "ALL_500_AUDITED_AND_BATCH_PUBLICATIONS_VERIFIED",
+  "new_conditions": 500,
+  "completed_batches": 10,
+  "next_batch": null,
+  "worker_stopped": true,
+  "final_oos_access": false
+}

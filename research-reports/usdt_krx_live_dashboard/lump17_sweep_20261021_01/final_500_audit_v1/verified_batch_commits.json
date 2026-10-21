@@ -1,0 +1,102 @@
+[
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "1d7b6d356ff4ef3ab8b7919276d458c6726c2aa0",
+    "remote_files_verified": 46,
+    "grid_sha256": "730e03f33bf17738ad7c48ca31e421ca6dd6cb6f1551bb36960b0a3a991750b5",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0001",
+    "stage": "results",
+    "new_conditions_total": 50
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "488e3fe6b932dddfb886576768b916958fa8e4a1",
+    "remote_files_verified": 34,
+    "grid_sha256": "b8f9db9481ec6446e3f6f4aa689a78c54b520fcc6c4980678bdd97f5ddb7918b",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0002",
+    "stage": "results",
+    "new_conditions_total": 100
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "69d7eb953873ea7dc017a90f62e60cad825a488f",
+    "remote_files_verified": 37,
+    "grid_sha256": "a8b46b7142a323a33eeef4c8ab3c6b3633646d2a89a61a2db39e917b66d5bffa",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0003",
+    "stage": "results",
+    "new_conditions_total": 150
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "669357a2a7f53e25a2852845e24c3eb1abba76b4",
+    "remote_files_verified": 35,
+    "grid_sha256": "bf25a3a59f35565186f4355a92344c52677e510cd2c0f2ba5a7b3d235e0ff28c",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0004",
+    "stage": "results",
+    "new_conditions_total": 200
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "9f91aa1b1088e430c2c74ad78cdec5880f2205c5",
+    "remote_files_verified": 35,
+    "grid_sha256": "f36d0994dd32508ceb9570a394fc934a89de82e231bf85eb0c5f2fc9387ca030",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0005",
+    "stage": "results",
+    "new_conditions_total": 250
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "7aab6fa266898f55ec4123d316c2e28dfb256f99",
+    "remote_files_verified": 35,
+    "grid_sha256": "90807370f7a279ddbf3471f7d94518e49c1b40d4dbe687c1dd3cec21efb5db4f",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0006",
+    "stage": "results",
+    "new_conditions_total": 300
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "bc003047457ac4b0730dbca42c68bf03477e31b6",
+    "remote_files_verified": 36,
+    "grid_sha256": "4b7ada1b0ab5741f5417e7dd4b88b2813afc1c17b24bcf96b2903b9551e77b68",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0007",
+    "stage": "results",
+    "new_conditions_total": 350
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "a8c30a6e05fb2944057f0513128187c5404577c7",
+    "remote_files_verified": 35,
+    "grid_sha256": "dc455f0fe7af01094a24a70d8ba987a6803eba71506548297640486a60e88875",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0008",
+    "stage": "results",
+    "new_conditions_total": 400
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "e919809cb6c35c12f467719f53a62213f21d33a5",
+    "remote_files_verified": 36,
+    "grid_sha256": "67b52c2bd9fc729c0ec07857c091ede5625c4863bfce9162784e2cae809dec69",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0009",
+    "stage": "results",
+    "new_conditions_total": 450
+  },
+  {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "660b7f278b4294307bc9010385504ac03e2876e7",
+    "remote_files_verified": 36,
+    "grid_sha256": "1fe95282b3d14637fa06fcd506cc8afe660b215ae0b7d14fbadcb71a3d613fb3",
+    "remote_bytes_and_sha256_verified": true,
+    "batch": "batch_0010",
+    "stage": "results",
+    "new_conditions_total": 500
+  }
+]
