@@ -1,0 +1,77 @@
+{
+  "study_id": "split_vs_lump17_20261021_01",
+  "registered_utc": "2026-10-21T04:54:31.416Z",
+  "preregistration_commit": "1322cbf8e6db0ee97d22f558a694b44df5373bb5",
+  "preregistration_sha256": "ed7b7fe7988708dbec90b017345cfae84aba915e3810aff7630279430e4861c9",
+  "classification": "Approved EXPLORATORY 2026-01-01..2026-10-15 KRX business dates and required night boundaries; all other Final OOS protected",
+  "A": {
+    "strategy": "U-007206-CAP17",
+    "entry_contracts": 1,
+    "entry_usdt": 10000,
+    "additional_spacing_pp": 0.2,
+    "cap": 17,
+    "entry_gap": -0.8,
+    "exit_gap": -0.5
+  },
+  "B": {
+    "strategy": "S1-050-LUMP17",
+    "entry_contracts": 17,
+    "entry_usdt": 170000,
+    "additional_entries": false,
+    "cap": 17,
+    "entry_gap_abs": 1,
+    "recovery_pp": 0.5,
+    "opposite_entry_while_held": false,
+    "atomic": true,
+    "partial_fill_or_downsize": false
+  },
+  "future_initial_cash": 30000000,
+  "spot_initial_capital": null,
+  "spot_cash_limit": null,
+  "spot_assumption": "Sufficient procurement for both; required funding reported, not an actual user balance",
+  "spot_ledger_interpretation": "0 is a net cash-flow anchor, NOT an initial capital limit. Negative normalized flow means assumed procurement needed. No such amount is transferred into futures.",
+  "reverse": "170000 USDT borrowing availability and cost UNVERIFIED; restricted proceeds and 100% spot notional collateral are a reporting proxy only, not a spot funding gate",
+  "external_future_deposits": false,
+  "inter_account_transfers": false,
+  "maintenance": "No unspecified broker liquidation. Record first deficit and virtual continuation; any deficit invalidates feasible-performance acceptance. Block new entry while below maintenance.",
+  "roll": "Observed old-close/new-open, all contracts charged both legs. Unfunded roll recorded as deficit with explicitly counterfactual continuation; not claimed executable.",
+  "execution": "Completed close signal -> next contiguous observed minute open proxy; original gaps and roll boundaries preserved",
+  "costs": {
+    "spot_fee_per_side": 0.0005,
+    "future_fee_per_contract_per_side": 600,
+    "clearing_rate": 0.000003157,
+    "slippage_bp_per_side_per_leg": 2,
+    "perpetual_funding": "NOT_APPLICABLE",
+    "borrow_cost": "UNVERIFIED_NOT_INCLUDED"
+  },
+  "score": "Unrounded sum of completed cycle net / absolute sum of original spot entry notional *100; residual separate",
+  "source_sha256": {
+    "matched_simulation_bars.csv": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+    "paper_engine.py": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+    "margin_schedule.csv": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8"
+  },
+  "shared_helper_sha256": "22ed055eeb801bf9135538c3f4481a434ff78dd0e7c0c8ada8569e238fbb0bb6",
+  "shared_helper_usage": [
+    "load",
+    "table",
+    "regression"
+  ],
+  "shared_helper_main_called": false,
+  "shared_helper_commit": "205e3bb3a7d05f36758443689b22f8655965a312",
+  "shared_helper_remote_path": "research-reports/usdt_krx_live_dashboard/capital_limit_comparison_20261021_01/batches/batch_0001/code/run_compare.py",
+  "code_sha256": {
+    "accounts.py": "533e61481981b39ddc280464b4a6e30f14302ff72c59c1f5f201c4d20b222da5",
+    "audit_lump.py": "8cc8318caf2109f853e145da5caea7872042071140a2ed4209c3c2e46904f172",
+    "bootstrap.py": "e900b61c8ab85761535a32d17e2bbd7f698516689d46f50479f5c5a14ac55afa",
+    "run_lump.py": "3894d87586b6b30b2ce3104d40b519bdafd4b29753775821f505fbbafc3ac22c",
+    "simulation.py": "80ec11d1e05ea585cb3956b1cc92a95fcd19714ba480ec6cc05310be89f94c29",
+    "test_atomic.py": "9db6181c0e4c3ee1f72a9409b935b8d4f015b168d9b47a8bf26fd333eaa03a56"
+  },
+  "cases": [
+    "CONTROL_U",
+    "CONTROL_S1",
+    "A_SPLIT17",
+    "B_LUMP17"
+  ],
+  "stop_after": "B_LUMP17; no new hypothesis or sensitivity sweep"
+}

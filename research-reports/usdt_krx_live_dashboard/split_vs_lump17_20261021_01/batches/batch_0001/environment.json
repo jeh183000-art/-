@@ -1,0 +1,14 @@
+{
+  "python": "3.12.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.2.6",
+  "numba": "0.61.2",
+  "pandas": "3.0.1",
+  "changes": "No runtime install/upgrade. Process TEMP/TMP/cache/cwd on D.",
+  "commands": [
+    "python -B code/bootstrap.py test_atomic.py",
+    "python -B code/bootstrap.py run_lump.py",
+    "python -B code/bootstrap.py audit_lump.py"
+  ],
+  "validation": "4 atomic/quantity/cost/deficit tests passed; six execution modules static no-excuse scan passed. basedpyright not installed; no full strict type-check claim."
+}

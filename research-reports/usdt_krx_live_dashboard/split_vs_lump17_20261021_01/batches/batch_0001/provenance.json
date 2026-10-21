@@ -1,0 +1,13 @@
+{
+  "preregistration_commit": "1322cbf8e6db0ee97d22f558a694b44df5373bb5",
+  "source_sha256": {
+    "matched_simulation_bars.csv": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+    "paper_engine.py": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+    "margin_schedule.csv": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8"
+  },
+  "source_access": "D-only original matched bars; INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "rows": 184410,
+  "classification": "APPROVED_EXPLORATORY_ONLY",
+  "preservation": "Prior results, original inputs, Gateway, scheduled tasks and other Final OOS unchanged",
+  "reexecution": "Four full observed-bar passes, including two baseline regressions; B executes actual all-or-none 17-set bundles. No result multiplication substitutes for execution."
+}

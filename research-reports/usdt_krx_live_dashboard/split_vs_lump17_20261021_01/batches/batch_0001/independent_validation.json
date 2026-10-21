@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "A_SPLIT17",
+      "status": "PASS",
+      "account_marks": 369010,
+      "orders": 134,
+      "closed_sets": 134,
+      "max_contracts": 17,
+      "score_pct": 13.527810495012686
+    },
+    {
+      "case": "B_LUMP17",
+      "status": "PASS",
+      "account_marks": 369010,
+      "orders": 45,
+      "closed_sets": 765,
+      "max_contracts": 17,
+      "score_pct": 13.15221660791525
+    },
+    {
+      "case": "CONTROL_S1",
+      "status": "PASS",
+      "account_marks": 369010,
+      "orders": 45,
+      "closed_sets": 45,
+      "max_contracts": 1,
+      "score_pct": 13.15221660791525
+    },
+    {
+      "case": "CONTROL_U",
+      "status": "PASS",
+      "account_marks": 369010,
+      "orders": 134,
+      "closed_sets": 134,
+      "max_contracts": 17,
+      "score_pct": 13.527810495012686
+    }
+  ],
+  "method": "Separate raw CSV, margin schedule, per-event cash/quantity/cost replay; no engine imports"
+}

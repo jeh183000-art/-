@@ -1,0 +1,67 @@
+--- prior_comparison/accounts.py
++++ corrected_v2/accounts.py
+@@ -24,8 +24,9 @@
+     future: float
+     cap: int
+     enabled: bool = True
++    spot_unlimited: bool = False
+ 
+-@dataclass(slots=True)
++@dataclass(slots=True)  # noqa: MUTABLE_OK — cash and settlement ledgers mutate by design
+ class Lot:
+     """Mutable settlement basis and accumulated costs for one hedge set."""
+     set_id: int
+@@ -42,8 +43,9 @@
+     fees: float = 0.0
+     slip: float = 0.0
+     rolls: int = 0
++    order_id: int = 0
+ 
+-@dataclass(slots=True)
++@dataclass(slots=True)  # noqa: MUTABLE_OK — cash and settlement ledgers mutate by design
+ class Accounts:
+     """Mutable cash book; account transfers and external deposits never occur."""
+     limits: Limits
+@@ -67,7 +69,7 @@
+         self.future_cash=self.limits.future
+         self.peak=self.limits.spot+self.limits.future
+ 
+-    def mark(self, p: ExecutionPrice, update: bool = True) -> dict:
++    def mark(self, p: ExecutionPrice, update: bool = True) -> dict[str, float | int | str]:
+         count=len(self.lots)
+         fu=sum(l.direction*(l.basis-p.future)*Q for l in self.lots)
+         market=sum(l.direction*p.spot*Q for l in self.lots)
+@@ -94,18 +96,18 @@
+                     future_equity=self.future_cash+fu,initial_required=initial,maintenance_required=maintenance,
+                     maintenance_headroom=head,total_equity=equity,mdd=self.mdd,open_net=open_net)
+ 
+-    def reason(self, p: ExecutionPrice) -> str:
++    def reason(self, p: ExecutionPrice, contracts: int = 1) -> str:
+         sf,ff,ss,fs=costs(p)
+         m=self.mark(p,False)
+-        if len(self.lots)>=self.limits.cap:
++        if len(self.lots)+contracts>self.limits.cap:
+             return 'POSITION_CAP'
+-        if m['spot_available'] < p.spot*Q+sf+ss-1e-7:
++        if not self.limits.spot_unlimited and m['spot_available'] < contracts*(p.spot*Q+sf+ss)-1e-7:
+             return 'SPOT_CASH'
+-        if self.future_cash-ff-fs < -1e-7:
++        if self.future_cash-contracts*(ff+fs) < -1e-7:
+             return 'FUTURE_OPERATING_CASH'
+         if m['maintenance_headroom'] < -1e-7:
+             return 'MAINTENANCE'
+-        if m['future_equity']-ff-fs < (len(self.lots)+1)*p.future*Q*p.initial-1e-7:
++        if m['future_equity']-contracts*(ff+fs) < (len(self.lots)+contracts)*p.future*Q*p.initial-1e-7:
+             return 'INITIAL_MARGIN'
+         return 'ACCEPT'
+ 
+@@ -115,6 +117,9 @@
+         self.future_cash+=df
+         self.sequence+=1
+         self.events.append(dict(sequence=self.sequence,kind=kind,row=p.row,set_id=lot.set_id,cycle_id=lot.cycle,
++            order_id=lot.order_id,contracts_per_event=1,
++            spot_quantity_change=lot.direction*Q if kind=='ENTRY' else -lot.direction*Q if kind=='EXIT' else 0.,
++            future_quantity_change=-lot.direction if kind in ('ENTRY','ROLL_OPEN') else lot.direction if kind in ('EXIT','ROLL_CLOSE') else 0,
+             stage=lot.stage,direction=lot.direction,signal_row=lot.signal_i if kind=='ENTRY' else p.row-1 if kind=='EXIT' and p.phase!='ROLL' else -1,
+             spot_price=p.spot,future_price=p.future,spot_delta=ds,future_delta=df,
+             spot_fee=sf,future_fee=ff,spot_slippage=ss,future_slippage=fs,

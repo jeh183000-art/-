@@ -1,0 +1,11 @@
+{
+  "commit": "205e3bb3a7d05f36758443689b22f8655965a312",
+  "path": "research-reports/usdt_krx_live_dashboard/capital_limit_comparison_20261021_01/batches/batch_0001/code/run_compare.py",
+  "sha256": "22ed055eeb801bf9135538c3f4481a434ff78dd0e7c0c8ada8569e238fbb0bb6",
+  "functions_used": [
+    "load",
+    "table",
+    "regression"
+  ],
+  "legacy_main_executed": false
+}
