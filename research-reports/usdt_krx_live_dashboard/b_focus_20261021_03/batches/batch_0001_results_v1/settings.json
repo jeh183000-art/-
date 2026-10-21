@@ -1,0 +1,1070 @@
+{
+  "batch": "batch_0001",
+  "conditions": [
+    {
+      "candidate_id": "BF-01-001",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.55,
+        "short_entry_gap_pct": 0.55,
+        "long_recovery_pp": 0.25,
+        "short_recovery_pp": 0.25,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "0b581cefc795ebe2963c760e518143792c8ce36738620b552aaca1766b4dbecd"
+    },
+    {
+      "candidate_id": "BF-01-002",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.6,
+        "short_entry_gap_pct": 0.65,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "69ee618104dee7d55cade66710a7d9c32a900d370fcd6a12e23ca63bf6408c02"
+    },
+    {
+      "candidate_id": "BF-01-003",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -0.65,
+        "short_entry_gap_pct": 0.65,
+        "long_recovery_pp": 0.4,
+        "short_recovery_pp": 0.4,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "e7b13c56c3214dd5931fd115552ec201ce68eb260cb2f3b8619cd0240db7d342"
+    },
+    {
+      "candidate_id": "BF-01-004",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 90,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "9cf49780f251361ce60d19b6c248f542472512d45bcc1f9b3ec0b71452ccb70d"
+    },
+    {
+      "candidate_id": "BF-01-005",
+      "group": "net_profit_exit",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null,
+        "pnl_profit_pct": 0.15
+      },
+      "rule_sha256": "41de2f1d511b8dc749afe62f1c3d8e52e91164e9a99417749853ece1a83cb8b2"
+    },
+    {
+      "candidate_id": "BF-01-006",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.75,
+        "short_entry_gap_pct": 0.75,
+        "long_recovery_pp": 0.45,
+        "short_recovery_pp": 0.45,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "7203e5bd8aae0f27ca1b93d0058d9fed289151eb569b66bbbdf18f78fd121022"
+    },
+    {
+      "candidate_id": "BF-01-007",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.9,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "f22b12349c380c5151a2e7fa521f3eb9e79f01a3cb0041bb830d1d93704a0a2a"
+    },
+    {
+      "candidate_id": "BF-01-008",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "e0c21f5d4e1b8cd68122585943333bac6b15c26fbe4ab439b9bcd1cd505bdaba"
+    },
+    {
+      "candidate_id": "BF-01-009",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 90,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "32d1da1c164eb4e45d3559c449e1cc429b7bfb24185d38fb62a13c2d539cb999"
+    },
+    {
+      "candidate_id": "BF-01-010",
+      "group": "net_loss_stop",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": 0.3
+      },
+      "rule_sha256": "bc651e2da6adbc99dbd33c5c124982155ca9a85bd96c26b9ab08499703996f2c"
+    },
+    {
+      "candidate_id": "BF-01-011",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.8,
+        "short_recovery_pp": 0.8,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "264baff10779290105b23be877d620822477b6b45bf9a7d389ae72c08041a275"
+    },
+    {
+      "candidate_id": "BF-01-012",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 90,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "5a73bdcfd57c6d5edcab61e5c0725f3faf812403761c3f2b4caa44856cfcace2"
+    },
+    {
+      "candidate_id": "BF-01-013",
+      "group": "gap_loss_stop",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": 0.3,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "3fa3276453f4f9052b524929c9f2a6d7d58bcb62381d2d57d8df8597128eb92d"
+    },
+    {
+      "candidate_id": "BF-01-014",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.1,
+        "short_entry_gap_pct": 1.1,
+        "long_recovery_pp": 0.75,
+        "short_recovery_pp": 0.75,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "f607db5d334271360ab992f2d1a0ab84b6d183a510e9e0ee5851c7ff5f1f2399"
+    },
+    {
+      "candidate_id": "BF-01-015",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.2,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "1a61a772667627f91803cae95b75c1ce452467ab25aa1e0010fd0a10f4f1ff39"
+    },
+    {
+      "candidate_id": "BF-01-016",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 1.0,
+        "short_recovery_pp": 1.0,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "a0236422f6a359ea4572ba3ffad98fc60027f763f8f31b8619c7eba81c6af1d8"
+    },
+    {
+      "candidate_id": "BF-01-017",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.45,
+        "short_recovery_pp": 0.45,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 90,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "488a9d87f1a2b3e4c246b208016da3d97f614038acf31d4096b8107305e4cd89"
+    },
+    {
+      "candidate_id": "BF-01-018",
+      "group": "net_profit_exit",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null,
+        "pnl_profit_pct": 0.15
+      },
+      "rule_sha256": "5166ff4f85426f424d7f8c7397944757e64afe08c1888c21cdbf1b16501b5124"
+    },
+    {
+      "candidate_id": "BF-01-019",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.3,
+        "short_entry_gap_pct": 1.3,
+        "long_recovery_pp": 0.9,
+        "short_recovery_pp": 0.9,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "f3e2d0a55f77e80c69f77088c750465a6ced6d4f7049cb7d3629cc8c25f6df72"
+    },
+    {
+      "candidate_id": "BF-01-020",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.4,
+        "short_entry_gap_pct": 1.5,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "a0eadd3e0c7f7bfc491f0c5d2a706791a41eb8f90c98c98a391ea35a561b5e61"
+    },
+    {
+      "candidate_id": "BF-01-021",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -1.4,
+        "short_entry_gap_pct": 1.4,
+        "long_recovery_pp": 0.4,
+        "short_recovery_pp": 0.4,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "9fa6b00e8b74445f4922ba678d549ff80a84d003414438e156b8ff43040f36d2"
+    },
+    {
+      "candidate_id": "BF-01-022",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.75,
+        "short_recovery_pp": 0.75,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 90,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "f4486b8bbed4644431f2bd8dbe632b41509c79baa40469e80199b49561d417d6"
+    },
+    {
+      "candidate_id": "BF-01-023",
+      "group": "net_loss_stop",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": 0.3
+      },
+      "rule_sha256": "bd934731da4b2afb4649071b38a11249010c9b97eabdec002c170d0af17b0193"
+    },
+    {
+      "candidate_id": "BF-01-024",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.6,
+        "short_entry_gap_pct": 1.6,
+        "long_recovery_pp": 1.05,
+        "short_recovery_pp": 1.05,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "75fd48fdc0dd4a3baa95f7fdee1612d2e0e5c79b2bf3d0ff76c8e3271d687efc"
+    },
+    {
+      "candidate_id": "BF-01-025",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.8,
+        "short_entry_gap_pct": 2.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "71c69384820f221e5caaf42bbff9766c1f2910d76d2ae606487e0700b3ebd8b6"
+    },
+    {
+      "candidate_id": "BF-01-026",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -1.8,
+        "short_entry_gap_pct": 1.8,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "780fa43dd80481974ef41d0b58080835ab9ef1de96c155920c82588f62188af3"
+    },
+    {
+      "candidate_id": "BF-01-027",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 90,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "d91b6ca24eb09ca11d797403df2fe53aee3c7eae7f6d028fcdb2e32d45bbb1ca"
+    },
+    {
+      "candidate_id": "BF-01-028",
+      "group": "gap_loss_stop",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": 0.3,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "8cb9e20257c9fe0ae3f99e298a6e23852e9964b93b98510592db06a2ebff336e"
+    },
+    {
+      "candidate_id": "BF-01-029",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -2.0,
+        "short_entry_gap_pct": 2.0,
+        "long_recovery_pp": 1.2,
+        "short_recovery_pp": 1.2,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "90b1ed4b61c7178cc054a65dc6187c8be623a38225547db68401cb14573dd2a1"
+    },
+    {
+      "candidate_id": "BF-01-030",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -2.3,
+        "short_entry_gap_pct": 2.5,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "4b1aba77735c80528e46afe05c0df73f43b588db3ddf5dd11178059d1a60ebb3"
+    },
+    {
+      "candidate_id": "BF-01-031",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -0.65,
+        "short_entry_gap_pct": 0.65,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "0b268e2a0aafa4a77d10c901b9de6184288c0d176cba175da490072d731a772e"
+    },
+    {
+      "candidate_id": "BF-01-032",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 480,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "4c1babe99980d5e8751a2549d4a97c8aa0ffdda89344bcac1b48ffea9c1321f2"
+    },
+    {
+      "candidate_id": "BF-01-033",
+      "group": "net_profit_exit",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null,
+        "pnl_profit_pct": 0.15
+      },
+      "rule_sha256": "be14d5d5f79e15aabc40c1c81ded3cb7aa82a683a26b7b50c4f7a712de979db2"
+    },
+    {
+      "candidate_id": "BF-01-034",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -2.4,
+        "short_entry_gap_pct": 2.4,
+        "long_recovery_pp": 1.5,
+        "short_recovery_pp": 1.5,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "34b492c6c6ee20750b72154318b4b58fa875d635a5749b5df615a6e4122d3233"
+    },
+    {
+      "candidate_id": "BF-01-035",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.6,
+        "short_entry_gap_pct": 0.9,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "3c42f8374bbb1e0311dd89b0dfd55cfe035117c1d6a81e639315a46a76341c7e"
+    },
+    {
+      "candidate_id": "BF-01-036",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.8,
+        "short_recovery_pp": 0.8,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "042dd469452e2e2aaaa936b99d71c249adf4cd515d5f0debc7e72a4b629cb2c5"
+    },
+    {
+      "candidate_id": "BF-01-037",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 480,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "6c5972a343b21439f72b5d19b1dd1123442a39c7ce55df3cd9d2b4ac8922b93a"
+    },
+    {
+      "candidate_id": "BF-01-038",
+      "group": "net_loss_stop",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": 0.3
+      },
+      "rule_sha256": "6c9e7fac2cc3ad0138cc2751c6b10a661d014300ea1161cf9ce0485a0577c3b6"
+    },
+    {
+      "candidate_id": "BF-01-039",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -2.8,
+        "short_entry_gap_pct": 2.8,
+        "long_recovery_pp": 0.25,
+        "short_recovery_pp": 0.25,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "3543d6b23a60ab20f2bd4284cb89f4242f3d086e88b792fcb98a7d549fc0811f"
+    },
+    {
+      "candidate_id": "BF-01-040",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.85,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "9e2f26c8396b5236305d88aea8ac2fa1f10f483b73245b98dbdd9138b9ed3d14"
+    },
+    {
+      "candidate_id": "BF-01-041",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 1.0,
+        "short_recovery_pp": 1.0,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "9a08f447f01b2ac79a476abdc057854c300a46abe82e6bfe08b43109e9c91552"
+    },
+    {
+      "candidate_id": "BF-01-042",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 480,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "6a41067c3e05b3fe16eb93d364a87072efd4f190b06cab7e12630dde3e06c26c"
+    },
+    {
+      "candidate_id": "BF-01-043",
+      "group": "gap_loss_stop",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": 0.3,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "770a83b2de6af0c0b355c4c709b2ceef2d53f5899ac402035cb4e0a6c6f1331f"
+    },
+    {
+      "candidate_id": "BF-01-044",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -3.2,
+        "short_entry_gap_pct": 3.2,
+        "long_recovery_pp": 0.45,
+        "short_recovery_pp": 0.45,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "c232f9f70178dea1cf75103a1555ea93022546dcc12c2a5b538661519e36d18e"
+    },
+    {
+      "candidate_id": "BF-01-045",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.2,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "e046fc061baf528a2d92079780225de48938cb2990f0ceedd1a4dd4604974467"
+    },
+    {
+      "candidate_id": "BF-01-046",
+      "group": "reversal_confirmation",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "reversal",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.15,
+        "long_recovery_pp": 0.4,
+        "short_recovery_pp": 0.4,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.04,
+        "confirmation_expiry_calendar_minutes": 240,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "25d5da25e5400cb983249c58b488ee4f9af444d24963ef4dfc736beeff2ee636"
+    },
+    {
+      "candidate_id": "BF-01-047",
+      "group": "calendar_time_cap",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.45,
+        "short_recovery_pp": 0.45,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": 480,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "578a6eca572e4bd6ebc1fffef35a41598b91f1a8969334a12e14ae54c7a36ffd"
+    },
+    {
+      "candidate_id": "BF-01-048",
+      "group": "net_profit_exit",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.45,
+        "short_recovery_pp": 0.45,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null,
+        "pnl_profit_pct": 0.15
+      },
+      "rule_sha256": "32d2f3751c50d2b3984500c08feb152219eba08cdc829a41599778f92dac6cf8"
+    },
+    {
+      "candidate_id": "BF-01-049",
+      "group": "wide_entry_recovery",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.55,
+        "short_entry_gap_pct": 0.55,
+        "long_recovery_pp": 0.45,
+        "short_recovery_pp": 0.45,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "1ecbdc0f701e37e84572d26f89dd3d86ce1551bba07d7b50e23baf04b46e55ba"
+    },
+    {
+      "candidate_id": "BF-01-050",
+      "group": "asymmetric_entry",
+      "parent_strategy": "B:L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.15,
+        "short_entry_gap_pct": 1.5,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      },
+      "rule_sha256": "d1ce92c130d1669a751a9cc83ba15f6224ab3cce76b9203e7454f12582a5ea67"
+    }
+  ],
+  "grid_sha256": "415be259831dd00b7e1917e62fe5952794be87f2d4da4a7fb9109532d8e66917",
+  "code_sha256": {
+    "baseline_audit.py": "13533d2bc64462a0565f968e12d540ee9243b4a5b832976a0c52c612bedc0a4b",
+    "bootstrap.py": "412bd5c10f5b9f2172dcf4ee09cb12d3069bd0e4bce6989e67427f4eb7153001",
+    "build_B.py": "1884e497bdd0ec56d87ba46f15f603667f6e87dd0cf661efa4f966061bb0af9a",
+    "drawdown_tests.py": "b61ac97249edf3daced6a80c88fda133601b6c21e52b6bdc5d71ba05347de8e4",
+    "package_B.py": "a13a16a0c38b874c7f0be4cfa39d7079b849528f38f06f603f5fb11f8112dc4c",
+    "runner.py": "08a1137bef2f177e46f765b7493205ba386fddd175db2728faaf424483829930",
+    "shared_packet.py": "3c4e63b2c959b768cef6db5d4a499baf4a866b25f502c0f66d141fa6fa8de17b",
+    "signals.py": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+    "validation2.py": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5"
+  },
+  "groups": {
+    "asymmetric_entry": 10,
+    "calendar_time_cap": 10,
+    "gap_loss_stop": 3,
+    "net_loss_stop": 3,
+    "net_profit_exit": 4,
+    "reversal_confirmation": 10,
+    "wide_entry_recovery": 10
+  },
+  "input_baseline_commit": "e1254e5141b3201cf594111cbc47b1fdfd6a5e9a",
+  "parent_B": {
+    "family": "relative",
+    "long_entry_gap_pct": -1,
+    "short_entry_gap_pct": 1,
+    "long_recovery_pp": 0.6,
+    "short_recovery_pp": 0.6,
+    "long_absolute_exit_gap_pct": null,
+    "short_absolute_exit_gap_pct": null,
+    "confirmation_pp": 0,
+    "confirmation_expiry_calendar_minutes": null,
+    "max_hold_minutes": null,
+    "gap_stop_pp": null,
+    "pnl_stop_pct": null
+  },
+  "A_C_D_search_enabled": false,
+  "frozen": {
+    "contracts": 17,
+    "spot_quantity": 170000,
+    "futures_initial_cash": 30000000,
+    "additional_entries": false,
+    "simultaneous_opposite": false,
+    "external_deposits": false,
+    "slippage_bp": 2
+  },
+  "objectives": {
+    "score_greater_than": 14.95131907100779,
+    "cycles_at_least": 39,
+    "residual_contracts": 0,
+    "mdd_at_most_krw": 9350000,
+    "margin_shortages": 0
+  },
+  "score": "sum unrounded completed cycle net / abs(initial spot entry notional) * 100",
+  "margin_shortage_definition": "Any entry admission rejection, observed initial or maintenance deficit, or underfunded roll",
+  "cost_and_execution": "Frozen engine; signal next contiguous observed minute OPEN proxy, spot .05% per side, futures 600/contract + .000003157 notional per side; 2bp per leg per side; both roll legs",
+  "pnl_exit": "Existing recovery OR net-profit/loss stop OR time/stall condition; net PNL signal includes hypothetical close costs",
+  "old_1000_recomputed": false,
+  "maximum_new_conditions": 500,
+  "final_oos_access": false,
+  "mode": "EXPLORATORY_PAPER"
+}
