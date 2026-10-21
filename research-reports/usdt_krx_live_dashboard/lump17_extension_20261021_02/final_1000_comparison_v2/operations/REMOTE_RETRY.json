@@ -1,0 +1,14 @@
+{
+  "commit": "85356ec5706b655976d5f94eccbbcbba714b96ba",
+  "status": "PUBLISHED_VERIFIED",
+  "initial_verifier_failure": {
+    "stage": "git show remote risks.csv",
+    "exit_code": 128,
+    "underlying_git_stderr": "Not retained by official CalledProcessError; root cause unconfirmed"
+  },
+  "isolated_same_object_read_exit_code": 0,
+  "fresh_fetch_exit_code": 0,
+  "full_remote_retry_exit_code": 0,
+  "files_verified": 37,
+  "market_simulation_recomputed": false
+}

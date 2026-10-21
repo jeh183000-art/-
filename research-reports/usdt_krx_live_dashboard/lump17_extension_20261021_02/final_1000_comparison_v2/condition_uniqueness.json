@@ -1,0 +1,7 @@
+{
+  "new_registered": 500,
+  "original_registered": 500,
+  "new_effective_duplicate_count": 0,
+  "normalization": "Null/zero unused controls, family-unused recovery and threshold fields, and disabled direction-specific settings excluded",
+  "old_conditions_preserved": true
+}

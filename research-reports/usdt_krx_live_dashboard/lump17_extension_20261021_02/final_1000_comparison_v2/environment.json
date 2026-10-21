@@ -1,0 +1,8 @@
+{
+  "python": "3.12.0",
+  "numpy": "2.2.6",
+  "numba": "0.61.2",
+  "storage": "D_ONLY",
+  "mode": "PAPER_EXPLORATORY",
+  "static_type_checker": "Not installed; original environment preserved; runtime numeric and ledger audits used"
+}

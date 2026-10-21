@@ -1,0 +1,17 @@
+{
+  "research_cwd": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02",
+  "storage": "D_ONLY",
+  "python_flag": "-B",
+  "bootstrap": "code/bootstrap.py",
+  "process_scoped_cache_and_tmp": {
+    "TEMP": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/temp",
+    "TMP": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/tmp",
+    "TMPDIR": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/tmpdir",
+    "XDG_CACHE_HOME": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/xdg_cache_home",
+    "NUMBA_CACHE_DIR": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/numba_cache_dir",
+    "PIP_CACHE_DIR": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/pip_cache_dir",
+    "UV_CACHE_DIR": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_extension_20261021_02/runtime/uv_cache_dir"
+  },
+  "windows_global_env_changed": false,
+  "preflight_process": "Read-only standalone preflight retains inherited Windows TEMP; not the research runtime process"
+}

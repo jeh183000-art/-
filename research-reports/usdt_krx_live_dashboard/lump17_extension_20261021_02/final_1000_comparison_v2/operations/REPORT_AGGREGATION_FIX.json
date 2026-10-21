@@ -1,0 +1,10 @@
+{
+  "error": "Duplicate status keyword in final report aggregation",
+  "fix": "Preserve outer status as account_audit_status; preserve independent vector status under status",
+  "affected": "REPORT_AGGREGATION_ONLY",
+  "market_results_changed": false,
+  "market_simulation_recomputed": false,
+  "all_numeric_audits": "PASS",
+  "incomplete_staging_preserved": "publish_payloads/final_1000_comparison_v1",
+  "corrected_output": "publish_payloads/final_1000_comparison_v2"
+}

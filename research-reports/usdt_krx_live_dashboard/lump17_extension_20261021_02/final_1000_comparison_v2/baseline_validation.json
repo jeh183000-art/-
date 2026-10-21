@@ -1,0 +1,25 @@
+{
+  "status": "PASS_OLD_500_ALL_RESULT_FIELDS_AND_RULES_UNCHANGED",
+  "conditions": 500,
+  "result_fields_compared": 18500,
+  "baseline_remote_bytes_proof": {
+    "commit": "88bfd36584e92892aa01e3f1136da8f1cdb7f1b8",
+    "prefix": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/final_500_audit_v1/",
+    "files": [
+      {
+        "file": "results_all_500.csv",
+        "bytes": 257295,
+        "sha256": "f561e1d27c71723a43bf1fe31fbd0c900dbed30be3450a81710f7452a29c6992",
+        "remote_hash_match": true
+      },
+      {
+        "file": "settings_all_500.json",
+        "bytes": 340865,
+        "sha256": "2e6c5a13b84a1e9d7d7e47d818cf3f2b6d2fc53fa7a8f809171ec059fcc12f99",
+        "remote_hash_match": true
+      }
+    ],
+    "status": "PASS_FRESH_IMMUTABLE_REMOTE_BYTES"
+  },
+  "market_simulations_repeated": 0
+}
