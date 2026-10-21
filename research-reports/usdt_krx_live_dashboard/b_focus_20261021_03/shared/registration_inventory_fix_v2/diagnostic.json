@@ -1,0 +1,11 @@
+{
+  "type": "PREREGISTRATION_INVENTORY_COUNT_ONLY",
+  "executed_conditions": 1000,
+  "settings_entries": 1001,
+  "extra_control": "CONTROL-S1-050-LUMP17",
+  "all_1001_rules_deduplicated": true,
+  "old_market_simulations_repeated": 0,
+  "new_market_simulations_before_fix": 0,
+  "numerical_regression": "PASS_UNCHANGED",
+  "trading_rules_or_costs_changed": false
+}
