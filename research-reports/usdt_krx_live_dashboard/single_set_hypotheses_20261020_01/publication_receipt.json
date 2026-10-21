@@ -1,0 +1,29 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "study": "single_set_hypotheses_20261020_01",
+  "batch": "batch_0001",
+  "completed_conditions": 50,
+  "stop_after_batch": 1,
+  "worker_exit_code": 0,
+  "worker_lock_absent": true,
+  "repository": "https://github.com/jeh183000-art/-",
+  "preregistration_commit": "d64eb691b0cf084f6748df6abdab5f4c9d8e0027",
+  "results_commit": "e120871452d3ac2b85442a8599fe4db704c1f3df",
+  "remote_prefix": "research-reports/usdt_krx_live_dashboard/single_set_hypotheses_20261020_01/batch_0001",
+  "remote_files": 25,
+  "verification": [
+    "Fresh git fetch origin main after publication",
+    "verify_batch.py: LOCAL_VERIFIED files=25 roles=7",
+    "verify_batch.py: PUBLISHED_VERIFIED commit=e120871452d3ac2b85442a8599fe4db704c1f3df files=25",
+    "verify_revalidation_archive.py: REMOTE_ARCHIVE_ALL_BYTES_VERIFIED 25",
+    "Every manifest byte count and SHA-256 validated locally, then every remote file compared byte-for-byte",
+    "10 synthetic tests passed; all 50 conditions passed one-slot and ledger reconciliation audits"
+  ],
+  "protected_state": "Existing studies, collectors, Gateway configuration, scheduled execution block and Final OOS unchanged",
+  "limitations": [
+    "Exploratory comparison, not independent validation",
+    "Next observed contiguous minute open is a fill proxy",
+    "Reverse and combined direction borrow availability and borrowing cost unverified",
+    "Shared original market inputs are retained locally on D and not publicly reproducible from GitHub alone"
+  ]
+}
