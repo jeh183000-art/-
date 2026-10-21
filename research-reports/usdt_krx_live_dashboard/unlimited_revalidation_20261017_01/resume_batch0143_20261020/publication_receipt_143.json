@@ -1,0 +1,12 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "repository": "https://github.com/jeh183000-art/-",
+  "branch": "main",
+  "commit_sha": "f295f93c88af74c6816066f8001d7c99a6818e64",
+  "prefix": "research-reports/usdt_krx_live_dashboard/unlimited_revalidation_20261017_01/batch_0143",
+  "verified_utc": "2026-10-21T01:26:19.684405+00:00",
+  "verification": "LOCAL_VERIFIED files=23 roles=7; fresh fetched git archive exact-byte verification of all 23 files",
+  "file_count": 23,
+  "branch_head_at_verification": "f295f93c88af74c6816066f8001d7c99a6818e64",
+  "branch_tree_at_verification": "254630bd61790be1e5162efe8e171c4164bb7d55"
+}

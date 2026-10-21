@@ -1,0 +1,6 @@
+{
+  "stdout": "{\"phase\": \"PREREGISTERED\", \"conditions\": 76608, \"batches\": 1533, \"raw_gap_range\": [-4.156511428759623, 2.8490453460620517]}\r\n",
+  "error_class": "ModuleNotFoundError",
+  "missing_module": "frozen_unlimited_batch142",
+  "conditions_completed": 0
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "completed_conditions": 7150,
+  "total_conditions": 76608,
+  "last_completed_batch": 143,
+  "next_unstarted_batch": 144,
+  "batch144_started": false,
+  "worker_stopped": true,
+  "worker_lock_exists": false,
+  "batch143_commit": "f295f93c88af74c6816066f8001d7c99a6818e64",
+  "mcp_enabled": true,
+  "auto_repair_enabled": false,
+  "scheduler_settings_modified": false,
+  "collectors_started": false,
+  "gateway_settings_modified": false,
+  "final_oos_accessed": false,
+  "ranking": "SUM of unrounded completed cycle net return percentages",
+  "engine_unchanged": true,
+  "verified_at_utc": "2026-10-21T01:26:43.063Z"
+}

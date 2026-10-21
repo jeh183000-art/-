@@ -1,0 +1,12 @@
+{
+  "classification": "EXPLORATORY_NOT_INDEPENDENT_FINAL_OOS",
+  "approved_range": "KRX business dates 2026-01-01 through 2026-10-15 including only required night calendar boundaries",
+  "source_engine_sha256": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+  "source_input_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "generated_engine_sha256": "533e8722a7cac06db964ae7e0282e42cc59eb21026da133b4a80ae6bbc5788d7",
+  "raw_input_access": "INPUT_NOT_REMOTELY_REPRODUCIBLE: original approved market inputs preserved on D drive, not uploaded in this batch",
+  "previous_verified_commit": "b418ef32757aa14be3cba123f03858bed37445fc",
+  "batch_commit": "f295f93c88af74c6816066f8001d7c99a6818e64",
+  "frozen_order_slice_start_zero_based": 7100,
+  "frozen_order_slice_stop_exclusive": 7150
+}
