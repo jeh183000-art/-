@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "independent_vector_cash",
+    "all_settlements_required",
+    "all_roll_pairs_required",
+    "bank_tamper_detected",
+    "drawdown_is_running_max",
+    "recovery_does_not_reset_mdd"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "initial_synthetic_error_krw": 227317.1660000123,
+  "cause": "New vector checker compared instantaneous drawdown with the original ledger running maximum drawdown.",
+  "definition_fix": "drawdown = cumulative_peak - equity; MDD = cumulative_max(drawdown)",
+  "fields_already_matching_before_fix": [
+    "spot_cash",
+    "futures_cash",
+    "unrealized",
+    "margin",
+    "total_equity",
+    "open_net",
+    "direction",
+    "financing"
+  ],
+  "validation_scope": "Synthetic fixture then read-only saved anchors; no market strategy simulation or new condition executed",
+  "preexisting_engine_or_result_changed": false,
+  "corrected_synthetic_tests": "PASS",
+  "saved_anchor_replays": "PASS",
+  "stop_reason": "User instruction: stop immediately on checker error and report cause"
+}

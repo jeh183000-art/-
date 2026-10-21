@@ -1,0 +1,15 @@
+{
+  "status": "STOPPED_NEW_SWEEP_AFTER_CHECKER_DEVELOPMENT_ERROR",
+  "new_conditions_registered": 0,
+  "new_conditions_executed": 0,
+  "maximum_new_conditions": 500,
+  "existing_results_modified": false,
+  "anchor_ledger_revalidation": "PASS_AFTER_NEW_CHECKER_DEFINITION_FIX",
+  "old_trading_engine_changed": false,
+  "workers_running": false,
+  "final_oos_access": false,
+  "remaining_work": [
+    "Preregister diverse new50 conditions",
+    "Run and verify batches only after explicit resumption of stopped work"
+  ]
+}

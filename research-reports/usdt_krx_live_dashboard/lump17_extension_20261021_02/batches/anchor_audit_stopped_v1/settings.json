@@ -1,0 +1,50 @@
+{
+  "anchors": [
+    {
+      "candidate_id": "L17-07-004",
+      "rule": {
+        "family": "absolute",
+        "long_entry_gap_pct": -1.7,
+        "short_entry_gap_pct": 1.7,
+        "long_recovery_pp": null,
+        "short_recovery_pp": null,
+        "long_absolute_exit_gap_pct": 1.5,
+        "short_absolute_exit_gap_pct": -1.5,
+        "confirmation_pp": 0.0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      }
+    },
+    {
+      "candidate_id": "L17-01-013",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -1.0,
+        "short_entry_gap_pct": 1.0,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0.0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null
+      }
+    }
+  ],
+  "frozen_controls": {
+    "contracts": 17,
+    "spot_quantity": 170000,
+    "futures_initial_cash": 30000000,
+    "spot_cap": null,
+    "additional_entries": false,
+    "simultaneous_opposite": false,
+    "external_deposits": false,
+    "automatic_account_transfers": false,
+    "slippage_bp": 2
+  },
+  "new_conditions": []
+}

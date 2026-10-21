@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "88bfd36584e92892aa01e3f1136da8f1cdb7f1b8",
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "raw_input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "anchor_source_inventory_remote_hashes_verified": true,
+  "full_account_archives": "Original immutable batch0001 and batch0007 archive_parts.json/archive_inventory.csv; no duplicate account or market inputs uploaded",
+  "protected_oos_access": false
+}
