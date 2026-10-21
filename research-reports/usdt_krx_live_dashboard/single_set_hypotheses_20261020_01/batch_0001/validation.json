@@ -1,0 +1,408 @@
+{
+  "status": "PASS",
+  "conditions": [
+    {
+      "candidate_id": "S1-001",
+      "completed_cycles": 71,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-002",
+      "completed_cycles": 70,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-003",
+      "completed_cycles": 12,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-004",
+      "completed_cycles": 12,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-005",
+      "completed_cycles": 8,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-006",
+      "completed_cycles": 6,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-007",
+      "completed_cycles": 2,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-008",
+      "completed_cycles": 1,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-009",
+      "completed_cycles": 1,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-010",
+      "completed_cycles": 0,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-011",
+      "completed_cycles": 89,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-012",
+      "completed_cycles": 85,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-013",
+      "completed_cycles": 19,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-014",
+      "completed_cycles": 20,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-015",
+      "completed_cycles": 25,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-016",
+      "completed_cycles": 21,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-017",
+      "completed_cycles": 2,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-018",
+      "completed_cycles": 4,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-019",
+      "completed_cycles": 78,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-020",
+      "completed_cycles": 67,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-021",
+      "completed_cycles": 42,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-022",
+      "completed_cycles": 21,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-023",
+      "completed_cycles": 60,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-024",
+      "completed_cycles": 15,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-025",
+      "completed_cycles": 19,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-026",
+      "completed_cycles": 46,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-027",
+      "completed_cycles": 4891,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-028",
+      "completed_cycles": 4752,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-029",
+      "completed_cycles": 1532,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-030",
+      "completed_cycles": 1487,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-031",
+      "completed_cycles": 3555,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-032",
+      "completed_cycles": 3372,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-033",
+      "completed_cycles": 1096,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-034",
+      "completed_cycles": 1050,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-035",
+      "completed_cycles": 31,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-036",
+      "completed_cycles": 24,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-037",
+      "completed_cycles": 23,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-038",
+      "completed_cycles": 16,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-039",
+      "completed_cycles": 4,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-040",
+      "completed_cycles": 4,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-041",
+      "completed_cycles": 118,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-042",
+      "completed_cycles": 92,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-043",
+      "completed_cycles": 46,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-044",
+      "completed_cycles": 31,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-045",
+      "completed_cycles": 72,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-046",
+      "completed_cycles": 46,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-047",
+      "completed_cycles": 132,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-048",
+      "completed_cycles": 101,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-049",
+      "completed_cycles": 36,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    },
+    {
+      "candidate_id": "S1-050",
+      "completed_cycles": 45,
+      "global_one_set_pass": true,
+      "fees_reconciled": true,
+      "pnl_reconciled": true,
+      "status": "PASS"
+    }
+  ],
+  "max_global_sets": 1,
+  "inputs": 184410,
+  "no_additions": true
+}

@@ -1,0 +1,145 @@
+{
+  "study_id": "single_set_hypotheses_20261020_01",
+  "batch_id": "batch_0001",
+  "status": "LOCAL_VALIDATED",
+  "files": [
+    {
+      "path": "costs.csv",
+      "role": "costs",
+      "bytes": 3021,
+      "sha256": "786389c9787088dde349f66198f1384332caff740b8ee8df1cdcba42c1d26ada"
+    },
+    {
+      "path": "cycles.csv.gz",
+      "role": "supporting",
+      "bytes": 1455808,
+      "sha256": "1d318b0aeaa001ab36e8ff7777b529e33b1580b0d21c76903c19a49dadea19e6"
+    },
+    {
+      "path": "environment.json",
+      "role": "environment",
+      "bytes": 404,
+      "sha256": "47752e3f16e797881cdec8a2c3f1b4526dff1fe2ad1de2065b22ab9e072cb121"
+    },
+    {
+      "path": "monthly.csv",
+      "role": "supporting",
+      "bytes": 23145,
+      "sha256": "bdd0eeaca1c6fac82360ef2a2fc582ff42201915116711b8e45f8e74d5aef388"
+    },
+    {
+      "path": "neighbor_comparison.csv",
+      "role": "supporting",
+      "bytes": 1181,
+      "sha256": "761fe0c314f98d98b08f98d841b425aa64cb13fb1ac91d02084b0232a295c17f"
+    },
+    {
+      "path": "postprocess.py",
+      "role": "supporting",
+      "bytes": 11112,
+      "sha256": "34d5c4bc9aa907277719947365e1337349117853adcfd16e405bf61166754d9e"
+    },
+    {
+      "path": "ranking_combined.csv",
+      "role": "supporting",
+      "bytes": 1266,
+      "sha256": "454fab350b5e68f0e0627f448beee561266db80b65ff54f29bbb4d00e6898aad"
+    },
+    {
+      "path": "ranking_long.csv",
+      "role": "supporting",
+      "bytes": 8418,
+      "sha256": "dd9659deb6e8ac5d28a6a7e96a6d554c5b8dfb629228f553b7450eaa21672388"
+    },
+    {
+      "path": "ranking_min_10_cycles.csv",
+      "role": "supporting",
+      "bytes": 14296,
+      "sha256": "61e30d60c74b89a117db27404231268021136e46bea204bf43985150f74640d3"
+    },
+    {
+      "path": "ranking_min_1_cycles.csv",
+      "role": "supporting",
+      "bytes": 17139,
+      "sha256": "df96af36130c5604f257f12eaebf5d4785a313ec15ddf501551c13293855c675"
+    },
+    {
+      "path": "ranking_min_5_cycles.csv",
+      "role": "supporting",
+      "bytes": 14959,
+      "sha256": "3a2ac9b5dcc99bed2ed5b242d0a18b9415296fcefa65ce8e60609af3b35441ce"
+    },
+    {
+      "path": "ranking_reverse.csv",
+      "role": "supporting",
+      "bytes": 8629,
+      "sha256": "9e296f752d506c3c31a467b18ef6abea3854ffa05cb5e0e8799006b79e4c7f2a"
+    },
+    {
+      "path": "READY.json",
+      "role": "supporting",
+      "bytes": 125,
+      "sha256": "71b08678a47579e9c3adc97700c55a29e213bfdcca9b54d6e5535633064a3c5b"
+    },
+    {
+      "path": "REPORT_KO.md",
+      "role": "statistics_report",
+      "bytes": 6714,
+      "sha256": "25af04773087b0474516b0999312375b6cf204b4f512debe27f245dfeff59fc3"
+    },
+    {
+      "path": "residuals.csv",
+      "role": "supporting",
+      "bytes": 3546,
+      "sha256": "b434c524dc2ab018c1b30eae3e91179f5c80165a81ddeb2d3511a99e80f34dee"
+    },
+    {
+      "path": "results.csv",
+      "role": "results_csv",
+      "bytes": 17294,
+      "sha256": "29792b33913b87b819d7fc29c0ce8045a279aee9e1c9b3273c048f863d366dce"
+    },
+    {
+      "path": "risk_extremes.csv.gz",
+      "role": "supporting",
+      "bytes": 1881208,
+      "sha256": "904047adcab16eb732998bb854bf263959b423bf080246a9402ade780a04d035"
+    },
+    {
+      "path": "settings.json",
+      "role": "settings",
+      "bytes": 21119,
+      "sha256": "f06b88bf3d76eca758b37ea9700b5eb66fdff46b93dfe12db1efefc45e218c66"
+    },
+    {
+      "path": "strategy_code_ref.json",
+      "role": "strategy_code",
+      "bytes": 633,
+      "sha256": "66f2d11fa755c53c50d9550f1dbb3e50b1bea70c674d7ea45752cbb59f544709"
+    },
+    {
+      "path": "summary.json",
+      "role": "supporting",
+      "bytes": 8433,
+      "sha256": "21f85033eeece31507d7b268dc93b887ad1f5892d84bcdcf95e7360c532b7507"
+    },
+    {
+      "path": "trades.csv.gz",
+      "role": "fills",
+      "bytes": 1265056,
+      "sha256": "46a1f71c063e57fd4e07e566dca2404630e246d1b9e5bcd6b15ae2be0d3387c0"
+    },
+    {
+      "path": "validation.json",
+      "role": "supporting",
+      "bytes": 10228,
+      "sha256": "75945d948779009e45a980d17ff3cb05299b0ebac8eeead0a1dbe648db442ea8"
+    },
+    {
+      "path": "zero_completed_cycles.csv",
+      "role": "supporting",
+      "bytes": 742,
+      "sha256": "48d80fd7873dd252d678ca40ecd13ff00cdd282643825c752f4f600fb9cf2e4f"
+    }
+  ]
+}

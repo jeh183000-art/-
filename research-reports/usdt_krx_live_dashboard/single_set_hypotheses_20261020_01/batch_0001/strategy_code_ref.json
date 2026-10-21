@@ -1,0 +1,11 @@
+{
+  "commit": "d64eb691b0cf084f6748df6abdab5f4c9d8e0027",
+  "path": "research-reports/usdt_krx_live_dashboard/single_set_hypotheses_20261020_01/preregistration",
+  "code_sha256": {
+    "bootstrap.py": "c31db1e56a3eea2d4b638249282643b51bacda921120685727ea6980f691edda",
+    "signals.py": "b7d59904f3d70543b5e16e4a8479c467ac16710658737cac25264559314d8937",
+    "single_core.py": "15a54d712eaaf21cfbea9eabb9933a03cf65652fd92ae82405f0ab351cd826c4",
+    "study.py": "bf98c3caa8a4fbb4a9d01d9851baae6c5b62a3a59b01ff47a670e2825467ea46",
+    "test_single.py": "024af36852a37893bacddd441c79a76e38723697e9dcf7abc0d5c1a1eea9278d"
+  }
+}

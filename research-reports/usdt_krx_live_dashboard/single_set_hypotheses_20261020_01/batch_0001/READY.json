@@ -1,0 +1,6 @@
+{
+  "status": "READY_FOR_PUBLICATION",
+  "completed_conditions": 50,
+  "stop_after_batch": 1,
+  "worker_stopped": true
+}
