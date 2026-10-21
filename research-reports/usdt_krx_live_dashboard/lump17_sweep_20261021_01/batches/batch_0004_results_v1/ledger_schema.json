@@ -1,0 +1,86 @@
+{
+  "account_ledger": {
+    "file": "full_account_ledger.npz",
+    "array": "ledger",
+    "shape": "[input_row,phase,field]",
+    "phase": [
+      "OPEN",
+      "CLOSE",
+      "SETTLEMENT"
+    ],
+    "fields": [
+      "spot_net_cash_flow",
+      "future_cash",
+      "future_unrealized",
+      "initial_required",
+      "maintenance_headroom",
+      "total_equity",
+      "open_net_paid_cost",
+      "direction",
+      "mdd_krw",
+      "initial_headroom",
+      "spot_financing_proxy"
+    ]
+  },
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "events": [
+    "event_code",
+    "row",
+    "cycle_id",
+    "direction",
+    "spot_price",
+    "future_price",
+    "spot_gross_delta",
+    "future_gross_delta",
+    "spot_fee",
+    "future_fee",
+    "spot_slippage",
+    "future_slippage",
+    "contract_id",
+    "signal_row"
+  ],
+  "cycles": [
+    "entry_signal_row",
+    "entry_row",
+    "exit_signal_row",
+    "exit_row",
+    "direction",
+    "entry_spot",
+    "entry_future",
+    "exit_spot",
+    "exit_future",
+    "spot_gross",
+    "future_gross",
+    "fees",
+    "slippage",
+    "net",
+    "hold_minutes",
+    "roll_count",
+    "exit_target",
+    "cycle_id",
+    "exit_reason_bits"
+  ],
+  "orders": [
+    "row",
+    "signal_row",
+    "direction",
+    "requested_contracts",
+    "filled_contracts",
+    "reason_code",
+    "future_cash_before",
+    "initial_required",
+    "future_fee",
+    "future_slippage",
+    "spot_price",
+    "future_price"
+  ],
+  "missing_settlement": "NaN; no synthetic mark",
+  "quantities": {
+    "contracts": 17,
+    "spot": 170000
+  },
+  "spot_cash": "net flow from zero; sufficient external procurement assumed",
+  "timestamp_join": "approved input row index; no raw market duplication",
+  "mark_prices": "same source row OPEN/CLOSE or official settlement; raw market inputs remain D-only"
+}
