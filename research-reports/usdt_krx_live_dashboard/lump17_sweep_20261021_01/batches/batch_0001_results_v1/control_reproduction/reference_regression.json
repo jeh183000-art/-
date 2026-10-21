@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "cycles": 45,
+  "reference_account_marks": 369010,
+  "maximum_account_difference_krw": 5.21540641784668e-07,
+  "score_pct": 13.15221660791525,
+  "net_realized": 32356627.76736317,
+  "mdd_krw": 9350000.0,
+  "event_counts": {
+    "ENTRY": 45,
+    "EXIT": 45,
+    "SETTLE": 98,
+    "ROLL_CLOSE": 5,
+    "ROLL_OPEN": 5
+  },
+  "max_event_difference_krw": 4.656612873077393e-10,
+  "used_saved_control": true
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+  "prefix": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code",
+  "code_sha256": {
+    "audit.py": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16",
+    "bootstrap.py": "d0397f00f70810bc1474b3bd7f8dad8d7f5c4105df405cc37f731df05c02ab2a",
+    "build_followup.py": "6a108c628af83ad8b0cb2c1e7e660719de28d9960675a373bc29d315b6f3623e",
+    "diagnose_stopped_control.py": "6c1de0b1e2309584e2613b909564adf69c2f316d1e21eaf7e14359f33805fb7d",
+    "engine.py": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+    "event_schema.py": "2e8e394ceb4404fbe81941e572816118ecd77d79b4c2fefba8fe8da6d12c2cb6",
+    "export_account_csv.py": "7aa690537a2abad24e47e20c05fbc7480c9797863f9f694994e5682705c4ca9b",
+    "package.py": "dd878ded262b3d49023119e64abed971997e99cd4ac5ae4dc035e4fac17660ac",
+    "prepare_resume.py": "63024face92de3395de69532f4dc21025670637de781f5e0767db4fd8bc76188",
+    "runner.py": "76aa84c8938f99a1a69ea38a093f4023b874f908ad8b1798ea39afe165fc5420",
+    "signals.py": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+    "tests.py": "7f9589264112161ec3216932cf58419099254c820f41c93b314eee8238808b91"
+  },
+  "shared_input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "control_saved_revalidated": true
+}
