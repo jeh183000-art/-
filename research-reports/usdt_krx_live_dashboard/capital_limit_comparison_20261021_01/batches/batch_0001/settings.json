@@ -1,0 +1,49 @@
+{
+  "registered_utc": "2026-10-21T04:11:22.206Z",
+  "preregistration_commit": "3904dcc936d3d11f9010a414b57036649db7ece5",
+  "scope": "Approved EXPLORATORY KRX business dates 2026-01-01..2026-10-15 and required night boundary; other Final OOS excluded",
+  "A": {
+    "spot_cash_assumption": 250000000,
+    "future_cash": 30000000,
+    "spot_funding": "Sufficient assumed amount, not user balance"
+  },
+  "B": {
+    "spot_cash": 30000000,
+    "future_cash": 30000000
+  },
+  "strategies": [
+    "U-007206",
+    "S1-050",
+    "S1-037"
+  ],
+  "caps": {
+    "U-007206": 17,
+    "S1-050": 1,
+    "S1-037": 1
+  },
+  "quantity_per_set": 10000,
+  "external_deposits": false,
+  "inter_account_transfers": false,
+  "reverse": "Theoretical borrow; sale proceeds restricted plus 100% current spot notional collateral reserved; borrow fee UNVERIFIED",
+  "admission": "Check spot notional+fees+slippage, cap, nonnegative future operating cash, current maintenance and post-cost initial margin at next contiguous observed open",
+  "maintenance_policy": "On observed deficit block new orders and unwind whole cycle at next contiguous observed open; actual broker timing unverified; never invent gap fills",
+  "roll_policy": "At observed rollover close old and open new, both fees/slippage; if new margin cannot be met unwind spot and old futures instead; actual broker rules unverified",
+  "regression_before_limits": true,
+  "slippage_bp_per_leg_per_side": 2,
+  "spot_fee": 0.0005,
+  "future_fee": 600,
+  "clearing_rate": 0.000003157,
+  "score": "sum completed cycle net / sum absolute original spot entry notional *100, unrounded",
+  "stress": "Isolated adverse futures-only 5/7/10%; unchanged spot; worst maintenance headroom by held contract count, no assumed automatic margin transfer",
+  "margin_limitation": "July 6..Aug 2 uses pre-existing inferred adjacent official schedule; daily settlement references official provided marks, not broker cash timestamp certification",
+  "input_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "code_sha256": {
+    "accounts.py": "0b456ff9088466bae57554f3e2b6cc7d16867bae05650b545a8e2b488de8f0b6",
+    "audit_compare.py": "fcd342c885d11f179498d4b2b873452b532af6b11cf71441e5eaad6b9edbc401",
+    "bootstrap.py": "a77e6620fa3b452626d0e0001db57052d75bc514356436b65b1a91905ad98fba",
+    "run_compare.py": "22ed055eeb801bf9135538c3f4481a434ff78dd0e7c0c8ada8569e238fbb0bb6",
+    "simulation.py": "eb155ba1e21ed793e4f6a35747c42a6ba6b5fec5a4e325d65e94ce2ffb800529",
+    "test_accounts.py": "8cf3484274e8d87f5ea48b02b1ba2d3f58bf09154570601ca78c2ef9a9effd6c"
+  },
+  "stop": "After regressions and A/B only; no sweep"
+}

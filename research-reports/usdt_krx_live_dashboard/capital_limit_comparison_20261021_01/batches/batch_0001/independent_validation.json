@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "implementation": "Separate CSV replay; no simulation imports",
+  "cases": [
+    {
+      "case": "A\\S1-037",
+      "status": "PASS",
+      "entries": 23,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 7.345252635266051,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "A\\S1-050",
+      "status": "PASS",
+      "entries": 45,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 13.15221660791525,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "A\\U-007206",
+      "status": "PASS",
+      "entries": 134,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 13.527810495012686,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "B\\S1-037",
+      "status": "PASS",
+      "entries": 23,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 7.345252635266051,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "B\\S1-050",
+      "status": "PASS",
+      "entries": 45,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 13.15221660791525,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "B\\U-007206",
+      "status": "PASS",
+      "entries": 83,
+      "account_marks": 369010,
+      "rejections": 3404,
+      "score_pct": 8.43077458442691,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "REGRESSION\\S1-037",
+      "status": "PASS",
+      "entries": 23,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 7.345252635266051,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "REGRESSION\\S1-050",
+      "status": "PASS",
+      "entries": 45,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 13.15221660791525,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    },
+    {
+      "case": "REGRESSION\\U-007206",
+      "status": "PASS",
+      "entries": 134,
+      "account_marks": 369010,
+      "rejections": 0,
+      "score_pct": 13.527810495012686,
+      "independent_margin_schedule": true,
+      "source_price_checked": true
+    }
+  ]
+}

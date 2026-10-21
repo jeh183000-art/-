@@ -1,0 +1,12 @@
+{
+  "python": "3.12.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.2.6",
+  "numba": "0.61.2",
+  "pandas": "3.0.1",
+  "dependencies": "Existing runtime only; no installs or upgrades",
+  "temporary_storage": "Process-scoped D runtime only",
+  "run": "python -B code/bootstrap.py test_accounts.py; python -B code/bootstrap.py test_forced_paths.py; python -B code/bootstrap.py run_compare.py; python -B code/bootstrap.py audit_compare.py; python -B code/bootstrap.py risk_summary.py",
+  "independent_validation": "Separate raw CSV/margin schedule replay with no account or simulation imports; not independent unseen-period validation",
+  "tests": "6 admission/settlement tests plus 2 forced maintenance/roll path tests passed"
+}

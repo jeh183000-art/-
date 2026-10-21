@@ -1,0 +1,23 @@
+[
+  {
+    "strategy": "U-007206",
+    "status": "PASS_ALL_CLOSED_FILLS_AND_COSTS",
+    "cycles": 59,
+    "score_pct": 13.527810495012686,
+    "net": 10821261.437143002
+  },
+  {
+    "strategy": "S1-050",
+    "status": "PASS_ALL_CLOSED_FILLS_AND_COSTS",
+    "cycles": 45,
+    "score_pct": 13.15221660791525,
+    "net": 1903331.04513901
+  },
+  {
+    "strategy": "S1-037",
+    "status": "PASS_ALL_CLOSED_FILLS_AND_COSTS",
+    "cycles": 23,
+    "score_pct": 7.3452526352660525,
+    "net": 1066890.7396200018
+  }
+]

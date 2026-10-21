@@ -1,0 +1,13 @@
+{
+  "preregistration_commit": "3904dcc936d3d11f9010a414b57036649db7ece5",
+  "input_storage": "D-only shared approved input; INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "classification": "EXPLORATORY, not independent Final OOS",
+  "input_rows": 184410,
+  "source_sha256": {
+    "matched_simulation_bars.csv": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+    "paper_engine.py": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+    "margin_schedule.csv": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8"
+  },
+  "reused_originals": "Read-only original prices, loader and margin schedule; no raw price duplication",
+  "code_change": "Separate accounting implementation; frozen trade-by-trade regression anchors reconcile. Diff is architectural, not an in-place patch. Admission is performed BEFORE cash mutation; no cross-account transfers; active funding limits and rejection ledger."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "A\\S1-037",
+      "status": "PASS",
+      "sets_audited": 23,
+      "cycle_rates": 23,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "A\\S1-050",
+      "status": "PASS",
+      "sets_audited": 45,
+      "cycle_rates": 45,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "A\\U-007206",
+      "status": "PASS",
+      "sets_audited": 134,
+      "cycle_rates": 59,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "B\\S1-037",
+      "status": "PASS",
+      "sets_audited": 23,
+      "cycle_rates": 23,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "B\\S1-050",
+      "status": "PASS",
+      "sets_audited": 45,
+      "cycle_rates": 45,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "B\\U-007206",
+      "status": "PASS",
+      "sets_audited": 83,
+      "cycle_rates": 59,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "REGRESSION\\S1-037",
+      "status": "PASS",
+      "sets_audited": 23,
+      "cycle_rates": 23,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "REGRESSION\\S1-050",
+      "status": "PASS",
+      "sets_audited": 45,
+      "cycle_rates": 45,
+      "score_tolerance_pct": 1e-10
+    },
+    {
+      "case": "REGRESSION\\U-007206",
+      "status": "PASS",
+      "sets_audited": 134,
+      "cycle_rates": 59,
+      "score_tolerance_pct": 1e-10
+    }
+  ]
+}
