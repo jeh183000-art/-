@@ -1,0 +1,26 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "commit": "cc781b6f4b1286af53598a8ec754182a7447a0ac",
+  "prefix": "research-reports/usdt_krx_live_dashboard/lump17_extension_20261021_02/shared/anchor_resume_v2/code",
+  "common_engine": {
+    "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+    "prefix": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code"
+  },
+  "files": {
+    "anchor_audit.py": "1bdd68c0ea4ec896f1c5bb8967be182cdc8df280a581faed52439bcba83d7865",
+    "bootstrap.py": "412bd5c10f5b9f2172dcf4ee09cb12d3069bd0e4bce6989e67427f4eb7153001",
+    "build_extension.py": "152f9d85fc08e3bb92a2efbc3d5deb6462b8d0977995b218538565df9045f706",
+    "drawdown_tests.py": "b61ac97249edf3daced6a80c88fda133601b6c21e52b6bdc5d71ba05347de8e4",
+    "package.py": "67ac6e86bea5123219b6cd2a91b86744cf75600a79ab281d50ffab34654194b6",
+    "publish_stop.py": "41d9161446fd835fbd730abc2c12e528e1084d682d6966d051954f8ee9fc3c33",
+    "runner.py": "5d785c65e7212e87a9c591d89d23fdf9163a36d5d404725999749002722388e3",
+    "signals.py": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+    "tests.py": "b949c15b8a481659daca4dc983a3b54d08362ef27ea124963b6840533b0f8d24",
+    "validation2.py": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5"
+  },
+  "registry_revision_v2": {
+    "commit": "dae0706898c27318a9cebd3f41e837d93db8e016",
+    "path": "research-reports/usdt_krx_live_dashboard/lump17_extension_20261021_02/preregistration/batch_0010_v1/code/build_extension_v2.py",
+    "sha256": "723c86e9ed6d3dcc60e8ff0e903f3928fdad36344b7a2ae1dc41dd5d6113a8e0"
+  }
+}
