@@ -1,0 +1,12 @@
+{
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "reference_commit": "9bf0419af434faa8a7ed80adac46bd86cf2e3f60",
+  "input_scope": "approved exploratory KRX business dates 2026-01-01..10-15 plus required boundaries only",
+  "final_oos_access": false,
+  "limitations": [
+    "July06-Aug02 margin rates inferred from adjacent official schedules",
+    "Minute OHLC execution proxies; historical orderbook absent",
+    "Reverse borrowing unverified"
+  ]
+}
