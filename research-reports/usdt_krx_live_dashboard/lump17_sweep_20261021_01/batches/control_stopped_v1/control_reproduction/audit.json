@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_replay": true,
+  "max_account_difference_krw": 1.4901161193847656e-08,
+  "all_initial_orders_atomic_17": true,
+  "no_additions": true,
+  "no_simultaneous_opposite": true,
+  "quantities_verified": true,
+  "cycle_count": 45,
+  "margin_eligibility": true
+}

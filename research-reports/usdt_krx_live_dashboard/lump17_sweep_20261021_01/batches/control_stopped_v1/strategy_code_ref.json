@@ -1,0 +1,16 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "commit": "07d65d59f32fff4d8b4dc8ae7d1038809e8ad56e",
+  "prefix": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/preregistrations/batch_0001_v1/code",
+  "code_sha256": {
+    "audit.py": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16",
+    "bootstrap.py": "d0397f00f70810bc1474b3bd7f8dad8d7f5c4105df405cc37f731df05c02ab2a",
+    "engine.py": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+    "export_account_csv.py": "7aa690537a2abad24e47e20c05fbc7480c9797863f9f694994e5682705c4ca9b",
+    "package.py": "dd878ded262b3d49023119e64abed971997e99cd4ac5ae4dc035e4fac17660ac",
+    "runner.py": "46b1c7c2c870e7c2cf59959d7c2b9656ad2f0ba0b5349d77874cf159a29fd250",
+    "signals.py": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+    "tests.py": "d79ce3148e5eb0d77b3603376a25ec67f88f6082eed1883674b4349bf34e4084"
+  },
+  "shared_input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE"
+}

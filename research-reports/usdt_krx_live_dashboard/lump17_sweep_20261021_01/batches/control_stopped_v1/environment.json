@@ -1,0 +1,8 @@
+{
+  "python": "3.12.0",
+  "numpy": "2.2.6",
+  "mode": "PAPER_EXPLORATORY_ONLY",
+  "storage": "D_ONLY",
+  "raw_input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "gateway_or_schedules_changed": false
+}

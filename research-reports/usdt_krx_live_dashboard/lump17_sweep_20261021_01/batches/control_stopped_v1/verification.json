@@ -1,0 +1,30 @@
+{
+  "status": "STOPPED_BY_REQUESTED_ERROR_GATE",
+  "failure_stage": "CONTROL_REFERENCE_EVENT_SCHEMA_JOIN",
+  "original_exception": "AssertionError: (9808, 'SETTLEMENT', 3)",
+  "cause": "New regression comparator maps event code 5 to SETTLEMENT; existing event kind is SETTLE. Account phase uses SETTLEMENT separately.",
+  "frozen_engine_or_rule_changed_after_failure": false,
+  "control_recomputed_after_failure": false,
+  "diagnostic_only": true,
+  "diagnostic_normalized_label": "SETTLE",
+  "diagnostic_event_cost_pnl_max_difference_krw": 4.656612873077393e-10,
+  "diagnostic_reference_account_marks": 369010,
+  "diagnostic_account_max_differences_krw": {
+    "spot_cash": 0.0,
+    "future_cash": 5.21540641784668e-07,
+    "future_unrealized": 9.313225746154785e-10,
+    "initial_required": 0.0,
+    "maintenance_headroom": 5.21540641784668e-07,
+    "total_equity": 5.21540641784668e-07,
+    "open_net": 2.7939677238464355e-09,
+    "mdd": 5.960464477539063e-08
+  },
+  "diagnostic_all_comparisons_within_one_cent": true,
+  "simulation_independent_replay_status": "PASS",
+  "new_conditions_executed": 0,
+  "first_batch_registered_conditions": 50,
+  "remaining_new_condition_allowance": 500,
+  "next_condition": "L17-01-001",
+  "worker_lock_absent": true,
+  "next_action": "Correct SETTLE event adapter in a new code version, preregister that version, and revalidate saved CONTROL without recomputing it before any new condition."
+}

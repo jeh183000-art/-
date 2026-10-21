@@ -1,0 +1,10 @@
+{
+  "status": "STOPPED_CONTROL_VERIFICATION_ERROR",
+  "new_conditions_executed": 0,
+  "control_computed": 1,
+  "control_initial_runner_regression_pass": false,
+  "post_failure_diagnostic_pass": true,
+  "next_batch": "batch_0001",
+  "next_candidate": "L17-01-001",
+  "final_oos_access": false
+}
