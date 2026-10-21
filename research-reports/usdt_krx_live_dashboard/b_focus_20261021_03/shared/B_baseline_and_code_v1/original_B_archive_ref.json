@@ -1,0 +1,52 @@
+{
+  "commit": "88bfd36584e92892aa01e3f1136da8f1cdb7f1b8",
+  "path": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/batches/batch_0001_results_v1/archive_inventory.csv",
+  "B_files": [
+    {
+      "bytes": "300",
+      "path": "candidates/L17-01-013/audit.json",
+      "sha256": "3b52e3c440bfae265c673639f97a2d9fb63d2fd43ac7b11b74769a7d9f9a3801"
+    },
+    {
+      "bytes": "4450",
+      "path": "candidates/L17-01-013/cycles.csv.gz",
+      "sha256": "99d1de7bb731cd9b20ac438b1a62989979328536d53750aa1a3ab0f062c9beaf"
+    },
+    {
+      "bytes": "6303",
+      "path": "candidates/L17-01-013/fills.csv.gz",
+      "sha256": "99f354fe0ab3d811438b0071907cde1c94aad118cda9619691aaea97e8dea858"
+    },
+    {
+      "bytes": "1635176",
+      "path": "candidates/L17-01-013/full_account_ledger.npz",
+      "sha256": "25fd868c7b99a37cf5d5d0bd4a17ba77fa9524e6bf3010ae3e43d7688facd5fe"
+    },
+    {
+      "bytes": "205915",
+      "path": "candidates/L17-01-013/numeric_result.npz",
+      "sha256": "12de1e7b0cfc2038d863da9f17b37c78b188bd7f979281aefc319c2ca8f18d8a"
+    },
+    {
+      "bytes": "1814",
+      "path": "candidates/L17-01-013/orders.csv.gz",
+      "sha256": "b29a28b94646c6e28b866f88e08239bc823ff6418ef6ca1ed5306ca3559a7bc2"
+    },
+    {
+      "bytes": "2034",
+      "path": "candidates/L17-01-013/period_contribution.csv",
+      "sha256": "37e153160e66a7c0823d155cf46e0a1092ada34091a25530d97dc9fdb7f8a661"
+    },
+    {
+      "bytes": "240",
+      "path": "candidates/L17-01-013/residual.csv",
+      "sha256": "9cb7d6e41fe5c660e5c460f62d9f95d15b2044914dc7284eaf8501692048371f"
+    },
+    {
+      "bytes": "1417",
+      "path": "candidates/L17-01-013/result.json",
+      "sha256": "91fccdbc6b4389ccbb340f08fd6836d6bdd308cb200714a921e976023cf1920f"
+    }
+  ],
+  "status": "ALL_ORIGINAL_B_FILES_MATCH_REMOTE_SHA256"
+}

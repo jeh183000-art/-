@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "manual_equity": [
+    100.0,
+    120.0,
+    110.0,
+    90.0,
+    105.0,
+    125.0,
+    115.0,
+    80.0,
+    130.0
+  ],
+  "expected": [
+    [
+      100,
+      0,
+      0
+    ],
+    [
+      120,
+      0,
+      0
+    ],
+    [
+      120,
+      10,
+      10
+    ],
+    [
+      120,
+      30,
+      30
+    ],
+    [
+      120,
+      15,
+      30
+    ],
+    [
+      125,
+      0,
+      30
+    ],
+    [
+      125,
+      10,
+      30
+    ],
+    [
+      125,
+      45,
+      45
+    ],
+    [
+      130,
+      0,
+      45
+    ]
+  ],
+  "actual": [
+    [
+      100.0,
+      0.0,
+      0.0
+    ],
+    [
+      120.0,
+      0.0,
+      0.0
+    ],
+    [
+      120.0,
+      10.0,
+      10.0
+    ],
+    [
+      120.0,
+      30.0,
+      30.0
+    ],
+    [
+      120.0,
+      15.0,
+      30.0
+    ],
+    [
+      125.0,
+      0.0,
+      30.0
+    ],
+    [
+      125.0,
+      10.0,
+      30.0
+    ],
+    [
+      125.0,
+      45.0,
+      45.0
+    ],
+    [
+      130.0,
+      0.0,
+      45.0
+    ]
+  ],
+  "tamper_rejections": [
+    "cash",
+    "mdd",
+    "settlement",
+    "roll"
+  ],
+  "integration": {
+    "status": "PASS_INDEPENDENT_VECTOR_CASH_REPLAY",
+    "max_difference_krw": 2.7474015951156616e-08,
+    "drawdown_definition": "running_peak_equity - current_equity",
+    "cumulative_mdd_nondecreasing": true,
+    "maximum_current_drawdown_krw": 227317.16600000858,
+    "final_current_drawdown_krw": 0.0,
+    "final_cumulative_mdd_krw": 227317.16600000858,
+    "evaluation_marks": 23,
+    "settlement_events": 1,
+    "roll_pairs": 1,
+    "entry_bundles": 2,
+    "completed_cycles": 2
+  },
+  "unchanged_engine": true
+}

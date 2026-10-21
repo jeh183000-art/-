@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "candidate_id": "L17-01-013",
+  "market_simulation_repeated": false,
+  "cycles": 39,
+  "score_pct": 14.951319071007791,
+  "net": 36755589.35493902,
+  "mdd": 9350000.0,
+  "legacy_max_error": 1.4901161193847656e-08,
+  "vector": {
+    "status": "PASS_INDEPENDENT_VECTOR_CASH_REPLAY",
+    "max_difference_krw": 2.9802322387695312e-08,
+    "drawdown_definition": "running_peak_equity - current_equity",
+    "cumulative_mdd_nondecreasing": true,
+    "maximum_current_drawdown_krw": 9350000.000000007,
+    "final_current_drawdown_krw": 217731.37509899586,
+    "final_cumulative_mdd_krw": 9350000.000000007,
+    "evaluation_marks": 369010,
+    "settlement_events": 104,
+    "roll_pairs": 5,
+    "entry_bundles": 39,
+    "completed_cycles": 39
+  },
+  "longest_hold_minutes": 38740.0,
+  "mean_hold_minutes": 6204.0,
+  "median_hold_minutes": 2070.0,
+  "over_1day": 25,
+  "over_7days": 7,
+  "all_cycles_observed_negative_before_completion": true,
+  "horizons": [
+    {
+      "horizon_minutes": 60,
+      "observed_still_open": 30,
+      "negative_marks": 26,
+      "already_closed": 2,
+      "missing": 7
+    },
+    {
+      "horizon_minutes": 240,
+      "observed_still_open": 24,
+      "negative_marks": 18,
+      "already_closed": 3,
+      "missing": 12
+    },
+    {
+      "horizon_minutes": 1440,
+      "observed_still_open": 15,
+      "negative_marks": 11,
+      "already_closed": 14,
+      "missing": 10
+    },
+    {
+      "horizon_minutes": 4320,
+      "observed_still_open": 6,
+      "negative_marks": 6,
+      "already_closed": 23,
+      "missing": 10
+    },
+    {
+      "horizon_minutes": 10080,
+      "observed_still_open": 7,
+      "negative_marks": 7,
+      "already_closed": 32,
+      "missing": 0
+    },
+    {
+      "horizon_minutes": 20160,
+      "observed_still_open": 4,
+      "negative_marks": 4,
+      "already_closed": 35,
+      "missing": 0
+    }
+  ],
+  "win_rate_pct": 100.0,
+  "new_strategy_runs": 0,
+  "interpretation": "Profit-target completion and unrestricted holding select recovered exits; observed interim losses and long holding do not establish future recovery. Horizon marks are diagnostics, not counterfactual baseline reruns."
+}

@@ -1,0 +1,10 @@
+{
+  "baseline_commit": "e1254e5141b3201cf594111cbc47b1fdfd6a5e9a",
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "input_scope": "Approved exploratory KRX business dates 2026-01-01..10-15 and required night boundaries",
+  "raw_input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "final_oos_access": false,
+  "old_1000_recomputed": false,
+  "A_C_D_search_enabled": false
+}

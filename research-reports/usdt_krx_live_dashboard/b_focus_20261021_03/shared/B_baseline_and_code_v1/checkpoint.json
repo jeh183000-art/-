@@ -1,0 +1,6 @@
+{
+  "status": "BASELINE_LEDGER_REGRESSION_PASS_NO_NEW_CONDITION_EXECUTED",
+  "new_conditions": 0,
+  "budget": 500,
+  "old_1000_preserved": true
+}
