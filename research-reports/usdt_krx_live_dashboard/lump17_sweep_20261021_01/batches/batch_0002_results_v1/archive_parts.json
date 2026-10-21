@@ -1,0 +1,28 @@
+{
+  "format": "uncompressed tar split exact binary concatenation",
+  "archive_bytes": 61480960,
+  "archive_sha256": "78adf54377d9cd953e44d4ce12db895a12793f2d21700fed20ed81a273af2f45",
+  "parts": [
+    {
+      "path": "full_ledgers.tar.part001",
+      "bytes": 16777216,
+      "sha256": "8c24773e929f7acd30e1e2cd10af6c064e0422c848d7e77c760c6d55c613bc11"
+    },
+    {
+      "path": "full_ledgers.tar.part002",
+      "bytes": 16777216,
+      "sha256": "a0cb0d02220e16dccad19f5918543bec7a4266cf90fb9253894301ab3a6bdcfa"
+    },
+    {
+      "path": "full_ledgers.tar.part003",
+      "bytes": 16777216,
+      "sha256": "eca191f4ef5095716b3222b90d782e4b2ce7e14f557f923d965425b38206d418"
+    },
+    {
+      "path": "full_ledgers.tar.part004",
+      "bytes": 11149312,
+      "sha256": "69a87d90ecb67c38f5e28c501f43506d37abb5dc4279a165e5df73b96b464419"
+    }
+  ],
+  "reconstruction": "Join sorted full_ledgers.tar.partNNN bytes then verify SHA256 and extract tar. Account NPZ preserves every OPEN/CLOSE/SETTLEMENT mark. export_account_csv.py creates full CSV without recomputing trades."
+}
