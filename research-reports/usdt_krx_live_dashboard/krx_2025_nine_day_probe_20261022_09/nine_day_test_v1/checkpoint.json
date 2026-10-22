@@ -1,0 +1,9 @@
+{
+  "status": "LOCAL_COMPLETE_PENDING_REMOTE_VERIFICATION",
+  "requested_dates": 9,
+  "finished_dates": 9,
+  "successful_days": 0,
+  "total_bars": 0,
+  "next_date": null,
+  "worker_running": false
+}

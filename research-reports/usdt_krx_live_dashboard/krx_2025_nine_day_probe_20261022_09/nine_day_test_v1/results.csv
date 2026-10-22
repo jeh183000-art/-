@@ -1,0 +1,10 @@
+month,query_date,contract_code,krx_code,http_status,rt_cd,msg_cd,message,api_normal,raw_response_rows,raw_target_rows,bars,first_time,last_time,first_close,last_close,official_close,official_close_match,duplicate_rows_removed,remaining_duplicate_keys,ohlc_errors,negative_volume_rows,pages,success,status,error,data_file
+2025-01,20250110,175W01,175W1000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1466.30,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-02,20250212,175W02,175W2000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1453.00,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-03,20250312,175W03,175W3000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1449.50,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-04,20250410,175W04,175W4000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1458.10,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-05,20250514,175W05,175W5000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1421.00,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-06,20250612,175W06,175W6000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1358.00,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-07,20250710,175W07,175W7000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1370.10,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-08,20250813,175W08,175W8000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1380.20,,0,0,0,0,1,False,EMPTY_RESPONSE,,
+2025-09,20250911,175W09,175W9000,200,0,MCA00000,정상처리 되었습니다.,True,0,0,0,,,,,1392.10,,0,0,0,0,1,False,EMPTY_RESPONSE,,

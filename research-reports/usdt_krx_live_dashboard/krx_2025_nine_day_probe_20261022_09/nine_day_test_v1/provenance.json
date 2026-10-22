@@ -1,0 +1,13 @@
+{
+  "mode": "EXACTLY_NINE_DAY_KIS_REGULAR_MINUTE_PROBE",
+  "source": "KIS official production quotation API",
+  "token_material_published": false,
+  "credentials_published": false,
+  "official_contract_validation": "Existing KRX per-day contract_selection.csv: requested code matches, official volume positive",
+  "input_data_reused": false,
+  "other_dates_requested": 0,
+  "old_results_overwritten": false,
+  "source_collector_sha256": "cae78f1a90730b54b43ea30fde4187814643b7ba5a35038d7ebcf584fd992577",
+  "request_parameters_comparison": "Existing successful CF/60/Y/N/154500 collector reused unchanged through guarded requests.get",
+  "network_scope": "one REST authentication plus9minute-quote requests; no other market date requested"
+}

@@ -1,0 +1,81 @@
+{
+  "dates": [
+    {
+      "date": "20250110",
+      "code": "175W01",
+      "official_krx_code": "175W1000",
+      "official_name": "미국달러 F 202501 (주간)",
+      "official_volume": "284063"
+    },
+    {
+      "date": "20250212",
+      "code": "175W02",
+      "official_krx_code": "175W2000",
+      "official_name": "미국달러 F 202502 (주간)",
+      "official_volume": "341111"
+    },
+    {
+      "date": "20250312",
+      "code": "175W03",
+      "official_krx_code": "175W3000",
+      "official_name": "미국달러 F 202503 (주간)",
+      "official_volume": "449974"
+    },
+    {
+      "date": "20250410",
+      "code": "175W04",
+      "official_krx_code": "175W4000",
+      "official_name": "미국달러 F 202504 (주간)",
+      "official_volume": "656500"
+    },
+    {
+      "date": "20250514",
+      "code": "175W05",
+      "official_krx_code": "175W5000",
+      "official_name": "미국달러 F 202505 (주간)",
+      "official_volume": "558746"
+    },
+    {
+      "date": "20250612",
+      "code": "175W06",
+      "official_krx_code": "175W6000",
+      "official_name": "미국달러 F 202506 (주간)",
+      "official_volume": "460495"
+    },
+    {
+      "date": "20250710",
+      "code": "175W07",
+      "official_krx_code": "175W7000",
+      "official_name": "미국달러 F 202507 (주간)",
+      "official_volume": "262233"
+    },
+    {
+      "date": "20250813",
+      "code": "175W08",
+      "official_krx_code": "175W8000",
+      "official_name": "미국달러 F 202508 (주간)",
+      "official_volume": "412214"
+    },
+    {
+      "date": "20250911",
+      "code": "175W09",
+      "official_krx_code": "175W9000",
+      "official_name": "미국달러 F 202509 (주간)",
+      "official_volume": "392157"
+    }
+  ],
+  "endpoint": "https://openapi.koreainvestment.com:9443/uapi/domestic-futureoption/v1/quotations/inquire-time-fuopchartprice",
+  "tr_id": "FHKIF03020200",
+  "parameters": {
+    "FID_COND_MRKT_DIV_CODE": "CF",
+    "FID_HOUR_CLS_CODE": "60",
+    "FID_PW_DATA_INCU_YN": "Y",
+    "FID_FAKE_TICK_INCU_YN": "N",
+    "initial_cursor": "154500"
+  },
+  "pagination": "existing fetch_day; 102 rows/page; previous minimum timestamp minus1minute; max7pages; repeated cursor guard",
+  "source_collector_sha256": "cae78f1a90730b54b43ea30fde4187814643b7ba5a35038d7ebcf584fd992577",
+  "source_collector_path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\krx_2025_month_collector.py",
+  "additional_dates_forbidden": true,
+  "orders_forbidden": true
+}

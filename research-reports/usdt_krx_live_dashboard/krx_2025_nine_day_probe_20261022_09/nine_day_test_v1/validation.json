@@ -1,0 +1,17 @@
+{
+  "status": "PASS_RESPONSE_AND_SCOPE_AUDIT",
+  "requested_dates": 9,
+  "queried_dates": 9,
+  "successful_price_days": 0,
+  "returned_bars": 0,
+  "all_requests_within_allowlist": true,
+  "raw_response_counts_match_results": true,
+  "raw_response_files": 9,
+  "ohlcv_checks": "NOT_APPLICABLE_NO_ROWS",
+  "duplicate_bar_checks": "NOT_APPLICABLE_NO_ROWS",
+  "source_collector_sha256_unchanged": true,
+  "market_requests_outside_allowlist": 0,
+  "no_backtest": true,
+  "no_orders": true,
+  "no_protected_oos_access": true
+}
