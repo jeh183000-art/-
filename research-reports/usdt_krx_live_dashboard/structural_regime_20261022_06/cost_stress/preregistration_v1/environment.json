@@ -1,0 +1,7 @@
+{
+  "python": "3.12.0",
+  "numpy": "2.2.6",
+  "numba": "0.61.2",
+  "process_utf8": true,
+  "storage": "D_ONLY"
+}
