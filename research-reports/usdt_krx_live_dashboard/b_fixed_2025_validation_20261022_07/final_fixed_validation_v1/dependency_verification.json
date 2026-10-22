@@ -1,0 +1,77 @@
+{
+  "fresh_git_object_reads": true,
+  "files": [
+    {
+      "name": "engine.py",
+      "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+      "path": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code/engine.py",
+      "sha256": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+      "remote_sha256": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+      "match": true
+    },
+    {
+      "name": "audit.py",
+      "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+      "path": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code/audit.py",
+      "sha256": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16",
+      "remote_sha256": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16",
+      "match": true
+    },
+    {
+      "name": "event_schema.py",
+      "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+      "path": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code/event_schema.py",
+      "sha256": "2e8e394ceb4404fbe81941e572816118ecd77d79b4c2fefba8fe8da6d12c2cb6",
+      "remote_sha256": "2e8e394ceb4404fbe81941e572816118ecd77d79b4c2fefba8fe8da6d12c2cb6",
+      "match": true
+    },
+    {
+      "name": "runner.py",
+      "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+      "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/runner.py",
+      "sha256": "08a1137bef2f177e46f765b7493205ba386fddd175db2728faaf424483829930",
+      "remote_sha256": "08a1137bef2f177e46f765b7493205ba386fddd175db2728faaf424483829930",
+      "match": true
+    },
+    {
+      "name": "signals.py",
+      "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+      "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/signals.py",
+      "sha256": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+      "remote_sha256": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+      "match": true
+    },
+    {
+      "name": "validation2.py",
+      "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+      "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/validation2.py",
+      "sha256": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5",
+      "remote_sha256": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5",
+      "match": true
+    },
+    {
+      "name": "bootstrap.py",
+      "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+      "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/bootstrap.py",
+      "sha256": "412bd5c10f5b9f2172dcf4ee09cb12d3069bd0e4bce6989e67427f4eb7153001",
+      "remote_sha256": "412bd5c10f5b9f2172dcf4ee09cb12d3069bd0e4bce6989e67427f4eb7153001",
+      "match": true
+    },
+    {
+      "name": "drawdown_tests.py",
+      "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+      "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/drawdown_tests.py",
+      "sha256": "b61ac97249edf3daced6a80c88fda133601b6c21e52b6bdc5d71ba05347de8e4",
+      "remote_sha256": "b61ac97249edf3daced6a80c88fda133601b6c21e52b6bdc5d71ba05347de8e4",
+      "match": true
+    },
+    {
+      "name": "paper_engine.py",
+      "commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+      "path": "research-reports/usdt_krx_live_dashboard/unlimited_revalidation_20261017_01/batch_000_original_control/paper_engine.py",
+      "sha256": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+      "remote_sha256": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b",
+      "match": true
+    }
+  ]
+}

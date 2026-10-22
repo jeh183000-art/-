@@ -1,0 +1,8 @@
+{
+  "status": "LOCAL_AUDITED_READY_FOR_REMOTE_VERIFICATION",
+  "conditions_frozen": 2,
+  "conditions_2025_partial_executed": 2,
+  "full_year_status": "BLOCKED_MISSING_JAN_SEP_HISTORY",
+  "next_action": "Acquire missing official minute history; do not optimize",
+  "worker_running": false
+}

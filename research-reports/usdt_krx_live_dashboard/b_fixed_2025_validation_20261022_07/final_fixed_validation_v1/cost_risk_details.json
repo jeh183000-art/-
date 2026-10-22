@@ -1,0 +1,58 @@
+{
+  "status": "FIXED_RULE_PARTIAL",
+  "details": [
+    {
+      "candidate_id": "B2025-RECOVERY-ONLY",
+      "actual_entry_exit_events": [
+        {
+          "kind": 1,
+          "direction": -1,
+          "timestamp": "2025-12-10 01:58:00",
+          "signal_timestamp": "2025-12-10 01:57:00",
+          "signal_gap": 0.8986928104575131,
+          "spot": 1481,
+          "future": 1468.9,
+          "contracts": 17
+        }
+      ],
+      "open_direction": -1,
+      "open_age_minutes": 29616,
+      "residual_net_after_exit_cost": -728708.7254139925,
+      "maximum_open_loss_after_estimated_exit_cost_krw": 3791311.3354839925,
+      "ending_future_cash": 25379744.376531016,
+      "ending_future_unrealized": 0,
+      "ending_future_equity": 25379744.376531016,
+      "closed_cycle_score_eligible": false,
+      "borrow_unverified": true,
+      "maximum_required_spot_borrow_usdt": 170000
+    },
+    {
+      "candidate_id": "B2025-ORIGINAL-CONTROL",
+      "actual_entry_exit_events": [
+        {
+          "kind": 1,
+          "direction": -1,
+          "timestamp": "2025-12-10 01:58:00",
+          "signal_timestamp": "2025-12-10 01:57:00",
+          "signal_gap": 0.8986928104575131,
+          "spot": 1481,
+          "future": 1468.9,
+          "contracts": 17
+        }
+      ],
+      "open_direction": -1,
+      "open_age_minutes": 29616,
+      "residual_net_after_exit_cost": -728708.7254139925,
+      "maximum_open_loss_after_estimated_exit_cost_krw": 3791311.3354839925,
+      "ending_future_cash": 25379744.376531016,
+      "ending_future_unrealized": 0,
+      "ending_future_equity": 25379744.376531016,
+      "closed_cycle_score_eligible": false,
+      "borrow_unverified": true,
+      "maximum_required_spot_borrow_usdt": 170000
+    }
+  ],
+  "full_year_not_validated": true,
+  "cost_sensitivity_performed": false,
+  "new_sweep_performed": false
+}

@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-10-22T10:52:45.723Z",
+  "before_2025_strategy_execution": true,
+  "code_sha256": {
+    "access_probe.py": "51979fd8dce632e6ef2b965c9e79753ea4ce57b451d21852580d0dc3da50d734",
+    "audit.py": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16",
+    "bootstrap.py": "412bd5c10f5b9f2172dcf4ee09cb12d3069bd0e4bce6989e67427f4eb7153001",
+    "collect_2025_night.py": "0ea51250c866afb518df662eb8f424485696b183993eadd5ee143de96c2a6753",
+    "collect_roll_quotes.py": "40d7b54159109274911a02048f5b87553dd561d866fc28fd82c39d3b1b9741dc",
+    "compare_2026.py": "f0165422a672648798810d3f8cb6b71316ad998c65fc4de0b3090834c275cd60",
+    "data_audit.py": "5ac5a6bfee1ecd73dbc0df24f8b6fdac051515dcc624f4af7f1b414f4912c137",
+    "drawdown_tests.py": "b61ac97249edf3daced6a80c88fda133601b6c21e52b6bdc5d71ba05347de8e4",
+    "engine.py": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+    "event_schema.py": "2e8e394ceb4404fbe81941e572816118ecd77d79b4c2fefba8fe8da6d12c2cb6",
+    "package_validation.py": "f332172886b6580d6408d7ca30097bf6e1592de0692e45e3d840c83ee0c54f25",
+    "runner.py": "08a1137bef2f177e46f765b7493205ba386fddd175db2728faaf424483829930",
+    "signals.py": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+    "validate_partial.py": "97b6931f92f05dd6355210f8a18f5f6cd14dad66f19566b358e27a69ad51db0a",
+    "validation2.py": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5"
+  },
+  "inputs_sha256": {
+    "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/night_acquisition/night_bars.csv": "c106c698d0d83a4cad66ec96ff040933273e92bfb6afcc1553f9ad0a943a98b4",
+    "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/night_acquisition/session_status.csv": "d228d6fc4c8c91d102460a7a9124e51600da4b3ac926d5c2b4839487ce814553",
+    "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/roll_quotes/20251117_175W12.csv": "feb9eac1a834cc53908a3f420ee3e58dcb7e5c0bc62769c20390a08df4361c5a",
+    "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/roll_quotes/20251215_A75601.csv": "9eee05bdd5cea0d30a0335cfb7274c03f1432efd9aee5094178b421b523ce004",
+    "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/preregistration/fixed_variants.json": "490af830ee74d902b9f3decbb6121ce3f42c532a65d7fd37572ac0c008aecd9e",
+    "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/preregistration/partial_validation_policy.json": "2f5e6902e86f06415711180326a31e051f6010b0396a95503ba19869248870b0"
+  },
+  "original_input_inventory_sha256": "1cce075ed2c7ed2a46081a5d60a224b3beba7005eeb17caa7d2e1d90751bcd0a",
+  "conditions": 2,
+  "no_sweep": true
+}

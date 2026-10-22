@@ -1,0 +1,367 @@
+{
+  "status": "PASS_WITH_COVERAGE_LIMITATIONS",
+  "rows": 31088,
+  "first": "2025-10-31 18:00:00",
+  "last": "2025-12-30 15:34:00",
+  "regular_rows": 16749,
+  "night_rows": 14339,
+  "rolls": [
+    {
+      "date": "20251117",
+      "old": "175W11",
+      "next": "175W12",
+      "time": "084500",
+      "new_krx_code": "175WC000",
+      "new_open": 1447.0,
+      "old_open": 1451.1,
+      "official_close_match": true,
+      "volume_match": false
+    },
+    {
+      "date": "20251215",
+      "old": "175W12",
+      "next": "A75601",
+      "time": "084500",
+      "new_krx_code": "A7561000",
+      "new_open": 1474.3,
+      "old_open": 1476.9,
+      "official_close_match": true,
+      "volume_match": false
+    }
+  ],
+  "settlements": [
+    {
+      "row": 691,
+      "business_date": "20251103",
+      "attached_observation_kst": "2025-11-03 15:34:00",
+      "settlement_effective_kst": "2025-11-03 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 1363,
+      "business_date": "20251104",
+      "attached_observation_kst": "2025-11-04 15:34:00",
+      "settlement_effective_kst": "2025-11-04 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 2090,
+      "business_date": "20251105",
+      "attached_observation_kst": "2025-11-05 15:34:00",
+      "settlement_effective_kst": "2025-11-05 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 2872,
+      "business_date": "20251106",
+      "attached_observation_kst": "2025-11-06 15:34:00",
+      "settlement_effective_kst": "2025-11-06 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 3582,
+      "business_date": "20251107",
+      "attached_observation_kst": "2025-11-07 15:34:00",
+      "settlement_effective_kst": "2025-11-07 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 4359,
+      "business_date": "20251110",
+      "attached_observation_kst": "2025-11-10 15:34:00",
+      "settlement_effective_kst": "2025-11-10 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 5138,
+      "business_date": "20251111",
+      "attached_observation_kst": "2025-11-11 15:34:00",
+      "settlement_effective_kst": "2025-11-11 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 5851,
+      "business_date": "20251112",
+      "attached_observation_kst": "2025-11-12 15:34:00",
+      "settlement_effective_kst": "2025-11-12 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 6467,
+      "business_date": "20251113",
+      "attached_observation_kst": "2025-11-13 15:45:00",
+      "settlement_effective_kst": "2025-11-13 16:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 7152,
+      "business_date": "20251114",
+      "attached_observation_kst": "2025-11-14 15:34:00",
+      "settlement_effective_kst": "2025-11-14 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 7753,
+      "business_date": "20251117",
+      "attached_observation_kst": "2025-11-17 15:34:00",
+      "settlement_effective_kst": "2025-11-17 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 8529,
+      "business_date": "20251118",
+      "attached_observation_kst": "2025-11-18 15:34:00",
+      "settlement_effective_kst": "2025-11-18 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 9357,
+      "business_date": "20251119",
+      "attached_observation_kst": "2025-11-19 15:34:00",
+      "settlement_effective_kst": "2025-11-19 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 10182,
+      "business_date": "20251120",
+      "attached_observation_kst": "2025-11-20 15:34:00",
+      "settlement_effective_kst": "2025-11-20 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 10996,
+      "business_date": "20251121",
+      "attached_observation_kst": "2025-11-21 15:34:00",
+      "settlement_effective_kst": "2025-11-21 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 11810,
+      "business_date": "20251124",
+      "attached_observation_kst": "2025-11-24 15:34:00",
+      "settlement_effective_kst": "2025-11-24 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 12622,
+      "business_date": "20251125",
+      "attached_observation_kst": "2025-11-25 15:34:00",
+      "settlement_effective_kst": "2025-11-25 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 13467,
+      "business_date": "20251126",
+      "attached_observation_kst": "2025-11-26 15:34:00",
+      "settlement_effective_kst": "2025-11-26 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 14416,
+      "business_date": "20251127",
+      "attached_observation_kst": "2025-11-27 15:34:00",
+      "settlement_effective_kst": "2025-11-27 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 15049,
+      "business_date": "20251128",
+      "attached_observation_kst": "2025-11-28 15:34:00",
+      "settlement_effective_kst": "2025-11-28 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 15818,
+      "business_date": "20251201",
+      "attached_observation_kst": "2025-12-01 15:34:00",
+      "settlement_effective_kst": "2025-12-01 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 16596,
+      "business_date": "20251202",
+      "attached_observation_kst": "2025-12-02 15:34:00",
+      "settlement_effective_kst": "2025-12-02 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 17352,
+      "business_date": "20251203",
+      "attached_observation_kst": "2025-12-03 15:34:00",
+      "settlement_effective_kst": "2025-12-03 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 18153,
+      "business_date": "20251204",
+      "attached_observation_kst": "2025-12-04 15:34:00",
+      "settlement_effective_kst": "2025-12-04 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 18852,
+      "business_date": "20251205",
+      "attached_observation_kst": "2025-12-05 15:34:00",
+      "settlement_effective_kst": "2025-12-05 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 19681,
+      "business_date": "20251208",
+      "attached_observation_kst": "2025-12-08 15:34:00",
+      "settlement_effective_kst": "2025-12-08 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 20404,
+      "business_date": "20251209",
+      "attached_observation_kst": "2025-12-09 15:34:00",
+      "settlement_effective_kst": "2025-12-09 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 21197,
+      "business_date": "20251210",
+      "attached_observation_kst": "2025-12-10 15:34:00",
+      "settlement_effective_kst": "2025-12-10 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 21885,
+      "business_date": "20251211",
+      "attached_observation_kst": "2025-12-11 15:34:00",
+      "settlement_effective_kst": "2025-12-11 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 22522,
+      "business_date": "20251212",
+      "attached_observation_kst": "2025-12-12 15:34:00",
+      "settlement_effective_kst": "2025-12-12 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 23071,
+      "business_date": "20251215",
+      "attached_observation_kst": "2025-12-15 15:34:00",
+      "settlement_effective_kst": "2025-12-15 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 23945,
+      "business_date": "20251216",
+      "attached_observation_kst": "2025-12-16 15:34:00",
+      "settlement_effective_kst": "2025-12-16 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 24709,
+      "business_date": "20251217",
+      "attached_observation_kst": "2025-12-17 15:34:00",
+      "settlement_effective_kst": "2025-12-17 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 25553,
+      "business_date": "20251218",
+      "attached_observation_kst": "2025-12-18 15:34:00",
+      "settlement_effective_kst": "2025-12-18 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 26432,
+      "business_date": "20251219",
+      "attached_observation_kst": "2025-12-19 15:34:00",
+      "settlement_effective_kst": "2025-12-19 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 27111,
+      "business_date": "20251222",
+      "attached_observation_kst": "2025-12-22 15:34:00",
+      "settlement_effective_kst": "2025-12-22 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 27792,
+      "business_date": "20251223",
+      "attached_observation_kst": "2025-12-23 15:34:00",
+      "settlement_effective_kst": "2025-12-23 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 28564,
+      "business_date": "20251224",
+      "attached_observation_kst": "2025-12-24 15:34:00",
+      "settlement_effective_kst": "2025-12-24 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 29446,
+      "business_date": "20251226",
+      "attached_observation_kst": "2025-12-26 15:34:00",
+      "settlement_effective_kst": "2025-12-26 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 30251,
+      "business_date": "20251229",
+      "attached_observation_kst": "2025-12-29 15:34:00",
+      "settlement_effective_kst": "2025-12-29 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    },
+    {
+      "row": 31087,
+      "business_date": "20251230",
+      "attached_observation_kst": "2025-12-30 15:34:00",
+      "settlement_effective_kst": "2025-12-30 15:45:00",
+      "publication_timestamp": "NOT_PROVIDED_BY_DAILY_API",
+      "no_intervening_executable_observation": true
+    }
+  ],
+  "account_starts_flat_once": true,
+  "no_monthly_account_reset": true,
+  "full_year": false,
+  "price_interval": "same KIS/Upbit minute label convention as approved engine; intraminute order fills unverified",
+  "source_sha256": "cee54f6c912cf4a69f01a19a20a21a864dc8c920454ba8b958290f99325dc0ca"
+}

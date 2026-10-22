@@ -1,0 +1,69 @@
+{
+  "auth": {
+    "http": 200,
+    "success": true,
+    "error_code": ""
+  },
+  "queries": [
+    {
+      "date": "20250930",
+      "contract": "175W10",
+      "market": "CF",
+      "cursor": "154500",
+      "http": 200,
+      "rt_cd": "0",
+      "msg_cd": "MCA00000",
+      "response_rows": 0,
+      "response_dates": [],
+      "output_code": null,
+      "output_name": null,
+      "status": "EMPTY_RESPONSE"
+    },
+    {
+      "date": "20250930",
+      "contract": "175W10",
+      "market": "CM",
+      "cursor": "300000",
+      "http": 200,
+      "rt_cd": "0",
+      "msg_cd": "MCA00000",
+      "response_rows": 0,
+      "response_dates": [],
+      "output_code": null,
+      "output_name": null,
+      "status": "EMPTY_RESPONSE"
+    },
+    {
+      "date": "20251001",
+      "contract": "175W10",
+      "market": "CM",
+      "cursor": "300000",
+      "http": 200,
+      "rt_cd": "0",
+      "msg_cd": "MCA00000",
+      "response_rows": 0,
+      "response_dates": [],
+      "output_code": null,
+      "output_name": null,
+      "status": "EMPTY_RESPONSE"
+    },
+    {
+      "date": "20251211",
+      "contract": "175W12",
+      "market": "CM",
+      "cursor": "300000",
+      "http": 200,
+      "rt_cd": "0",
+      "msg_cd": "MCA00000",
+      "response_rows": 102,
+      "response_dates": [
+        "20251211"
+      ],
+      "output_code": null,
+      "output_name": null,
+      "status": "DATA_ROWS"
+    }
+  ],
+  "tokens_saved": false,
+  "no_orders": true
+}

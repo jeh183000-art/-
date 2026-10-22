@@ -1,0 +1,48 @@
+{
+  "reference_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "full_year_validation": false,
+  "partial_business_dates": [
+    "2025-11-03",
+    "2025-12-30"
+  ],
+  "start_flat_partial_window": true,
+  "account_never_reset": true,
+  "input_reproduction": "INPUT_NOT_REMOTELY_REPRODUCIBLE: raw market inputs retained on D; immutable hashes and API acquisition code provided",
+  "prior_use": "2025 daily validation had been analyzed before this task; unused independent status not established",
+  "boundary": "2026 approved source contains497 calendar2025 rows belonging to20260102; excluded from2025 KRX business-date validation",
+  "protected_oos_accessed": false,
+  "orders": false,
+  "sweep": false,
+  "source_audit": {
+    "upbit_rows": 523532,
+    "upbit_duplicates": 0,
+    "regular_rows": 23149,
+    "regular_days": 59,
+    "regular_ohlc_errors": 0,
+    "regular_duplicate_keys": 0,
+    "regular_first": "2025-10-01 09:00:00",
+    "regular_last": "2025-12-30 15:45:00",
+    "matched_label_rows": 23149,
+    "official_close_matches": 59,
+    "official_volume_matches": 0,
+    "official_days": 242,
+    "full_year_input_ready": false,
+    "financial_validation_status": "BLOCKED_MISSING_HISTORY_NIGHT_MARGIN_AND_ROLL_QUOTES",
+    "margin_2025_verified": false,
+    "prior_use": "2025 daily-validation already used in krx_roll_study_2024_2025/manifest.json; pristine unused data NOT established",
+    "no_interpolation": true,
+    "protected_oos_read": false
+  },
+  "night_acquisition": {
+    "rows": 17787,
+    "sessions_with_rows": 54,
+    "complete": 54,
+    "states": {
+      "EMPTY_RESPONSE": 12,
+      "NOT_QUERIED_AFTER_EMPTY_MONTH_PROBES": 72,
+      "COMPLETE": 54
+    },
+    "no_strategy_performance": true
+  },
+  "legacy_goal_flags": "Ignored; runner legacy optimization labels are not evaluation criteria in this fixed validation"
+}

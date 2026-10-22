@@ -1,0 +1,11 @@
+{
+  "rows": 17787,
+  "sessions_with_rows": 54,
+  "complete": 54,
+  "states": {
+    "EMPTY_RESPONSE": 12,
+    "NOT_QUERIED_AFTER_EMPTY_MONTH_PROBES": 72,
+    "COMPLETE": 54
+  },
+  "no_strategy_performance": true
+}

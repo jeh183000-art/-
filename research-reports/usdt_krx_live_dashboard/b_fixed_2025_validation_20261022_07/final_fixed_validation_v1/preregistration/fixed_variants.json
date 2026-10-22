@@ -1,0 +1,76 @@
+{
+  "study": "b_fixed_2025_validation_20261022_07",
+  "frozen_utc": "2026-10-22T10:38:17.454Z",
+  "status": "FROZEN_BEFORE_2025_PERFORMANCE",
+  "reference_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "conditions": [
+    {
+      "candidate_id": "B2025-RECOVERY-ONLY",
+      "group": "FIXED_YEAR_VALIDATION_NOT_SWEEP",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.97,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null,
+        "pnl_profit_pct": 0
+      },
+      "rule_sha256": "5689e59309249a1b452e036a44e0546e09fd943e6fbea1437df24050fffd6f10"
+    },
+    {
+      "candidate_id": "B2025-ORIGINAL-CONTROL",
+      "group": "FIXED_YEAR_VALIDATION_NOT_SWEEP",
+      "rule": {
+        "family": "relative",
+        "long_entry_gap_pct": -0.97,
+        "short_entry_gap_pct": 0.85,
+        "long_recovery_pp": 0.6,
+        "short_recovery_pp": 0.6,
+        "long_absolute_exit_gap_pct": null,
+        "short_absolute_exit_gap_pct": null,
+        "confirmation_pp": 0,
+        "confirmation_expiry_calendar_minutes": null,
+        "max_hold_minutes": null,
+        "gap_stop_pp": null,
+        "pnl_stop_pct": null,
+        "pnl_profit_pct": 0.7
+      },
+      "rule_sha256": "8dd9a404fde9d1fa05e23d4bd0b6ecee35e712835fc7dc18b42d77058b9d74b8"
+    }
+  ],
+  "code_sha256": {
+    "audit.py": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16",
+    "bootstrap.py": "412bd5c10f5b9f2172dcf4ee09cb12d3069bd0e4bce6989e67427f4eb7153001",
+    "engine.py": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+    "event_schema.py": "2e8e394ceb4404fbe81941e572816118ecd77d79b4c2fefba8fe8da6d12c2cb6",
+    "runner.py": "08a1137bef2f177e46f765b7493205ba386fddd175db2728faaf424483829930",
+    "signals.py": "5743e7bf1f9e8ae1e51fc45c13f4b3ffb26a5df01bfb570f04f10312213bbc81",
+    "validation2.py": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5"
+  },
+  "scope": "2025-01-01..2025-12-31 KRX business dates; exclude protected OOS; partial availability cannot imply full-year",
+  "initial_future_cash_krw": 30000000,
+  "contracts": 17,
+  "spot_units": 170000,
+  "additional_entries": false,
+  "account_reset": "NEVER within available continuous validation range",
+  "costs": {
+    "spot_side_rate": 0.0005,
+    "future_side_contract_krw": 600,
+    "future_side_notional_rate": 0.000003157,
+    "slippage_each_leg_side_bp": 2,
+    "roll_both_sides": true
+  },
+  "execution": "signal close -> next contiguous observed minute open proxy; gaps never interpolated",
+  "ranking": "sum of unrounded completed-cycle net PnL / absolute initial spot notional *100",
+  "missing_margins": "BLOCK VERIFIED ACCOUNT PERFORMANCE; no 2026 fallback",
+  "missing_history": "report partial; no invented account continuity",
+  "borrow": "UNVERIFIED PAPER",
+  "selection": "report both fixed variants regardless of results; no retrospective choice"
+}

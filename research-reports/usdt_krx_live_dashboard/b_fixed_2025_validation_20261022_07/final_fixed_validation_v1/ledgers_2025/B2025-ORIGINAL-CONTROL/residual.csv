@@ -1,0 +1,2 @@
+candidate_id,contracts,cycle_id,direction,entry_row,estimated_exit_cost,fees_paid,future_entry,gross_future,gross_spot,hold_minutes,net_after_exit_cost,slippage_paid,spot_entry
+B2025-ORIGINAL-CONTROL,17,1.0,-1.0,20673.0,233214.101945,158857.223469,1468.9,-4385999.999999993,4250000.0,29616.0,-728708.7254139925,200637.40000000002,1481.0

@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FOR_RECORDED_PARTIAL_INPUT_ONLY",
+  "original_2026_regression": "PASS",
+  "independent_cash_settlement_rollover_margin_mdd": "PASS",
+  "full_year": "NOT_VALIDATED",
+  "no_monthly_resets": true,
+  "raw_sources_preserved": true,
+  "protected_oos_accessed": false,
+  "orders": false,
+  "borrowing_verified": false,
+  "partial_risk": "Unobserved periods can hide adverse price paths and signals; observed PAPER result is not full-market execution validation"
+}

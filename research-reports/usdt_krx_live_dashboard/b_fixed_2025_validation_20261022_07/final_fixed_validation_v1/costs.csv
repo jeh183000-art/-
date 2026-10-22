@@ -1,0 +1,3 @@
+borrow_cost,candidate_id,fees_krw,funding,future_contract_side_krw,future_notional_side_rate,roll_cost,slippage_each_leg_side_bp,slippage_krw,spot_side_rate
+UNVERIFIED_NOT_INCLUDED,B2025-RECOVERY-ONLY,158857.22346900002,NO_PERPETUAL_FUNDING,600,3.157e-06,both future sides included,2,200637.40000000002,0.0005
+UNVERIFIED_NOT_INCLUDED,B2025-ORIGINAL-CONTROL,158857.22346900002,NO_PERPETUAL_FUNDING,600,3.157e-06,both future sides included,2,200637.40000000002,0.0005

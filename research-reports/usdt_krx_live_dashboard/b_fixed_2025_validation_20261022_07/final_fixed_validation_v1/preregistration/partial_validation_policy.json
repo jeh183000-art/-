@@ -1,0 +1,33 @@
+{
+  "frozen_utc": "2026-10-22T10:45:33.594Z",
+  "performance_2025_seen": false,
+  "full_year_status": "BLOCKED_MISSING_JAN_SEP",
+  "partial_scope": [
+    "2025-11-03",
+    "2025-12-30"
+  ],
+  "reason": "Two late-year months have saved day data and official margin evidence; assess only after quote and night audit. Not full-year or continuous-from-January inference.",
+  "start_flat_assumption": "UNVERIFIABLE actual November state after missing Jan-Sep; explicit partial-window scenario",
+  "initial_cash": 30000000,
+  "no_monthly_resets": true,
+  "no_parameter_changes": true,
+  "rolls": [
+    {
+      "date": "20251117",
+      "old": "175W11",
+      "next": "175W12",
+      "time": "084500"
+    },
+    {
+      "date": "20251215",
+      "old": "175W12",
+      "next": "A75601",
+      "time": "084500"
+    }
+  ],
+  "missing_roll_quote": "STOP; do not substitute another time or EOD",
+  "auction_exclusions": "regular before 15:35, Nov13 before16:35; night before05:50; no auction proxy",
+  "signal_fill": "existing close->next contiguous OPEN rule",
+  "missing_minutes": "not interpolated; incomplete overnight observations disclosed; not verified full-market performance",
+  "year_end": "last actual observation; residual separate plus auxiliary estimated close"
+}

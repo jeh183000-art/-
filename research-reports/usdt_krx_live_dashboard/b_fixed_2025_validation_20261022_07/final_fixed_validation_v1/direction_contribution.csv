@@ -1,0 +1,5 @@
+candidate_id,cycles,direction,net_realized,score_pct
+B2025-RECOVERY-ONLY,0,테더롱_선물숏,0.0,0.0
+B2025-RECOVERY-ONLY,0,테더숏_선물롱_차입미검증,0.0,0.0
+B2025-ORIGINAL-CONTROL,0,테더롱_선물숏,0.0,0.0
+B2025-ORIGINAL-CONTROL,0,테더숏_선물롱_차입미검증,0.0,0.0

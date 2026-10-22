@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-22T10:53:26.192Z",
+  "file": "package_validation.py",
+  "before_sha256": "f332172886b6580d6408d7ca30097bf6e1592de0692e45e3d840c83ee0c54f25",
+  "after_sha256": "178e93eb11f301ce1b92a61e97d17a6c8263b0bea343509b0e02575d64239ced",
+  "reason": "Format empty completed-cycle ledger with explicit schema; no market execution or condition changes",
+  "strategy_results_recomputed": false
+}
