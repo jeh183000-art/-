@@ -1,0 +1,13 @@
+{
+  "status": "STOPPED_AFTER_PUBLICATION_ERROR",
+  "calculated_conditions": 400,
+  "locally_audited_conditions": 400,
+  "published_result_conditions": 400,
+  "verified_result_batches": 8,
+  "new_qualified_candidates": 0,
+  "next_unexecuted_batch": 9,
+  "remaining_conditions": 100,
+  "no_worker_running": true,
+  "no_new_batches": true,
+  "planned_full_500_final_audit_run": false
+}

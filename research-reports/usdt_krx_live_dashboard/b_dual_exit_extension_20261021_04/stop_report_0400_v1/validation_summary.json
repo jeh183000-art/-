@@ -1,0 +1,11 @@
+{
+  "status": "PASS_RECORDED_400_CONDITION_AND_CSV_AUDITS",
+  "conditions": 400,
+  "registered_rule_duplicates": 0,
+  "code_drift": false,
+  "cycle_net_score_and_pf_reconciled": true,
+  "evaluation_marks": 147604000,
+  "max_account_difference_krw": 2.9802322387695312e-08,
+  "baseline_unchanged": true,
+  "full_500_audit_not_run": true
+}

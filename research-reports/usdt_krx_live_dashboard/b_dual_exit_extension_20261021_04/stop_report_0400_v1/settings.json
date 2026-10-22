@@ -1,0 +1,15 @@
+{
+  "parent": "BF-09-027",
+  "planned_conditions": 500,
+  "calculated_conditions": 400,
+  "not_executed": 100,
+  "contracts": 17,
+  "spot_quantity": 170000,
+  "futures_initial_cash": 30000000,
+  "additional_entries": false,
+  "external_deposits": false,
+  "automatic_transfers": false,
+  "score": "sum unrounded completed cycle net / abs(initial spot entry notional)*100",
+  "stopped_on_publication_error": true,
+  "next_unexecuted_batch": 9
+}

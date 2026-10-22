@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "candidate_id": "BF-09-027",
+  "market_simulation_repeated": false,
+  "cycles": 42,
+  "score_pct": 16.7054302006977,
+  "net": 41295918.91188297,
+  "mdd": 9350000.0,
+  "legacy_max_error": 7.450580596923828e-09,
+  "vector": {
+    "status": "PASS_INDEPENDENT_VECTOR_CASH_REPLAY",
+    "max_difference_krw": 2.491287887096405e-08,
+    "drawdown_definition": "running_peak_equity - current_equity",
+    "cumulative_mdd_nondecreasing": true,
+    "maximum_current_drawdown_krw": 9350000.0,
+    "final_current_drawdown_krw": 235271.419555977,
+    "final_cumulative_mdd_krw": 9350000.0,
+    "evaluation_marks": 369010,
+    "settlement_events": 117,
+    "roll_pairs": 5,
+    "entry_bundles": 42,
+    "completed_cycles": 42
+  },
+  "longest_hold_minutes": 41887.0,
+  "mean_hold_minutes": 6484.642857142857,
+  "median_hold_minutes": 2178.0,
+  "over_1day": 26,
+  "over_7days": 6,
+  "all_cycles_observed_negative_before_completion": true,
+  "horizons": [
+    {
+      "horizon_minutes": 60,
+      "observed_still_open": 32,
+      "negative_marks": 26,
+      "already_closed": 2,
+      "missing": 8
+    },
+    {
+      "horizon_minutes": 240,
+      "observed_still_open": 27,
+      "negative_marks": 22,
+      "already_closed": 5,
+      "missing": 10
+    },
+    {
+      "horizon_minutes": 1440,
+      "observed_still_open": 13,
+      "negative_marks": 9,
+      "already_closed": 16,
+      "missing": 13
+    },
+    {
+      "horizon_minutes": 4320,
+      "observed_still_open": 10,
+      "negative_marks": 8,
+      "already_closed": 25,
+      "missing": 7
+    },
+    {
+      "horizon_minutes": 10080,
+      "observed_still_open": 4,
+      "negative_marks": 4,
+      "already_closed": 36,
+      "missing": 2
+    },
+    {
+      "horizon_minutes": 20160,
+      "observed_still_open": 3,
+      "negative_marks": 3,
+      "already_closed": 38,
+      "missing": 1
+    }
+  ],
+  "win_rate_pct": 100.0,
+  "new_strategy_runs": 0,
+  "interpretation": "Profit-target completion and unrestricted holding select recovered exits; observed interim losses and long holding do not establish future recovery. Horizon marks are diagnostics, not counterfactual baseline reruns.",
+  "profit_factor_krw": null,
+  "profit_factor_status": "INFINITE_NO_LOSSES",
+  "completed_gross_profit_krw": 41295918.91188297,
+  "completed_gross_loss_krw": 0.0
+}

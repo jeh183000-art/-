@@ -1,0 +1,18 @@
+{
+  "status": "STOPPED_AFTER_PUBLICATION_ERROR_RECOVERED",
+  "calculated_conditions": 400,
+  "published_conditions": 400,
+  "last_verified_batch": 8,
+  "next_unexecuted_batch": 9,
+  "remaining_not_executed": 100,
+  "new_batches_stopped": true,
+  "retried_same_packet_once": true,
+  "market_recalculation": false,
+  "receipt": {
+    "status": "PUBLISHED_VERIFIED",
+    "commit": "65b6d05090fdc572a78e1846cc70a33afc1efe4b",
+    "remote": "research-reports/usdt_krx_live_dashboard/b_dual_exit_extension_20261021_04/batches/batch_0008_results_v1",
+    "local": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_dual_exit_extension_20261021_04/publish_payloads/batch_0008_results_v1",
+    "files": 37
+  }
+}

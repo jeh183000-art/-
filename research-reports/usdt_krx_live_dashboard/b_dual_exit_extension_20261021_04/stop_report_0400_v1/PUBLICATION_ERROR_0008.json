@@ -1,0 +1,20 @@
+{
+  "status": "LOCAL_COMPLETE_UPLOAD_BLOCKED",
+  "reason": "RemoteProtocolError: Server disconnected without sending a response during batch_0008 GitHub blob upload",
+  "calculated_conditions": 400,
+  "locally_audited_conditions": 400,
+  "published_conditions": 350,
+  "last_verified_batch": 7,
+  "pending_publication_batch": 8,
+  "next_unexecuted_batch": 9,
+  "new_batches_stopped": true,
+  "worker_running": false,
+  "worker_lock": false,
+  "planned_conditions": 500,
+  "remaining_not_executed": 100,
+  "source_data_changed": false,
+  "strategies_changed": false,
+  "protected_final_oos_access": false,
+  "gateway_changed": false,
+  "time_utc": "2026-10-22T02:12:01.877Z"
+}
