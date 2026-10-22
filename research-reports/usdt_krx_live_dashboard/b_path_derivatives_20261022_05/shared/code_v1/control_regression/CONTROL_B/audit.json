@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "vector_replay": {
+    "status": "PASS_INDEPENDENT_VECTOR_CASH_REPLAY",
+    "max_difference_krw": 2.491287887096405e-08,
+    "drawdown_definition": "running_peak_equity - current_equity",
+    "cumulative_mdd_nondecreasing": true,
+    "maximum_current_drawdown_krw": 9350000.0,
+    "final_current_drawdown_krw": 235271.419555977,
+    "final_cumulative_mdd_krw": 9350000.0,
+    "evaluation_marks": 369010,
+    "settlement_events": 117,
+    "roll_pairs": 5,
+    "entry_bundles": 42,
+    "completed_cycles": 42
+  },
+  "independent_replay": true,
+  "max_account_difference_krw": 7.450580596923828e-09,
+  "all_initial_orders_atomic_17": true,
+  "path_gate_audit_orders": 42,
+  "no_additions": true,
+  "no_simultaneous_opposite": true,
+  "quantities_verified": true,
+  "cycle_count": 42,
+  "margin_eligibility": true,
+  "profit_factor_independent": {
+    "profit_factor_krw": null,
+    "profit_factor_status": "INFINITE_NO_LOSSES",
+    "completed_gross_profit_krw": 41295918.91188297,
+    "completed_gross_loss_krw": 0.0
+  }
+}

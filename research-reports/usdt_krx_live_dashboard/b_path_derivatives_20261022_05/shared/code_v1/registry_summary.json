@@ -1,0 +1,9 @@
+{
+  "status": "PASS_METADATA_ONLY",
+  "files": 52,
+  "table_rows": 80760,
+  "unique_single_bundle_rules": 1807,
+  "protected_oos_access": false,
+  "price_data_read": false,
+  "multi_stage_grids_distinct_from_no_add_bundle": true
+}
