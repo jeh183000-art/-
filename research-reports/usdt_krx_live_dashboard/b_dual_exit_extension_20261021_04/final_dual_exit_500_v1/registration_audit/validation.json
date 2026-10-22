@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "new_conditions": 500,
+  "old_conditions_excluded": 1500,
+  "duplicates": 0,
+  "code_drift": false,
+  "first_two_batches_dual_exit_preserved": true,
+  "source_hash_fixed": true,
+  "margin_hash_fixed": true,
+  "protected_oos_access": false
+}

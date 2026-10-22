@@ -1,0 +1,8 @@
+{
+  "status": "ALL_500_BATCHES_PUBLISHED_VERIFIED_FINAL_PENDING",
+  "new_conditions": 500,
+  "last_batch": 10,
+  "next_batch": null,
+  "workers_running": false,
+  "qualified_count": 0
+}

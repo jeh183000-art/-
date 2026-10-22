@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "conditions": 500,
+  "cycles": 26251,
+  "max_net_error_krw": 1.4901161193847656e-08,
+  "max_score_error_pp": 2.4868995751603507e-14,
+  "PF_independently_verified": true,
+  "unique_account_path_hashes": 463,
+  "distinct_rules_not_independent_observations": true
+}

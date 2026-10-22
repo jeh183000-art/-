@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "base_commit": "7540f012a0dce2c5dc98a82aef40bd6f98a0344e",
+  "existing_conditions_recomputed": 0,
+  "existing_conditions": 400,
+  "preserved_candidate_files": 3600,
+  "comparison": "bytes and SHA256 against original published batch archive member inventories",
+  "new_executed_batches": [
+    9,
+    10
+  ],
+  "new_executed_conditions": 100,
+  "final_total": 500,
+  "original_B_files_preserved": 9,
+  "protected_oos_access": false,
+  "gateway_collectors_or_schedules_changed": false
+}

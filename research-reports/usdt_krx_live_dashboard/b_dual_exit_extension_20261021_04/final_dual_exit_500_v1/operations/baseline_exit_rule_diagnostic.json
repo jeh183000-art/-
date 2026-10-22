@@ -1,0 +1,8 @@
+{
+  "candidate": "BF-09-027",
+  "completed_cycles": 42,
+  "gap_target": 42,
+  "pnl_rule": 1,
+  "both": 1,
+  "source": "Original preserved completed-cycle exit_reason_bits, no market resimulation"
+}

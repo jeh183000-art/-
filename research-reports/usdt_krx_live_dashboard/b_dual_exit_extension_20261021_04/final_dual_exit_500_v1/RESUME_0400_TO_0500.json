@@ -1,0 +1,65 @@
+{
+  "status": "RESUME_AUTHORIZED",
+  "base_commit": "7540f012a0dce2c5dc98a82aef40bd6f98a0344e",
+  "verified_existing_conditions": 400,
+  "next_batch": 9,
+  "new_conditions_limit": 100,
+  "recompute_old_conditions": false,
+  "old_remote_verification": "PUBLISHED_VERIFIED 29 files",
+  "fixed_code_files": [
+    "baseline_audit.py",
+    "bootstrap.py",
+    "build_B.py",
+    "drawdown_tests.py",
+    "hypotheses.py",
+    "metric_tests.py",
+    "package_B.py",
+    "profit_metrics.py",
+    "rules.py",
+    "runner.py",
+    "shared_packet.py",
+    "signals.py",
+    "validation2.py"
+  ],
+  "baseline_files": [
+    {
+      "path": "audit.json",
+      "sha256": "ab861d211c50f1a1cc42f39eecaaeb5ec7ca9a890464e73ea08ead59d65e68d7"
+    },
+    {
+      "path": "cycles.csv.gz",
+      "sha256": "332f939aa2c45e220b330b2ee6f39b64ee445e8cef49ac9e46f38e287b5e4785"
+    },
+    {
+      "path": "fills.csv.gz",
+      "sha256": "d403277de30a5006d41e2854f125e05021268f9100772a27d75edea38bb930ef"
+    },
+    {
+      "path": "full_account_ledger.npz",
+      "sha256": "786aa9233ade9d133c4e6b3aa6c0d4206ebdcf2709419778158afa9923dcdd8d"
+    },
+    {
+      "path": "numeric_result.npz",
+      "sha256": "111def6f0f52f4a034e8215812761d90b96863d76d18b20d79e1bb04d90c2b99"
+    },
+    {
+      "path": "orders.csv.gz",
+      "sha256": "44252dfdfe5fb932f6f5e69189c4f3a4719f246dec518ebf0462450ffbdba925"
+    },
+    {
+      "path": "period_contribution.csv",
+      "sha256": "a6a7b3f7b77c8eda5395de28378a11b8c001b30353cd2db0a17ce17c7efd02e5"
+    },
+    {
+      "path": "residual.csv",
+      "sha256": "84620a38b0a828281d56fe4ceda7783f3d129d801054352337d262542f67a001"
+    },
+    {
+      "path": "result.json",
+      "sha256": "a4b0e00903e72c0783506b3f1fada893cbdee2e0ecc20482d892a2d3c5b0ff39"
+    }
+  ],
+  "worker_lock_absent": true,
+  "final_oos_access": false,
+  "created_utc": "2026-10-22T03:02:01.470Z"
+}
