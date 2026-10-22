@@ -1,0 +1,17 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "commit": "0aabaea248ad7f08152325cd853a8e163b7988a5",
+  "path": "research-reports/usdt_krx_live_dashboard/b_dual_exit_extension_20261021_04/shared/code_v1/code",
+  "baseline_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "common_engine": {
+    "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+    "path": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code",
+    "engine_sha256": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+    "auditor_sha256": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16"
+  },
+  "input_loader": {
+    "commit": "e1254e5141b3201cf594111cbc47b1fdfd6a5e9a",
+    "path": "research-reports/usdt_krx_live_dashboard/lump17_extension_20261021_02/final_1000_comparison_v2/code/input_loader_frozen.py",
+    "sha256": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b"
+  }
+}
