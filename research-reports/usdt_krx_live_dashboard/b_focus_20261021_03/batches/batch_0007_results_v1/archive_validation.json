@@ -1,0 +1,7 @@
+{
+  "status": "PASS_LOSSLESS_ALL_MEMBERS_AND_NPZ_CRC",
+  "files": 450,
+  "npz_archives": 100,
+  "archive_bytes": 74086400,
+  "archive_sha256": "6034fa7c349f27bd3d4f3cd5ea1d12fcb2f2e353b47cfe753473a02d6aa07ecd"
+}
