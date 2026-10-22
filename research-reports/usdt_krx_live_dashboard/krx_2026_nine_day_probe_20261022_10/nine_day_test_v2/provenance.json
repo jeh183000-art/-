@@ -1,0 +1,15 @@
+{
+  "provider": "KIS official production quote API",
+  "source_collector_sha256": "cae78f1a90730b54b43ea30fde4187814643b7ba5a35038d7ebcf584fd992577",
+  "contract_metadata_sha256": "169726f88853319f3647e45fd6a61f850b7f1d2bfc30869a44e5198d5d0796fa",
+  "date_adjustment": {
+    "20260110": "20260109",
+    "reason": "2026-01-10 Saturday; nearest verified trading date is Friday Jan9"
+  },
+  "scope": "Regular session only,9specified2026dates; no full-year inference",
+  "credentials_or_token_published": false,
+  "raw": "Parsed/redacted API responses; retain only requested-date output2 price rows and output1 identity. Archive is lossless for saved page JSON.",
+  "previous_2025_probe_commit": "2d255cece9f357e6bf1667dabb004805b02af430",
+  "protected_oos_accessed": false,
+  "existing_files_modified": false
+}

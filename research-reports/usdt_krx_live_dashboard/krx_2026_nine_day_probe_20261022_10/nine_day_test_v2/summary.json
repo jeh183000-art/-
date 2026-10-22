@@ -1,0 +1,13 @@
+{
+  "requested_dates": 9,
+  "queried_dates": 9,
+  "successful_dates": 9,
+  "total_bars": 3699,
+  "minute_api_calls": 45,
+  "auth_success": true,
+  "other_dates_requested": 0,
+  "source_collector_unchanged": true,
+  "scope": "Only9specifiedtradingdays; no conclusions on entire-month availability",
+  "strategy_executions": 0,
+  "protected_oos_accessed": false
+}

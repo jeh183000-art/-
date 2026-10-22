@@ -1,0 +1,18 @@
+{
+  "status": "PASS_TARGET_DATE_SCOPE_RAW_CSV_OHLCV_DUPLICATE_CLOSE_AUDIT",
+  "dates_queried": 9,
+  "successful_dates": 9,
+  "bars": 3699,
+  "raw_response_pages": 45,
+  "out_of_scope_response_rows_excluded_from_storage": 891,
+  "all_requests_within_allowlist": true,
+  "no_additional_query_dates": true,
+  "raw_archive_member_hashes_verified": true,
+  "volume_matches": 0,
+  "official_close_matches": 9,
+  "ohlc_errors": 0,
+  "duplicates": 0,
+  "no_strategy_execution": true,
+  "no_orders": true,
+  "protected_oos_files_accessed": false
+}
