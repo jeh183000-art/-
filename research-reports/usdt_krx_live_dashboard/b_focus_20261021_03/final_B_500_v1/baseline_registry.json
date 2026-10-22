@@ -1,0 +1,109 @@
+{
+  "baseline_commit": "e1254e5141b3201cf594111cbc47b1fdfd6a5e9a",
+  "B": {
+    "candidate_id": "L17-01-013",
+    "rule": {
+      "family": "relative",
+      "long_entry_gap_pct": -1,
+      "short_entry_gap_pct": 1,
+      "long_recovery_pp": 0.6,
+      "short_recovery_pp": 0.6,
+      "long_absolute_exit_gap_pct": null,
+      "short_absolute_exit_gap_pct": null,
+      "confirmation_pp": 0,
+      "confirmation_expiry_calendar_minutes": null,
+      "max_hold_minutes": null,
+      "gap_stop_pp": null,
+      "pnl_stop_pct": null
+    },
+    "result": {
+      "candidate_id": "L17-01-013",
+      "family": "relative",
+      "group": "symmetric_relative",
+      "rule_sha256": "4021652d1110a97d988d1d882be6c4947886329b45d3ffcd0473251d97670e22",
+      "cycles": 39,
+      "score_pct": 14.95131907100779,
+      "net_realized": 36755589.35493902,
+      "win_rate_pct": 100,
+      "mean_cycle_return_pct": 0.3833671556668664,
+      "mdd_krw": 9350000,
+      "maximum_open_loss_krw": 8330890.840034985,
+      "maximum_future_cycle_loss_krw": 10165999.999999993,
+      "maximum_contracts": 17,
+      "spot_financing_proxy_krw": 252317366,
+      "maximum_initial_margin_krw": 13640827.2,
+      "minimum_initial_headroom_krw": 10571027.134076996,
+      "minimum_maintenance_headroom_krw": 14424089.338428013,
+      "maintenance_breach_marks": 0,
+      "insufficient_rolls": 0,
+      "admission_rejections": 0,
+      "residual_contracts": 0,
+      "residual_net_after_exit_cost": 0,
+      "forced_terminal_score_pct": 14.95131907100779,
+      "longest_hold_minutes": 38740,
+      "average_hold_minutes": 6204,
+      "average_observed_contracts": 9.600791714115287,
+      "fees_krw": 10547322.045061,
+      "slippage_krw": 8168088.6,
+      "borrow_unverified": true,
+      "feasible": true,
+      "audit_max_difference_krw": 1.4901161193847656e-08,
+      "long_cycles": 22,
+      "long_score_pct": 7.933083006651722,
+      "long_net_krw": 19530390.110598046,
+      "reverse_cycles": 17,
+      "reverse_score_pct": 7.018236064356072,
+      "reverse_net_krw": 17225199.244340986,
+      "study": "ORIGINAL_500"
+    },
+    "search_enabled": true
+  },
+  "preserved_other_three": [
+    {
+      "candidate_id": "L17-07-004",
+      "search_enabled": false,
+      "label_assignment": "Preserved A/C/D set; no additional alphabet mapping assumed"
+    },
+    {
+      "candidate_id": "L17-08-027",
+      "search_enabled": false,
+      "label_assignment": "Preserved A/C/D set; no additional alphabet mapping assumed"
+    },
+    {
+      "candidate_id": "L18-08-019",
+      "search_enabled": false,
+      "label_assignment": "Preserved A/C/D set; no additional alphabet mapping assumed"
+    }
+  ],
+  "remote_files": [
+    {
+      "file": "best_rules_and_results.json",
+      "bytes": 10696,
+      "sha256": "d69fba2d4e899f7406aadf902d46018465e7df0852ebd2732d850132b03595c8"
+    },
+    {
+      "file": "L17-01-013_cycles.csv",
+      "bytes": 12144,
+      "sha256": "667582a06cf183a7395eb121c983199dd781da80f1a83d20bbae51cb543bfbc7"
+    },
+    {
+      "file": "L17-01-013_fills.csv",
+      "bytes": 28899,
+      "sha256": "7a53a529793fea171cc859d501efc40bab213608d4c67825f1750b5f94960074"
+    },
+    {
+      "file": "settings_all_1000.json",
+      "bytes": 449993,
+      "sha256": "0962ad9327d35b9230f7db81eaa3b6023aaaacb3c9922cb5a7d12fcfcd4f0653"
+    },
+    {
+      "file": "results_all_1000.csv",
+      "bytes": 528722,
+      "sha256": "6c204da06dc3108178ee4775cb7415a3203a465cc1021d10ab23a7ae46c3c705"
+    }
+  ],
+  "executed_candidate_count": 1000,
+  "extra_regression_controls": [
+    "CONTROL-S1-050-LUMP17"
+  ]
+}

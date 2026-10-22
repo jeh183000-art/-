@@ -1,0 +1,15 @@
+{
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "baseline_commit": "e1254e5141b3201cf594111cbc47b1fdfd6a5e9a",
+  "raw_input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "final_oos_access": false,
+  "scope": "Approved exploratory KRX business dates 2026-01-01..2026-10-15 and necessary night calendar boundaries",
+  "limitations": [
+    "Next contiguous observed minute OPEN is fill proxy; historical depth absent",
+    "Reverse borrowing availability and cost unverified",
+    "Jul06-Aug02 margin schedule inferred from adjacent official schedules",
+    "MDD excludes unobserved intraminute extremes",
+    "Exploratory sample optimisation is not independent validation"
+  ]
+}

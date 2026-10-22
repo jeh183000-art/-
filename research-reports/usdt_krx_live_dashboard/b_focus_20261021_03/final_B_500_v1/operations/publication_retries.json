@@ -1,0 +1,21 @@
+{
+  "market_recalculation": false,
+  "events": [
+    {
+      "stage": "registration_inventory_fix_v2",
+      "error": "GitHub create_blob internal error for base64 text; utf-8 text retry succeeded",
+      "verified_commit": "d3d83592322007032e937d2912b8e7da49ff439a"
+    },
+    {
+      "stage": "batch_0002_results_v1",
+      "error": "RemoteProtocolError: Server disconnected without sending a response during blob upload",
+      "verified_commit": "0b6c5649bf672f9e95c75c1e335b790f9acdfd5f",
+      "recovery": "Same immutable packet uploaded; complete fresh remote hash verification passed"
+    },
+    {
+      "stage": "batch_0009_results_v1",
+      "error": "Node REPL heap limit during publication; saved market results and account audits intact",
+      "recovery": "Reset only research publishing JS kernel; no duplicate market worker or new Gateway process; resume same packet"
+    }
+  ]
+}

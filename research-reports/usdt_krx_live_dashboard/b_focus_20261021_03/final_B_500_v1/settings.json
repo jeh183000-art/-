@@ -1,0 +1,13 @@
+{
+  "parent": "L17-01-013",
+  "contracts": 17,
+  "spot_quantity": 170000,
+  "futures_cash": 30000000,
+  "additional_entries": false,
+  "simultaneous_opposite": false,
+  "external_deposits": false,
+  "new_conditions": 500,
+  "score": "sum(unrounded completed cycle net / abs(initial spot entry notional) * 100)",
+  "open_pnl_excluded": true,
+  "goal_count": 8
+}

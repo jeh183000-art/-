@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "new_conditions": 500,
+  "old_registered_settings_including_control": 1001,
+  "duplicates": 0,
+  "code_drift": false,
+  "registered_A_C_D_search": false,
+  "protected_oos_access": false
+}
