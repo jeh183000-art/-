@@ -1,0 +1,38 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "commit": "f7f6e40b21dd30231f426a735687a7904f72cce1",
+  "path": "research-reports/usdt_krx_live_dashboard/b_path_derivatives_20261022_05/shared/code_v1/code",
+  "baseline_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "modified_engine_sha256": "366f66c638156a9316f6c27d6e4e49df58376cdd74dc90f40bac03bf62fd1700",
+  "original_engine_unchanged": true,
+  "external_dependencies": [
+    {
+      "role": "causal_trailing",
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/single_set_hypotheses_20261020_01/code/signals.py",
+      "remote": "research-reports/usdt_krx_live_dashboard/single_set_hypotheses_20261020_01/preregistration/code/signals.py",
+      "commit": "8a33d1d495ddcb8b3ce0c3b13e2bf31abfd95c43",
+      "sha256": "b7d59904f3d70543b5e16e4a8479c467ac16710658737cac25264559314d8937"
+    },
+    {
+      "role": "event_schema",
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_sweep_20261021_01/code/event_schema.py",
+      "remote": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code/event_schema.py",
+      "commit": "8a33d1d495ddcb8b3ce0c3b13e2bf31abfd95c43",
+      "sha256": "2e8e394ceb4404fbe81941e572816118ecd77d79b4c2fefba8fe8da6d12c2cb6"
+    },
+    {
+      "role": "financial_audit",
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/lump17_sweep_20261021_01/code/audit.py",
+      "remote": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code/audit.py",
+      "commit": "8a33d1d495ddcb8b3ce0c3b13e2bf31abfd95c43",
+      "sha256": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16"
+    },
+    {
+      "role": "input_loader",
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/shared/approved_20261016_01/paper_engine.py",
+      "remote": "research-reports/usdt_krx_live_dashboard/lump17_extension_20261021_02/final_1000_comparison_v2/code/input_loader_frozen.py",
+      "commit": "8a33d1d495ddcb8b3ce0c3b13e2bf31abfd95c43",
+      "sha256": "668896092b40c87c30cae77624cc26b95afef51af7154c5cc2d225dfdf2cfa8b"
+    }
+  ]
+}
