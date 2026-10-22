@@ -1,0 +1,10 @@
+{
+  "baseline_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "approved_source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "scope": "Approved KRX business dates2026-01-01..2026-10-15 plus necessary night calendar boundaries",
+  "raw_data": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "common_engine_unchanged": true,
+  "protected_final_oos_access": false,
+  "prior_conditions_recomputed": false
+}
