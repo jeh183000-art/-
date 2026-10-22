@@ -1,0 +1,18 @@
+{
+  "static_checker_exit_code": 0,
+  "python_files": 11,
+  "responsibilities": [
+    "input verification and filtering",
+    "quote interpretation",
+    "one-bundle simulation",
+    "Decimal independent replay",
+    "sequential quarter checkpoints",
+    "report-only aggregation",
+    "drawdown column enrichment"
+  ],
+  "boundary": "raw values parsed once into Quote; original scripts never executed",
+  "tests": "bid/ask cash and signs, next-minute fills, truncated-prefix invariance, fee tamper rejection, cumulative MDD monotonicity",
+  "frozen_execution_files_unchanged": true,
+  "completed_cycles": 0,
+  "annual_return_certified": false
+}

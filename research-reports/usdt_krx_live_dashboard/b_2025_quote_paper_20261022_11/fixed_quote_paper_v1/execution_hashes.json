@@ -1,0 +1,46 @@
+{
+  "frozen_before_paper_utc": "2026-10-22T18:43:41.431Z",
+  "code": [
+    {
+      "path": "bootstrap.py",
+      "sha256": "81c592dec66fa42561acbb273d01b64d4a94dd284d4393621a49ea4bd4c81d28"
+    },
+    {
+      "path": "common.py",
+      "sha256": "7dbff14431aa21b0ca4390caba4993025fef3745f69de4125128f4c7cdbeb143"
+    },
+    {
+      "path": "model.py",
+      "sha256": "91fc0c3b6c3c6167976fc625c248e974a055885f1718ac8554565b2862c0be0e"
+    },
+    {
+      "path": "prepare_quotes.py",
+      "sha256": "9409ba98c515451f314441b807bab22058d20cbcf7c18e827c93579aef7c2024"
+    },
+    {
+      "path": "run_quarter.py",
+      "sha256": "7a2da42dac1f53256a3a737bbea3b8a195cca3f266b31e4a872edf38c615e60d"
+    },
+    {
+      "path": "simulator.py",
+      "sha256": "435ac2e5d0db70c46a4375980d8fc5c103bcd266f72f145a5462daea024d2eda"
+    },
+    {
+      "path": "test_regressions.py",
+      "sha256": "736da04c053671d97c4ce4f15b92184b85b48a8fac1851d79ea5bcb37a1e44b3"
+    },
+    {
+      "path": "verify_quote_book.py",
+      "sha256": "814bb04e12bdbbd77164b374ca64bd224df854fbf2a2b2b4aa9ed8e1c0a4de43"
+    }
+  ],
+  "settings_sha256": "3f5703ea4b962e4da72d5b62b74e8b0e16cd769e8415e19c46dcf7f4df29ee8b",
+  "segments_sha256": "4af4b7e7a3d9a73bf5583346881e2690563dbe06e49acfd70146844b7d5158e0",
+  "verified_mdd_reference": {
+    "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/code/validation2.py",
+    "sha256": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5"
+  },
+  "existing_engine_fee_reference_sha256": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+  "full_source_integrity_checks": 1306,
+  "regressions": "PASS"
+}

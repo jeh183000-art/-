@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "roll_reference_boundaries": 11,
+  "boundary_jump_formula_max_error": 0.0,
+  "max_abs_roll_reference_boundary_jump_krw": 37.64999999999998,
+  "roll_prices_product_identity_confirmed": false,
+  "forced_rolls_executed": 0,
+  "filled_event_count": 88,
+  "completed_exit_events": 0,
+  "signal_rows": 306,
+  "financial_mark_rows": 170938,
+  "unknown_price_files": 20,
+  "all_filled_bundles_17": true,
+  "all_original_code_and_normalized_hashes_checked": true,
+  "cyclic_cash_resets_in_annual_chain": 0,
+  "auxiliary_episode_accounts": "separate not annual; explicitly disclosed",
+  "original_data_merged_with_quotes": false,
+  "source_data_downloads": 0,
+  "annual_profit_computed": false
+}

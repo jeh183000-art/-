@@ -1,0 +1,19 @@
+{
+  "source_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "audit_commit": "5574b1b0c41ec863e9289f636ec04a1b3eb21b01",
+  "local_input_hash_inventory": "input_integrity.csv",
+  "raw_and_complete_normalized_data_republication": false,
+  "complete_price_dataset_local_only": true,
+  "source_prices_not_official_bars": true,
+  "midpoint_gap_not_original_B_gap": true,
+  "execution_prices_assumed_ask_bid": true,
+  "simulation_fills_publish": "Derived notional amounts, own fees/PnL and source references; original log lines and whole quote table not published",
+  "verified_drawdown_code": {
+    "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_fixed_2025_validation_20261022_07/code/validation2.py",
+    "sha256": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5"
+  },
+  "costs_reference_engine_sha256": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+  "settlement_and_roll_events": "NOT_FABRICATED; any open boundary continuation is unverifiable",
+  "full_year_returns": "NOT_COMPUTED",
+  "year2026_performance": "Reference only; protected prices not accessed and existing B not rerun"
+}

@@ -1,0 +1,12 @@
+{
+  "quarters_complete": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "annual_chain_stopped_at": "2025-01-03T15:30:00",
+  "backtest_mode": "UNCONFIRMED_QUOTE_PAPER",
+  "full_year_financial_validation": false,
+  "no_next_sweep_scheduled": true
+}

@@ -1,0 +1,11 @@
+{
+  "input_hash_checks": 1306,
+  "all_pass": true,
+  "eligible_observations": 84717,
+  "segments": 246,
+  "excluded_blocks": 24664,
+  "no_interpolation": true,
+  "original_modified": false,
+  "reference_contracts_only": true,
+  "complete_year_continuity": false
+}

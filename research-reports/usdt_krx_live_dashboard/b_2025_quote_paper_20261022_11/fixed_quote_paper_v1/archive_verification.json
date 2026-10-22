@@ -1,0 +1,12 @@
+{
+  "archive": "valuation_ledger.csv.gz",
+  "compressed_bytes": 1427331,
+  "compressed_sha256": "1d59ca863d1e42eb51b1ae4da6b256685dd9665de44f33784e3661d040a04b6c",
+  "uncompressed_bytes": 52675535,
+  "uncompressed_sha256": "1677a7da1ba0bfc2ceff09f293c428593ce2074f90cb55335e789c9132f9f940",
+  "local_lossless_match": true,
+  "rows": 170938,
+  "groups": 494,
+  "mdd_never_decreases_in_each_account": true,
+  "contains": "own financial ledger; no full source quote table"
+}

@@ -1,0 +1,13 @@
+{
+  "requested_root": "D:/Codex_Research",
+  "c_min_free_gb": 10,
+  "d_min_free_gb": 10,
+  "safe_to_start_large_job": true,
+  "issues": [],
+  "c_free_gib": 25.924,
+  "d_free_gib": 745.71,
+  "d_total_gib": 931.512,
+  "d_root_write_test": "OK",
+  "environment_TEMP": "C:\\Users\\48733\\AppData\\Local\\Temp",
+  "environment_TMP": "C:\\Users\\48733\\AppData\\Local\\Temp"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "synthetic_completed_cycles": 2,
+  "fee_tamper_rejected": true,
+  "prefix_invariance": true,
+  "mdd_monotone": true,
+  "next_observation_only": true
+}

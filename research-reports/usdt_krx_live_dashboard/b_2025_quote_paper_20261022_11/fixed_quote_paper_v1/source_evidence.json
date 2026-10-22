@@ -1,0 +1,20 @@
+{
+  "official_mapping": {
+    "commit": "2077773a69a428daf63e148182511f068cc45de3",
+    "path": "examples_llm/domestic_futureoption/commodity_futures_realtime_quote/chk_commodity_futures_realtime_quote.py",
+    "sha256": "9a8e0b7238e346c286f7956d2eed7c0b2c4caaca67c528a026ff84b932333368",
+    "ask": "futs_askp1=선물 매도호가1",
+    "bid": "futs_bidp1=선물 매수호가1"
+  },
+  "limited_generation_history": [
+    {
+      "commit": "9b6f27de3343655425a569e7a6f3f3cd783bc562",
+      "truncated": false,
+      "files": 53,
+      "code_or_docs": []
+    }
+  ],
+  "source_code_found": false,
+  "source_identity_confirmed": false,
+  "prior_audit_commit": "5574b1b0c41ec863e9289f636ec04a1b3eb21b01"
+}
