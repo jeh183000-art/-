@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "weekend_carry": true,
+  "no_night_marks": true,
+  "no_retroactive_open_fill": true,
+  "reevaluated_exit_filled_next_minute": true,
+  "pending_entry_canceled": true,
+  "checkpoint_position_and_cash_preserved": true,
+  "Decimal_audit_pass": true
+}

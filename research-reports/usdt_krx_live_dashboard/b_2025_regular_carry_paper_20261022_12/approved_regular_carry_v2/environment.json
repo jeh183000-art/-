@@ -1,0 +1,11 @@
+{
+  "python": "3.12.0 existing",
+  "numpy": "2.2.6 existing",
+  "working_directory": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_regular_carry_paper_20261022_12/approved_carry_v2",
+  "process_temp_cache": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_regular_carry_paper_20261022_12/approved_carry_v2/runtime",
+  "system_environment_changed": false,
+  "initial_future_reference_cash": 30000000,
+  "spot_funding": "separate sufficient assumption; no transfer",
+  "settlement_cash_path": "Unverified; no fake settlement; economic MTM at observed quotes only",
+  "borrow_margin_and_depth": "UNVERIFIED"
+}

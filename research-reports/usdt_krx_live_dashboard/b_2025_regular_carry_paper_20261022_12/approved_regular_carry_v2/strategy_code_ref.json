@@ -1,0 +1,9 @@
+{
+  "drawdown_module": {
+    "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+    "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/validation2.py",
+    "sha256": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5",
+    "local_remote_equal": true
+  },
+  "note": "Only drawdown_trace imported; no prior strategy or backtest executed. New quote adapter source is included."
+}

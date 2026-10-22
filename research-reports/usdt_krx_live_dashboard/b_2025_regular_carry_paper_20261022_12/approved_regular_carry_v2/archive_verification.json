@@ -1,0 +1,9 @@
+{
+  "path": "valuation_ledger.csv.gz",
+  "compressed_bytes": 1525358,
+  "compressed_sha256": "547b7de845ecd6fb83b164ba56f9c6ed0bfce2ff66b4d1290747f182380bb674",
+  "uncompressed_bytes": 43392722,
+  "uncompressed_sha256": "fc8566a6570fd6a5ce4bffcd5ed7822bbc413faee5d2c3c47869e7365f1eccb4",
+  "rows": 174068,
+  "lossless": true
+}

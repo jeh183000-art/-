@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "variants_have_identical_economic_execution_paths": true,
+  "exit_reason_classification_preserved": true,
+  "control_both_conditions_cycles": 2,
+  "each_entry_17_contracts_170000_usdt": true,
+  "no_same_timestamp_fills": true,
+  "all_completed_recovery_cycles_carried_overnight": true,
+  "completed_counts_not_doubled_annual_vs_chain": true,
+  "descriptive_completed_win_rate_pct": 100.0,
+  "descriptive_completed_cycles": 8,
+  "descriptive_average_holding_minutes": 6917.0,
+  "descriptive_longest_holding_minutes": 20139.0,
+  "longest_censored_observed_holding_minutes": 37556.0,
+  "risk_reasons": {
+    "INTRADAY_MISSING": 7,
+    "LOGGER_WINDOW_EDGE_MISSING": 10,
+    "REFERENCE_ROLL_UNVERIFIED": 3,
+    "MISSING_TRADING_DATES": 1,
+    "DATA_END": 1
+  },
+  "return_sum_published_by_separate_chain_only": true,
+  "night_marks_or_executions": 0,
+  "settlement_and_roll_fabrication": false
+}

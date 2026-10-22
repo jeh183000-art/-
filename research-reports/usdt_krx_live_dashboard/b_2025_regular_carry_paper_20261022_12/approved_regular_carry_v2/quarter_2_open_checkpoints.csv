@@ -1,0 +1,3 @@
+variant,scope,chain,cycle,direction,entry_t,last_observed_t,contracts,entry_notional,liquidation_estimate_net,future_unrealized,estimated_close_cost,holding_minutes,max_liquidation_loss_krw,normal_closure_bridges,unobserved_calendar_minutes,pending_exit_at_boundary,status,risk_reason
+B-RECOVERY-ONLY,period,20,1,-1,2025-06-19T09:22:00,2025-06-30T15:30:00,17,235620000.0,-560298.4165110075,-4369000.000000007,218717.911789,16208.0,2416146.2370799845,7,13103.0,False,UNVERIFIABLE_OPEN_NOT_REALIZED,QUARTER_CHECKPOINT_ONLY_NOT_CENSOR
+B-DUAL-CONTROL,period,20,1,-1,2025-06-19T09:22:00,2025-06-30T15:30:00,17,235620000.0,-560298.4165110075,-4369000.000000007,218717.911789,16208.0,2416146.2370799845,7,13103.0,False,UNVERIFIABLE_OPEN_NOT_REALIZED,QUARTER_CHECKPOINT_ONLY_NOT_CENSOR

@@ -1,0 +1,50 @@
+{
+  "code": [
+    {
+      "path": "bootstrap.py",
+      "sha256": "49b79c377849b32a001e653fc3ae065ba0b1dadae5df2137d97fcd0b832bdea6"
+    },
+    {
+      "path": "carry_audit.py",
+      "sha256": "ddef7fd0cf07699b4db2b7475419dfb7adc8dc560005195d23ad9fe2bd3b3669"
+    },
+    {
+      "path": "carry_engine.py",
+      "sha256": "80566be1c7dd2a81a70ce600fc56b49b5251462c031738a5be48247c189bc27f"
+    },
+    {
+      "path": "common.py",
+      "sha256": "44cfa1cbe0c9d85959f5a51e74e0e4724b98fe4346b378b00f1368acbd67da69"
+    },
+    {
+      "path": "prepare_carry.py",
+      "sha256": "9c528b98397844d4a18a666f09fb2b3806621a1469a7d854884480d2a796687d"
+    },
+    {
+      "path": "run_carry_quarter.py",
+      "sha256": "680598c05864d5b4c8fa37345618f849319c6daa5fbf45cac923015fd3f80ca2"
+    },
+    {
+      "path": "test_carry.py",
+      "sha256": "90e604df09537638556a4f59d1c93ff456cd1feb5b15a711899c849581211484"
+    }
+  ],
+  "immutable_dependencies": [
+    {
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_quote_paper_20261022_11/code/model.py",
+      "sha256": "91fc0c3b6c3c6167976fc625c248e974a055885f1718ac8554565b2862c0be0e"
+    },
+    {
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_quote_paper_20261022_11/code/simulator.py",
+      "sha256": "435ac2e5d0db70c46a4375980d8fc5c103bcd266f72f145a5462daea024d2eda"
+    },
+    {
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_quote_paper_20261022_11/code/verify_quote_book.py",
+      "sha256": "814bb04e12bdbbd77164b374ca64bd224df854fbf2a2b2b4aa9ed8e1c0a4de43"
+    }
+  ],
+  "settings_sha256": "4738d9631b898116620fbf6850c89e6f8264dda04be7c6bc01e7e409537ba952",
+  "source_quotes_sha256": "4af4b7e7a3d9a73bf5583346881e2690563dbe06e49acfd70146844b7d5158e0",
+  "carry_plan_sha256": "e7755960288db9261a14c92f0fee42637498463f221edd4006de1526f40f0218",
+  "frozen_before_execution_utc": "2026-10-22T19:47:24.438Z"
+}

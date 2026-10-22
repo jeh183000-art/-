@@ -1,0 +1,79 @@
+{
+  "study": "b_2025_regular_carry_paper_approved_v2",
+  "mode": "HYPOTHETICAL_UNCONFIRMED_QUOTE_LOG_PAPER_NOT_OFFICIAL_BARS",
+  "source_root": "D:/Codex_Research/usdt_krx_live_dashboard/studies/github_2025_quote_log_audit_20261022/v1",
+  "source_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "source_audit_commit": "5574b1b0c41ec863e9289f636ec04a1b3eb21b01",
+  "period": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "variants": [
+    {
+      "id": "B-RECOVERY-ONLY",
+      "long_entry": -0.97,
+      "short_entry": 0.85,
+      "recovery_pp": 0.6,
+      "pnl_take_profit_pct": null
+    },
+    {
+      "id": "B-DUAL-CONTROL",
+      "long_entry": -0.97,
+      "short_entry": 0.85,
+      "recovery_pp": 0.6,
+      "pnl_take_profit_pct": 0.7
+    }
+  ],
+  "quantity_usdt": 170000,
+  "futures_contracts": 17,
+  "assumed_usd_per_contract": 10000,
+  "add_entries": false,
+  "partial_exits": false,
+  "simultaneous_bundles_max": 1,
+  "initial_future_cash_reference_krw": 30000000,
+  "spot_funding": "sufficient_external_spot_funding_only_no_transfer_to_future",
+  "margin_rates_2025": "UNCONFIRMED_NO_OPERATIONAL_MARGIN_CERTIFICATION",
+  "fees": {
+    "spot_each_side": 0.0005,
+    "future_per_contract_each_side": 600,
+    "future_notional_each_side": 0.000003157,
+    "extra_slippage_each_leg_each_side": 0.0002
+  },
+  "spread": "embedded in assumed ask/bid execution prices; extra slippage charged once separately",
+  "quote_mapping_assumption": {
+    "spot_ask": "USDT 매수가",
+    "spot_bid": "USDT 매도가",
+    "future_ask": "선물 매도가",
+    "future_bid": "선물 매수가"
+  },
+  "timezone": "ASSUMED_KST_NOT_CONFIRMED",
+  "quote_timestamp": "LOG_RECORD_TIME_NOT_PROVEN_MARKET_EVENT_TIME",
+  "mid_gap": "100*((spot_ask+spot_bid)/(future_ask+future_bid)-1); not original B trade-price gap",
+  "filters": [
+    "all four positive",
+    "assumed bid <= ask for each product",
+    "exclude every conflicting duplicate timestamp; collapse exact duplicates with provenance",
+    "official 2025 regular trading dates only",
+    "observed logger clock09:00..15:30, prior reference-expiry safety filter retained",
+    "night clock records excluded"
+  ],
+  "continuity": "Entry and fill still require60s; held exit condition evaluated also on first next-day quote after approved carry",
+  "censor_policy": "Only non-approved missing data or reference change censors an open position; approved normal closure retains it; no forced liquidation",
+  "annual_chain": "One account stops at first open risk boundary; subsequent independent chains never summed as annual return",
+  "auxiliary_segments": "Independent chains now join approved normal closures; reference cash 30m separately disclosed",
+  "borrowing": "reverse-direction theoretical; availability and borrowing fees unverified, not certified zero",
+  "initial_observation": "no retrospective entry",
+  "ranking_or_optimization": false,
+  "protected_oos": false,
+  "real_orders": false,
+  "frozen_before_performance_utc": "2026-10-22T19:43:48.776Z",
+  "approval_status": "USER_APPROVED",
+  "approval_basis_commit": "e8078bd783cc809b916f09d648d182b7aab16b1c",
+  "order_window": "09:00..15:30 observed logs only; all orders disabled outside window; holdings retained",
+  "contract_hypothesis": "Log quotes assumed to be official reference contract, actual identity unconfirmed",
+  "overnight": "Carry only rechecked 199 candidate closures; no nighttime marks or orders, no fabricated settlement",
+  "pending_at_close": "Cancel unfilled pending orders across closure; reevaluate exit at next observed open; fill only next contiguous quote",
+  "risk_boundaries": "Intraday missing, reference contract change, skipped official trading date, missing 09:00/15:30 logger edge censor open positions",
+  "quarter_boundaries": "Preserve position and all cash state, never censor or reset merely due month/quarter",
+  "prepared_quote_source": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_quote_paper_20261022_11/data_local/segments.jsonl"
+}

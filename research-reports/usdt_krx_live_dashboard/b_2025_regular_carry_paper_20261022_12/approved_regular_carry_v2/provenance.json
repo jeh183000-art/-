@@ -1,0 +1,17 @@
+{
+  "prior_paper_commit": "4d9b7d60e9f9ac13cd9f75b517c9029080d891da",
+  "boundary_audit_and_approval_base": "e8078bd783cc809b916f09d648d182b7aab16b1c",
+  "source_data_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "prepared_quote_file": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_quote_paper_20261022_11/data_local/segments.jsonl",
+  "prepared_quote_sha256": "4af4b7e7a3d9a73bf5583346881e2690563dbe06e49acfd70146844b7d5158e0",
+  "source_files_downloaded_again": 0,
+  "raw_data_published": false,
+  "quote_normalized_dataset_duplicated": false,
+  "raw_data_access": "Existing D: study only; publication not fully reproducible without those inputs",
+  "actual_log_product_contract_timezone_confirmed": false,
+  "reference_contract_identity": "USER_APPROVED_HYPOTHESIS_ONLY",
+  "approved_order_window": "09:00..15:30 observed records",
+  "night_orders_prices_marks_created": false,
+  "original_and_final_oos_modified_or_read": false,
+  "new_hypotheses_or_optimization": false
+}

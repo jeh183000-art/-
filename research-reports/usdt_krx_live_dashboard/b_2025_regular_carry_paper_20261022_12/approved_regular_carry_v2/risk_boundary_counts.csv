@@ -1,0 +1,6 @@
+reason,unverifiable_conditional_cases,count_is_not_disjoint
+INTRADAY_MISSING,7,True
+LOGGER_WINDOW_EDGE_MISSING,10,True
+REFERENCE_ROLL_UNVERIFIED,3,True
+MISSING_TRADING_DATES,1,True
+DATA_END,1,True

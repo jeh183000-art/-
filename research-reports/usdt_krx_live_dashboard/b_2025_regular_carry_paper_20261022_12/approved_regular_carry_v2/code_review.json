@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checker_exit_code": 0,
+  "python_files": 9,
+  "scope": "Approved carry scheduling and resumable states; original B signal and cost functions unchanged",
+  "tests": "weekend carry, first-open reevaluation, next-minute fills, cancel closed-window pending orders, checkpoint resume, Decimal cash/fees, running peak/current DD/nondecreasing MDD",
+  "variant_execution_path_same": true,
+  "reason_labels_not_forced_equal": true,
+  "quarter_positions_preserved": true,
+  "real_orders": false
+}
