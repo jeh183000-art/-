@@ -1,0 +1,6 @@
+{
+  "task": "NO_STRATEGY_EXECUTION",
+  "source": "code/*.py contains this audit only",
+  "fixed_B_preserved_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "fixed_variant_registration_commit": "25d0945bc68a1c7fbc2be72741f9749885e1df5d"
+}

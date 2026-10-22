@@ -1,0 +1,1015 @@
+{
+  "status": "PASS",
+  "source_files": [
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\KRX_USD_1m_2025_01_01_to_2025_12_31.csv",
+      "sha256": "e4397f4b5d7f68e4b1ebc6ce2be3288e7f516449a461938e6e83d817a2bc1473",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251001_175W10_regular.csv",
+      "sha256": "d053e3c0857b2c33ae9b34cffd1caee8648d4405b5971d626fd4caa474027fe8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251002_175W10_regular.csv",
+      "sha256": "f25f50cc2eb7d732504614de3d4b6bf48a4b3181b04e7ac9b5c749619c592e70",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251010_175W10_regular.csv",
+      "sha256": "090586cd304297da1052b0a162fd89c9e705c366c8cbd0c76f05f847620cc986",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251013_175W10_regular.csv",
+      "sha256": "efcf2df549ca29f50ab4b27dd0380f611c24b411c7ca513cf35051d1ccc4c815",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251014_175W10_regular.csv",
+      "sha256": "de5d29f4b8261bbef3a33b45386b5787a8212a8a3eb96a87966a3a50a037ee75",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251015_175W10_regular.csv",
+      "sha256": "2bd6ee4ddf1773a75f06561b3eada0c95ae0db9b9dfc0e93f086010173a8fdc9",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251016_175W10_regular.csv",
+      "sha256": "dc066ec90394062810285e30996c9f2b0fec9c3b196ca92cf254f1f38c38a5e5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251017_175W10_regular.csv",
+      "sha256": "be1423dc5c22964a7c104860e91e4b7c8bdc2a035002e0fc79369a8c53045076",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251020_175W10_regular.csv",
+      "sha256": "80957581551dc30619973bf9aaf437b48b4691d156e89d91d4b24d24e519156f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251021_175W11_regular.csv",
+      "sha256": "2287b7ff8734d248d2a77b93e04ff15308eb3a583d864156ad9dbf9e191c42f7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251022_175W11_regular.csv",
+      "sha256": "5e7f996b68b6c85b5969979aee7d706f2c3338527445bab387e0d5b994f24458",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251023_175W11_regular.csv",
+      "sha256": "ee394b97c405fd24d0157df813972d17cc1a827d6c3fa100fc9da107ea3ded5a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251024_175W11_regular.csv",
+      "sha256": "94e1b3de1f690873fb054165f934fc0535423114024daadbd55a7add795ffd85",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251027_175W11_regular.csv",
+      "sha256": "5aaa0cf6fb7440d1a309fa861ff1a904b7b66a785de2dbb0e5ea9ab1de6776f1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251028_175W11_regular.csv",
+      "sha256": "746ac056190290e6602f93b26b99fc27d209983c23ed779800ccca6663de0157",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251029_175W11_regular.csv",
+      "sha256": "79485fe043f5ed03c870b5b44a203bc1720b43bc309ac611d41d32924bece6fb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251030_175W11_regular.csv",
+      "sha256": "41fb70be5a8a7976f7c8a15b03568acfd5389216d9f079b92650954b42f5fedd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251031_175W11_regular.csv",
+      "sha256": "704ac51000235007d453aa784dd818ced090cc3c2791a2151602f337ebf400e0",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251103_175W11_regular.csv",
+      "sha256": "3ab8b3c488a2d9258bd432795fea20c82fa84cb9d0fdf8784052dff2caf975cb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251104_175W11_regular.csv",
+      "sha256": "36480e803d62013ffcfdfd711ad7bd19e6c3bf2faa7810fe110c7c34c8aa9486",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251105_175W11_regular.csv",
+      "sha256": "1843190c9fcc97216ef62bbd50b665ae46cca6c4292cfbb07fecb3f85bef5947",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251106_175W11_regular.csv",
+      "sha256": "0dbbf03f534fbbc8f5171c615c8e614cf99a8996dbb7f3f7a32c2219add81968",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251107_175W11_regular.csv",
+      "sha256": "be5b8f2394dba13278aae7d4ea32abc9ed5da5316556b4b2c9ad854bff9b0892",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251110_175W11_regular.csv",
+      "sha256": "f2bdbb39049cd49606b9827b8b301137d2f6a6e89077a7bc4e2573ce3b3576ee",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251111_175W11_regular.csv",
+      "sha256": "cc27b94912d5377db863fba708185aeced8e6e4b6d1af4b991ad0224028ae392",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251112_175W11_regular.csv",
+      "sha256": "400f7d5bc415f8c80639200b5d96bf4973964885c0de257a969854c7338f231f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251113_175W11_regular.csv",
+      "sha256": "ee75813bb26eeb177c5a6c11aa66d429aad2d26b4df8d24df75fb5507b3bfc8f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251114_175W11_regular.csv",
+      "sha256": "9623b656bf00e0fcf88ad5b0f0335ef077a5e38652055f3ab7bd6188cdac5141",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251117_175W11_regular.csv",
+      "sha256": "1c0d27cff99eedb9962d4c26c4bcc9a86a869675338b05da711b9aa1e47f9062",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251118_175W12_regular.csv",
+      "sha256": "cae78f393165c285597b0fdf8861ab34e0c2fa396386628e1ad05aa62070f3c2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251119_175W12_regular.csv",
+      "sha256": "1dbf2ef4c2bf48669c0207c52eaaab8038d4b2c2e70d265a3ef1722e8f7c98b8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251120_175W12_regular.csv",
+      "sha256": "f140349a02137a80794a7ca39121c9e3ffe20588a8ce8354279761ec636b4675",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251121_175W12_regular.csv",
+      "sha256": "6a534ebe4a27725ea682bf8825b779fbcbc45354ea446a7b26b2da26d9885758",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251124_175W12_regular.csv",
+      "sha256": "d197710bb9b42996f5c129f2ce318d77e1ab119e771729307d4b65f84eb6905c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251125_175W12_regular.csv",
+      "sha256": "00f90cd163d3e814b4daf7711c62a684bc27e61075cd5a86b2766f5a7d7a0f09",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251126_175W12_regular.csv",
+      "sha256": "21ef147dc4f695c6880e1447a28d7801bd903b462db09a05a8cee96ddaf8e9f2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251127_175W12_regular.csv",
+      "sha256": "cae2dea9704c420c8583a1dfc047f4da5cb5b09a14314e7e0b6054d9c56e1022",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251128_175W12_regular.csv",
+      "sha256": "b7d916297219fecc719d5302c03692f0a1791e20c01d5e644879c77e7cc41023",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251201_175W12_regular.csv",
+      "sha256": "8ba64f0dddd98dfddc43c67d5b27dae2e6fed5304f26eabf21d822ee6468c3a7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251202_175W12_regular.csv",
+      "sha256": "fefb61202de7389f5728b6e674ffba213c58a880c28f72abb57e6e610eb635db",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251203_175W12_regular.csv",
+      "sha256": "a6a975f1f0f48124c9979caa19bbd6865163d89baff628e8c1b087c55f2406cf",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251204_175W12_regular.csv",
+      "sha256": "2fbed52e3486035b60c1e2ede509db9bbf3b81fbb3c698c57abb962704f26c67",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251205_175W12_regular.csv",
+      "sha256": "6021df448eb951145c49df35ae661eff5cad12048df271dd8416f8f7b03bc640",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251208_175W12_regular.csv",
+      "sha256": "a3a988dccb62b8febc00c3b9b1c60c7612c4f4faca914b79def229c265620edb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251209_175W12_regular.csv",
+      "sha256": "0385fe393c94cea1a452e8c2225803716b5c6df3fa35ce24416152a256c37c26",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251210_175W12_regular.csv",
+      "sha256": "370f77cbf6e8626dcb870b3b4681f0ff7ec8f02a80c96b82b4c6325453fa1535",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251211_175W12_regular.csv",
+      "sha256": "03fc9c5e81794cb13d1d83b5cfa66c35e8504232a93e2d030cdb9cc59575ab53",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251212_175W12_regular.csv",
+      "sha256": "7e8b7307079bc421ce578e8da544109717d031d47ab937f9db795eff17820904",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251215_175W12_regular.csv",
+      "sha256": "34f3d547dabe053f68906d4423dfa99396f31ab2a3b6e57b4cc996a63327cf1c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251216_A75601_regular.csv",
+      "sha256": "0f00e1538278ea70e920db859850fb3fecc19e2b84281256d47b61c04896c01b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251217_A75601_regular.csv",
+      "sha256": "46f3d9911c9c75e67c858dc5b2f0ee7b53811535441cb01bd0feda5a2990e54c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251218_A75601_regular.csv",
+      "sha256": "eaddd99a2ee58909db3684a1ab65c561c5594762db602675223ec2fd6f2f2a53",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251219_A75601_regular.csv",
+      "sha256": "64370bbeebb51e44ca2b0aa29a74eace84eb7b58b69ba7ce904e26fd078292ea",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251222_A75601_regular.csv",
+      "sha256": "bfa7fc0419bdcd027e506b0384bcb17916ab95f39db6d3b2610ac295cc26a1e1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251223_A75601_regular.csv",
+      "sha256": "7d7ba1e96020931fc2a958ed89fb010ba8e22c2c9462add88ed616ff2ad14a7b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251224_A75601_regular.csv",
+      "sha256": "1991c604617bc66d39536eb5fe7911298332e0d4bcca81850b499f8d9b6306b3",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251226_A75601_regular.csv",
+      "sha256": "c5879b017eeda4b5c5ca021a9898f573c9afc7e9f1565b2c5f859a753a9bfe10",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251229_A75601_regular.csv",
+      "sha256": "2e70928e6fe04b377cd488aed6727213779e3147b4fbdc0e8159236bb8ddd160",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\bars\\20251230_A75601_regular.csv",
+      "sha256": "830474c5d3cad1c88713dcb9abb1b2624e290f28a59cf354d041f26b8678cb8f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\investigation_sep_oct_2025\\20251001_175W10_1m.csv",
+      "sha256": "d053e3c0857b2c33ae9b34cffd1caee8648d4405b5971d626fd4caa474027fe8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\investigation_sep_oct_2025\\20251002_175W10_1m.csv",
+      "sha256": "f25f50cc2eb7d732504614de3d4b6bf48a4b3181b04e7ac9b5c749619c592e70",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\investigation_sep_oct_2025\\20251013_175W10_1m.csv",
+      "sha256": "70cfd86bb38fc8e5d5d29310824016d4ccb9305736b360a53a861c30cc0814ec",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\monthly\\KRX_USD_1m_2025_10.csv",
+      "sha256": "c6f3a91cbe73b50df9fd8fbbf00006ca0e3a88349d182050c8409ab52dadf071",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\monthly\\KRX_USD_1m_2025_11.csv",
+      "sha256": "4a40891bfc9058ae3b1050303dfb5cc857e131b42ee96588841c35555bcb86aa",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\monthly\\KRX_USD_1m_2025_12.csv",
+      "sha256": "06d09c4695929d7cc4f6cc0193b58a25647f029bec8aff8270cf314a91f15dbd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251013_175W10_1m.csv",
+      "sha256": "70cfd86bb38fc8e5d5d29310824016d4ccb9305736b360a53a861c30cc0814ec",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251015_175W10_1m.csv",
+      "sha256": "c767c0066084d46cc4dda85cd7be8f63dd5b38ac0044820a348cd5d62314663d",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251031_175W11_1m.csv",
+      "sha256": "5958967c6741a8254c09dbd36ab118c32ff254fada600613bfd2628d72c4d8fd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251114_175W11_1m.csv",
+      "sha256": "205b754d79f1edbf463a90c0d6ec17bfe68057e3fabd37d1e7550cd84bf82cb4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251128_175W12_1m.csv",
+      "sha256": "747cc87e02a81a95167d896c43639e93b4b31e9481e8b486ad3bec8eedae3174",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251215_175W12_1m.csv",
+      "sha256": "9bf77f05e3cfc5ecdd7a9ec7f9f536b5266be5d7628f56b66e38ff7a6dac521c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\probe\\20251230_A75601_1m.csv",
+      "sha256": "3d8fe4abc40e4332635d822ad159d46153b302807841805e75b8cf5e8e7e3175",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\KRX_USD_1m_2025_01_01_to_2025_12_31.csv",
+      "sha256": "e4397f4b5d7f68e4b1ebc6ce2be3288e7f516449a461938e6e83d817a2bc1473",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251001_175W10_regular.csv",
+      "sha256": "d053e3c0857b2c33ae9b34cffd1caee8648d4405b5971d626fd4caa474027fe8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251002_175W10_regular.csv",
+      "sha256": "f25f50cc2eb7d732504614de3d4b6bf48a4b3181b04e7ac9b5c749619c592e70",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251010_175W10_regular.csv",
+      "sha256": "090586cd304297da1052b0a162fd89c9e705c366c8cbd0c76f05f847620cc986",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251013_175W10_regular.csv",
+      "sha256": "efcf2df549ca29f50ab4b27dd0380f611c24b411c7ca513cf35051d1ccc4c815",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251014_175W10_regular.csv",
+      "sha256": "de5d29f4b8261bbef3a33b45386b5787a8212a8a3eb96a87966a3a50a037ee75",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251015_175W10_regular.csv",
+      "sha256": "2bd6ee4ddf1773a75f06561b3eada0c95ae0db9b9dfc0e93f086010173a8fdc9",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251016_175W10_regular.csv",
+      "sha256": "dc066ec90394062810285e30996c9f2b0fec9c3b196ca92cf254f1f38c38a5e5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251017_175W10_regular.csv",
+      "sha256": "be1423dc5c22964a7c104860e91e4b7c8bdc2a035002e0fc79369a8c53045076",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251020_175W10_regular.csv",
+      "sha256": "80957581551dc30619973bf9aaf437b48b4691d156e89d91d4b24d24e519156f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251021_175W11_regular.csv",
+      "sha256": "2287b7ff8734d248d2a77b93e04ff15308eb3a583d864156ad9dbf9e191c42f7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251022_175W11_regular.csv",
+      "sha256": "5e7f996b68b6c85b5969979aee7d706f2c3338527445bab387e0d5b994f24458",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251023_175W11_regular.csv",
+      "sha256": "ee394b97c405fd24d0157df813972d17cc1a827d6c3fa100fc9da107ea3ded5a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251024_175W11_regular.csv",
+      "sha256": "94e1b3de1f690873fb054165f934fc0535423114024daadbd55a7add795ffd85",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251027_175W11_regular.csv",
+      "sha256": "5aaa0cf6fb7440d1a309fa861ff1a904b7b66a785de2dbb0e5ea9ab1de6776f1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251028_175W11_regular.csv",
+      "sha256": "746ac056190290e6602f93b26b99fc27d209983c23ed779800ccca6663de0157",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251029_175W11_regular.csv",
+      "sha256": "79485fe043f5ed03c870b5b44a203bc1720b43bc309ac611d41d32924bece6fb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251030_175W11_regular.csv",
+      "sha256": "41fb70be5a8a7976f7c8a15b03568acfd5389216d9f079b92650954b42f5fedd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251031_175W11_regular.csv",
+      "sha256": "704ac51000235007d453aa784dd818ced090cc3c2791a2151602f337ebf400e0",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251103_175W11_regular.csv",
+      "sha256": "3ab8b3c488a2d9258bd432795fea20c82fa84cb9d0fdf8784052dff2caf975cb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251104_175W11_regular.csv",
+      "sha256": "36480e803d62013ffcfdfd711ad7bd19e6c3bf2faa7810fe110c7c34c8aa9486",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251105_175W11_regular.csv",
+      "sha256": "1843190c9fcc97216ef62bbd50b665ae46cca6c4292cfbb07fecb3f85bef5947",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251106_175W11_regular.csv",
+      "sha256": "0dbbf03f534fbbc8f5171c615c8e614cf99a8996dbb7f3f7a32c2219add81968",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251107_175W11_regular.csv",
+      "sha256": "be5b8f2394dba13278aae7d4ea32abc9ed5da5316556b4b2c9ad854bff9b0892",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251110_175W11_regular.csv",
+      "sha256": "f2bdbb39049cd49606b9827b8b301137d2f6a6e89077a7bc4e2573ce3b3576ee",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251111_175W11_regular.csv",
+      "sha256": "cc27b94912d5377db863fba708185aeced8e6e4b6d1af4b991ad0224028ae392",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251112_175W11_regular.csv",
+      "sha256": "400f7d5bc415f8c80639200b5d96bf4973964885c0de257a969854c7338f231f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251113_175W11_regular.csv",
+      "sha256": "ee75813bb26eeb177c5a6c11aa66d429aad2d26b4df8d24df75fb5507b3bfc8f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251114_175W11_regular.csv",
+      "sha256": "9623b656bf00e0fcf88ad5b0f0335ef077a5e38652055f3ab7bd6188cdac5141",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251117_175W11_regular.csv",
+      "sha256": "1c0d27cff99eedb9962d4c26c4bcc9a86a869675338b05da711b9aa1e47f9062",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251118_175W12_regular.csv",
+      "sha256": "cae78f393165c285597b0fdf8861ab34e0c2fa396386628e1ad05aa62070f3c2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251119_175W12_regular.csv",
+      "sha256": "1dbf2ef4c2bf48669c0207c52eaaab8038d4b2c2e70d265a3ef1722e8f7c98b8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251120_175W12_regular.csv",
+      "sha256": "f140349a02137a80794a7ca39121c9e3ffe20588a8ce8354279761ec636b4675",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251121_175W12_regular.csv",
+      "sha256": "6a534ebe4a27725ea682bf8825b779fbcbc45354ea446a7b26b2da26d9885758",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251124_175W12_regular.csv",
+      "sha256": "d197710bb9b42996f5c129f2ce318d77e1ab119e771729307d4b65f84eb6905c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251125_175W12_regular.csv",
+      "sha256": "00f90cd163d3e814b4daf7711c62a684bc27e61075cd5a86b2766f5a7d7a0f09",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251126_175W12_regular.csv",
+      "sha256": "21ef147dc4f695c6880e1447a28d7801bd903b462db09a05a8cee96ddaf8e9f2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251127_175W12_regular.csv",
+      "sha256": "cae2dea9704c420c8583a1dfc047f4da5cb5b09a14314e7e0b6054d9c56e1022",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251128_175W12_regular.csv",
+      "sha256": "b7d916297219fecc719d5302c03692f0a1791e20c01d5e644879c77e7cc41023",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251201_175W12_regular.csv",
+      "sha256": "8ba64f0dddd98dfddc43c67d5b27dae2e6fed5304f26eabf21d822ee6468c3a7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251202_175W12_regular.csv",
+      "sha256": "fefb61202de7389f5728b6e674ffba213c58a880c28f72abb57e6e610eb635db",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251203_175W12_regular.csv",
+      "sha256": "a6a975f1f0f48124c9979caa19bbd6865163d89baff628e8c1b087c55f2406cf",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251204_175W12_regular.csv",
+      "sha256": "2fbed52e3486035b60c1e2ede509db9bbf3b81fbb3c698c57abb962704f26c67",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251205_175W12_regular.csv",
+      "sha256": "6021df448eb951145c49df35ae661eff5cad12048df271dd8416f8f7b03bc640",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251208_175W12_regular.csv",
+      "sha256": "a3a988dccb62b8febc00c3b9b1c60c7612c4f4faca914b79def229c265620edb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251209_175W12_regular.csv",
+      "sha256": "0385fe393c94cea1a452e8c2225803716b5c6df3fa35ce24416152a256c37c26",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251210_175W12_regular.csv",
+      "sha256": "370f77cbf6e8626dcb870b3b4681f0ff7ec8f02a80c96b82b4c6325453fa1535",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251211_175W12_regular.csv",
+      "sha256": "03fc9c5e81794cb13d1d83b5cfa66c35e8504232a93e2d030cdb9cc59575ab53",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251212_175W12_regular.csv",
+      "sha256": "7e8b7307079bc421ce578e8da544109717d031d47ab937f9db795eff17820904",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251215_175W12_regular.csv",
+      "sha256": "34f3d547dabe053f68906d4423dfa99396f31ab2a3b6e57b4cc996a63327cf1c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251216_A75601_regular.csv",
+      "sha256": "0f00e1538278ea70e920db859850fb3fecc19e2b84281256d47b61c04896c01b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251217_A75601_regular.csv",
+      "sha256": "46f3d9911c9c75e67c858dc5b2f0ee7b53811535441cb01bd0feda5a2990e54c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251218_A75601_regular.csv",
+      "sha256": "eaddd99a2ee58909db3684a1ab65c561c5594762db602675223ec2fd6f2f2a53",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251219_A75601_regular.csv",
+      "sha256": "64370bbeebb51e44ca2b0aa29a74eace84eb7b58b69ba7ce904e26fd078292ea",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251222_A75601_regular.csv",
+      "sha256": "bfa7fc0419bdcd027e506b0384bcb17916ab95f39db6d3b2610ac295cc26a1e1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251223_A75601_regular.csv",
+      "sha256": "7d7ba1e96020931fc2a958ed89fb010ba8e22c2c9462add88ed616ff2ad14a7b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251224_A75601_regular.csv",
+      "sha256": "1991c604617bc66d39536eb5fe7911298332e0d4bcca81850b499f8d9b6306b3",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251226_A75601_regular.csv",
+      "sha256": "c5879b017eeda4b5c5ca021a9898f573c9afc7e9f1565b2c5f859a753a9bfe10",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251229_A75601_regular.csv",
+      "sha256": "2e70928e6fe04b377cd488aed6727213779e3147b4fbdc0e8159236bb8ddd160",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\bars\\20251230_A75601_regular.csv",
+      "sha256": "830474c5d3cad1c88713dcb9abb1b2624e290f28a59cf354d041f26b8678cb8f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\investigation_sep_oct_2025\\20251001_175W10_1m.csv",
+      "sha256": "d053e3c0857b2c33ae9b34cffd1caee8648d4405b5971d626fd4caa474027fe8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\investigation_sep_oct_2025\\20251002_175W10_1m.csv",
+      "sha256": "f25f50cc2eb7d732504614de3d4b6bf48a4b3181b04e7ac9b5c749619c592e70",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\investigation_sep_oct_2025\\20251013_175W10_1m.csv",
+      "sha256": "70cfd86bb38fc8e5d5d29310824016d4ccb9305736b360a53a861c30cc0814ec",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\monthly\\KRX_USD_1m_2025_10.csv",
+      "sha256": "c6f3a91cbe73b50df9fd8fbbf00006ca0e3a88349d182050c8409ab52dadf071",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\monthly\\KRX_USD_1m_2025_11.csv",
+      "sha256": "4a40891bfc9058ae3b1050303dfb5cc857e131b42ee96588841c35555bcb86aa",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\monthly\\KRX_USD_1m_2025_12.csv",
+      "sha256": "06d09c4695929d7cc4f6cc0193b58a25647f029bec8aff8270cf314a91f15dbd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251013_175W10_1m.csv",
+      "sha256": "70cfd86bb38fc8e5d5d29310824016d4ccb9305736b360a53a861c30cc0814ec",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251015_175W10_1m.csv",
+      "sha256": "c767c0066084d46cc4dda85cd7be8f63dd5b38ac0044820a348cd5d62314663d",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251031_175W11_1m.csv",
+      "sha256": "5958967c6741a8254c09dbd36ab118c32ff254fada600613bfd2628d72c4d8fd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251114_175W11_1m.csv",
+      "sha256": "205b754d79f1edbf463a90c0d6ec17bfe68057e3fabd37d1e7550cd84bf82cb4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251128_175W12_1m.csv",
+      "sha256": "747cc87e02a81a95167d896c43639e93b4b31e9481e8b486ad3bec8eedae3174",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251215_175W12_1m.csv",
+      "sha256": "9bf77f05e3cfc5ecdd7a9ec7f9f536b5266be5d7628f56b66e38ff7a6dac521c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\krx_2025_full_1m\\probe\\20251230_A75601_1m.csv",
+      "sha256": "3d8fe4abc40e4332635d822ad159d46153b302807841805e75b8cf5e8e7e3175",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251014_175W10.json",
+      "sha256": "bc8c5acc6d76aa03ad04d043965adb057778a213a0690d124ba13aa3f0b426d4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251015_175W10.json",
+      "sha256": "996f46678ea870c4cc9497b262e34c14544f9404dd03b263366b31b04626adcd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251016_175W10.json",
+      "sha256": "9b89b1c028ee12e87e24cbf2101b00e0b8e7c5ad35471db71ab6b076b61f3f70",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251017_175W10.json",
+      "sha256": "a95050631143c328d29bc88f3117ca39dbc2be9a9a622c686d79af8af527b62c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251020_175W11.json",
+      "sha256": "34bf8a41a61beb77c873b2aa12c2f03a36088321044743dd04f31c1e22d00fc3",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251021_175W11.json",
+      "sha256": "5ef92ce6d83f9d1a7f0c0c5f0b19dd8592f41673fac200163fc44c61eeb597f4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251022_175W11.json",
+      "sha256": "412da1a92dcbeced0065baa5bd1094f2411017f6f2362c986e50b7bf60fe1827",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251023_175W11.json",
+      "sha256": "77335ad0cf89a2c8d247e5d84cd91c73d19d968803ff538971930d34986407a1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251024_175W11.json",
+      "sha256": "af6565158ef0cefb005f7009b261a7ad88859fe605d27a81e20ebe2f5591a759",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251027_175W11.json",
+      "sha256": "b1a504a38fd4159ff9d7cbc3daee7ec12bd3955ec6f0b0a8b26ff45bd3238153",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251028_175W11.json",
+      "sha256": "e9c4c4c1cf469c03b02571e29db06e45661e2f0d424378951c83277948b115d0",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251029_175W11.json",
+      "sha256": "7a9347ef11c7d673987629e681e0aee5a26d12daeb9b6f5b2a101e93ebe1ac65",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251030_175W11.json",
+      "sha256": "8d5fb166aba85b27c2724d2748a85e7a4ba6f03eb21f720786ff2e644bc88c56",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251031_175W11.json",
+      "sha256": "4d6b9780be29c990e1a33ee60c7332f54f309eac3e45abfd4c2e3067bf06590e",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251103_175W11.json",
+      "sha256": "67859b63cddedcf186aa16c8d10026d5fe70a1ba36860ff136e5ca40e5e6de61",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251104_175W11.json",
+      "sha256": "b9e71e63f3b462e2c87759d2d09b474f2ddd80f2b24cf76b5be5f57dc39ee090",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251105_175W11.json",
+      "sha256": "5adcd9fdc0fb5dc76e8e0e968759a4a8e3692edb941571e17cbc6871ed4a563a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251106_175W11.json",
+      "sha256": "249cd9b33cfd9b340050761fa2020e9e9b039796ea7cfb31fdf66a267d75b859",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251107_175W11.json",
+      "sha256": "5641b72959d719f0e9c0fd04907b87b96e257db6b9eb0ae1b86831fdfca7762a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251110_175W11.json",
+      "sha256": "36f46a2e4c05ed76bb7586ba6811a985bb7252d1507477d966bf695d2cf936f4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251111_175W11.json",
+      "sha256": "ca2775e9076b9f5480f724420ea6fcbf5cd4f680a00e297da0a12f3a0f295bab",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251112_175W11.json",
+      "sha256": "e276361802cc4fb5770cce73fa276b62e62131fdffcb163b9abf8133b4aac83a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251113_175W11.json",
+      "sha256": "c3b6e615543399732a068942d0120646b1787876558bb0155ed7fa37982ba8b5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251114_175W11.json",
+      "sha256": "2562adb329aadbe409e09bc9e82f2a40729005d0fdb6b045034966804ed76d1e",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251117_175W12.json",
+      "sha256": "6fdac959d7b65d317fe0ba693268c8b23ac8cbcaff16abf2a937318dcfd77d46",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251118_175W12.json",
+      "sha256": "28740c1062b714f83601e431bb5dbd5dc36dcc1b536bcb0658beda61e7396457",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251119_175W12.json",
+      "sha256": "bdfc3b3c37e5f7370054ce15e0ab696f29d5ad99bd1ae4489befb62394b12e47",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251120_175W12.json",
+      "sha256": "f1896c53b31646779c655d9a0ebc04b9ddb05f4a6f5f41202970c7056f224b6f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251121_175W12.json",
+      "sha256": "7860d5235c1110fb562c452afe5b6a955f66675141757acfa55b26eb4d7181b4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251124_175W12.json",
+      "sha256": "eefb085ea11d3fb491d38b46a56327fc3b29287cb721f9c0a16a2e5bd143f3c7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251125_175W12.json",
+      "sha256": "d01769f1d18c3f0b4b3fbaa543a8938d300becfa50ac003ac594db426b45ed15",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251126_175W12.json",
+      "sha256": "3dccd18478c3f3eeadd005a0d517790e9dc09acc9d8f67e64d19604e460c7cfc",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251127_175W12.json",
+      "sha256": "e0724ddb6a6e4620510c729c19725ff02b55cbb02994f1f69842c56d90dfe6ff",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251128_175W12.json",
+      "sha256": "71c132977ffbe5ff73b5e875b9ad4014a94862cf57f523cf367608e1c3e1bba9",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251201_175W12.json",
+      "sha256": "83069ffd9321ed7c0e16af4a59fdc20494ea89cfc201810ff1cb54a205d8a8de",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251202_175W12.json",
+      "sha256": "99b2c389b7ca305e515fc5d325b2c7c666a9f4da44249543c2e7fb4a4e45b4b7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251203_175W12.json",
+      "sha256": "d4e712b144752c254e4cefb05629a995d43aaefbb86ce41f6e6aa437f3a577eb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251204_175W12.json",
+      "sha256": "65c5fef75066542c4649fdf62860281f157e97961365a26806b0aeb986ba0fcd",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251205_175W12.json",
+      "sha256": "e4007f9c91a2d432b53082b5888f18d8bcaf083ac192880e71ec2f4fa24a0089",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251208_175W12.json",
+      "sha256": "93c47422a32de415abfbdbeaf12c83235c5f4f31de2097dc21365adb9f90077c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251209_175W12.json",
+      "sha256": "ce3f9a563577eb5773b345092a82897165eb8828879f0f3b6522c7db7251b5db",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251210_175W12.json",
+      "sha256": "df981ecfabf702d5a9130a1453c535a193c545be23a780569897eccd9e4a5a00",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251211_175W12.json",
+      "sha256": "5fdb5a3a8e7dc70c45c568dd21836c387d0c7fd533c36e6f31db19db7868c8db",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251212_175W12.json",
+      "sha256": "037231e201925f2524cc973a9273b8db505668100ee9f67ead56c5179cf83dba",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251215_A75601.json",
+      "sha256": "5cb104a414fb5dc10218772a5039938ef360eaa9aeee556dd670a21bd2b1060a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251216_A75601.json",
+      "sha256": "6aa13370d94583071d398417446c25226c6e9b5afda6367877d4a44453d6b7f7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251217_A75601.json",
+      "sha256": "bf80366d98c7306ecf50461dd43545a5ed184d8672e88d00fd889257124f234c",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251218_A75601.json",
+      "sha256": "e166603439a41fb3ffeee7ddbb99e31849514d794e9adb9b1cb8e9b7162ffdc9",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251219_A75601.json",
+      "sha256": "b980f67d15d47521a760c5e4ee3c74f6bd605fd2ebffa964e8dfe7877a03d4de",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251222_A75601.json",
+      "sha256": "198452e5ce27c3ab35a7f458534d8a7d1e037048a9ac9ad2b2f9cb9f6cd6f039",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251223_A75601.json",
+      "sha256": "b480e374dd48d5315d783cabfd78975f25964b6541f5abace83384a14b35dc0d",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251224_A75601.json",
+      "sha256": "145be769bd0f00b68aadb6a1c3bf8e63d9cd9c607052d53261e8e0f10db02ed5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251226_A75601.json",
+      "sha256": "748010777086f5738f028306634e995d6ae01feba17844fbe34a2c36b95e2140",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\night_acquisition\\sessions\\20251229_A75601.json",
+      "sha256": "2299f0971e3d1cb857fc89752ca75bf66e6cb7a53a34e2ac908f8cb45aa27040",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\roll_quotes\\20251117_175W12.csv",
+      "sha256": "feb9eac1a834cc53908a3f420ee3e58dcb7e5c0bc62769c20390a08df4361c5a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\roll_quotes\\20251215_A75601.csv",
+      "sha256": "9eee05bdd5cea0d30a0335cfb7274c03f1432efd9aee5094178b421b523ce004",
+      "unchanged": true
+    }
+  ]
+}

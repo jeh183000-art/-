@@ -1,0 +1,54 @@
+[
+  {
+    "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\live.sqlite3",
+    "table": "bars",
+    "date_columns": [
+      "start_ts",
+      "end_ts"
+    ],
+    "rows_in_calendar2025_iso_or_epoch": {
+      "start_ts": 0,
+      "end_ts": 0
+    },
+    "prices_read": false
+  },
+  {
+    "path": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\live.sqlite3",
+    "table": "krx_daily_prices",
+    "date_columns": [
+      "business_date",
+      "received_ts"
+    ],
+    "rows_in_calendar2025_iso_or_epoch": {
+      "business_date": 1310,
+      "received_ts": 0
+    },
+    "prices_read": false
+  },
+  {
+    "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\live.sqlite3",
+    "table": "bars",
+    "date_columns": [
+      "start_ts",
+      "end_ts"
+    ],
+    "rows_in_calendar2025_iso_or_epoch": {
+      "start_ts": 0,
+      "end_ts": 0
+    },
+    "prices_read": false
+  },
+  {
+    "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\app\\data\\live.sqlite3",
+    "table": "krx_daily_prices",
+    "date_columns": [
+      "business_date",
+      "received_ts"
+    ],
+    "rows_in_calendar2025_iso_or_epoch": {
+      "business_date": 1310,
+      "received_ts": 0
+    },
+    "prices_read": false
+  }
+]

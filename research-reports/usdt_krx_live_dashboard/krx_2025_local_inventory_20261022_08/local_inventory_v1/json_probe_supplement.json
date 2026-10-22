@@ -1,0 +1,11 @@
+{
+  "status": "PASS_METADATA_ENRICHED_DUPLICATE_SOURCE",
+  "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\b_fixed_2025_validation_20261022_07\\data_access\\20251211_CM_raw_price_rows.json",
+  "sha256": "6d7d44a861f57eee7ff542312d35407026b00ec84a28b380318e4dff6e1e55f9",
+  "contract_source": "request FID_INPUT_ISCD verified against existing official session contract plan",
+  "business_date": "20251212",
+  "rows": 102,
+  "all_rows_already_in_verified_union": true,
+  "new_rows": 0,
+  "reason": "API price rows do not repeat the contract code; request metadata is required to identify them"
+}

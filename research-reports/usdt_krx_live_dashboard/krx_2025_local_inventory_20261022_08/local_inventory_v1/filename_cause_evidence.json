@@ -1,0 +1,31 @@
+{
+  "file": "D:\\Codex_Research\\archive\\c_drive_migration_20261020\\codex_workspace\\files-pasted-by-the-user-codex\\outputs\\usdt_krx_live_dashboard\\data\\krx_2025_full_1m\\finalize_krx_2025_full.py",
+  "sha256": "99aafdb33bced2cb94aaffcdd3f5c59569434f95a6927b49eae77497eb1bf0dc",
+  "evidence": [
+    {
+      "line": 200,
+      "code": "all_bars.extend(bars)"
+    },
+    {
+      "line": 202,
+      "code": "if summary_status == \"UNAVAILABLE\":"
+    },
+    {
+      "line": 211,
+      "code": "if summary_status == \"UNAVAILABLE\":"
+    },
+    {
+      "line": 212,
+      "code": "detail = \"Representative mid-month and month-end probes returned no output2 rows; remaining dates were not individually queried. This records observed API availability, not a per-date KIS response.\""
+    },
+    {
+      "line": 229,
+      "code": "write_csv(OUT / \"KRX_USD_1m_2025_01_01_to_2025_12_31.csv\", all_bars, BAR_FIELDS)"
+    },
+    {
+      "line": 309,
+      "code": "\"- `KRX_USD_1m_2025_01_01_to_2025_12_31.csv`: 확보된 분봉 통합 파일. 월별 원본은 별도 보존됩니다.\","
+    }
+  ],
+  "conclusion": "The year-range filename is hard-coded; rows are only concatenated from existing monthly results. Empty Jan-Sep months are not synthesized or a guarantee of successful collection."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS_LOCAL_SOURCE_INVENTORY",
+  "full_year_continuity": "NOT_CONFIRMED",
+  "ohlcv_conflicts": 0,
+  "downloads": 0,
+  "original_mutations": 0,
+  "backtest_executions": 0,
+  "actual_bar_sources": 202,
+  "files_with_ohlc_errors": 0,
+  "protected_price_files_opened": 0
+}

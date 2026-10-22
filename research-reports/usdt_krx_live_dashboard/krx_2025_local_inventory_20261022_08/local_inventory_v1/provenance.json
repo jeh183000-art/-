@@ -1,0 +1,33 @@
+{
+  "search_roots": [
+    "D:\\Codex_Research",
+    "C:\\Users\\48733\\Documents\\Codex"
+  ],
+  "source_audit": {
+    "source_files_audited": 2630,
+    "actual_bar_sources": 202,
+    "union_contract_rows": 41758,
+    "conflicts": 0,
+    "full_year_continuity_confirmed": false,
+    "strategy_run": false,
+    "downloads": false,
+    "protected_oos_read": false,
+    "originals_modified": false
+  },
+  "archive_members": 439713,
+  "archives": 72,
+  "unlabelled_file_date_checks": 207,
+  "unique_content_bar_files": 126,
+  "full_year_continuity": false,
+  "downloads": false,
+  "raw_source_files_modified": false,
+  "protected_oos_contents_read": false,
+  "private_metadata": "all_file_metadata.csv and archive_member_metadata.csv remain D-only; names in system backups and unrelated projects are not published",
+  "input_reproduction": "INPUT_NOT_REMOTELY_REPRODUCIBLE: raw merged market data stays D-only",
+  "new_verified_union": {
+    "path": "D:\\Codex_Research\\usdt_krx_live_dashboard\\studies\\krx_2025_local_inventory_20261022_08\\audit\\verified_union_copy.csv",
+    "bytes": 3243701,
+    "sha256": "e50f32361a03b36698d4b298cb0b644b3cf737c4d771808626dbb7f786a4c7f9"
+  },
+  "strategy": "No B validation run: full-year continuity prerequisite not satisfied"
+}

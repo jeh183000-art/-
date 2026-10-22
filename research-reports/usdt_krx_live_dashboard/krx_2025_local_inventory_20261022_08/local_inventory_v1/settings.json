@@ -1,0 +1,15 @@
+{
+  "task": "LOCAL_FILE_AUDIT_ONLY",
+  "no_download": true,
+  "no_delete": true,
+  "no_overwrite_originals": true,
+  "protected_oos_excluded": true,
+  "merge_key": [
+    "business_date",
+    "timestamp_kst",
+    "contract_code",
+    "session"
+  ],
+  "ohlcv_conflicts": "STOP_NOT_AUTO_RESOLVE",
+  "backtest_gate": "Full 2025 continuity required; gate not passed"
+}
