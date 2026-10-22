@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "arrays": {
+    "trades": "EXACT_MATCH",
+    "events": "EXACT_MATCH",
+    "residual": "EXACT_MATCH",
+    "risk": "EXACT_MATCH",
+    "equity": "EXACT_MATCH",
+    "extremes": "EXACT_MATCH",
+    "orders": "EXACT_MATCH",
+    "ledger": "EXACT_MATCH"
+  },
+  "cycles": 42,
+  "score_pct": 16.7054302006977,
+  "net_krw": 41295918.91188297,
+  "mdd_krw": 9350000.0,
+  "new_condition_count": 0,
+  "old_strategy_runs": 1,
+  "baseline_profit_target_pct": 0.7,
+  "exact_trade_cost_cash_margin_path_match": true,
+  "serialization_error_only": true,
+  "recalculation_repeated": false
+}

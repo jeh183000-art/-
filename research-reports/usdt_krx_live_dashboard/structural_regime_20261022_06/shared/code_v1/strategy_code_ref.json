@@ -1,0 +1,9 @@
+{
+  "strategy": "code/",
+  "financial_engine_source": "B path engine, only exit trigger hook added",
+  "financial_auditor": "unchanged original audit.py and validation2.py",
+  "dependencies": "external_dependencies.json",
+  "original_B_profit_exit_pct": 0.7,
+  "baseline_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "prior_commit": "d3faabebf5828cc00db4979dc48b12af63f4a751"
+}

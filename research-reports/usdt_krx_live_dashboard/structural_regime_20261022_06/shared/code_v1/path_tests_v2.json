@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests": 7,
+  "causal_prefix_invariant": true,
+  "input_keyed_features": true,
+  "cooldown_not_queued": true,
+  "actual_confirmation_signal": true
+}

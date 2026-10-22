@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "side_sign_test": true,
+  "trailing_tests": 5,
+  "prefix_checks": [
+    {
+      "structure": "driver",
+      "cut": 12501,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "driver",
+      "cut": 24019,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "residual",
+      "cut": 12501,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "residual",
+      "cut": 24019,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "momentum",
+      "cut": 12501,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "momentum",
+      "cut": 24019,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "trail",
+      "cut": 12501,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "trail",
+      "cut": 24019,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "opportunity",
+      "cut": 12501,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "opportunity",
+      "cut": 24019,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "selector",
+      "cut": 12501,
+      "arrays": 5,
+      "status": "PASS"
+    },
+    {
+      "structure": "selector",
+      "cut": 24019,
+      "arrays": 5,
+      "status": "PASS"
+    }
+  ],
+  "prior_observations_only": true,
+  "source_scope": "approved only"
+}

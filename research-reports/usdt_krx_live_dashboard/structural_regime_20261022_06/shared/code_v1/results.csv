@@ -1,0 +1,2 @@
+arrays,baseline_profit_target_pct,cycles,exact_trade_cost_cash_margin_path_match,mdd_krw,net_krw,new_condition_count,old_strategy_runs,recalculation_repeated,score_pct,serialization_error_only,status
+"{'trades': 'EXACT_MATCH', 'events': 'EXACT_MATCH', 'residual': 'EXACT_MATCH', 'risk': 'EXACT_MATCH', 'equity': 'EXACT_MATCH', 'extremes': 'EXACT_MATCH', 'orders': 'EXACT_MATCH', 'ledger': 'EXACT_MATCH'}",0.7,42,True,9350000.0,41295918.91188297,0,1,False,16.7054302006977,True,PASS

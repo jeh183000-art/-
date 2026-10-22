@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "direction": 1,
+      "status": "PASS",
+      "cycles": 1
+    },
+    {
+      "direction": -1,
+      "status": "PASS",
+      "cycles": 1
+    }
+  ],
+  "tamper_rejected": true
+}

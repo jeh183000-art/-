@@ -1,0 +1,61 @@
+{
+  "candidate": {
+    "candidate_id": "CONTROL_BF-09-027",
+    "group": "BASELINE_CONTROL_NOT_NEW",
+    "rule": {
+      "family": "relative",
+      "long_entry_gap_pct": -0.97,
+      "short_entry_gap_pct": 0.85,
+      "long_recovery_pp": 0.6,
+      "short_recovery_pp": 0.6,
+      "long_absolute_exit_gap_pct": null,
+      "short_absolute_exit_gap_pct": null,
+      "confirmation_pp": 0,
+      "confirmation_expiry_calendar_minutes": null,
+      "max_hold_minutes": null,
+      "gap_stop_pp": null,
+      "pnl_stop_pct": null,
+      "pnl_profit_pct": 0.7
+    },
+    "rule_sha256": "8dd9a404fde9d1fa05e23d4bd0b6ecee35e712835fc7dc18b42d77058b9d74b8"
+  },
+  "new_condition_count": 0,
+  "purpose": "New optional path gates must be inert for the original B",
+  "tolerances": {
+    "score_pp": 1e-08,
+    "money_krw": 0.01
+  },
+  "strict_arrays": "exact numeric equality including NaN positions",
+  "code_sha256": {
+    "baseline_audit.py": "a0a68641ac87620c83f7c14a2ebc9f96d736f86ca97d1d3a7442d7de36370ba8",
+    "bootstrap.py": "19ddd510aedbd46c1627342dc17bad4dc609cadaf47bd3e07e3b0db74df8fb88",
+    "build_all.py": "cca5a1a954e26bb436b6a3fb5d0585069481ec8f30a5b15d2fa8d7cbf1c0e4d5",
+    "build_structural.py": "857f2fd860cfe732672f80d7ff627c2554faa9717910d85b3e6f65893f89d2b5",
+    "control_regression.py": "a589d1597524751462336a25b4eec750ed5ffae03e865fb85e78db377bd588b7",
+    "diagnose_saved_B.py": "fd5709d0210597496274bf9245caa9878e1c50a4739a9988183c1c9f74415a95",
+    "drawdown_tests.py": "92a0675cc9db011f6371ce5650a911d75165f6ed2329e390a400cc065924fb73",
+    "engine_path.py": "931a503cc6ad5a093f452b61b24ecd70e935b4538a4ab832bf7c1ca1da255163",
+    "exit_policy.py": "5d729dd68cbdc085db7c3a71dcc86b3ea35ee4297e520be4683e63ef08931713",
+    "freeze_registration.py": "f4a4c2171d72d797506aa7bf32a9bf900c107ac866cb51057fba260592426b98",
+    "hypotheses.py": "264edfdaa34631fdc012c0a63d93bfa0600283684f18f6e8cfd86bfbe2efd145",
+    "legacy_signals.py": "8c42a1942160475645c380852fa31a76719308b0d2175aa6ef734c5acdfd3340",
+    "metric_tests.py": "aacc283d4e110f0d94539d69e252b70b1e4d75d56a25b2b903335d442fd3c8fc",
+    "package_B.py": "13437dae3bfa3dbb0dae72d30f06eeb1c26dd0bc94c44469662b74911108fc22",
+    "path_gate_audit.py": "49742f5dd9a68f6bb2607e6a061e8d75d909ea2ce9f3bdca9f49e13855ca42ce",
+    "path_metric_tests.py": "9d80c1f9c4df207ed79fd01bbea4db9212997e7a22a578375de9831389aeb06d",
+    "path_metrics.py": "b9ceb3598c004da46c614df03472d0d6889e9a71aefb3d3d20ca84a695c9411a",
+    "path_reports.py": "3a41b2c47b36d4ce8197b25f34c1731041ba5c16ff605df4b01b5f24e2bdaa46",
+    "path_schema.py": "80814333abaf240eb7b37d3d01c05452089f70a827a96493abc84084a0fdb292",
+    "path_tests.py": "29cf03a86aaf586ac6273ca33a4c0aea229a08d1d368c7d05304e5fdd102863d",
+    "profit_metrics.py": "16e8996d2b736750f2c627716069482b4370f49c56d47cf9cbd4f503b8347a1f",
+    "publish_shared.py": "a622dd1853d54276da0b8c238cdc05e068ee7b876c5c269d0fd1bafe839be0b5",
+    "registry.py": "626c8c22c3b9ba1eb0e307a6a55dd67060f72813c9fc2726e3f9e4504ad980be",
+    "runner.py": "c8ce76df94e28ba062bded770beb4928e07674bd0fdaebed76c9d64d3d92ce16",
+    "signals.py": "e915c965c2c063469dc68726724d3ee20f34fc5dbef7f0689eb190b7a843c5b1",
+    "structural_audit.py": "1d48f2df8acab2e766122836811a4833385a8bba8054e133ccce7fdb235a1f6e",
+    "structural_features.py": "cb47e88a00975dbc1f4cd7e4d57e32b3f0a9538d7288df350a731ac7a9583312",
+    "structural_schema.py": "9bba7b6648b5eae6b952de25c031a00a254b23cdfd7851630b018df5ecea5245",
+    "structural_tests.py": "c98bb0dc8d7c81e1d6386ed237a4b1bad99e6852422720b733e1036508466dbe",
+    "validation2.py": "469d336614d25119d91960bb40e1c1f381bede8b971033189ca8f9605489bae0"
+  }
+}

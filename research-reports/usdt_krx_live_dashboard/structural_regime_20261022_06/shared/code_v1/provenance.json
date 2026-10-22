@@ -1,0 +1,9 @@
+{
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "final_oos_access": false,
+  "scope": "approved exploratory 2026 KRX business dates Jan1..Oct15 plus required night calendar boundaries",
+  "input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "old_strategy_control_runs": 1,
+  "new_conditions": 0
+}
