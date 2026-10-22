@@ -1,0 +1,13 @@
+{
+  "status": "WAITING_FOR_ASSUMPTION_CLARIFICATION",
+  "prior_commit": "4d9b7d60e9f9ac13cd9f75b517c9029080d891da",
+  "rule_changes": false,
+  "new_paper_run": false,
+  "strict_log_contract_confirmed_bridges": 0,
+  "proposed_assumptions_not_approved": [
+    "orders enabled09:00..15:30 only, disabled other times",
+    "logs mapped hypothetically to the official reference contract, not verified identity"
+  ],
+  "no_retroactive_overnight_fills": true,
+  "source_data_redownloads": 0
+}

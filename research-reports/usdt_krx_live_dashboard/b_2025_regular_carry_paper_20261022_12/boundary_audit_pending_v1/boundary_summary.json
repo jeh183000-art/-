@@ -1,0 +1,10 @@
+{
+  "boundaries": 245,
+  "reference_based_potential_bridges": 199,
+  "strict_proven_actual_contract_bridges": 0,
+  "strict_full_regular_close_coverage_bridges": 0,
+  "reference_changes": 11,
+  "intraday_missing_boundaries": 22,
+  "missing_trading_date_boundaries": 1,
+  "no_overnight_prices_created": true
+}
