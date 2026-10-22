@@ -1,0 +1,2 @@
+candidate_id,contracts,cycle_id,direction,entry_row,estimated_exit_cost,fees_paid,future_entry,gross_future,gross_spot,hold_minutes,net_after_exit_cost,slippage_paid,spot_entry
+SR-10-034,17,58.0,-1.0,178233.0,217757.126036,126097.38474,1346.0,-271999.99999998463,170000.0,18087.0,-537688.5107759846,91834.0,1355.0

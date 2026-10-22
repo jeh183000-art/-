@@ -1,0 +1,63 @@
+{
+  "driver": {
+    "tested": 50,
+    "zero": 1,
+    "marginFree": 50,
+    "best": {
+      "id": "SR-03-009",
+      "cycles": 39,
+      "score": 10.092835214716912,
+      "net": 24959194.415514894
+    }
+  },
+  "residual": {
+    "tested": 50,
+    "zero": 0,
+    "marginFree": 2,
+    "best": {
+      "id": "SR-02-020",
+      "cycles": 58,
+      "score": -0.47809201722660744,
+      "net": -1418499.1328709442
+    }
+  },
+  "momentum": {
+    "tested": 50,
+    "zero": 0,
+    "marginFree": 8,
+    "best": {
+      "id": "SR-03-028",
+      "cycles": 54,
+      "score": -15.673890974303857,
+      "net": -38844622.63474817
+    }
+  },
+  "trail": {
+    "tested": 50,
+    "zero": 0,
+    "marginFree": 42,
+    "best": {
+      "id": "SR-05-036",
+      "cycles": 9,
+      "score": 9.02904635362063,
+      "net": 22395823.579492975
+    }
+  },
+  "opportunity": {
+    "tested": 25,
+    "zero": 0,
+    "marginFree": 0,
+    "best": null
+  },
+  "selector": {
+    "tested": 25,
+    "zero": 19,
+    "marginFree": 24,
+    "best": {
+      "id": "SR-05-048",
+      "cycles": 1,
+      "score": 0.19968249282799594,
+      "net": 499346.0098149694
+    }
+  }
+}

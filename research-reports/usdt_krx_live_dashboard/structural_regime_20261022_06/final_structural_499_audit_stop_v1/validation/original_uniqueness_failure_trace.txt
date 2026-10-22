@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\Codex_Research\usdt_krx_live_dashboard\studies\structural_regime_20261022_06\code\bootstrap.py", line 20, in <module>
+    runpy.run_path(str(target),run_name='__main__')
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\Codex_Research\usdt_krx_live_dashboard\studies\structural_regime_20261022_06\code\..\operations\audit_final_metrics.py", line 98, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "D:\Codex_Research\usdt_krx_live_dashboard\studies\structural_regime_20261022_06\code\..\operations\audit_final_metrics.py", line 28, in main
+    assert fingerprint not in seen
+AssertionError

@@ -1,0 +1,9 @@
+{
+  "inventory_rules": 499,
+  "ranked_completed_rules": 455,
+  "zero_completed_excluded": 44,
+  "duplicate_id_excluded": "SR-09-005",
+  "primary": "ranking_completed_unique.csv",
+  "score": "unrounded sum of net completed cycle return pct",
+  "funds_eligibility": "separate columns and top20_margin_free.csv; no capital/absolute profit sorting"
+}

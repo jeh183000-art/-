@@ -1,0 +1,64 @@
+{
+  "status": "SOURCE_REVIEW_RECORDED",
+  "financial_accounting_reused": true,
+  "code_frozen": true,
+  "operations_source_sizes": [
+    {
+      "file": "all_rules_prefix.py",
+      "pure_lines": 35
+    },
+    {
+      "file": "audit_final_metrics.py",
+      "pure_lines": 91
+    },
+    {
+      "file": "audit_final_metrics_v2.py",
+      "pure_lines": 96
+    },
+    {
+      "file": "check_saved_control.py",
+      "pure_lines": 23
+    },
+    {
+      "file": "finalize_structural.py",
+      "pure_lines": 118
+    },
+    {
+      "file": "forensic_saved_ledgers.py",
+      "pure_lines": 58
+    },
+    {
+      "file": "stress_costs.py",
+      "pure_lines": 75
+    },
+    {
+      "file": "strict_exit_triggers.py",
+      "pure_lines": 30
+    },
+    {
+      "file": "verify_archive.py",
+      "pure_lines": 36
+    }
+  ],
+  "single_responsibilities": [
+    "price_features",
+    "state_exit_trigger",
+    "hypothesis_registration",
+    "independent_exit_replay",
+    "saved_ledger_diagnosis",
+    "report_packaging"
+  ],
+  "hot_loop": "Preserved frozen NumPy/Numba array ABI; engine210 pure lines, added exit policy isolated; no unrequested accounting refactor",
+  "tests": [
+    "CONTROL8arrays exact",
+    "PF5",
+    "MDD peak/current/cumulative & settle/roll tamper",
+    "path7",
+    "trail both directions & tamper",
+    "5000 prefix arrays",
+    "500 saved metrics & date sums"
+  ],
+  "unresolved": [
+    "Semantic normalization missing saturated balanced cutoff; one duplicate; frozen generator not modified; further simulations blocked"
+  ]
+}

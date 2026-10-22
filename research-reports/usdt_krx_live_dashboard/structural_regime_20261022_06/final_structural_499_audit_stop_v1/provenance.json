@@ -1,0 +1,10 @@
+{
+  "source_sha256": "62becd7d50e05bdcf47010cdcdfdd8178bbe2ef1d8099a84ab18fae8fea19fbd",
+  "margin_sha256": "910816bc61c9d9b7361bec370e225bfeae9cde0f11b889265cb4409ecb9344b8",
+  "baseline_commit": "c63352755d43b067b2124e748297efe6cbf6ecbf",
+  "prior_final_commit": "d3faabebf5828cc00db4979dc48b12af63f4a751",
+  "input_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "scope": "Same approved exploratory 2026 KRX business dates Jan1..Oct15",
+  "final_oos_access": false,
+  "cost_stress_prereg_commit": "c76e6bc44b6e509e654360d5b0f17c70f3d7f953"
+}

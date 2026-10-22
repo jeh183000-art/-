@@ -1,0 +1,21 @@
+{
+  "status": "CONFIRMED_DUPLICATE",
+  "original": "SR-09-001",
+  "duplicate": "SR-09-005",
+  "exact_arrays": [
+    "trades",
+    "events",
+    "residual",
+    "risk",
+    "equity",
+    "extremes",
+    "orders",
+    "ledger"
+  ],
+  "synthetic_share_points": 10001,
+  "all_balanced_filters_true": true,
+  "root_cause": "Adaptive crossover retained dominance cutoff .6/.8 after switching driver to balanced; semantic hash did not canonicalize saturated balance cutoff.",
+  "original_failed_auditor_preserved": true,
+  "no_frozen_builder_change": true,
+  "no_resimulation": true
+}

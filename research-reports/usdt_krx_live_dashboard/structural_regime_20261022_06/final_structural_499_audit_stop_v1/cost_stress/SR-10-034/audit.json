@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "independent_vector": {
+    "status": "PASS_INDEPENDENT_VECTOR_CASH_REPLAY",
+    "max_difference_krw": 2.9802322387695312e-08,
+    "drawdown_definition": "running_peak_equity - current_equity",
+    "cumulative_mdd_nondecreasing": true,
+    "maximum_current_drawdown_krw": 7325623.168554984,
+    "final_current_drawdown_krw": 1070999.9999999925,
+    "final_cumulative_mdd_krw": 7325623.168554984,
+    "evaluation_marks": 369010,
+    "settlement_events": 121,
+    "roll_pairs": 6,
+    "entry_bundles": 41,
+    "completed_cycles": 40
+  },
+  "max_cash_error": 1.4901161193847656e-08,
+  "slippage_bp": 4.0
+}

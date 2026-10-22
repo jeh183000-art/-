@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rules": 500,
+  "cuts_per_rule": 2,
+  "array_comparisons": 5000,
+  "source_scope": "approved only",
+  "market_simulation_repeated": false,
+  "immutable_pure_feature_memoization": "Test harness only, original feature function unchanged"
+}

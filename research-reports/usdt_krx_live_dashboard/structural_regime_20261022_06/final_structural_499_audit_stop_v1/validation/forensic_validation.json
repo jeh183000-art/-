@@ -1,0 +1,7 @@
+{
+  "status": "PASS_READONLY_FORENSIC",
+  "duplicate_financial_arrays_identical": true,
+  "matched_stress_intervals_cost_monotonic": true,
+  "stress_cases": 3,
+  "simulation_repeated": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "FINANCIAL_METRICS_PASS_SEMANTIC_UNIQUENESS_FAIL",
+  "semantic_uniqueness": "FAIL",
+  "financial_metrics": "PASS",
+  "conditions": 500,
+  "unique_semantic_rules": 499,
+  "duplicates": [
+    {
+      "original": "SR-09-001",
+      "duplicate": "SR-09-005"
+    }
+  ],
+  "independent_date_parser": "datetime.strptime",
+  "monthly_rows": 5000,
+  "quarterly_rows": 2000,
+  "completed_cycles": 38969,
+  "goals": 0,
+  "score_tolerance_pp": 1e-08,
+  "money_tolerance_krw": 0.01,
+  "cumulative_mdd_nondecreasing": true,
+  "all_original_rule_metadata_hashes_preserved": true,
+  "external_dependencies_unchanged": true,
+  "code_hashes_match_every_registration": true,
+  "simulation_repeated": false
+}

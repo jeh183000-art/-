@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "strategy_runs": 0,
+  "cycles": 42,
+  "gross": 61522999.99999998,
+  "fees": 11415256.888117,
+  "slippage": 8811824.200000001,
+  "net": 41295918.911882974,
+  "mean_gross_per_cycle": 1464833.3333333328,
+  "mean_cost_per_cycle": 481597.16876469046,
+  "cost_to_gross_pct": 32.87726718156951,
+  "mean_hold_minutes": 6484.642857142857,
+  "max_hold_minutes": 41887.0,
+  "median_hold_minutes": 2178.0,
+  "hold_over_7d": 6,
+  "observed_held_fraction": 0.6179545577788623,
+  "calendar_completed_hold_days": 189.13541666666666,
+  "top3_score_share_pct": 12.018575957786968,
+  "top5_score_share_pct": 18.4070976782597,
+  "source_split": "Spot/future realized PnL separately; log-gap driver is attribution, not causal identification.",
+  "delay_limit": "No tick orderbook: exact latency loss cannot be isolated; all fees/slips from actual saved cycle ledger.",
+  "identical_paths": "Hard threshold exits may dominate alternate profit rules; sampled sequential returns are discrete, so multiple parameter sets select identical bars."
+}

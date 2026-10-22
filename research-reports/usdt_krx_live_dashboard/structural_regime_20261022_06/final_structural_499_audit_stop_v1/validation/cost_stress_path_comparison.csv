@@ -1,0 +1,4 @@
+candidate_id,cycles_2bp,cycles_4bp,different_2bp_intervals,different_4bp_intervals,matched_intervals_higher_cost_never_improves_net,net_2bp,net_4bp,note,same_complete_intervals,score_2bp,score_4bp
+SR-10-034,57,40,50,33,True,37911379.90458589,26962737.086034052,Full cost-adjusted arm/exit/cash path re-evaluated; differing paths can produce non-monotonic aggregate profit. Not repricing identical fills.,7,15.258303412480984,10.788169013030739
+SR-07-028,45,24,36,15,True,33644258.14504419,17543754.538530007,Full cost-adjusted arm/exit/cash path re-evaluated; differing paths can produce non-monotonic aggregate profit. Not repricing identical fills.,9,13.60553324347821,7.058871320509413
+SR-06-038,13,13,11,11,True,31511311.712150946,32317393.236196987,Full cost-adjusted arm/exit/cash path re-evaluated; differing paths can produce non-monotonic aggregate profit. Not repricing identical fills.,2,12.701460665459827,13.006342937664753
