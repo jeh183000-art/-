@@ -1,0 +1,30 @@
+{
+  "source": "https://github.com/kimp741/data",
+  "commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "tree": "c566cd7c36d45409e72927fe8a7c9bd5dc356e75",
+  "full_tree_entries": 1167,
+  "truncated": false,
+  "commit_tree_crosscheck": {
+    "commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+    "commit_tree": "c566cd7c36d45409e72927fe8a7c9bd5dc356e75",
+    "response_tree_sha": "c566cd7c36d45409e72927fe8a7c9bd5dc356e75",
+    "truncated": false,
+    "entries": 1167,
+    "inventory_matches": true
+  },
+  "original_files": 626,
+  "original_bytes": 85340708,
+  "original_integrity": "Each file checked against tree size, Git blob SHA-1 and SHA-256",
+  "README_current_http": 404,
+  "license_current_http": 404,
+  "historical_readme_deletion_commit": "1975339655beecf97bbe26fecb481779e276c3ec",
+  "historical_readme_source_commit": "1d535def97d1b6762e9240e1e00c36b9c766f4c7",
+  "historical_readme_sha256": "1a0ad26ca117b776981d66f6e4d35602a85378f2b0b5161948394b49ff14d0d1",
+  "historical_readme_conclusion": "No product, timezone, exchange, quote mapping or license explanation",
+  "generator_code_found": false,
+  "raw_data_publication": "WITHHELD_REPUBLICATION_PERMISSION_NOT_ESTABLISHED",
+  "raw_access": "D_ONLY_LOCAL; originals can be fetched separately from the pinned upstream repository while available",
+  "raw_fully_archived_in_our_github": false,
+  "protected_oos_content_opened": false,
+  "reference_comparisons": "Q4-2025 only, conditional same-clock labels; no series merging"
+}

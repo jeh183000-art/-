@@ -1,0 +1,8 @@
+{
+  "status": "LOCAL_AUDIT_COMPLETE_PENDING_REMOTE_VERIFICATION",
+  "months_completed": 12,
+  "files_downloaded": 626,
+  "backtest_started": false,
+  "failed_downloads": 0,
+  "source_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4"
+}

@@ -1,0 +1,27 @@
+{
+  "source_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "tree_truncated": false,
+  "inventory_files": 626,
+  "downloaded_files": 626,
+  "original_bytes": 85340708,
+  "synthetic_parser_assertions": 10,
+  "independent_file_parse_checks": 626,
+  "all_byte_sha_and_blob_checks": true,
+  "raw_labels": {
+    "USDT 매수가": 624219,
+    "선물 매도가": 101396,
+    "USDT 매도가": 624219,
+    "선물 매수가": 101396,
+    "USD (원화)": 525222
+  },
+  "errors": {
+    "TOKEN_EXPIRED_STATE": 263,
+    "REQUEST_TOKEN_EXPIRED": 24,
+    "REQUEST_FAILED": 2519,
+    "MISSING_FUTURES_QUOTE": 7823
+  },
+  "raw_or_normalized_redistributed": false,
+  "backtest_run": false,
+  "protected_oos_read": false,
+  "source_code_executed": false
+}

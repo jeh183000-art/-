@@ -1,0 +1,27 @@
+{
+  "source_repository": "https://github.com/kimp741/data",
+  "source_branch": "main",
+  "source_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "source_tree": "c566cd7c36d45409e72927fe8a7c9bd5dc356e75",
+  "full_tree_entries": 1167,
+  "truncated": false,
+  "period_start": "2025-01-01",
+  "period_end": "2025-12-31",
+  "target_patterns": [
+    "future_result_2025-MM-DD.txt",
+    "spot_result_2025-MM-DD.txt"
+  ],
+  "timezone": "UNCONFIRMED",
+  "bid_ask_mapping": "UNCONFIRMED_RAW_LABELS_RETAINED",
+  "futures_product_and_contract": "UNCONFIRMED",
+  "usdt_exchange": "UNCONFIRMED",
+  "missing_fill": "NONE",
+  "mode": "COLLECTION_AND_QUALITY_AUDIT_ONLY",
+  "backtest": false,
+  "orders": false,
+  "originals_destination": "D:/Codex_Research/usdt_krx_live_dashboard/studies/github_2025_quote_log_audit_20261022/v1/raw",
+  "raw_republication": "PROHIBITED_UNTIL_PERMISSION_CONFIRMED",
+  "code_from_source_executed": false,
+  "protected_oos_content_opened": false,
+  "other_system_changes": false
+}

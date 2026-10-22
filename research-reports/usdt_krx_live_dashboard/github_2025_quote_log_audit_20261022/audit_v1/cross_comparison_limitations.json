@@ -1,0 +1,10 @@
+{
+  "krx_reference_bars": 23149,
+  "upbit_reference_bars": 131866,
+  "same_type_historical_orderbook_compared": false,
+  "quote_exchange_confirmed": false,
+  "quote_contract_confirmed": false,
+  "timezone_confirmed": false,
+  "merged_series_created": false,
+  "statement": "Differences are descriptive conditional comparisons, not accuracy certification. No prices from third-party logs are publicly redistributed."
+}

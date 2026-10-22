@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "python_static_checker": "check-no-excuse-rules.py",
+  "checker_exit_code": 0,
+  "python_files_checked": 7,
+  "parser_synthetic_assertions": 10,
+  "independent_file_price_count_checks": 626,
+  "source_files_size_sha256_git_blob_checked": 626,
+  "responsibilities": [
+    "download immutable source blobs",
+    "parse raw labels and errors",
+    "audit coverage and quality",
+    "conditional Q4 comparison",
+    "package own derived reports"
+  ],
+  "originals_modified": false,
+  "untrusted_source_executed": false,
+  "backtest_executed": false,
+  "explicit_limitations": [
+    "Metadata and clock evidence do not certify instrument identity",
+    "Positive prices are not execution evidence",
+    "Stale flags retained without automatic deletion"
+  ]
+}
