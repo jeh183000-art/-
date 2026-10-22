@@ -1,0 +1,17 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+  "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code",
+  "common_engine": {
+    "commit": "7198d4f47ea458580fb522f3b9ebf37e10ea178c",
+    "path": "research-reports/usdt_krx_live_dashboard/lump17_sweep_20261021_01/shared/repair_v2/code",
+    "engine_sha256": "530dff2f478e2383d26e86847e032c40a77b061f8ed083b8ca4497574963f383",
+    "auditor_sha256": "87694798f65bb88632a0bf1bfe8ceade3b06afbe55f2c8e9c3cd46aa4a14fd16"
+  },
+  "baseline_commit": "e1254e5141b3201cf594111cbc47b1fdfd6a5e9a",
+  "registration_inventory_revision": {
+    "commit": "d3d83592322007032e937d2912b8e7da49ff439a",
+    "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/registration_inventory_fix_v2/code/build_B.py",
+    "sha256": "1884e497bdd0ec56d87ba46f15f603667f6e87dd0cf661efa4f966061bb0af9a"
+  }
+}
