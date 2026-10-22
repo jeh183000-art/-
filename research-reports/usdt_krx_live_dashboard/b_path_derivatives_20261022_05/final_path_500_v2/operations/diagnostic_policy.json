@@ -1,0 +1,18 @@
+{
+  "ranking_formula_unchanged": true,
+  "nearest_rules": {
+    "group": "same registered hypothesis group and threshold mode",
+    "distance": "Euclidean over entry/recovery/profit pp, confirmation pp, cooldown_days, window/360, max_hold_days, stall_days, stop_pp",
+    "count": 5
+  },
+  "concentration": "top3/top5 share of positive completed cycle return sum; monthly exit-date contribution",
+  "strict_exit_causes": [
+    "gap_recovery",
+    "net_profit",
+    "gap_stop",
+    "net_stop",
+    "time_limit",
+    "stall_limit"
+  ],
+  "non_independent_equivalence": "same actual fills plus full account mark buffer SHA256"
+}

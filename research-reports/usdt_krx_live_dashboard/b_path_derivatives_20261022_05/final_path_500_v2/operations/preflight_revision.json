@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "rules_changed": false,
+  "new_conditions_executed": 0,
+  "control_simulation_count": 1,
+  "control_exact_arrays": true,
+  "saved_control_serialization_test": true,
+  "original_plan_rules_sha256": "dd9554fa20d292fe1fb1c7fd45d673767448c5386eedf69cb0beb1139b3907c0",
+  "revised_plan_rules_sha256": "dd9554fa20d292fe1fb1c7fd45d673767448c5386eedf69cb0beb1139b3907c0",
+  "baseline_profit_pct": 0.7
+}

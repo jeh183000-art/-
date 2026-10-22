@@ -1,0 +1,46 @@
+{
+  "status": "PASS_REPORT_DATE_CORRECTION",
+  "cause": "YYYYMMDD business date was sliced as if ISO YYYY-MM-DD",
+  "affected": "month and quarter labels in derived period summaries",
+  "unchanged": [
+    "trades",
+    "fees",
+    "cash",
+    "margin",
+    "score",
+    "MDD",
+    "timestamps",
+    "rules",
+    "input hashes"
+  ],
+  "financial_simulations_repeated": 0,
+  "preserved_old_derived_outputs": "diagnostics and final_path_500_preflight_v1",
+  "new_outputs": "diagnostics_v2 and final_path_500_v2",
+  "original_batch_artifacts_modified": false,
+  "independent_validation": {
+    "status": "PASS",
+    "conditions": 500,
+    "cycles": 20650,
+    "monthly_rows": 5000,
+    "quarterly_rows": 2000,
+    "second_parser": "datetime.strptime",
+    "raw_business_date": "YYYYMMDD preserved in original ledgers",
+    "normalized_format": "YYYY-MM / YYYY-QN",
+    "financial_simulation_repeated": false,
+    "score_or_trade_ledger_modified": false
+  },
+  "corrected_selected_files": [
+    {
+      "candidate_id": "BP-05-045",
+      "corrected_file": "BP-05-045_period_contribution.csv",
+      "preserved_legacy_file": "BP-05-045_period_contribution_legacy_labels.csv"
+    },
+    {
+      "candidate_id": "BP-04-040",
+      "corrected_file": "BP-04-040_period_contribution.csv",
+      "preserved_legacy_file": "BP-04-040_period_contribution_legacy_labels.csv"
+    }
+  ],
+  "authoritative_monthly": "diagnostics/monthly_contribution.csv",
+  "authoritative_quarterly": "diagnostics/quarterly_contribution.csv"
+}

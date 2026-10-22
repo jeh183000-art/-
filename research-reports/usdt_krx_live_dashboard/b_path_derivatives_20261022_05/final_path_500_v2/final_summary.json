@@ -1,0 +1,15 @@
+{
+  "new_conditions": 500,
+  "goal_qualified": 1,
+  "zero_completed": 8,
+  "ineligible": 1,
+  "open_residual_conditions": 138,
+  "unique_execution_paths": 369,
+  "score_tolerance_pp": 1e-8,
+  "baseline_profit_target_pct": 0.7,
+  "best_id": "BP-05-045",
+  "score_delta_B_pp": 0.10736356887014509,
+  "net_delta_B_krw": 271803.4440279454,
+  "source_raw_status": "INPUT_NOT_REMOTELY_REPRODUCIBLE",
+  "final_oos_access": false
+}

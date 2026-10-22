@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "conditions": 500,
+  "cycles": 20650,
+  "monthly_rows": 5000,
+  "quarterly_rows": 2000,
+  "second_parser": "datetime.strptime",
+  "raw_business_date": "YYYYMMDD preserved in original ledgers",
+  "normalized_format": "YYYY-MM / YYYY-QN",
+  "financial_simulation_repeated": false,
+  "score_or_trade_ledger_modified": false
+}

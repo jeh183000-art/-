@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "conditions": 500,
+  "each_category": 100,
+  "duplicates": 0,
+  "code_drift": false,
+  "baseline_profit_target_pct": 0.7,
+  "all_prior_source_files_unchanged": 52,
+  "protected_oos_access": false
+}

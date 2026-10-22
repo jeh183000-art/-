@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "conditions": 500,
+  "financial_replay": true,
+  "independent_vector_replay": true,
+  "independent_entry_gates": true,
+  "strict_exit_cause_diagnostics": true,
+  "max_account_error_krw": 2.9802322387695312e-08,
+  "exact_baseline_control": true
+}

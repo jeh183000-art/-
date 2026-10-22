@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "conditions": 500,
+  "unique_new_execution_paths": 369,
+  "old_result_reuse_without_simulation": 13,
+  "completed_cycles": 20650,
+  "entry_matched_exit_comparisons": 200,
+  "all_results_exploratory": true,
+  "protected_oos_access": false,
+  "reporting_dates_normalized": true,
+  "monthly_and_quarterly_totals_match_cycles": true,
+  "financial_simulation_repeated": false
+}

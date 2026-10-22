@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "candidates": [
+    {
+      "candidate_id": "BP-04-040",
+      "full_ledger_rows": 369010,
+      "snapshot_rows": 216,
+      "all_cash_change_marks_included": true,
+      "drawdown_peak_and_trough_included": true,
+      "initial_and_maintenance_minima_included": true,
+      "full_ledger_sha256": "6d0e41f8cc85a4aef348c8f088a0d8da277fe6451749de8d8edd424276929bac",
+      "scope": "Cash-change and selected risk extrema only; full every-minute ledger remains in batch lossless NPZ archive"
+    },
+    {
+      "candidate_id": "BP-05-045",
+      "full_ledger_rows": 369010,
+      "snapshot_rows": 211,
+      "all_cash_change_marks_included": true,
+      "drawdown_peak_and_trough_included": true,
+      "initial_and_maintenance_minima_included": true,
+      "full_ledger_sha256": "0a73266ca495d2be2b87e1bbf7b55281ff1bd7168809a4e43e231fbbc421c4f3",
+      "scope": "Cash-change and selected risk extrema only; full every-minute ledger remains in batch lossless NPZ archive"
+    },
+    {
+      "candidate_id": "BF-09-027_CONTROL",
+      "full_ledger_rows": 369010,
+      "snapshot_rows": 211,
+      "all_cash_change_marks_included": true,
+      "drawdown_peak_and_trough_included": true,
+      "initial_and_maintenance_minima_included": true,
+      "full_ledger_sha256": "786aa9233ade9d133c4e6b3aa6c0d4206ebdcf2709419778158afa9923dcdd8d",
+      "scope": "Cash-change and selected risk extrema only; full every-minute ledger remains in batch lossless NPZ archive"
+    }
+  ],
+  "market_simulation_repeated": false
+}
