@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "conditions": 50,
+  "completed_cycles": 3844,
+  "all_cause_partition": true,
+  "simulation_repeated": false
+}
