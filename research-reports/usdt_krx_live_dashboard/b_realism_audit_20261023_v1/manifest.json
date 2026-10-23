@@ -1,0 +1,43 @@
+{
+  "study": "b_realism_audit_20261023_v1",
+  "created_date": "2026-10-23",
+  "mode": "SAVED_LEDGER_AUDIT_NOT_FULL_BACKTEST",
+  "files": [
+    {
+      "path": "REPORT_KO.md",
+      "bytes": 8498,
+      "sha256": "76f869bd0dde795052990640248ef044e3f89401491baf2db5290092b32c2df0",
+      "git_blob_sha1": "b317db90d1f450e5cba087a4a68fa1971cc3b7cb"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 5969,
+      "sha256": "122c5b094a65ec70df197d39abd4e970aaa153b98c105d5f387c1b0aef3e2639",
+      "git_blob_sha1": "34baeb840d1ea0a4a2d56e937470311f1f71f7d2"
+    },
+    {
+      "path": "borrow_sensitivity.csv",
+      "bytes": 797,
+      "sha256": "bb1492b7c09489287f785bb6493faf2d97c604637c36de8c3ead7602bb5f7094",
+      "git_blob_sha1": "3e45edc0214350ef4318244c5d883ef1e9e64ac9"
+    },
+    {
+      "path": "reverse_cycles_source_extract.csv",
+      "bytes": 1419,
+      "sha256": "d978e27f6f09a434675c2331f8fe7f148e0b74e0b09c92a7f12611f0cfae6227",
+      "git_blob_sha1": "8d0dcee29aa8e582ae38b03e520c3a6627c3867d"
+    },
+    {
+      "path": "reverse_fee_005.csv",
+      "bytes": 1300,
+      "sha256": "e59a62e80900dc28e8f919af67014b57cda90dcb07d27f03f7fb58c722b1be0a",
+      "git_blob_sha1": "98fcc2bc6efd59f5d8c7e483f38a6a830b43482b"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1145,
+      "sha256": "c445be25556d81f64c5cb431861de66ee00be0dae1f78c1c23ea49350c2ac988",
+      "git_blob_sha1": "27b1a54387f64f33cac3639d6d632cfcae03f116"
+    }
+  ]
+}

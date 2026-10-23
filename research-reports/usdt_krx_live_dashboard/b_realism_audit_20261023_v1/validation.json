@@ -1,0 +1,29 @@
+{
+  "arithmetic_status": "PASS",
+  "reverse_cycle_count": 18,
+  "total_billing_days_assumed": 102,
+  "reverse_net_reconciliation_difference_krw": "-5E-10",
+  "january_loss": {
+    "spot_gross_krw": "-9350000",
+    "futures_gross_krw": "-1054000.0",
+    "paid_entry_cost_krw": "235375.8550270000",
+    "estimated_exit_cost_krw": "241706.7275490000",
+    "hypothetical_liquidation_net_krw": "-10881082.5825760000",
+    "difference_from_saved_krw": "7.0E-9",
+    "not_a_realized_exit": true,
+    "contract_and_quote_identity_confirmed": false
+  },
+  "collateral_example_at_1450_krw_and_85pct_ltv": "2.900000E+8",
+  "full_backtest_rerun": false,
+  "new_orders": false,
+  "originals_modified": false,
+  "oos_accessed": false,
+  "not_validated": [
+    "actual USDT lending availability, user eligibility and capacity",
+    "historical date-specific lending rates and borrowing/repayment timestamps",
+    "lending collateral liquidation and full margin path",
+    "January 2025 exact historical margin rates and account settlement",
+    "verified intraday roll prices and original quote contract identity",
+    "future period forward validation"
+  ]
+}
