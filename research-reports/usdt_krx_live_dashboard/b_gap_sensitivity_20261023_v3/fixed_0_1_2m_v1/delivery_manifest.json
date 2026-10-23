@@ -1,0 +1,27 @@
+{
+  "purpose": "CODE_DELIVERY_ONLY_NOT_2025_BACKTEST_RESULTS",
+  "source_archive": {
+    "filename": "b_2025_gap_tolerance_upgrade_v3.zip",
+    "bytes": 13071,
+    "sha256": "8c710a577266c5501224b8b1eb35cbf1620f2423bd86fbdf11f1729be31a635b",
+    "zip_crc_check": "PASS",
+    "archive_in_repository": false
+  },
+  "baseline_commit": "72cc8eb39044f0ccc056cf9e1b1ffe637e5dbf74",
+  "files": [
+    {"path":"README_KO.md","bytes":4667,"sha256":"bb31ca60b0aa05aa2a1316cfb004a0cbefdd439fc0f1922b74970e78f701a8db","git_blob_sha1":"ddcd6020951a1183f9d27ccc1d0136b1203c6b68"},
+    {"path":"gap_policy.py","bytes":3291,"sha256":"898751c13498d0d35385eba991bd6d5cb71d4ac6ae522034709f64a3e8e21835","git_blob_sha1":"a9ca698619ebb91fbb6f6d02b9ed550c68b12cc2"},
+    {"path":"run_gap_sensitivity.py","bytes":20724,"sha256":"67ddb261688fed2410bcc207b1afe93eba7db71b94bd44f49e21b53be098841c","git_blob_sha1":"333dd39705736b76a5eb918f0c887eeb3788f837"},
+    {"path":"test_gap_engine.py","bytes":4184,"sha256":"df0ddf9c3997b2b1f5d0f88d83aef58b60cce4bae2c7718a21107335e817e25d","git_blob_sha1":"52a86cb22d7cdd0106e4d0f91ca375f33ebffae8"},
+    {"path":"test_gap_policy.py","bytes":2902,"sha256":"a3e20c71b53292d19471660e96fd9c1d5ab51d0e91f2b223ae5cbd5d351fe9be","git_blob_sha1":"fdac143622ec231be5a0459c8d84c3a3b821b51f"}
+  ],
+  "synthetic_tests": {
+    "test_gap_policy.py": "PASS: 14 boundary tests",
+    "test_gap_engine.py": "PASS: overnight, missing-entry, missing-exit, reference-change, parity"
+  },
+  "actual_2025_data_run": false,
+  "strict_2025_baseline_reproduced_in_this_environment": false,
+  "market_data_in_delivery": false,
+  "credentials_included": false,
+  "published_sources_match_original_zip_members": true
+}

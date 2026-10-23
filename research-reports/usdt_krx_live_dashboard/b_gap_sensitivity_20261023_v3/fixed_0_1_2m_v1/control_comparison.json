@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "limit": 0,
+      "primary_and_control_economic_cycles_equal": true
+    },
+    {
+      "limit": 1,
+      "primary_and_control_economic_cycles_equal": true
+    },
+    {
+      "limit": 2,
+      "primary_and_control_economic_cycles_equal": true
+    }
+  ]
+}

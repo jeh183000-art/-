@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "audited_groups": 162,
+  "checked_marks": 532176,
+  "baseline_full_parity": [
+    {
+      "variant": "B-RECOVERY-ONLY",
+      "all_cycles_match": true,
+      "all_mark_cash_mdd_match": true,
+      "compared_marks": 87034,
+      "compared_cycles": 9
+    },
+    {
+      "variant": "B-DUAL-CONTROL",
+      "all_cycles_match": true,
+      "all_mark_cash_mdd_match": true,
+      "compared_marks": 87034,
+      "compared_cycles": 9
+    }
+  ],
+  "original_v3_unmodified": true,
+  "input_hashes_unchanged": true,
+  "annual_result_certified": false
+}

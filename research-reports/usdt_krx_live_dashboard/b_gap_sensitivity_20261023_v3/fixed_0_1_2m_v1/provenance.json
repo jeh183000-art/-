@@ -1,0 +1,68 @@
+{
+  "code_commit": "e07a4fc955118406102cb33ef46c040980175c05",
+  "baseline_commit": "72cc8eb39044f0ccc056cf9e1b1ffe637e5dbf74",
+  "source_data_commit": "c8469e29cbaf67368e4e0fff42de1d2a6fb779d4",
+  "inputs": {
+    "code_commit": "e07a4fc955118406102cb33ef46c040980175c05",
+    "baseline_commit": "72cc8eb39044f0ccc056cf9e1b1ffe637e5dbf74",
+    "input": {
+      "path": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_2025_quote_paper_20261022_11/data_local/segments.jsonl",
+      "sha256": "4af4b7e7a3d9a73bf5583346881e2690563dbe06e49acfd70146844b7d5158e0"
+    },
+    "official": {
+      "path": "D:/Codex_Research/archive/c_drive_migration_20261020/codex_workspace/files-pasted-by-the-user-codex/outputs/usdt_krx_live_dashboard/data/krx_2025_full_1m/contract_selection.csv",
+      "sha256": "558c60a389bae75b2c892e532158966ab698753b6792bc8c68dfc30f8cdc682a"
+    },
+    "files": [
+      {
+        "file": "README_KO.md",
+        "bytes": 4667,
+        "sha256": "bb31ca60b0aa05aa2a1316cfb004a0cbefdd439fc0f1922b74970e78f701a8db",
+        "pass": true
+      },
+      {
+        "file": "gap_policy.py",
+        "bytes": 3291,
+        "sha256": "898751c13498d0d35385eba991bd6d5cb71d4ac6ae522034709f64a3e8e21835",
+        "pass": true
+      },
+      {
+        "file": "run_gap_sensitivity.py",
+        "bytes": 20724,
+        "sha256": "67ddb261688fed2410bcc207b1afe93eba7db71b94bd44f49e21b53be098841c",
+        "pass": true
+      },
+      {
+        "file": "test_gap_engine.py",
+        "bytes": 4184,
+        "sha256": "df0ddf9c3997b2b1f5d0f88d83aef58b60cce4bae2c7718a21107335e817e25d",
+        "pass": true
+      },
+      {
+        "file": "test_gap_policy.py",
+        "bytes": 2902,
+        "sha256": "a3e20c71b53292d19471660e96fd9c1d5ab51d0e91f2b223ae5cbd5d351fe9be",
+        "pass": true
+      }
+    ],
+    "parameters": {
+      "tolerances": [
+        0,
+        1,
+        2
+      ],
+      "entry": [
+        -0.97,
+        0.85
+      ],
+      "recovery_pp": 0.6,
+      "contracts": 17,
+      "usdt": 170000,
+      "initial_future_cash": 30000000
+    },
+    "temp": "D:/Codex_Research/usdt_krx_live_dashboard/studies/b_gap_sensitivity_20261023_v3/tmp"
+  },
+  "input_access": "INPUT_NOT_REMOTELY_REPRODUCIBLE; third-party raw quotes retained D-only",
+  "original_inputs_changed": false,
+  "final_oos_accessed": false
+}

@@ -1,0 +1,28 @@
+{
+  "mode": "2025_CONDITIONAL_QUOTE_LOG_PAPER_MISSING_GAP_SENSITIVITY",
+  "tolerances": [
+    0,
+    1,
+    2
+  ],
+  "order_window": "09:00..15:30 actually observed logger times",
+  "entry_long_cross": -0.97,
+  "entry_reverse_cross": 0.85,
+  "recovery_pp": 0.6,
+  "control_pnl_pct": 0.7,
+  "contracts": 17,
+  "quantity_usdt": 170000,
+  "initial_future_cash": 30000000,
+  "spot_fee_per_side": 0.0005,
+  "future_fee_per_contract_side": 600,
+  "future_notional_fee_per_side": 3.157e-06,
+  "extra_slippage_each_leg_side": 0.0002,
+  "quantity_depth_and_borrow_margin_verified": false,
+  "normal_closures_carry": true,
+  "pending_orders_canceled_at_gap": true,
+  "fill_only_next_observed_60s": true,
+  "session_edge_limit_applies_individually_to_each_end": true,
+  "roll_prices_fabricated": false,
+  "missing_marks_fabricated": false,
+  "source_identity": "USER_APPROVED_REFERENCE_CONTRACT_HYPOTHESIS_ONLY"
+}

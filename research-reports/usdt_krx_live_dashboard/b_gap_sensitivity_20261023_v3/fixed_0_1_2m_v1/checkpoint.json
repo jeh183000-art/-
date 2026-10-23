@@ -1,0 +1,11 @@
+{
+  "status": "LOCAL_COMPLETE_AUDITED_AWAITING_REMOTE_VERIFY",
+  "completed_tolerances": [
+    0,
+    1,
+    2
+  ],
+  "both_variants_complete": true,
+  "more_work_scheduled": false,
+  "annual_result_certified": false
+}

@@ -1,0 +1,32 @@
+{
+  "modules": [
+    {
+      "name": "model.py",
+      "commit": "4d9b7d60e9f9ac13cd9f75b517c9029080d891da",
+      "path": "research-reports/usdt_krx_live_dashboard/b_2025_quote_paper_20261022_11/fixed_quote_paper_v1/code/model.py",
+      "sha256": "91fc0c3b6c3c6167976fc625c248e974a055885f1718ac8554565b2862c0be0e",
+      "local_remote_match": true
+    },
+    {
+      "name": "simulator.py",
+      "commit": "4d9b7d60e9f9ac13cd9f75b517c9029080d891da",
+      "path": "research-reports/usdt_krx_live_dashboard/b_2025_quote_paper_20261022_11/fixed_quote_paper_v1/code/simulator.py",
+      "sha256": "435ac2e5d0db70c46a4375980d8fc5c103bcd266f72f145a5462daea024d2eda",
+      "local_remote_match": true
+    },
+    {
+      "name": "verify_quote_book.py",
+      "commit": "4d9b7d60e9f9ac13cd9f75b517c9029080d891da",
+      "path": "research-reports/usdt_krx_live_dashboard/b_2025_quote_paper_20261022_11/fixed_quote_paper_v1/code/verify_quote_book.py",
+      "sha256": "814bb04e12bdbbd77164b374ca64bd224df854fbf2a2b2b4aa9ed8e1c0a4de43",
+      "local_remote_match": true
+    },
+    {
+      "commit": "1812bc55afa8a1fd2b35e33a790b094c30d8ab55",
+      "path": "research-reports/usdt_krx_live_dashboard/b_focus_20261021_03/shared/B_baseline_and_code_v1/code/validation2.py",
+      "sha256": "bfd52405f72884f168bb1e73e733ffc56446ee7b3f2435d18168766a4d1ee3f5",
+      "local_remote_equal": true
+    }
+  ],
+  "note": "Reused unchanged pricing, costs, Decimal replay and result schema; only carry scheduling/state adapter is new"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "test": "test_gap_policy.py",
+    "code": 0,
+    "stdout": "TEST_GAP_POLICY_PASS: 14 boundary tests; zero synthetic market prices\r\n",
+    "stderr": ""
+  },
+  {
+    "test": "test_gap_engine.py",
+    "code": 0,
+    "stdout": "TEST_GAP_ENGINE_PASS: overnight, missing-entry, missing-exit, reference-change, parity\r\n",
+    "stderr": ""
+  }
+]
