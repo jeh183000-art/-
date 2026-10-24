@@ -1,0 +1,22 @@
+{
+  "scope": "DEVELOPMENT_ONLY",
+  "canonical": "Official4h; no replacement or repair",
+  "official_rows": 13152,
+  "complete_15m_buckets": 13152,
+  "incomplete_15m_buckets": 0,
+  "compared_rows": 13152,
+  "affected_window_count": 4,
+  "field_mismatch_counts": {
+    "open": 2,
+    "high": 0,
+    "low": 1,
+    "close": 0,
+    "volume": 3,
+    "quote_volume": 3,
+    "trades": 3,
+    "taker_buy_volume": 3,
+    "taker_buy_quote_volume": 3
+  },
+  "target_color_mismatch_count": 0,
+  "holdout_not_compared": true
+}

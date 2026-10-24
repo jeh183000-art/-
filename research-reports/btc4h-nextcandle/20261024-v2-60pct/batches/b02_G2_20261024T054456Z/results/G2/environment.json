@@ -1,0 +1,307 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "joblib": "1.5.3",
+  "threadpool_limit": 2,
+  "settings": {
+    "study_id": "BTC4H_NEXTCANDLE_V2_60PCT_20261024",
+    "research_only": true,
+    "target_accuracy": 0.6,
+    "symbol": "BTCUSDT",
+    "market": "Binance USD-M perpetual",
+    "bar_ms": 14400000,
+    "target": "sign(next_4h_close - next_4h_open); doji preserved, excluded from binary scoring only",
+    "prediction_time": "current closed4h candle close_time+1ms",
+    "label_available_time": "next candle close_time+1ms",
+    "no_ADX": true,
+    "no_orders_or_trading_backtest": true,
+    "development_input": "2020-01-01 through2025-12-31",
+    "development_evaluation_years": [
+      2024,
+      2025
+    ],
+    "new_evaluation": "2026-01-01 through2026-09-30, separateV2source; no model outcome inspection before selection freeze",
+    "not_globally_untouched_across_all_user_research": true,
+    "old_protected_FINAL_OOS_untouched": true,
+    "groups": {
+      "G1": "original38closed4hfeatures",
+      "G2": "G1+fixedrichcausal4hstructure",
+      "G3": "G2+completedcurrent4h sixteen15minbarfeatures",
+      "G4": "G3+exactclosedETH4hrelativefeatures"
+    },
+    "feature_definition": "features_v2.py and complete orderedfeaturecolumns frozen withcodehash beforefirstfit; maxlookback96bars; no future-dependentpivots",
+    "models": [
+      {
+        "id": "R01",
+        "kind": "logistic",
+        "params": {
+          "C": 0.01
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R02",
+        "kind": "logistic",
+        "params": {
+          "C": 0.1
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R03",
+        "kind": "logistic",
+        "params": {
+          "C": 1.0
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R04",
+        "kind": "logistic",
+        "params": {
+          "C": 0.1
+        },
+        "train_days": null
+      },
+      {
+        "id": "R05",
+        "kind": "hgb",
+        "params": {
+          "max_iter": 150,
+          "max_leaf_nodes": 7,
+          "min_samples_leaf": 50,
+          "learning_rate": 0.05,
+          "l2_regularization": 10
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R06",
+        "kind": "hgb",
+        "params": {
+          "max_iter": 150,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 100,
+          "learning_rate": 0.05,
+          "l2_regularization": 20
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R07",
+        "kind": "hgb",
+        "params": {
+          "max_iter": 100,
+          "max_leaf_nodes": 7,
+          "min_samples_leaf": 100,
+          "learning_rate": 0.05,
+          "l2_regularization": 10
+        },
+        "train_days": null
+      },
+      {
+        "id": "R08",
+        "kind": "extra_trees",
+        "params": {
+          "n_estimators": 250,
+          "max_depth": 6,
+          "min_samples_leaf": 40,
+          "max_features": 0.75
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R09",
+        "kind": "random_forest",
+        "params": {
+          "n_estimators": 200,
+          "max_depth": 6,
+          "min_samples_leaf": 40,
+          "max_features": "sqrt"
+        },
+        "train_days": 730
+      },
+      {
+        "id": "R10",
+        "kind": "svc",
+        "params": {
+          "C": 0.5,
+          "gamma": "scale",
+          "kernel": "rbf"
+        },
+        "train_days": 730
+      }
+    ],
+    "ensembles": [
+      {
+        "id": "E01",
+        "members": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06",
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "id": "E02",
+        "members": [
+          "R01",
+          "R02",
+          "R03",
+          "R04"
+        ]
+      },
+      {
+        "id": "E03",
+        "members": [
+          "R05",
+          "R06",
+          "R07",
+          "R08",
+          "R09"
+        ]
+      },
+      {
+        "id": "E04",
+        "members": [
+          "R02",
+          "R05",
+          "R08",
+          "R10"
+        ]
+      }
+    ],
+    "ensemble_rule": "equal average of member past-calibrated probabilities; no holdoutchosen weights",
+    "seed": 20261024,
+    "retraining": "quarterly; only then-known past labels; earlier2026quarters may train subsequent frozenrecipe",
+    "calibration_days": 180,
+    "calibrator": {
+      "kind": "sigmoid logistic onrawscores",
+      "C": 1.0,
+      "max_iter": 1000,
+      "nonpositive_slope": "constant smoothedcalibrationbullishrate; no signinversion"
+    },
+    "minimum_fit_samples": 2000,
+    "minimum_calibration_samples": 800,
+    "purge": "fit label_end < calibration_start; calibration label_end < quarterstart; trainwindow measured backwardfromcalibration_start",
+    "preprocessing": "median imputation fit onbase trainingonly; StandardScaler forlogistic/SVC only; no globaltransformfit",
+    "policies": [
+      {
+        "id": "A500",
+        "kind": "absolute",
+        "threshold": 0.5
+      },
+      {
+        "id": "A525",
+        "kind": "absolute",
+        "threshold": 0.525
+      },
+      {
+        "id": "A550",
+        "kind": "absolute",
+        "threshold": 0.55
+      },
+      {
+        "id": "A575",
+        "kind": "absolute",
+        "threshold": 0.575
+      },
+      {
+        "id": "A600",
+        "kind": "absolute",
+        "threshold": 0.6
+      },
+      {
+        "id": "A625",
+        "kind": "absolute",
+        "threshold": 0.625
+      },
+      {
+        "id": "Q70",
+        "kind": "calibration_quantile",
+        "quantile": 0.7
+      },
+      {
+        "id": "Q85",
+        "kind": "calibration_quantile",
+        "quantile": 0.85
+      }
+    ],
+    "quantile_rule": "threshold fitted from pastcalibration confidence distribution perquarter; ifconstantconfidence range<1e-8 abstainall; no currentquarter-ranking",
+    "model_recipe_count": 40,
+    "ensemble_recipe_count": 16,
+    "total_predictor_recipes": 56,
+    "policy_count": 8,
+    "total_development_predictor_policy_combinations": 448,
+    "batch_groups": [
+      "G1",
+      "G2",
+      "G3",
+      "G4"
+    ],
+    "batch_size_fitted_recipes": 10,
+    "development_sample_gate": {
+      "minimum_selected_non_doji_each_year": 200,
+      "minimum_active_months_each_year": 8,
+      "active_month_minimum_predictions": 5,
+      "maximum_single_month_share": 0.25
+    },
+    "selection_order": [
+      "passes_development_sample_gate",
+      "highest minimumof2024and2025accuracy",
+      "highest combineddevelopmentaccuracy",
+      "higher minimumyearsamplecount",
+      "lowerfullcoveragecombinedlogloss",
+      "lexicalpredictorandpolicyid"
+    ],
+    "selection_scope": "onefinalrecipe+featuregroup+policy only; all development outcomes areexploratory; identical criteria forfull andselectivepolicies",
+    "evaluation_execution": "freeze besteligible predictor-policy afterall4batches evenifdevelopmentbelow60; testit once only; ifnoeligiblepredictor do notopen2026",
+    "evaluation_goal_gate": {
+      "accuracy_at_least": 0.6,
+      "selected_non_doji_at_least": 200,
+      "active_months_at_least": 6,
+      "active_month_minimum_predictions": 5,
+      "maximum_single_month_share": 0.25
+    },
+    "controls": [
+      "originalV1 logistic38 C=.1, fitallpaststarting2022,90dunregularizedsigmoidcalibrator,55percentdefault",
+      "pastmajority",
+      "alwaysUP",
+      "alwaysDOWN",
+      "same_currentcolor",
+      "opposite_currentcolor"
+    ],
+    "matched_subset_controls": true,
+    "show_full_and_selective_metrics": true,
+    "report_month_quarter_side_counts": true,
+    "uncertainty": "fixedUTC7dayblock bootstrap2000rep seed20261024 ontest only; descriptive notmodelselection; point60doesnotguaranteefuture60",
+    "do_not_switch_after_new_evaluation": true,
+    "optional_runtime_reductions": "No datadependent model/threshold additions; numericalfit failureslogged, not silentlyreplaced",
+    "parent_commit": "6ddcd32cf5abe5a43547b59d94e0a003103b9ecd",
+    "storage_context": "isolatedcloudLinuxworkspace suppliedbyuser, noWindowsC/DorWSLaccess; sourcefilesreused; free>10GiB"
+  },
+  "config": {
+    "settings_sha256": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+    "engine_sha256": "2ab43453d7228c61c67650461e1062f7372bfd3c32a3ecfd51e0bdd3302c8c7c",
+    "features_sha256": "9b16e71346d7630dad9f99a9b5cf034c7f9dc11090dfe77ad06b5f52fe6cba7e",
+    "v1_reference_sha256": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651",
+    "feature_specification_sha256": "5525fdf90506061b95fc89f865e8deb0f67795014bf0a4e07818c02aeec0567e",
+    "engine_freeze_sha256": "5f07bb9575f774d4e7464188f1f6029203170342b4f46b036468a484f434a7a8",
+    "development_data_sha256": {
+      "btc4h": "651db1d671f6b15eca8ed0638f29bb78b52ab85e20118bd7c51975efd8c932b2",
+      "btc15m": "59a590e1747aa4ae25092d1889b7e38f03fcfbf32b5e027d873cd6f30114788b",
+      "eth4h": "6036b931c1383321491d0858b57c1e92713bf2fca974eb2d1611021b55cca269"
+    },
+    "bar_ms": 14400000,
+    "float_format": "%.17g"
+  }
+}
