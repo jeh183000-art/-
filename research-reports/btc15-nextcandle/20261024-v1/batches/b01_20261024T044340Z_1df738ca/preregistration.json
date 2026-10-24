@@ -1,0 +1,8 @@
+{
+  "settings_sha256": "1df738ca819a596ee953ddc0fad878537b75e7e4a4dd3120c706f1cccc919d71",
+  "frozen_at_utc": "2026-10-24T04:39:40.860014+00:00",
+  "status": "FROZEN_BEFORE_MODEL_FIT",
+  "models_fitted": 0,
+  "environment": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "free_bytes": 30795698176
+}

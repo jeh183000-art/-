@@ -1,0 +1,19 @@
+{
+  "source": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/",
+  "official_source_definition": "https://github.com/binance/binance-public-data",
+  "source_archives": 48,
+  "official_archive_checksums_verified": 48,
+  "normalized_data_sha256": "6b1f1ee1f6cd2c482530b12d1c6582cc87b9d1f2273e3b0b2298f30c409e83eb",
+  "model_code_sha256": "0fca385ae5d7f2e2133c6947d34692146ecb0e91e429cf32ceeb8e4cc5c68263",
+  "protocol_sha256": "1df738ca819a596ee953ddc0fad878537b75e7e4a4dd3120c706f1cccc919d71",
+  "execution_mode": "RESEARCH_CLASSIFICATION_ONLY",
+  "remote_input_reproduction": "PUBLIC_OFFICIAL_URLS_AND_SHA256; fetch monthly archives with data_loader.py",
+  "raw_inputs_uploaded": false,
+  "predictions": "Every forecast is included in 24 monthly gzip CSV shards",
+  "simple_cycle_return_formula": "NOT_APPLICABLE: no cycles or trading simulation",
+  "public_archive": "https://github.com/jeh183000-art/-",
+  "archive_prefix": "research-reports/btc15-nextcandle/20261024-v1/batches/b01_20261024T044340Z_1df738ca",
+  "environment_scope": "Isolated cloud Linux workspace; no Windows C:/D: or WSL access",
+  "live_service": false,
+  "current_2026_model_validation": false
+}

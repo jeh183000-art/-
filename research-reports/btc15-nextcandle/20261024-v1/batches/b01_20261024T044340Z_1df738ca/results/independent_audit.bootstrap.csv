@@ -1,0 +1,3 @@
+selected_model,baseline,scored_bars,day_blocks,replicates,seed,accuracy_difference,ci95_lower,ci95_upper,ci_excludes_zero
+hist_gradient_boosting,historical_bullish_rate,35024,365,1000,20261024,0.024697350388305162,0.01781518283890479,0.03132482132778563,True
+hist_gradient_boosting,opposite_color_to_current,35024,365,1000,20261024,0.005824577432617634,0.0003126176328947113,0.011367270637610359,True

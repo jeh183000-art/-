@@ -1,0 +1,10 @@
+{
+  "study": "BTC15_NEXTCANDLE_V1_20261024",
+  "execution": "COMPLETE",
+  "classification_models_tested": 2,
+  "real_orders": 0,
+  "trade_backtests": 0,
+  "independent_audit": "PASS",
+  "publication": "REMOTE_VERIFICATION_REQUIRED",
+  "unrelated_studies_touched": false
+}

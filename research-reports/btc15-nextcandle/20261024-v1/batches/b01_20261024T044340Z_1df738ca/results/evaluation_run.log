@@ -1,0 +1,5 @@
+{"event": "fold_complete", "year": 2025, "quarter": 1, "model": "hist_gradient_boosting", "accuracy": 0.5248407643312102, "log_loss": 0.691274146122617, "scored_count": 8635}
+{"event": "fold_complete", "year": 2025, "quarter": 2, "model": "hist_gradient_boosting", "accuracy": 0.5257070880567961, "log_loss": 0.6907004623146635, "scored_count": 8733}
+{"event": "fold_complete", "year": 2025, "quarter": 3, "model": "hist_gradient_boosting", "accuracy": 0.526446936232869, "log_loss": 0.6906090906603803, "scored_count": 8829}
+{"event": "fold_complete", "year": 2025, "quarter": 4, "model": "hist_gradient_boosting", "accuracy": 0.521581511272233, "log_loss": 0.6912218125130473, "scored_count": 8827}
+{"event": "evaluation_complete", "selected_model": "hist_gradient_boosting"}
