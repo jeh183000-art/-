@@ -1,0 +1,541 @@
+{
+  "status": "DEVELOPMENT_INTERPRETATION_ONLY",
+  "created_at_utc": "2026-10-24T05:48:23.544273+00:00",
+  "group": "G3",
+  "source_sha256": {
+    "completion.json": "486a95ece4d66117b5f5195073de28087ea7fd469288c51de0de24c10b1955aa",
+    "results.csv": "eb6531c858c53c67959950d8257d26e288247ed2a856fa24581d2d2a147b05a0",
+    "monthly.csv": "58780a03dc9c535a7d3b5665997e6dc728d6f1fe45dd33f5d20553398606401e"
+  },
+  "holdout_accessed": false,
+  "model_refit_performed": false,
+  "full_audit_repeated": false,
+  "completion": {
+    "recipe_fold_failures": 0,
+    "all_predictors_ok": true,
+    "forecast_rows": 4386
+  },
+  "selection_method": "Independent implementation of frozen ranking and year-specific sample/month/concentration gates, using completed development tables.",
+  "predictor_policy_combinations": 112,
+  "eligible_combinations": 71,
+  "gated_candidates_at_least_60_each_year": 0,
+  "ungated_candidates_at_least_60_each_year": 11,
+  "best_eligible": {
+    "predictor": "G3_E01",
+    "policy": "Q85",
+    "eligible": true,
+    "minimum_year_accuracy": 0.5833333333333334,
+    "combined_accuracy": 0.5857988165680473,
+    "minimum_year_n": 324,
+    "full_coverage_combined_log_loss": 0.6893940250260138,
+    "both_years_accuracy_at_least_60": false,
+    "sample_gate": true,
+    "months_gate": true,
+    "concentration_gate": true
+  },
+  "best_eligible_annual_and_combined": [
+    {
+      "period": "2024",
+      "forecast_count": 2196,
+      "selected_count": 352,
+      "scored_count": 352,
+      "correct_count": 207,
+      "accuracy": 0.5880681818181818,
+      "coverage": 0.16029143897996356,
+      "active_months": 12,
+      "max_month_share": 0.10795454545454546,
+      "predicted_up_count": 293,
+      "predicted_down_count": 59,
+      "correct_up_count": 176,
+      "correct_down_count": 31,
+      "balanced_accuracy": 0.5361022787493376,
+      "bullish_precision": 0.6006825938566553,
+      "bearish_precision": 0.5254237288135594,
+      "matched_always_up_accuracy": 0.5795454545454546,
+      "matched_always_down_accuracy": 0.42045454545454547,
+      "matched_past_majority_accuracy": 0.5795454545454546,
+      "matched_same_currentcolor_accuracy": 0.42329545454545453,
+      "matched_opposite_currentcolor_accuracy": 0.5767045454545454,
+      "gap_vs_always_up": 0.008522727272727182,
+      "extra_correct_vs_always_up": 3,
+      "gap_vs_always_down": 0.1676136363636363,
+      "extra_correct_vs_always_down": 59,
+      "gap_vs_past_majority": 0.008522727272727182,
+      "extra_correct_vs_past_majority": 3,
+      "gap_vs_same_currentcolor": 0.16477272727272724,
+      "extra_correct_vs_same_currentcolor": 58,
+      "gap_vs_opposite_currentcolor": 0.011363636363636354,
+      "extra_correct_vs_opposite_currentcolor": 4
+    },
+    {
+      "period": "2025",
+      "forecast_count": 2190,
+      "selected_count": 324,
+      "scored_count": 324,
+      "correct_count": 189,
+      "accuracy": 0.5833333333333334,
+      "coverage": 0.14794520547945206,
+      "active_months": 12,
+      "max_month_share": 0.12037037037037036,
+      "predicted_up_count": 272,
+      "predicted_down_count": 52,
+      "correct_up_count": 161,
+      "correct_down_count": 28,
+      "balanced_accuracy": 0.5358545595955668,
+      "bullish_precision": 0.5919117647058824,
+      "bearish_precision": 0.5384615384615384,
+      "matched_always_up_accuracy": 0.5709876543209876,
+      "matched_always_down_accuracy": 0.42901234567901236,
+      "matched_past_majority_accuracy": 0.5709876543209876,
+      "matched_same_currentcolor_accuracy": 0.4166666666666667,
+      "matched_opposite_currentcolor_accuracy": 0.5833333333333334,
+      "gap_vs_always_up": 0.012345679012345734,
+      "extra_correct_vs_always_up": 4,
+      "gap_vs_always_down": 0.154320987654321,
+      "extra_correct_vs_always_down": 50,
+      "gap_vs_past_majority": 0.012345679012345734,
+      "extra_correct_vs_past_majority": 4,
+      "gap_vs_same_currentcolor": 0.16666666666666669,
+      "extra_correct_vs_same_currentcolor": 54,
+      "gap_vs_opposite_currentcolor": 0.0,
+      "extra_correct_vs_opposite_currentcolor": 0
+    },
+    {
+      "period": "ALL",
+      "forecast_count": 4386,
+      "selected_count": 676,
+      "scored_count": 676,
+      "correct_count": 396,
+      "accuracy": 0.5857988165680473,
+      "coverage": 0.1541267669858641,
+      "active_months": 24,
+      "max_month_share": 0.057692307692307696,
+      "predicted_up_count": 565,
+      "predicted_down_count": 111,
+      "correct_up_count": 337,
+      "correct_down_count": 59,
+      "balanced_accuracy": 0.5359494101734995,
+      "bullish_precision": 0.5964601769911504,
+      "bearish_precision": 0.5315315315315315,
+      "matched_always_up_accuracy": 0.5754437869822485,
+      "matched_always_down_accuracy": 0.4245562130177515,
+      "matched_past_majority_accuracy": 0.5754437869822485,
+      "matched_same_currentcolor_accuracy": 0.42011834319526625,
+      "matched_opposite_currentcolor_accuracy": 0.5798816568047337,
+      "gap_vs_always_up": 0.010355029585798814,
+      "extra_correct_vs_always_up": 7,
+      "gap_vs_always_down": 0.16124260355029585,
+      "extra_correct_vs_always_down": 109,
+      "gap_vs_past_majority": 0.010355029585798814,
+      "extra_correct_vs_past_majority": 7,
+      "gap_vs_same_currentcolor": 0.16568047337278108,
+      "extra_correct_vs_same_currentcolor": 112,
+      "gap_vs_opposite_currentcolor": 0.00591715976331364,
+      "extra_correct_vs_opposite_currentcolor": 4
+    }
+  ],
+  "best_eligible_monthly": [
+    {
+      "month": "2024-01",
+      "forecast_count": 186,
+      "scored_count": 33,
+      "accuracy": 0.5454545454545454,
+      "predicted_up_count": 15,
+      "predicted_down_count": 18,
+      "correct_up_count": 10,
+      "correct_down_count": 8
+    },
+    {
+      "month": "2024-02",
+      "forecast_count": 174,
+      "scored_count": 29,
+      "accuracy": 0.6551724137931034,
+      "predicted_up_count": 17,
+      "predicted_down_count": 12,
+      "correct_up_count": 12,
+      "correct_down_count": 7
+    },
+    {
+      "month": "2024-03",
+      "forecast_count": 186,
+      "scored_count": 37,
+      "accuracy": 0.5675675675675675,
+      "predicted_up_count": 13,
+      "predicted_down_count": 24,
+      "correct_up_count": 9,
+      "correct_down_count": 12
+    },
+    {
+      "month": "2024-04",
+      "forecast_count": 180,
+      "scored_count": 26,
+      "accuracy": 0.6153846153846154,
+      "predicted_up_count": 25,
+      "predicted_down_count": 1,
+      "correct_up_count": 15,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2024-05",
+      "forecast_count": 186,
+      "scored_count": 31,
+      "accuracy": 0.6774193548387096,
+      "predicted_up_count": 30,
+      "predicted_down_count": 1,
+      "correct_up_count": 20,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2024-06",
+      "forecast_count": 180,
+      "scored_count": 22,
+      "accuracy": 0.5454545454545454,
+      "predicted_up_count": 22,
+      "predicted_down_count": 0,
+      "correct_up_count": 12,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2024-07",
+      "forecast_count": 186,
+      "scored_count": 38,
+      "accuracy": 0.5526315789473685,
+      "predicted_up_count": 37,
+      "predicted_down_count": 1,
+      "correct_up_count": 21,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2024-08",
+      "forecast_count": 186,
+      "scored_count": 33,
+      "accuracy": 0.5757575757575758,
+      "predicted_up_count": 33,
+      "predicted_down_count": 0,
+      "correct_up_count": 19,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2024-09",
+      "forecast_count": 180,
+      "scored_count": 29,
+      "accuracy": 0.4827586206896552,
+      "predicted_up_count": 28,
+      "predicted_down_count": 1,
+      "correct_up_count": 13,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2024-10",
+      "forecast_count": 186,
+      "scored_count": 34,
+      "accuracy": 0.5882352941176471,
+      "predicted_up_count": 34,
+      "predicted_down_count": 0,
+      "correct_up_count": 20,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2024-11",
+      "forecast_count": 180,
+      "scored_count": 20,
+      "accuracy": 0.75,
+      "predicted_up_count": 20,
+      "predicted_down_count": 0,
+      "correct_up_count": 15,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2024-12",
+      "forecast_count": 186,
+      "scored_count": 20,
+      "accuracy": 0.55,
+      "predicted_up_count": 19,
+      "predicted_down_count": 1,
+      "correct_up_count": 10,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2025-01",
+      "forecast_count": 186,
+      "scored_count": 26,
+      "accuracy": 0.6538461538461539,
+      "predicted_up_count": 25,
+      "predicted_down_count": 1,
+      "correct_up_count": 16,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2025-02",
+      "forecast_count": 168,
+      "scored_count": 26,
+      "accuracy": 0.6923076923076923,
+      "predicted_up_count": 26,
+      "predicted_down_count": 0,
+      "correct_up_count": 18,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2025-03",
+      "forecast_count": 186,
+      "scored_count": 28,
+      "accuracy": 0.5714285714285714,
+      "predicted_up_count": 27,
+      "predicted_down_count": 1,
+      "correct_up_count": 16,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2025-04",
+      "forecast_count": 180,
+      "scored_count": 25,
+      "accuracy": 0.44,
+      "predicted_up_count": 24,
+      "predicted_down_count": 1,
+      "correct_up_count": 10,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2025-05",
+      "forecast_count": 186,
+      "scored_count": 26,
+      "accuracy": 0.6153846153846154,
+      "predicted_up_count": 26,
+      "predicted_down_count": 0,
+      "correct_up_count": 16,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2025-06",
+      "forecast_count": 180,
+      "scored_count": 28,
+      "accuracy": 0.6428571428571429,
+      "predicted_up_count": 27,
+      "predicted_down_count": 1,
+      "correct_up_count": 17,
+      "correct_down_count": 1
+    },
+    {
+      "month": "2025-07",
+      "forecast_count": 186,
+      "scored_count": 18,
+      "accuracy": 0.7777777777777778,
+      "predicted_up_count": 13,
+      "predicted_down_count": 5,
+      "correct_up_count": 11,
+      "correct_down_count": 3
+    },
+    {
+      "month": "2025-08",
+      "forecast_count": 186,
+      "scored_count": 35,
+      "accuracy": 0.6,
+      "predicted_up_count": 30,
+      "predicted_down_count": 5,
+      "correct_up_count": 19,
+      "correct_down_count": 2
+    },
+    {
+      "month": "2025-09",
+      "forecast_count": 180,
+      "scored_count": 17,
+      "accuracy": 0.47058823529411764,
+      "predicted_up_count": 14,
+      "predicted_down_count": 3,
+      "correct_up_count": 8,
+      "correct_down_count": 0
+    },
+    {
+      "month": "2025-10",
+      "forecast_count": 186,
+      "scored_count": 34,
+      "accuracy": 0.5,
+      "predicted_up_count": 25,
+      "predicted_down_count": 9,
+      "correct_up_count": 13,
+      "correct_down_count": 4
+    },
+    {
+      "month": "2025-11",
+      "forecast_count": 180,
+      "scored_count": 39,
+      "accuracy": 0.46153846153846156,
+      "predicted_up_count": 31,
+      "predicted_down_count": 8,
+      "correct_up_count": 14,
+      "correct_down_count": 4
+    },
+    {
+      "month": "2025-12",
+      "forecast_count": 186,
+      "scored_count": 22,
+      "accuracy": 0.6818181818181818,
+      "predicted_up_count": 4,
+      "predicted_down_count": 18,
+      "correct_up_count": 3,
+      "correct_down_count": 12
+    }
+  ],
+  "best_eligible_monthly_ranges_by_year": {
+    "2024": {
+      "minimum_monthly_n": 20,
+      "maximum_monthly_n": 38,
+      "minimum_monthly_accuracy": 0.4827586206896552,
+      "maximum_monthly_accuracy": 0.75
+    },
+    "2025": {
+      "minimum_monthly_n": 17,
+      "maximum_monthly_n": 39,
+      "minimum_monthly_accuracy": 0.44,
+      "maximum_monthly_accuracy": 0.7777777777777778
+    }
+  },
+  "top_five_eligible": [
+    {
+      "predictor": "G3_E01",
+      "policy": "Q85",
+      "eligible": true,
+      "minimum_year_accuracy": 0.5833333333333334,
+      "combined_accuracy": 0.5857988165680473,
+      "minimum_year_n": 324,
+      "full_coverage_combined_log_loss": 0.6893940250260138,
+      "both_years_accuracy_at_least_60": false,
+      "sample_gate": true,
+      "months_gate": true,
+      "concentration_gate": true
+    },
+    {
+      "predictor": "G3_R07",
+      "policy": "A575",
+      "eligible": true,
+      "minimum_year_accuracy": 0.5783664459161147,
+      "combined_accuracy": 0.5891276864728192,
+      "minimum_year_n": 338,
+      "full_coverage_combined_log_loss": 0.6899618581271036,
+      "both_years_accuracy_at_least_60": false,
+      "sample_gate": true,
+      "months_gate": true,
+      "concentration_gate": true
+    },
+    {
+      "predictor": "G3_R04",
+      "policy": "A575",
+      "eligible": true,
+      "minimum_year_accuracy": 0.5771812080536913,
+      "combined_accuracy": 0.5954106280193237,
+      "minimum_year_n": 298,
+      "full_coverage_combined_log_loss": 0.6894090653012419,
+      "both_years_accuracy_at_least_60": false,
+      "sample_gate": true,
+      "months_gate": true,
+      "concentration_gate": true
+    },
+    {
+      "predictor": "G3_E03",
+      "policy": "A550",
+      "eligible": true,
+      "minimum_year_accuracy": 0.5767326732673267,
+      "combined_accuracy": 0.5824175824175825,
+      "minimum_year_n": 375,
+      "full_coverage_combined_log_loss": 0.6898757941400125,
+      "both_years_accuracy_at_least_60": false,
+      "sample_gate": true,
+      "months_gate": true,
+      "concentration_gate": true
+    },
+    {
+      "predictor": "G3_E03",
+      "policy": "Q85",
+      "eligible": true,
+      "minimum_year_accuracy": 0.5758513931888545,
+      "combined_accuracy": 0.5793991416309013,
+      "minimum_year_n": 323,
+      "full_coverage_combined_log_loss": 0.6898757941400125,
+      "both_years_accuracy_at_least_60": false,
+      "sample_gate": true,
+      "months_gate": true,
+      "concentration_gate": true
+    }
+  ],
+  "full_coverage_accuracy_ranges": {
+    "all_14_predictors": {
+      "2024": {
+        "min_accuracy": 0.5277777777777778,
+        "min_predictor": "G3_R05",
+        "max_accuracy": 0.5469034608378871,
+        "max_predictor": "G3_R07",
+        "forecast_count_each": 2196,
+        "predictors": 14
+      },
+      "2025": {
+        "min_accuracy": 0.5127853881278539,
+        "min_predictor": "G3_R07",
+        "max_accuracy": 0.534703196347032,
+        "max_predictor": "G3_R02",
+        "forecast_count_each": 2190,
+        "predictors": 14
+      },
+      "ALL": {
+        "min_accuracy": 0.5269037847697219,
+        "min_predictor": "G3_R05",
+        "max_accuracy": 0.5392156862745098,
+        "max_predictor": "G3_R02",
+        "forecast_count_each": 4386,
+        "predictors": 14
+      }
+    },
+    "10_base_models": {
+      "2024": {
+        "min_accuracy": 0.5277777777777778,
+        "min_predictor": "G3_R05",
+        "max_accuracy": 0.5469034608378871,
+        "max_predictor": "G3_R07",
+        "forecast_count_each": 2196,
+        "predictors": 10
+      },
+      "2025": {
+        "min_accuracy": 0.5127853881278539,
+        "min_predictor": "G3_R07",
+        "max_accuracy": 0.534703196347032,
+        "max_predictor": "G3_R02",
+        "forecast_count_each": 2190,
+        "predictors": 10
+      },
+      "ALL": {
+        "min_accuracy": 0.5269037847697219,
+        "min_predictor": "G3_R05",
+        "max_accuracy": 0.5392156862745098,
+        "max_predictor": "G3_R02",
+        "forecast_count_each": 4386,
+        "predictors": 10
+      }
+    },
+    "4_fixed_ensembles": {
+      "2024": {
+        "min_accuracy": 0.5359744990892532,
+        "min_predictor": "G3_E01",
+        "max_accuracy": 0.5409836065573771,
+        "max_predictor": "G3_E02",
+        "forecast_count_each": 2196,
+        "predictors": 4
+      },
+      "2025": {
+        "min_accuracy": 0.5210045662100456,
+        "min_predictor": "G3_E03",
+        "max_accuracy": 0.5287671232876713,
+        "max_predictor": "G3_E01",
+        "forecast_count_each": 2190,
+        "predictors": 4
+      },
+      "ALL": {
+        "min_accuracy": 0.529639762881897,
+        "min_predictor": "G3_E03",
+        "max_accuracy": 0.5344277245782034,
+        "max_predictor": "G3_E02",
+        "forecast_count_each": 4386,
+        "predictors": 4
+      }
+    }
+  },
+  "interpretation": "These are G3 development results, not a final 2026 evaluation or a claim about future 60% accuracy."
+}

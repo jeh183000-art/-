@@ -1,0 +1,10 @@
+{
+  "status": "RESERVED_UNEVALUATED",
+  "performance_not_inspected": true,
+  "structural_only": true,
+  "dataset_files": [
+    "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/BTCUSDT_4h_2026-01_2026-09.csv.gz",
+    "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/BTCUSDT_15m_2026-01_2026-09.csv.gz",
+    "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/ETHUSDT_4h_2026-01_2026-09.csv.gz"
+  ]
+}

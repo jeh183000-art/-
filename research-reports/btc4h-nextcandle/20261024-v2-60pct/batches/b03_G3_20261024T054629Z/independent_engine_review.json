@@ -1,0 +1,71 @@
+{
+  "status": "PASS_NO_REMAINING_BLOCKING_FINDINGS",
+  "reviewer": "independent agent /root/v2_features",
+  "reviewed_at_utc": "2026-10-24T05:44:04.968744+00:00",
+  "scope": "Independent source review of frozen engine chronology, calibration, policies, development ranking and one-time evaluation guard; synthetic tests only.",
+  "reviewed_sha256": {
+    "engine_v2.py": "2ab43453d7228c61c67650461e1062f7372bfd3c32a3ecfd51e0bdd3302c8c7c",
+    "test_engine_v2.py": "965221269abc95f56b3e05a1c37ffe47699c71a5a52e967c2d9ae672f7d6e8d2",
+    "features_v2.py": "9b16e71346d7630dad9f99a9b5cf034c7f9dc11090dfe77ad06b5f52fe6cba7e",
+    "test_features_v2.py": "48bd340e4ada0341c09eeb97b76964359ba86424e517c254b2c95e1d6532d110",
+    "settings.json": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+    "reference/v1_model.py": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651"
+  },
+  "data_access": {
+    "market_data_loaded": false,
+    "holdout_files_opened": false,
+    "real_data_models_fitted": false,
+    "synthetic_fixture_fits_only": true
+  },
+  "test_results": [
+    {
+      "command": "python -m unittest -v test_engine_v2.py",
+      "tests": 15,
+      "passed": 15,
+      "failed": 0,
+      "scope": "Synthetic frames, synthetic tiny estimator/calibrator fits, mocked input loading and temporary files."
+    },
+    {
+      "command": "python -m unittest -v test_features_v2.py",
+      "tests": 10,
+      "passed": 10,
+      "failed": 0,
+      "scope": "Synthetic OHLCV, exact local V1 feature comparison, adversarial future changes, gaps, incomplete intrabar and ETH join cases."
+    }
+  ],
+  "independent_probes": [
+    "Exact fit and calibration label_end equality boundaries are excluded; the rolling training start is respected and the three masks are disjoint.",
+    "Absolute confidence ties are inclusive; Q70/Q85 thresholds equal quantiles of past calibration confidence only; constant confidence abstains with threshold 2.0.",
+    "All 40 base recipes, 16 ensembles and 8 policies account for 448 development combinations.",
+    "Synthetic ranking enforces minimum-year accuracy before pooled accuracy, sample count before log-loss, log-loss before lexical ID, and rejects low samples, inactive months, concentrated months and failed recipes.",
+    "Modified policy threshold, member recipe, ensemble and group payloads are rejected after the guard fix; exclusive JSON creation refuses a second write."
+  ],
+  "passed_checks": {
+    "features_and_labels": "Only causal feature groups reach estimators. The target is the next candle close minus its own open. Doji predictions are retained and excluded only from binary fitting/scoring.",
+    "chronological_purge": "fit label_end < calibration_start; calibration prediction_time >= calibration_start and label_end < quarter_start; all fold masks are disjoint. Training windows end before calibration.",
+    "preprocessing": "Median imputation is inside each fitted pipeline. Logistic/SVC scaling is fitted only on the base training subset. HGB early stopping and SVC internal probability fitting are disabled.",
+    "calibration": "V2 fits sigmoid calibration on the disjoint past 180-day subset. Nonpositive slope and single-class calibration use the fixed smoothed constant-rate rule. Convergence failures are logged and disqualify the recipe.",
+    "policies_and_ensembles": "Six registered absolute thresholds and two past-calibration quantile rules are implemented. Ensembles average fixed member probabilities equally and derive thresholds from their own past calibration probability average.",
+    "development_selection": "2024 and 2025 are development only. Both years must meet the registered sample, active-month and concentration gates. The winner follows the exact declared ranking and all 448 combinations must be present.",
+    "freeze_integrity": "Source/data hashes and ordered feature schemas are checked; completed batch artifacts are hashed. Selection parameters and ensemble membership are compared with settings, not only IDs.",
+    "one_time_evaluation": "Frozen selection, development snapshots and ranking are verified before an exclusive run_started marker. Holdout hash/file access follows that marker. A prior marker blocks reruns including incomplete attempts.",
+    "evaluation_scope": "Only the frozen selected members and the declared V1 control are fitted for Jan/Apr/Jul 2026. Earlier 2026 labels may enter later folds only through the same strict past-label masks. No holdout-based selection or switching is implemented.",
+    "v1_control": "The 2022-01-01 slice is taken before rebuilding G1, preserving the original 96-bar warmup. The original scaler, C=.1 logistic, 90-day C=1e6 sigmoid and negative-slope behavior are retained.",
+    "reporting": "Forecast, selected and scored counts are separated; controls use matching timestamps; monthly, quarterly and side tables are generated; fixed UTC 7-day block bootstrap is descriptive and excluded from selection."
+  },
+  "resolved_findings": [
+    {
+      "id": "R1",
+      "severity": "blocking_before_evaluation",
+      "issue": "The initial guard checked selected IDs but accepted altered policy thresholds or member parameters.",
+      "resolution": "validate_selection_payload now checks the complete registered policy, member recipes and ensemble. Synthetic tamper tests pass."
+    }
+  ],
+  "limitations": [
+    "This review does not establish attainable accuracy or economic value; no real-data model outcome was examined.",
+    "No full real-data execution was performed in this review. Runtime and data-dependent numerical failures remain subject to the engine failure accounting.",
+    "The review applies to the exact hashes listed above. Any source/settings change requires review and a new pre-fit freeze.",
+    "Coverage is measured among the selected feature group eligible forecast rows; missing-input exclusions should remain visible when interpreting results.",
+    "The bootstrap is a descriptive interval conditional on the frozen recipe; it does not certify future accuracy or remove uncertainty from development model selection."
+  ]
+}
