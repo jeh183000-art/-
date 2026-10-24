@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "check_count": 3264,
+  "failed_count": 0,
+  "independence": "Auditor does not import model.py, sklearn metrics, or serialized model objects. It recomputes targets, chronological eligibility, metric arithmetic and split counts from canonical raw data.",
+  "tolerance": 1e-09,
+  "selected_model": "logistic",
+  "hashes": {
+    "data_sha256": "39c0471ee1052d5ab8d77ab099b88cb6d12fc72e0a5eca9137bd2654b35a5343",
+    "model_code_sha256": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651",
+    "protocol_sha256": "e57afd055f61ccfe0f25af2ab0e9cb134a7ccac675fb8517f0c22f21aa994cb9",
+    "development_prediction_sha256": "ae852468899f229bf7b2b4d2bfcd3b8fdee1e67f0b5cbddd7457e1352f9412b0",
+    "development_result_sha256": "1a8c2ff1f943e72385312eb54d300b1e9464a661f6ad402296ee303d30633395"
+  },
+  "auditor_sha256": "733465aa965320069f4273d30f0bad8b7901aa22dc5a64328068fd23945301ec",
+  "failures": [],
+  "paired_day_block_bootstrap": [
+    {
+      "selected_model": "logistic",
+      "baseline": "historical_bullish_rate",
+      "scored_bars": 2190,
+      "day_blocks": 365,
+      "replicates": 1000,
+      "seed": 20261024,
+      "accuracy_difference": 0.00502283105022831,
+      "ci95_lower": -0.023744292237442923,
+      "ci95_upper": 0.031061643835616427,
+      "ci_excludes_zero": false
+    },
+    {
+      "selected_model": "logistic",
+      "baseline": "opposite_color_to_current",
+      "scored_bars": 2190,
+      "day_blocks": 365,
+      "replicates": 1000,
+      "seed": 20261024,
+      "accuracy_difference": -0.013242009132420091,
+      "ci95_lower": -0.031506849315068496,
+      "ci95_upper": 0.005936073059360731,
+      "ci_excludes_zero": false
+    }
+  ],
+  "bootstrap_limits": "Post-run uncertainty diagnostic only; no tuning or model selection. Whole UTC days are resampled with replacement, retaining paired model/baseline errors. Independence between days is a heuristic; this does not account for multi-day dependence, regime shifts, all researcher degrees of freedom, or live execution costs. Percentile intervals are not a guarantee of future accuracy.",
+  "limits": "Validates files and timestamp rules; flags alone cannot independently establish real-world experiment chronology or verify which rows were passed into a fitting process. Predictions are historical, and this audit does not demonstrate trading profitability."
+}

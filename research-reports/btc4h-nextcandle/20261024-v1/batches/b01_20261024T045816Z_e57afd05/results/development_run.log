@@ -1,0 +1,9 @@
+{"event": "fold_complete", "year": 2024, "quarter": 1, "model": "logistic", "accuracy": 0.5512820512820513, "log_loss": 0.6883646813607165, "scored_count": 546}
+{"event": "fold_complete", "year": 2024, "quarter": 1, "model": "hist_gradient_boosting", "accuracy": 0.5494505494505495, "log_loss": 0.6887677691959481, "scored_count": 546}
+{"event": "fold_complete", "year": 2024, "quarter": 2, "model": "logistic", "accuracy": 0.5384615384615384, "log_loss": 0.689545838653642, "scored_count": 546}
+{"event": "fold_complete", "year": 2024, "quarter": 2, "model": "hist_gradient_boosting", "accuracy": 0.5439560439560439, "log_loss": 0.6924887321403058, "scored_count": 546}
+{"event": "fold_complete", "year": 2024, "quarter": 3, "model": "logistic", "accuracy": 0.5398550724637681, "log_loss": 0.6911934174629446, "scored_count": 552}
+{"event": "fold_complete", "year": 2024, "quarter": 3, "model": "hist_gradient_boosting", "accuracy": 0.5307971014492754, "log_loss": 0.6920080766182177, "scored_count": 552}
+{"event": "fold_complete", "year": 2024, "quarter": 4, "model": "logistic", "accuracy": 0.5507246376811594, "log_loss": 0.6870561344795695, "scored_count": 552}
+{"event": "fold_complete", "year": 2024, "quarter": 4, "model": "hist_gradient_boosting", "accuracy": 0.5434782608695652, "log_loss": 0.6876681383956343, "scored_count": 552}
+{"event": "selection_frozen", "selected_model": "logistic"}

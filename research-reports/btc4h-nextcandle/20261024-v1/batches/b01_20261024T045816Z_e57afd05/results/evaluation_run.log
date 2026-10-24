@@ -1,0 +1,5 @@
+{"event": "fold_complete", "year": 2025, "quarter": 1, "model": "logistic", "accuracy": 0.5203703703703704, "log_loss": 0.6919969254443803, "scored_count": 540}
+{"event": "fold_complete", "year": 2025, "quarter": 2, "model": "logistic", "accuracy": 0.5293040293040293, "log_loss": 0.690951574699819, "scored_count": 546}
+{"event": "fold_complete", "year": 2025, "quarter": 3, "model": "logistic", "accuracy": 0.5036231884057971, "log_loss": 0.6960412712507141, "scored_count": 552}
+{"event": "fold_complete", "year": 2025, "quarter": 4, "model": "logistic", "accuracy": 0.4855072463768116, "log_loss": 0.6929709376422436, "scored_count": 552}
+{"event": "evaluation_complete", "selected_model": "logistic"}

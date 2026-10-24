@@ -1,0 +1,135 @@
+{
+  "study_id": "BTC4H_NEXTCANDLE_V1_20261024",
+  "mode": "RESEARCH_CLASSIFICATION_ONLY",
+  "symbol": "BTCUSDT",
+  "market": "Binance USD-M perpetual trade-price klines",
+  "interval_minutes": 240,
+  "input_start_utc": "2022-01-01T00:00:00Z",
+  "input_end_exclusive_utc": "2026-01-01T00:00:00Z",
+  "target": "sign(next_close - next_open), never sign(next_close - current_close)",
+  "prediction_time": "current_close_time + 1 millisecond; closed 4-hour candle information only",
+  "label_available_time": "next_close_time + 1 millisecond",
+  "doji_policy": "Keep time axis and predictions; exclude exact next_open == next_close only from binary fitting/scoring. Probability is conditional on a non-doji target.",
+  "gap_policy": "Never impute; next target must be exactly 14400000 milliseconds later. Causal features require contiguous history after gaps.",
+  "warmup_bars": 96,
+  "features": {
+    "close_returns_lookbacks": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      16,
+      32,
+      96
+    ],
+    "candle_shape": [
+      "signed_body_pct",
+      "range_pct",
+      "upper_wick_pct",
+      "lower_wick_pct",
+      "close_location"
+    ],
+    "body_lags": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "return_volatility_windows": [
+      4,
+      16,
+      96
+    ],
+    "close_to_sma_windows": [
+      4,
+      16,
+      48,
+      96
+    ],
+    "up_fraction_windows": [
+      4,
+      16
+    ],
+    "volume_ratio_windows": [
+      4,
+      16,
+      96
+    ],
+    "quote_volume_and_trade_count_ratio_window": 16,
+    "taker_buy_fraction_windows": [
+      1,
+      4,
+      16
+    ],
+    "time_encoding": [
+      "UTC_hour_sin_cos",
+      "UTC_weekday_sin_cos"
+    ]
+  },
+  "models": {
+    "logistic": {
+      "preprocessing": "StandardScaler fit on training only",
+      "C": 0.1,
+      "max_iter": 500,
+      "random_state": 20261024
+    },
+    "hist_gradient_boosting": {
+      "max_iter": 100,
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05,
+      "l2_regularization": 10,
+      "min_samples_leaf": 100,
+      "early_stopping": false,
+      "random_state": 20261024
+    }
+  },
+  "calibration": "Sigmoid logistic on raw log-odds using the trailing 90 days before each test quarter, disjoint from base-model fit",
+  "splits": {
+    "initial_history": "2022-2023",
+    "development": "2024, four chronological quarters, expanding history and quarterly refit",
+    "selection": "Lowest concatenated 2024 calibrated log loss among exactly the two preregistered models; freeze selection before evaluation",
+    "evaluation": "2025, four chronological quarters, selected model only; fixed recipe refit using information available before each quarter",
+    "purge": "Training label_available_time < calibration_start; calibration label_available_time < test_start",
+    "minimum_fit_samples": 2000,
+    "minimum_calibration_samples": 500,
+    "2026": "NOT_DOWNLOADED_OR_EVALUATED"
+  },
+  "baselines": [
+    "historical_bullish_rate",
+    "coinflip_0.5",
+    "same_color_as_current",
+    "opposite_color_to_current"
+  ],
+  "confidence_thresholds": [
+    0.5,
+    0.55,
+    0.6
+  ],
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "bullish_precision",
+    "bearish_precision",
+    "log_loss",
+    "brier",
+    "roc_auc",
+    "coverage",
+    "monthly_stability"
+  ],
+  "model_selection_does_not_establish_edge": true,
+  "no_guaranteed_accuracy": true,
+  "no_hyperparameter_sweep": true,
+  "trade_backtest": "NOT_RUN: classification study; no orders, entry/exit simulation, funding, PF, MDD, or return claims",
+  "future_trade_cost_assumption_if_separately_tested": "User's prior 0.12% round-trip fee plus actual funding and execution slippage; not applied to classification scores",
+  "prior_study_protection": "Do not access/alter existing FINAL_OOS, paused studies, WSL or automation",
+  "storage_context": "Isolated cloud Linux workspace supplied for this conversation, not the user's Windows/WSL environment; verified free space > 10 GiB; no access to C: or D:",
+  "warmup_elapsed_time_days": 16,
+  "comparison": {
+    "prior_study": "BTC15_NEXTCANDLE_V1_20261024",
+    "prior_commit": "eb0b824cb66b3c918cd39490ba266538ff4bede2",
+    "change": "15-minute to4-hour candles, otherwise same bar-count windows, models, calendar calibration, periods and thresholds",
+    "interpretation": "Exploratory comparison requested after viewing15m results; 2025 not globally untouched. No hyperparameter retuning after4h results."
+  },
+  "data_validation": "Official4h monthly ZIPs with48 verified SHA256 checksums; independently compare OHLCV aggregation of existing15m bars in16-bar UTC-aligned groups."
+}

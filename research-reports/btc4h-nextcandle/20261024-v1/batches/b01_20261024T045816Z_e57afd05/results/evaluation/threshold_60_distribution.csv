@@ -1,0 +1,4 @@
+month,predicted_up,predictions,correct,accuracy
+2025-01,True,15,10,0.6666666666666666
+2025-02,True,15,9,0.6
+2025-03,True,14,8,0.5714285714285714

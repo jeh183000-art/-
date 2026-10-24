@@ -1,0 +1,21 @@
+{
+  "study_type": "historical_research_model_not_live_trading",
+  "asof_utc": "2025-10-01T00:00:00+00:00",
+  "information_boundary_utc": "2025-10-01T00:00:00+00:00",
+  "prediction_created_asof_utc": "2025-10-01T00:00:00+00:00",
+  "target_open_utc": "2025-10-01T00:00:00+00:00",
+  "target_end_exclusive_utc": "2025-10-01T04:00:00+00:00",
+  "latest_closed_candle_open_utc": "2025-09-30T20:00:00+00:00",
+  "stale_input": false,
+  "model_name": "logistic",
+  "model_fit_cutoff_exclusive_utc": "2025-07-03T00:00:00+00:00",
+  "model_calibration_cutoff_exclusive_utc": "2025-10-01T00:00:00+00:00",
+  "probability_definition": "P(next close > next open | next candle is not doji)",
+  "p_up_conditional_non_doji": 0.5022470538587213,
+  "p_down_conditional_non_doji": 0.49775294614127874,
+  "direction": "UP",
+  "confidence": 0.5022470538587213,
+  "confidence_threshold": 0.55,
+  "abstain": true,
+  "execution_assumption": "No order or claimed fill price; only a direction forecast"
+}

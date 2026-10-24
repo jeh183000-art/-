@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-24T04:58:16.383262+00:00",
+  "status": "CODE_FROZEN_BEFORE_FIT",
+  "tests_passed": 9,
+  "test_command": "python -m unittest -v test_model.py",
+  "hashes": {
+    "model.py": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651",
+    "test_model.py": "5a0f9bb7142658d92b5e7b7334d75fc754e08b59e5be3f41abc15a75aa885aa2",
+    "settings.json": "e57afd055f61ccfe0f25af2ab0e9cb134a7ccac675fb8517f0c22f21aa994cb9",
+    "data_loader.py": "0ccac908c0cdf15081fd8c6548bfa65e3d91b713442d7f26db155fb4f37a3200"
+  },
+  "canonical_data": "Official Binance4h archives, source fixed before fit",
+  "cross_interval_comparison": "4of8766sourcewindows differ in some price/volume fields; all8766colors match; details in data/comparison_15m_to_4h.json"
+}

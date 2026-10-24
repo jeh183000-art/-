@@ -1,0 +1,12 @@
+{
+  "study": "BTC4H_NEXTCANDLE_V1_20261024",
+  "execution": "COMPLETE",
+  "classification_candidates": 2,
+  "selected_model": "logistic",
+  "real_orders": 0,
+  "trade_backtests": 0,
+  "independent_audit": "PASS",
+  "publication": "REMOTE_VERIFICATION_REQUIRED",
+  "prior_15m_artifacts_modified": false,
+  "unrelated_studies_touched": false
+}

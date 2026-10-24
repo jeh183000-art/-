@@ -1,0 +1,10 @@
+{
+  "probabilities": "Conditional on a non-doji next candle; dojis remain in forecast/coverage counts",
+  "tie_rule": "p_up == 0.5 maps to UP",
+  "coinflip_0.5": "Constant 0.5 probability baseline, not sampled random directions; its thresholded accuracy equals always-UP accuracy",
+  "hard_rule_baselines": "Same/opposite rules encode deterministic labels as p=0 or p=1; these are not calibrated confidences and are not model-selection candidates",
+  "log_loss_clipping": "Probabilities clipped to [0.000001, 0.999999] only for log-loss evaluation",
+  "calibrator": "LogisticRegression on raw log-odds, C=1000000, max_iter=500, random_state=20261024",
+  "returns_and_percent_features": "Fractions: 0.01 denotes 1%; standardization fits on base-model training only",
+  "no_trading_metrics": "Classification study only; no PnL, fees, funding or execution simulation"
+}

@@ -1,0 +1,319 @@
+{
+  "status": "FAIL",
+  "reference_15m_sha256": "6b1f1ee1f6cd2c482530b12d1c6582cc87b9d1f2273e3b0b2298f30c409e83eb",
+  "reference_15m_rows": 140256,
+  "official_4h_rows": 8766,
+  "aggregation": "UTC start-of-day anchored 4h; each bucket has exactly 16 contiguous 15m bars",
+  "component_count_min": 16,
+  "component_count_max": 16,
+  "imputation": "none",
+  "fields": [
+    {
+      "column": "open_time",
+      "max_absolute_difference": 0.0,
+      "mismatched_rows": 0,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "open",
+      "max_absolute_difference": 83.89999999999418,
+      "mismatched_rows": 2,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "high",
+      "max_absolute_difference": 0.0,
+      "mismatched_rows": 0,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "low",
+      "max_absolute_difference": 25.900000000001455,
+      "mismatched_rows": 1,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "close",
+      "max_absolute_difference": 0.0,
+      "mismatched_rows": 0,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "volume",
+      "max_absolute_difference": 20151.792,
+      "mismatched_rows": 3,
+      "rtol": 1e-12,
+      "atol": 1e-07
+    },
+    {
+      "column": "close_time",
+      "max_absolute_difference": 0.0,
+      "mismatched_rows": 0,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "quote_volume",
+      "max_absolute_difference": 752381407.1305499,
+      "mismatched_rows": 3,
+      "rtol": 1e-12,
+      "atol": 1e-07
+    },
+    {
+      "column": "trades",
+      "max_absolute_difference": 192417.0,
+      "mismatched_rows": 3,
+      "rtol": 0.0,
+      "atol": 0.0
+    },
+    {
+      "column": "taker_buy_volume",
+      "max_absolute_difference": 10839.596000000001,
+      "mismatched_rows": 3,
+      "rtol": 1e-12,
+      "atol": 1e-07
+    },
+    {
+      "column": "taker_buy_quote_volume",
+      "max_absolute_difference": 404688005.97880995,
+      "mismatched_rows": 3,
+      "rtol": 1e-12,
+      "atol": 1e-07
+    }
+  ],
+  "mismatched_windows_count": 4,
+  "mismatched_windows": [
+    {
+      "open_time": 1657944000000,
+      "open_utc": "2022-07-16T04:00:00+00:00",
+      "official_open": 20727.4,
+      "aggregated_open": 20727.4,
+      "official_close": 20541.0,
+      "aggregated_close": 20541.0,
+      "official_target_color": -1,
+      "aggregated_target_color": -1,
+      "target_label_changed": false,
+      "zero_volume_15m_components": 0,
+      "official_volume": 62235.67,
+      "aggregated_volume": 62207.626,
+      "relative_volume_shortfall_vs_official": 0.0004506097548239087
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "official_open": 37092.6,
+      "aggregated_open": 37118.4,
+      "official_close": 37253.5,
+      "aggregated_close": 37253.5,
+      "official_target_color": 1,
+      "aggregated_target_color": 1,
+      "target_label_changed": false,
+      "zero_volume_15m_components": 2,
+      "official_volume": 53891.739,
+      "aggregated_volume": 33739.947,
+      "relative_volume_shortfall_vs_official": 0.37393100267185664
+    },
+    {
+      "open_time": 1730145600000,
+      "open_utc": "2024-10-28T20:00:00+00:00",
+      "official_open": 69650.0,
+      "aggregated_open": 69566.1,
+      "official_close": 69940.0,
+      "aggregated_close": 69940.0,
+      "official_target_color": 1,
+      "aggregated_target_color": 1,
+      "target_label_changed": false,
+      "zero_volume_15m_components": 4,
+      "official_volume": 31542.185,
+      "aggregated_volume": 31542.185,
+      "relative_volume_shortfall_vs_official": 0.0
+    },
+    {
+      "open_time": 1738108800000,
+      "open_utc": "2025-01-29T00:00:00+00:00",
+      "official_open": 101279.7,
+      "aggregated_open": 101279.7,
+      "official_close": 101994.0,
+      "aggregated_close": 101994.0,
+      "official_target_color": 1,
+      "aggregated_target_color": 1,
+      "target_label_changed": false,
+      "zero_volume_15m_components": 0,
+      "official_volume": 14925.038,
+      "aggregated_volume": 14328.143,
+      "relative_volume_shortfall_vs_official": 0.039992862999745825
+    }
+  ],
+  "all_8766_target_color_mismatches": 0,
+  "field_discrepancies": [
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "open",
+      "official_4h": 37092.6,
+      "aggregated_15m": 37118.4,
+      "official_minus_aggregate": -25.80000000000291,
+      "relative_difference_vs_official": -0.000695556526099624
+    },
+    {
+      "open_time": 1730145600000,
+      "open_utc": "2024-10-28T20:00:00+00:00",
+      "column": "open",
+      "official_4h": 69650.0,
+      "aggregated_15m": 69566.1,
+      "official_minus_aggregate": 83.89999999999418,
+      "relative_difference_vs_official": 0.0012045944005742164
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "low",
+      "official_4h": 37092.5,
+      "aggregated_15m": 37118.4,
+      "official_minus_aggregate": -25.900000000001455,
+      "relative_difference_vs_official": -0.0006982543640898148
+    },
+    {
+      "open_time": 1657944000000,
+      "open_utc": "2022-07-16T04:00:00+00:00",
+      "column": "volume",
+      "official_4h": 62235.67,
+      "aggregated_15m": 62207.626,
+      "official_minus_aggregate": 28.044000000001688,
+      "relative_difference_vs_official": 0.0004506097548239087
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "volume",
+      "official_4h": 53891.739,
+      "aggregated_15m": 33739.947,
+      "official_minus_aggregate": 20151.792,
+      "relative_difference_vs_official": 0.37393100267185664
+    },
+    {
+      "open_time": 1738108800000,
+      "open_utc": "2025-01-29T00:00:00+00:00",
+      "column": "volume",
+      "official_4h": 14925.038,
+      "aggregated_15m": 14328.143,
+      "official_minus_aggregate": 596.8950000000004,
+      "relative_difference_vs_official": 0.039992862999745825
+    },
+    {
+      "open_time": 1657944000000,
+      "open_utc": "2022-07-16T04:00:00+00:00",
+      "column": "quote_volume",
+      "official_4h": 1281872238.51694,
+      "aggregated_15m": 1281294988.3189402,
+      "official_minus_aggregate": 577250.1979999542,
+      "relative_difference_vs_official": 0.0004503180431365008
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "quote_volume",
+      "official_4h": 2011132710.77351,
+      "aggregated_15m": 1258751303.64296,
+      "official_minus_aggregate": 752381407.1305499,
+      "relative_difference_vs_official": 0.37410828390393663
+    },
+    {
+      "open_time": 1738108800000,
+      "open_utc": "2025-01-29T00:00:00+00:00",
+      "column": "quote_volume",
+      "official_4h": 1518671585.9798,
+      "aggregated_15m": 1457982980.8233,
+      "official_minus_aggregate": 60688605.1565001,
+      "relative_difference_vs_official": 0.03996163865629032
+    },
+    {
+      "open_time": 1657944000000,
+      "open_utc": "2022-07-16T04:00:00+00:00",
+      "column": "trades",
+      "official_4h": 557389.0,
+      "aggregated_15m": 557259.0,
+      "official_minus_aggregate": 130.0,
+      "relative_difference_vs_official": 0.00023323029338576828
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "trades",
+      "official_4h": 585065.0,
+      "aggregated_15m": 392648.0,
+      "official_minus_aggregate": 192417.0,
+      "relative_difference_vs_official": 0.32888140633946655
+    },
+    {
+      "open_time": 1738108800000,
+      "open_utc": "2025-01-29T00:00:00+00:00",
+      "column": "trades",
+      "official_4h": 367423.0,
+      "aggregated_15m": 354210.0,
+      "official_minus_aggregate": 13213.0,
+      "relative_difference_vs_official": 0.035961276240191825
+    },
+    {
+      "open_time": 1657944000000,
+      "open_utc": "2022-07-16T04:00:00+00:00",
+      "column": "taker_buy_volume",
+      "official_4h": 28562.903,
+      "aggregated_15m": 28555.534,
+      "official_minus_aggregate": 7.368999999998778,
+      "relative_difference_vs_official": 0.00025799198351787907
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "taker_buy_volume",
+      "official_4h": 26507.953,
+      "aggregated_15m": 15668.357,
+      "official_minus_aggregate": 10839.596000000001,
+      "relative_difference_vs_official": 0.40891863660690814
+    },
+    {
+      "open_time": 1738108800000,
+      "open_utc": "2025-01-29T00:00:00+00:00",
+      "column": "taker_buy_volume",
+      "official_4h": 7687.51,
+      "aggregated_15m": 7488.366,
+      "official_minus_aggregate": 199.14400000000023,
+      "relative_difference_vs_official": 0.025904876871704913
+    },
+    {
+      "open_time": 1657944000000,
+      "open_utc": "2022-07-16T04:00:00+00:00",
+      "column": "taker_buy_quote_volume",
+      "official_4h": 588353926.3511,
+      "aggregated_15m": 588202238.0423,
+      "official_minus_aggregate": 151688.30879998207,
+      "relative_difference_vs_official": 0.00025781812954106493
+    },
+    {
+      "open_time": 1699632000000,
+      "open_utc": "2023-11-10T16:00:00+00:00",
+      "column": "taker_buy_quote_volume",
+      "official_4h": 989243737.93116,
+      "aggregated_15m": 584555731.95235,
+      "official_minus_aggregate": 404688005.97880995,
+      "relative_difference_vs_official": 0.40908826658346925
+    },
+    {
+      "open_time": 1738108800000,
+      "open_utc": "2025-01-29T00:00:00+00:00",
+      "column": "taker_buy_quote_volume",
+      "official_4h": 782305362.7941,
+      "aggregated_15m": 762064573.6619,
+      "official_minus_aggregate": 20240789.132200003,
+      "relative_difference_vs_official": 0.025873258825565928
+    }
+  ],
+  "interpretation": "Exact cross-timeframe equality fails; official4h raw input passes its own structural and checksum audit. Differences are recorded without repair or imputation. Source discrepancy cause is not established.",
+  "canonical_input": "Official 4h monthly archives, selected before model fitting; 15m aggregation is diagnostic only."
+}

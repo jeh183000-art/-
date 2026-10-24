@@ -1,0 +1,3 @@
+selected_model,baseline,scored_bars,day_blocks,replicates,seed,accuracy_difference,ci95_lower,ci95_upper,ci_excludes_zero
+logistic,historical_bullish_rate,2190,365,1000,20261024,0.00502283105022831,-0.023744292237442923,0.031061643835616427,False
+logistic,opposite_color_to_current,2190,365,1000,20261024,-0.013242009132420091,-0.031506849315068496,0.005936073059360731,False
