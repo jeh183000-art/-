@@ -1,0 +1,6 @@
+{
+  "status": "OK",
+  "matched_selected_non_doji_count": 256,
+  "v1_accuracy_on_v2_selected_timestamps": 0.546875,
+  "v2_accuracy_on_same_timestamps": 0.53515625
+}

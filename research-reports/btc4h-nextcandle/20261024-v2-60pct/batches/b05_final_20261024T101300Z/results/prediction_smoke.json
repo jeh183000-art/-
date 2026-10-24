@@ -1,0 +1,18 @@
+{
+  "p_up_conditional_non_doji": 0.4838636258713137,
+  "p_down_conditional_non_doji": 0.5161363741286863,
+  "direction": "DOWN",
+  "confidence": 0.5161363741286863,
+  "threshold": 0.5317274620847717,
+  "abstain": true,
+  "stale_input": false,
+  "prediction_time_utc": "2026-07-01T00:00:00+00:00",
+  "target_end_exclusive_utc": "2026-07-01T04:00:00+00:00",
+  "artifact_available_utc": "2026-07-01T00:00:00+00:00",
+  "historical_research_only": true,
+  "status": "PASS",
+  "source_rows_are_closed_at_asof": true,
+  "archived_p_up": 0.4838636258713137,
+  "absolute_probability_error": 0.0,
+  "model_sha256": "538e013964c5e30bc7ea15a559edb4691968fa12611b0337b5140ce22a832444"
+}

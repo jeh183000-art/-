@@ -1,0 +1,144 @@
+{
+  "status": "OK",
+  "predictor": "G1_R07",
+  "policy": {
+    "id": "Q85",
+    "kind": "calibration_quantile",
+    "quantile": 0.85
+  },
+  "config": {
+    "settings_sha256": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+    "engine_sha256": "2ab43453d7228c61c67650461e1062f7372bfd3c32a3ecfd51e0bdd3302c8c7c",
+    "features_sha256": "9b16e71346d7630dad9f99a9b5cf034c7f9dc11090dfe77ad06b5f52fe6cba7e",
+    "v1_reference_sha256": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651",
+    "feature_specification_sha256": "5525fdf90506061b95fc89f865e8deb0f67795014bf0a4e07818c02aeec0567e",
+    "engine_freeze_sha256": "5f07bb9575f774d4e7464188f1f6029203170342b4f46b036468a484f434a7a8",
+    "development_data_sha256": {
+      "btc4h": "651db1d671f6b15eca8ed0638f29bb78b52ab85e20118bd7c51975efd8c932b2",
+      "btc15m": "59a590e1747aa4ae25092d1889b7e38f03fcfbf32b5e027d873cd6f30114788b",
+      "eth4h": "6036b931c1383321491d0858b57c1e92713bf2fca974eb2d1611021b55cca269"
+    },
+    "bar_ms": 14400000,
+    "float_format": "%.17g"
+  },
+  "selection_sha256": "351a79e334c1838220d3c1f0b93f1844adbeff3e4bbee79236edc12555057dae",
+  "holdout_data_sha256": {
+    "btc4h": "687dc951ddb96689661cc09953b4146477828534de867a95cfe80aff06a258aa",
+    "btc15m": "518ed9478b83a27a0872fa435cd6ea6391ad81d51e28f393b2521e666052256d",
+    "eth4h": "4f7ec7769e48df92c49f1262ea4fb1342bc5f85a4e25ed5f3bcb4ee6d50a283f"
+  },
+  "full_coverage_metrics": {
+    "forecast_count": 1638,
+    "available_forecast_count": 1638,
+    "non_doji_count": 1638,
+    "selected_count": 1638,
+    "scored_count": 1638,
+    "coverage": 1.0,
+    "scored_coverage": 1.0,
+    "predicted_up_count": 724,
+    "predicted_down_count": 914,
+    "correct_up_count": 381,
+    "correct_down_count": 468,
+    "active_months": 9,
+    "max_month_share": 0.11355311355311355,
+    "accuracy": 0.5183150183150184,
+    "balanced_accuracy": 0.5188833407634148,
+    "bullish_precision": 0.5262430939226519,
+    "bearish_precision": 0.5120350109409191,
+    "log_loss": 0.6928626409504138,
+    "brier": 0.24985666061094114,
+    "roc_auc": 0.5217855454847719,
+    "full_log_loss": 0.6928626409504138,
+    "matched_always_up_accuracy": 0.5048840048840049,
+    "matched_always_down_accuracy": 0.49511599511599513,
+    "matched_past_majority_accuracy": 0.5048840048840049,
+    "matched_same_currentcolor_accuracy": 0.45787545787545786,
+    "matched_opposite_currentcolor_accuracy": 0.5421245421245421
+  },
+  "selected_metrics": {
+    "forecast_count": 1638,
+    "available_forecast_count": 1638,
+    "non_doji_count": 1638,
+    "selected_count": 256,
+    "scored_count": 256,
+    "coverage": 0.1562881562881563,
+    "scored_coverage": 0.1562881562881563,
+    "predicted_up_count": 173,
+    "predicted_down_count": 83,
+    "correct_up_count": 88,
+    "correct_down_count": 49,
+    "active_months": 9,
+    "max_month_share": 0.203125,
+    "accuracy": 0.53515625,
+    "balanced_accuracy": 0.5434915586004404,
+    "bullish_precision": 0.5086705202312138,
+    "bearish_precision": 0.5903614457831325,
+    "log_loss": 0.6915919697940494,
+    "brier": 0.24921735418267005,
+    "roc_auc": 0.5465500367017373,
+    "full_log_loss": 0.6928626409504138,
+    "matched_always_up_accuracy": 0.4765625,
+    "matched_always_down_accuracy": 0.5234375,
+    "matched_past_majority_accuracy": 0.4765625,
+    "matched_same_currentcolor_accuracy": 0.4453125,
+    "matched_opposite_currentcolor_accuracy": 0.5546875
+  },
+  "goal_gate_checks": {
+    "all_three_folds_successful": true,
+    "accuracy_at_least_target": false,
+    "selected_non_doji_count": true,
+    "active_months": true,
+    "month_concentration": true
+  },
+  "point_60_percent_goal_met": false,
+  "v1_comparison": {
+    "status": "OK",
+    "matched_selected_non_doji_count": 256,
+    "v1_accuracy_on_v2_selected_timestamps": 0.546875,
+    "v2_accuracy_on_same_timestamps": 0.53515625
+  },
+  "uncertainty": {
+    "status": "OK",
+    "descriptive_only": true,
+    "used_for_selection": false,
+    "method": "Percentile bootstrap of fixed UTC 7-day blocks anchored at 2026-01-01; include empty blocks",
+    "requested_replicates": 2000,
+    "nonempty_replicates": 2000,
+    "seed": 20261024,
+    "total_calendar_blocks": 39,
+    "blocks_with_selected_predictions": 38,
+    "selected_non_doji_count": 256,
+    "point_accuracy": 0.53515625,
+    "accuracy_percentile_95_low": 0.47193012404688744,
+    "accuracy_percentile_95_high": 0.5992105263157893,
+    "paired_accuracy_differences": {
+      "always_up": {
+        "point_difference": 0.05859375,
+        "percentile_95_low": -0.012172138266458223,
+        "percentile_95_high": 0.13637659868648455
+      },
+      "always_down": {
+        "point_difference": 0.01171875,
+        "percentile_95_low": -0.09398576569629201,
+        "percentile_95_high": 0.11940298507462686
+      },
+      "past_majority": {
+        "point_difference": 0.05859375,
+        "percentile_95_low": -0.012172138266458223,
+        "percentile_95_high": 0.13637659868648455
+      },
+      "same_currentcolor": {
+        "point_difference": 0.08984375,
+        "percentile_95_low": -0.026115716460835728,
+        "percentile_95_high": 0.21369770580296882
+      },
+      "opposite_currentcolor": {
+        "point_difference": -0.01953125,
+        "percentile_95_low": -0.05106382978723404,
+        "percentile_95_high": 0.008734582088408788
+      }
+    },
+    "caveat": "Time dependence and regime changes remain; this is not a guarantee of future accuracy."
+  },
+  "no_model_or_policy_switch_after_evaluation": true
+}

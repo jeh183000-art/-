@@ -1,0 +1,4 @@
+group,recipe,fold_start_utc,fold_end_utc,calibration_start_utc,train_start_utc,fit_count,calibration_count,test_count,fit_last_label_end_utc,calibration_last_label_end_utc,strict_cutoffs_passed,status,warnings
+G1,R07,2026-01-01T00:00:00+00:00,2026-04-01T00:00:00+00:00,2025-07-05T00:00:00+00:00,,11973,1079,540,2025-07-04T20:00:00+00:00,2025-12-31T20:00:00+00:00,True,OK,
+G1,R07,2026-04-01T00:00:00+00:00,2026-07-01T00:00:00+00:00,2025-10-03T00:00:00+00:00,,12513,1079,546,2025-10-02T20:00:00+00:00,2026-03-31T20:00:00+00:00,True,OK,
+G1,R07,2026-07-01T00:00:00+00:00,2026-10-01T00:00:00+00:00,2026-01-02T00:00:00+00:00,,13059,1079,552,2026-01-01T20:00:00+00:00,2026-06-30T20:00:00+00:00,True,OK,

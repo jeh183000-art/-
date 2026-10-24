@@ -1,0 +1,8098 @@
+{
+  "status": "PASS",
+  "phase": "evaluation",
+  "auditor_source_sha256": "cec8124255f345d1ac1c3973b27016be9c05686399009a7326c9ca39b2c58689",
+  "independent_of_engine_imports": true,
+  "estimator_fits_performed": 0,
+  "checks_total": 1239,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "preregistered_settings_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preregistration_settings_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preregistration_before_fit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_source_frozen_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_count:G1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_target_exclusion:G1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_count:G2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_target_exclusion:G2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_count:G3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_target_exclusion:G3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_count:G4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "feature_target_exclusion:G4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "engine_freeze_settings_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "engine_freeze_time_after_preregistration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:engine_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:features_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:feature_specification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:settings.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:preregistration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:test_engine_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:test_features_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:reference/v1_model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:data_loader_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:reproduce_inputs.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:reference/v1_data_loader_4h.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_code:reference/v1_data_loader_15m.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_development_data:data/development/BTCUSDT_15m_2020-01_2025-12.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_development_data:data/development/BTCUSDT_4h_2020-01_2025-12.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_development_data:data/development/ETHUSDT_4h_2020-01_2025-12.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "development_no_holdout_files_opened",
+      "passed": true,
+      "detail": "holdout hash declarations retained unread; no holdout file was opened"
+    },
+    {
+      "check": "canonical_development_hash:btc4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "canonical_development_hash:btc15m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "canonical_development_hash:eth4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:settings_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:engine_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:features_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:v1_reference_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:feature_specification_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:engine_freeze_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:data:btc4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:data:btc15m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:data:eth4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_selection_config:bar_ms",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:frozen_selection_config:round_trip_serialization",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:began_after_selection_freeze",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:marker_selection_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_selection_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:three_quarters",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:completed_after_started",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:settings_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:engine_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:features_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:v1_reference_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:feature_specification_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:engine_freeze_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:data:btc4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:data:btc15m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:data:eth4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:completion_config:bar_ms",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:completion_config:round_trip_serialization",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_input_hash:btc4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_input_hash:btc15m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:frozen_input_hash:eth4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:calibration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:calibration_predictions.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:calibration_quarterly/calibration_2026-01.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:calibration_quarterly/calibration_2026-04.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:calibration_quarterly/calibration_2026-07.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:evaluation_summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:failures.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:matched_v1_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:matched_v1_control.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:monthly.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-01.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-02.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-03.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-04.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-05.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-06.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-07.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-08.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:predictions_monthly/predictions_2026-09.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:provenance.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:quarterly.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:results.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:run_started.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:selected_historical_model.joblib",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:sides.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:split_audit.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:uncertainty.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/calibration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/calibration_predictions.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/calibration_quarterly/calibration_2026-01.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/calibration_quarterly/calibration_2026-04.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/calibration_quarterly/calibration_2026-07.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/last_historical_model.joblib",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/monthly.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-01.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-02.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-03.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-04.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-05.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-06.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-07.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-08.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/predictions_monthly/predictions_2026-09.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/quarterly.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/results.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/sides.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:artifact_hash:v1_control/split_audit.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_grid:BTC4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_grid:BTC15m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_grid:ETH4h",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:y",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:prediction:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:calibration:y",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:past_rate_available_before_fold",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:control:always_up",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:control:always_down",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:control:past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:control:same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:control:opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "evaluation:2026-01-01T00:00:00+00:00:correct_fold_ends",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:y",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:prediction:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:calibration:y",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:past_rate_available_before_fold",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:control:always_up",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:control:always_down",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:control:past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:control:same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:control:opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "evaluation:2026-04-01T00:00:00+00:00:correct_fold_ends",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:y",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:prediction:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:calibration:y",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:past_rate_available_before_fold",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:control:always_up",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:control:always_down",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:control:past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:control:same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:control:opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:2026-07-01T00:00:00+00:00:correct_fold_ends",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:full_timeline:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:full_timeline:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:y",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:full_timeline:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:full_timeline:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:exact_calibration_fold_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_keys_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:unique_recipe_fold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:exact_recipe_fold_set",
+      "passed": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:fold_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:registered_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:strict_cutoff_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:calibration_start",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:train_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:fit_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:test_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:fit_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:calibration_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:independent_strict_purge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:disjoint_masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-01-01T00:00:00+00:00:minimum_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:fold_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:registered_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:strict_cutoff_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:calibration_start",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:train_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:fit_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:test_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:fit_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:calibration_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:independent_strict_purge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:disjoint_masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-04-01T00:00:00+00:00:minimum_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:fold_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:registered_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:strict_cutoff_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:calibration_start",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:train_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:fit_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:test_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:fit_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:calibration_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:independent_strict_purge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:disjoint_masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:R07:2026-07-01T00:00:00+00:00:minimum_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:overall_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:no_additional_candidates_predicted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:calibration_records_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:calibration_record_exact_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:probability_availability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:probability_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:finite_raw_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:raw_std",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:positive_rate",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:positive_calibration_slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:serialized_calibrated_probabilities",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:confidence_min",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:confidence_max",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:past_only_quantile_record:Q70",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:past_only_quantile_ledger:Q70",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:past_only_quantile_record:Q85",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-01-01T00:00:00+00:00:past_only_quantile_ledger:Q85",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:probability_availability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:probability_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:finite_raw_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:raw_std",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:positive_rate",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:positive_calibration_slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:serialized_calibrated_probabilities",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:confidence_min",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:confidence_max",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:past_only_quantile_record:Q70",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:past_only_quantile_ledger:Q70",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:past_only_quantile_record:Q85",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-04-01T00:00:00+00:00:past_only_quantile_ledger:Q85",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:probability_availability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:probability_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:finite_raw_scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:raw_std",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:positive_rate",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:positive_calibration_slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:serialized_calibrated_probabilities",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:confidence_min",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:confidence_max",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:past_only_quantile_record:Q70",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:past_only_quantile_ledger:Q70",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:past_only_quantile_record:Q85",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1_R07:calibration:2026-07-01T00:00:00+00:00:past_only_quantile_ledger:Q85",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "evaluation:fixed_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:summary:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:summary:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:summary:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:summary:metric:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:brier",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:summary:metric:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:monthly:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly:metric:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:brier",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:monthly:metric:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "evaluation:quarterly:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:quarterly:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:quarterly:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:quarterly:metric:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:brier",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:quarterly:metric:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "evaluation:sides:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:sides:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:sides:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:sides:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:sides:metric:correct_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:sides:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "evaluation:exact_monthly_shard_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-01:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:y",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:year",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-02:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-03:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:y",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:year",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-04:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-05:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:y",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:year",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-06:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-07:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-08:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard_columns:2026-09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:y",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:year",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:G1_R07__Q70",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:G1_R07__Q85",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:monthly_shard:2026-09:selected_policy_signal",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "evaluation:exact_calibration_shard_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard_columns:2026-01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:y",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-01:G1_R07__raw_score",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard_columns:2026-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:y",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-04:G1_R07__raw_score",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard_columns:2026-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:y",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "evaluation:calibration_shard:2026-07:G1_R07__raw_score",
+      "passed": true,
+      "detail": {
+        "elements": 1079
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:y",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:prediction:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:calibration:y",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:past_rate_available_before_fold",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:control:always_up",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:control:always_down",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:control:past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:control:same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-01-01T00:00:00+00:00:control:opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 540
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:y",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:prediction:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:calibration:y",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:past_rate_available_before_fold",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:control:always_up",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:control:always_down",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:control:past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:control:same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-04-01T00:00:00+00:00:control:opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 546
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:y",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:prediction:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:calibration:y",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:past_rate_available_before_fold",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:control:always_up",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:control:always_down",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:control:past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:control:same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:2026-07-01T00:00:00+00:00:control:opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 552
+      }
+    },
+    {
+      "check": "V1:full_timeline:no_duplicate_timestamps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:full_timeline:exact_prediction_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:y",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:calendar:year",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:calendar:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "V1:full_timeline:calendar:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:full_timeline:calendar:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:exact_calibration_fold_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_keys_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:original_source_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:unique_recipe_fold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:exact_recipe_fold_set",
+      "passed": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:fold_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:registered_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:strict_cutoff_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:calibration_start",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:train_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:fit_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:test_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:fit_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:calibration_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:independent_strict_purge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:disjoint_masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-01-01T00:00:00+00:00:minimum_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:fold_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:registered_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:strict_cutoff_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:calibration_start",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:train_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:fit_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:test_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:fit_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:calibration_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:independent_strict_purge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:disjoint_masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-04-01T00:00:00+00:00:minimum_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:fold_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:registered_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:strict_cutoff_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:calibration_start",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:train_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:fit_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:test_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:fit_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:calibration_last_label_end",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:independent_strict_purge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:disjoint_masks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "G1:split:V1_LOGISTIC38:2026-07-01T00:00:00+00:00:minimum_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:exact_calibration_record_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration:2026-01-01T00:00:00+00:00:probabilities",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration:2026-01-01T00:00:00+00:00:allows_original_negative_slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration:2026-01-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "V1:calibration:2026-01-01T00:00:00+00:00:calibration_positive_rate",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "V1:calibration:2026-01-01T00:00:00+00:00:all_test_probabilities_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration:2026-04-01T00:00:00+00:00:probabilities",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration:2026-04-01T00:00:00+00:00:allows_original_negative_slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration:2026-04-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "V1:calibration:2026-04-01T00:00:00+00:00:calibration_positive_rate",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "V1:calibration:2026-04-01T00:00:00+00:00:all_test_probabilities_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration:2026-07-01T00:00:00+00:00:probabilities",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration:2026-07-01T00:00:00+00:00:allows_original_negative_slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration:2026-07-01T00:00:00+00:00:calibration_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "V1:calibration:2026-07-01T00:00:00+00:00:calibration_positive_rate",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "V1:calibration:2026-07-01T00:00:00+00:00:all_test_probabilities_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:summary:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:summary:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:summary:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:summary:metric:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:brier",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:summary:metric:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:monthly:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly:metric:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:brier",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:monthly:metric:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 18
+      }
+    },
+    {
+      "check": "V1:quarterly:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:quarterly:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:quarterly:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:quarterly:metric:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:brier",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:quarterly:metric:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 6
+      }
+    },
+    {
+      "check": "V1:sides:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:sides:exact_key_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:sides:metric:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:sides:metric:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:sides:metric:correct_count",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:sides:metric:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 4
+      }
+    },
+    {
+      "check": "V1:exact_monthly_shard_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-01:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:y",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:year",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-02:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 168
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-03:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:y",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:year",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-04:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-05:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:y",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:year",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-06:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-07:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:y",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:year",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-08:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 186
+      }
+    },
+    {
+      "check": "V1:monthly_shard_columns:2026-09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:y",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:prediction_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:year",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:month",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:quarter",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:past_bullish_rate",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:ctrl_always_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:ctrl_always_down",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:ctrl_past_majority",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:ctrl_same_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:ctrl_opposite_currentcolor",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:monthly_shard:2026-09:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 180
+      }
+    },
+    {
+      "check": "V1:exact_calibration_shard_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard_columns:2026-01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:y",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-01:V1_LOGISTIC38__raw_score",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard_columns:2026-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:y",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-04:V1_LOGISTIC38__raw_score",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard_columns:2026-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:current_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:prediction_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:target_open_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:label_end_time",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:current_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:target_color",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:y",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:fold_start_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:fold_end_utc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "V1:calibration_shard:2026-07:V1_LOGISTIC38__raw_score",
+      "passed": true,
+      "detail": {
+        "elements": 539
+      }
+    },
+    {
+      "check": "evaluation:v1_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:selected_summary:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:brier",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:selected_summary:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:available_forecast_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:selected_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:scored_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:coverage",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:scored_coverage",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:predicted_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:predicted_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:correct_up_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:correct_down_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:active_months",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:max_month_share",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:bullish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:bearish_precision",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:brier",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:roc_auc",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:full_log_loss",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:matched_always_up_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:matched_always_down_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:matched_past_majority_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:matched_same_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:full_summary:matched_opposite_currentcolor_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:unchanged_chosen_policy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:summary_predictor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:source_hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:all_goal_predicates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:point_goal_claim",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_ledger:unique_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:matched_v1_ledger:exact_key_set",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_ledger:metric:y",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_ledger:metric:G1_R07__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_ledger:metric:selected",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_ledger:metric:V1_LOGISTIC38__p_up",
+      "passed": true,
+      "detail": {
+        "elements": 1638
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_comparison:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:matched_v1_comparison:matched_selected_non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_comparison:v1_accuracy_on_v2_selected_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:matched_v1_comparison:v2_accuracy_on_same_timestamps",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:descriptive_only",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:used_for_selection",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:requested_replicates",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:nonempty_replicates",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:seed",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:total_calendar_blocks",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:blocks_with_selected_predictions",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:selected_non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:point_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:accuracy_percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:accuracy_percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:always_up:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:always_up:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:always_up:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:always_down:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:always_down:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:always_down:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:past_majority:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:past_majority:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:past_majority:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:same_currentcolor:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:same_currentcolor:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:same_currentcolor:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:opposite_currentcolor:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:opposite_currentcolor:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:fixed_block_bootstrap:paired_accuracy_differences:opposite_currentcolor:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation:summary_bootstrap:descriptive_only",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:used_for_selection",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:requested_replicates",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:nonempty_replicates",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:seed",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:total_calendar_blocks",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:blocks_with_selected_predictions",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:selected_non_doji_count",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:point_accuracy",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:accuracy_percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:accuracy_percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:always_up:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:always_up:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:always_up:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:always_down:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:always_down:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:always_down:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:past_majority:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:past_majority:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:past_majority:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:same_currentcolor:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:same_currentcolor:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:same_currentcolor:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:opposite_currentcolor:point_difference",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:opposite_currentcolor:percentile_95_low",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:summary_bootstrap:paired_accuracy_differences:opposite_currentcolor:percentile_95_high",
+      "passed": true,
+      "detail": {
+        "elements": 1
+      }
+    },
+    {
+      "check": "evaluation:no_switch_claim",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "holdout_files_opened": true,
+  "selection_file_sha256": "351a79e334c1838220d3c1f0b93f1844adbeff3e4bbee79236edc12555057dae",
+  "selected": {
+    "group": "G1",
+    "predictor": "G1_R07",
+    "policy": {
+      "id": "Q85",
+      "kind": "calibration_quantile",
+      "quantile": 0.85
+    }
+  },
+  "selected_metrics": {
+    "forecast_count": 1638,
+    "available_forecast_count": 1638,
+    "non_doji_count": 1638,
+    "selected_count": 256,
+    "scored_count": 256,
+    "coverage": 0.1562881562881563,
+    "scored_coverage": 0.1562881562881563,
+    "predicted_up_count": 173,
+    "predicted_down_count": 83,
+    "correct_up_count": 88,
+    "correct_down_count": 49,
+    "active_months": 9,
+    "max_month_share": 0.203125,
+    "accuracy": 0.53515625,
+    "balanced_accuracy": 0.5434915586004404,
+    "bullish_precision": 0.5086705202312138,
+    "bearish_precision": 0.5903614457831325,
+    "log_loss": 0.6915919697940494,
+    "brier": 0.24921735418267005,
+    "roc_auc": 0.5465500367017372,
+    "full_log_loss": 0.6928626409504138,
+    "matched_always_up_accuracy": 0.4765625,
+    "matched_always_down_accuracy": 0.5234375,
+    "matched_past_majority_accuracy": 0.4765625,
+    "matched_same_currentcolor_accuracy": 0.4453125,
+    "matched_opposite_currentcolor_accuracy": 0.5546875
+  },
+  "full_coverage_metrics": {
+    "forecast_count": 1638,
+    "available_forecast_count": 1638,
+    "non_doji_count": 1638,
+    "selected_count": 1638,
+    "scored_count": 1638,
+    "coverage": 1.0,
+    "scored_coverage": 1.0,
+    "predicted_up_count": 724,
+    "predicted_down_count": 914,
+    "correct_up_count": 381,
+    "correct_down_count": 468,
+    "active_months": 9,
+    "max_month_share": 0.11355311355311355,
+    "accuracy": 0.5183150183150184,
+    "balanced_accuracy": 0.5188833407634148,
+    "bullish_precision": 0.5262430939226519,
+    "bearish_precision": 0.5120350109409191,
+    "log_loss": 0.6928626409504138,
+    "brier": 0.24985666061094114,
+    "roc_auc": 0.5217855454847719,
+    "full_log_loss": 0.6928626409504138,
+    "matched_always_up_accuracy": 0.5048840048840049,
+    "matched_always_down_accuracy": 0.49511599511599513,
+    "matched_past_majority_accuracy": 0.5048840048840049,
+    "matched_same_currentcolor_accuracy": 0.45787545787545786,
+    "matched_opposite_currentcolor_accuracy": 0.5421245421245421
+  },
+  "goal_gate_checks": {
+    "all_three_folds_successful": true,
+    "accuracy_at_least_target": false,
+    "selected_non_doji_count": true,
+    "active_months": true,
+    "month_concentration": true
+  },
+  "point_60_percent_goal_met": false,
+  "v1_matched_comparison": {
+    "status": "OK",
+    "matched_selected_non_doji_count": 256,
+    "v1_accuracy_on_v2_selected_timestamps": 0.546875,
+    "v2_accuracy_on_same_timestamps": 0.53515625
+  },
+  "uncertainty": {
+    "status": "OK",
+    "descriptive_only": true,
+    "used_for_selection": false,
+    "requested_replicates": 2000,
+    "nonempty_replicates": 2000,
+    "seed": 20261024,
+    "total_calendar_blocks": 39,
+    "blocks_with_selected_predictions": 38,
+    "selected_non_doji_count": 256,
+    "point_accuracy": 0.53515625,
+    "accuracy_percentile_95_low": 0.47193012404688744,
+    "accuracy_percentile_95_high": 0.5992105263157893,
+    "paired_accuracy_differences": {
+      "always_up": {
+        "point_difference": 0.05859375,
+        "percentile_95_low": -0.012172138266458223,
+        "percentile_95_high": 0.13637659868648455
+      },
+      "always_down": {
+        "point_difference": 0.01171875,
+        "percentile_95_low": -0.09398576569629201,
+        "percentile_95_high": 0.11940298507462686
+      },
+      "past_majority": {
+        "point_difference": 0.05859375,
+        "percentile_95_low": -0.012172138266458223,
+        "percentile_95_high": 0.13637659868648455
+      },
+      "same_currentcolor": {
+        "point_difference": 0.08984375,
+        "percentile_95_low": -0.026115716460835728,
+        "percentile_95_high": 0.21369770580296882
+      },
+      "opposite_currentcolor": {
+        "point_difference": -0.01953125,
+        "percentile_95_low": -0.05106382978723404,
+        "percentile_95_high": 0.008734582088408788
+      }
+    }
+  },
+  "holdout_source_sha256": {
+    "btc4h": "687dc951ddb96689661cc09953b4146477828534de867a95cfe80aff06a258aa",
+    "btc15m": "518ed9478b83a27a0872fa435cd6ea6391ad81d51e28f393b2521e666052256d",
+    "eth4h": "4f7ec7769e48df92c49f1262ea4fb1342bc5f85a4e25ed5f3bcb4ee6d50a283f"
+  },
+  "evaluation_completion_sha256": "57e1344eab7fdc3dfa01a10ebc40081c643be9c1c92a7a89041c0ec9f7e4481c"
+}

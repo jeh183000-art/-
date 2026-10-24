@@ -1,0 +1,24 @@
+{
+  "study": "BTC4H_NEXTCANDLE_V2_60PCT_20261024",
+  "phase": "FINAL",
+  "status": "COMPLETE",
+  "development_predictor_policy_combinations": 448,
+  "development_base_model_fold_fits": 320,
+  "selected_predictor": "G1_R07",
+  "selected_policy": {
+    "id": "Q85",
+    "kind": "calibration_quantile",
+    "quantile": 0.85
+  },
+  "point_60_percent_goal_met": false,
+  "selected_accuracy": 0.53515625,
+  "selected_non_doji_count": 256,
+  "full_accuracy": 0.5183150183150184,
+  "no_model_or_policy_switch_after_evaluation": true,
+  "independent_audits": "PASS",
+  "historical_model_inference": "PASS",
+  "actual_orders": 0,
+  "trading_backtests": 0,
+  "development_archives": "FOUR_BATCHES_PUBLISHED_VERIFIED",
+  "final_publication": "REMOTE_VERIFICATION_REQUIRED"
+}

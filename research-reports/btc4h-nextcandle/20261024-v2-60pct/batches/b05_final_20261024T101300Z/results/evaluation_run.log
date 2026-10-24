@@ -1,0 +1,7 @@
+{"event": "evaluation_member_fold_complete", "predictor": "G1_R07", "fold_start_utc": "2026-01-01T00:00:00+00:00", "status": "OK"}
+{"event": "v1_control_fold_complete", "fold_start_utc": "2026-01-01T00:00:00+00:00", "status": "OK"}
+{"event": "evaluation_member_fold_complete", "predictor": "G1_R07", "fold_start_utc": "2026-04-01T00:00:00+00:00", "status": "OK"}
+{"event": "v1_control_fold_complete", "fold_start_utc": "2026-04-01T00:00:00+00:00", "status": "OK"}
+{"event": "evaluation_member_fold_complete", "predictor": "G1_R07", "fold_start_utc": "2026-07-01T00:00:00+00:00", "status": "OK"}
+{"event": "v1_control_fold_complete", "fold_start_utc": "2026-07-01T00:00:00+00:00", "status": "OK"}
+{"event": "evaluation_complete", "predictor": "G1_R07", "policy": "Q85", "status": "OK", "accuracy": 0.53515625, "scored_count": 256, "goal_met": false}

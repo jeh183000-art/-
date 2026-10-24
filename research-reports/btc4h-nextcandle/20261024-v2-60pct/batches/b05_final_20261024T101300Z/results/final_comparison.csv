@@ -1,0 +1,23 @@
+stage,period,subject,predictor,policy,scope,selected_count,scored_count,correct_count,accuracy,coverage,predicted_up_count,predicted_down_count,active_months,max_month_share,source
+development,2024,G1 gated leader,G1_R07,Q85,group_leader_selected,336,336,204,0.6071428571428571,0.15300546448087432,279,57,12,0.11011904761904762,results/G1/results.csv
+development,2025,G1 gated leader,G1_R07,Q85,group_leader_selected,337,337,203,0.60237388724035612,0.15388127853881278,298,39,12,0.12166172106824925,results/G1/results.csv
+development,ALL,G1 gated leader,G1_R07,Q85,group_leader_selected,673,673,407,0.60475482912332834,0.15344277245782034,577,96,24,0.060921248142644872,results/G1/results.csv
+development,2024,G2 gated leader,G2_R04,A575,group_leader_selected,652,652,403,0.61809815950920244,0.29690346083788705,453,199,12,0.10122699386503067,results/G2/results.csv
+development,2025,G2 gated leader,G2_R04,A575,group_leader_selected,281,281,168,0.59786476868327398,0.12831050228310503,238,43,9,0.19572953736654805,results/G2/results.csv
+development,ALL,G2 gated leader,G2_R04,A575,group_leader_selected,933,933,571,0.61200428724544476,0.21272229822161423,691,242,21,0.070739549839228297,results/G2/results.csv
+development,2024,G3 gated leader,G3_E01,Q85,group_leader_selected,352,352,207,0.58806818181818177,0.16029143897996356,293,59,12,0.10795454545454546,results/G3/results.csv
+development,2025,G3 gated leader,G3_E01,Q85,group_leader_selected,324,324,189,0.58333333333333337,0.14794520547945206,272,52,12,0.12037037037037036,results/G3/results.csv
+development,ALL,G3 gated leader,G3_E01,Q85,group_leader_selected,676,676,396,0.58579881656804733,0.15412676698586411,565,111,24,0.057692307692307696,results/G3/results.csv
+development,2024,G4 gated leader,G4_R07,Q85,group_leader_selected,357,357,212,0.5938375350140056,0.16256830601092895,293,64,12,0.11764705882352941,results/G4/results.csv
+development,2025,G4 gated leader,G4_R07,Q85,group_leader_selected,348,348,204,0.58620689655172409,0.15890410958904111,276,72,12,0.11494252873563218,results/G4/results.csv
+development,ALL,G4 gated leader,G4_R07,Q85,group_leader_selected,705,705,416,0.59007092198581557,0.16073871409028728,569,136,24,0.059574468085106386,results/G4/results.csv
+evaluation,2026-01/2026-09,V2 full coverage,G1_R07,A500,full,1638,1638,849,0.51831501831501836,1,724,914,9,0.11355311355311355,results/evaluation/evaluation_summary.json
+evaluation,2026-01/2026-09,V2 frozen policy,G1_R07,Q85,frozen_policy,256,256,137,0.53515625,0.15628815628815629,173,83,9,0.203125,results/evaluation/evaluation_summary.json
+evaluation,2026-01/2026-09,V1 full coverage,V1_LOGISTIC38,A500,full,1638,1638,865,0.52808302808302809,1,782,856,9,0.11355311355311355,results/evaluation/v1_control/results.csv
+evaluation,2026-01/2026-09,V1 default 55%,V1_LOGISTIC38,A550,v1_default_policy,264,264,138,0.52272727272727271,0.16117216117216118,75,189,6,0.32954545454545453,results/evaluation/v1_control/results.csv
+evaluation,2026-01/2026-09,항상 양봉,always_up,Q85,same_v2_selected_timestamps,256,256,122,0.4765625,0.15628815628815629,256,0,9,0.203125,results/evaluation/predictions.csv.gz
+evaluation,2026-01/2026-09,항상 음봉,always_down,Q85,same_v2_selected_timestamps,256,256,134,0.5234375,0.15628815628815629,0,256,9,0.203125,results/evaluation/predictions.csv.gz
+evaluation,2026-01/2026-09,해당 분기 이전의 다수 방향,past_majority,Q85,same_v2_selected_timestamps,256,256,122,0.4765625,0.15628815628815629,256,0,9,0.203125,results/evaluation/predictions.csv.gz
+evaluation,2026-01/2026-09,현재 봉과 같은 방향,same_currentcolor,Q85,same_v2_selected_timestamps,256,256,114,0.4453125,0.15628815628815629,88,168,9,0.203125,results/evaluation/predictions.csv.gz
+evaluation,2026-01/2026-09,현재 봉과 반대 방향,opposite_currentcolor,Q85,same_v2_selected_timestamps,256,256,142,0.5546875,0.15628815628815629,168,88,9,0.203125,results/evaluation/predictions.csv.gz
+evaluation,2026-01/2026-09,V1 on V2-selected timestamps,V1_LOGISTIC38,Q85,same_v2_selected_timestamps,256,256,140,0.546875,0.15628815628815629,172,84,9,0.203125,results/evaluation/matched_v1_control.csv

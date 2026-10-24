@@ -1,0 +1,14 @@
+{
+  "status": "REPORT_BUILT_FROM_COMPLETED_AUDITED_EVALUATION",
+  "generator_sha256": "5eab5a7d606c4fc8225a7cc0aa5dd5815d8e4957e16b6b72c680b7a41755dca3",
+  "report_sha256": "991a56c1b55d129fad75878531f8aa8537c9b6977026a72ed1d60ff42963fecf",
+  "comparison_sha256": "397a5955bc7bd47898d19ce9bfbf34b32e261772077ffe3065788fe5cf219d03",
+  "selection_sha256": "351a79e334c1838220d3c1f0b93f1844adbeff3e4bbee79236edc12555057dae",
+  "evaluation_completion_sha256": "57e1344eab7fdc3dfa01a10ebc40081c643be9c1c92a7a89041c0ec9f7e4481c",
+  "predictor": "G1_R07",
+  "policy": "Q85",
+  "point_goal_met": false,
+  "comparison_rows": 22,
+  "no_model_fitted": true,
+  "no_policy_changed": true
+}

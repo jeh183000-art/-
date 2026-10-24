@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "sigmoid",
+    "slope": 0.4728338583313305,
+    "fitted_slope": 0.4728338583313305,
+    "intercept": -0.005677182898967424,
+    "allow_negative": true,
+    "group": "V1",
+    "predictor": "V1_LOGISTIC38",
+    "fold_start_utc": "2026-01-01T00:00:00+00:00",
+    "calibration_count": 539,
+    "calibration_positive_rate": 0.5009276437847866
+  },
+  {
+    "mode": "sigmoid",
+    "slope": 0.1823577598486624,
+    "fitted_slope": 0.1823577598486624,
+    "intercept": -0.02289605878789468,
+    "allow_negative": true,
+    "group": "V1",
+    "predictor": "V1_LOGISTIC38",
+    "fold_start_utc": "2026-04-01T00:00:00+00:00",
+    "calibration_count": 539,
+    "calibration_positive_rate": 0.4972170686456401
+  },
+  {
+    "mode": "sigmoid",
+    "slope": 0.9712964692072859,
+    "fitted_slope": 0.9712964692072859,
+    "intercept": -0.138128315078774,
+    "allow_negative": true,
+    "group": "V1",
+    "predictor": "V1_LOGISTIC38",
+    "fold_start_utc": "2026-07-01T00:00:00+00:00",
+    "calibration_count": 539,
+    "calibration_positive_rate": 0.48608534322820035
+  }
+]

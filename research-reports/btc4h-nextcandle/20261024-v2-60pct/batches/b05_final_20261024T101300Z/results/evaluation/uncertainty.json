@@ -1,0 +1,43 @@
+{
+  "status": "OK",
+  "descriptive_only": true,
+  "used_for_selection": false,
+  "method": "Percentile bootstrap of fixed UTC 7-day blocks anchored at 2026-01-01; include empty blocks",
+  "requested_replicates": 2000,
+  "nonempty_replicates": 2000,
+  "seed": 20261024,
+  "total_calendar_blocks": 39,
+  "blocks_with_selected_predictions": 38,
+  "selected_non_doji_count": 256,
+  "point_accuracy": 0.53515625,
+  "accuracy_percentile_95_low": 0.47193012404688744,
+  "accuracy_percentile_95_high": 0.5992105263157893,
+  "paired_accuracy_differences": {
+    "always_up": {
+      "point_difference": 0.05859375,
+      "percentile_95_low": -0.012172138266458223,
+      "percentile_95_high": 0.13637659868648455
+    },
+    "always_down": {
+      "point_difference": 0.01171875,
+      "percentile_95_low": -0.09398576569629201,
+      "percentile_95_high": 0.11940298507462686
+    },
+    "past_majority": {
+      "point_difference": 0.05859375,
+      "percentile_95_low": -0.012172138266458223,
+      "percentile_95_high": 0.13637659868648455
+    },
+    "same_currentcolor": {
+      "point_difference": 0.08984375,
+      "percentile_95_low": -0.026115716460835728,
+      "percentile_95_high": 0.21369770580296882
+    },
+    "opposite_currentcolor": {
+      "point_difference": -0.01953125,
+      "percentile_95_low": -0.05106382978723404,
+      "percentile_95_high": 0.008734582088408788
+    }
+  },
+  "caveat": "Time dependence and regime changes remain; this is not a guarantee of future accuracy."
+}
