@@ -1,0 +1,8 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_V2_FIT",
+  "frozen_at_utc": "2026-10-24T05:30:08.967421+00:00",
+  "settings_sha256": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+  "fit_count": 0,
+  "new_evaluation_performance_accessed": false,
+  "free_bytes": 30745223168
+}

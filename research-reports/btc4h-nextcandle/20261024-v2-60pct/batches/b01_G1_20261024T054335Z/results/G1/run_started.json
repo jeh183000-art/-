@@ -1,0 +1,19 @@
+{
+  "started_at_utc": "2026-10-24T05:43:37.044855+00:00",
+  "group": "G1",
+  "config": {
+    "settings_sha256": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+    "engine_sha256": "2ab43453d7228c61c67650461e1062f7372bfd3c32a3ecfd51e0bdd3302c8c7c",
+    "features_sha256": "9b16e71346d7630dad9f99a9b5cf034c7f9dc11090dfe77ad06b5f52fe6cba7e",
+    "v1_reference_sha256": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651",
+    "feature_specification_sha256": "5525fdf90506061b95fc89f865e8deb0f67795014bf0a4e07818c02aeec0567e",
+    "engine_freeze_sha256": "5f07bb9575f774d4e7464188f1f6029203170342b4f46b036468a484f434a7a8",
+    "development_data_sha256": {
+      "btc4h": "651db1d671f6b15eca8ed0638f29bb78b52ab85e20118bd7c51975efd8c932b2",
+      "btc15m": "59a590e1747aa4ae25092d1889b7e38f03fcfbf32b5e027d873cd6f30114788b",
+      "eth4h": "6036b931c1383321491d0858b57c1e92713bf2fca974eb2d1611021b55cca269"
+    },
+    "bar_ms": 14400000,
+    "float_format": "%.17g"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "archives": [
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-01",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-01.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-01.zip",
+      "bytes": 142704,
+      "sha256": "065fc8cf21f51ad6bd043fa670ba2dbc8c6030efd5dff63d5d4a9d99e0b88d0b",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-02",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-02.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-02.zip",
+      "bytes": 131955,
+      "sha256": "983c066f0cf0171466e89d7596433f5ac717ea8c805fe5b650a83b3176cd92c1",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-03",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-03.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-03.zip",
+      "bytes": 145250,
+      "sha256": "ea25e84ddffdcc8b7ba68fb47363daee6a9ef53941f152c9ebf6d4e165d32bf8",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-04",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-04.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-04.zip",
+      "bytes": 138462,
+      "sha256": "0bc151133aa47be76f535539e25c04970bd6d0afd54e532951638dc8330fcc58",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-05",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-05.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-05.zip",
+      "bytes": 142000,
+      "sha256": "1c0a865f62ddca9890f5d7bbe901b7261a3818785594d960f5fce36ee7ce81f5",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-06",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-06.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-06.zip",
+      "bytes": 139837,
+      "sha256": "54369ae74f8122e0d3c8152807f78ec3ced435a8b0ab59c5efcea2cbad878857",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-07",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-07.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-07.zip",
+      "bytes": 142057,
+      "sha256": "10df439d8404a31fc55ed91fe0169b79db3fa3e7a8c83bc2eb704004eadea1c2",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-08",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-08.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-08.zip",
+      "bytes": 141194,
+      "sha256": "0702d68a42de591fb39929d10327f1258ce1d59b9d81158c07e412029eb36306",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "15m",
+      "month": "2026-09",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/15m/BTCUSDT-15m-2026-09.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/15m/BTCUSDT-15m-2026-09.zip",
+      "bytes": 138273,
+      "sha256": "e879fa6903fd905201bd1f59e456773638cdf8c13848da79331cee89b0046964",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-01",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-01.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-01.zip",
+      "bytes": 10478,
+      "sha256": "3d3709c48cb4fe637e797baeef36334cc6faded93d5c0f54e727e9e2bd2d1b3b",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-02",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-02.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-02.zip",
+      "bytes": 9622,
+      "sha256": "e53365a8190cdece74c5f4e680209d1b84edb95c2f1ca76b1876a97d5c1fbde9",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-03",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-03.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-03.zip",
+      "bytes": 10598,
+      "sha256": "3bf4f515d5a0e445ef94b0a73892edae438ebac84311853992cd46aa1e3768e2",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-04",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-04.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-04.zip",
+      "bytes": 10162,
+      "sha256": "eab8688878cebc3a940ab7af83a122ef6d7d0176a28208b104bd50fa111cf5e4",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-05",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-05.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-05.zip",
+      "bytes": 10453,
+      "sha256": "88a85f864a664d39be622718b30c83e5a8ffa4729bf3b56efdfad8eb3eae9326",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-06",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-06.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-06.zip",
+      "bytes": 10263,
+      "sha256": "51da327f0c3a278399ffc983c419b2f946720e904c2a603cf1a1b6f58699783d",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-07",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-07.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-07.zip",
+      "bytes": 10453,
+      "sha256": "2fff352c045efe78b52785b2dc6d6107ce63c435c5eec9e28f2c247e110afde0",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-08",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-08.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-08.zip",
+      "bytes": 10424,
+      "sha256": "49dce8e4d82b20a288632c245a267ca5715f53ef170ac62915aa00a75491c3aa",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "BTCUSDT",
+      "interval": "4h",
+      "month": "2026-09",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/4h/BTCUSDT-4h-2026-09.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/BTCUSDT/4h/BTCUSDT-4h-2026-09.zip",
+      "bytes": 10146,
+      "sha256": "0c34fc07983af9550f4e630c30aac040b288fea22e0572ed06fb44b114cb52e4",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-01",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-01.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-01.zip",
+      "bytes": 10799,
+      "sha256": "6100788ed587d7567e1b7f582ac00d762ba74e87034c5854039741d3200bdc6f",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-02",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-02.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-02.zip",
+      "bytes": 9888,
+      "sha256": "61688074c0178c2b6ae1944fb88b9e3634ccf2c6a4c6f4df2ddb93af7da741bd",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-03",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-03.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-03.zip",
+      "bytes": 10887,
+      "sha256": "2634303332cdc0fc0546b44d1d5d2875654cbf8bb5f4b63322cc609d103ce6de",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-04",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-04.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-04.zip",
+      "bytes": 10401,
+      "sha256": "c3e738853a03fe67caadf689c05045fe601f426a60c5f607d4e6b8dc237009f2",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-05",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-05.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-05.zip",
+      "bytes": 10692,
+      "sha256": "471b54155e392dd0483bd233caab94287a5729992981f833cf94386bc3239c38",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-06",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-06.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-06.zip",
+      "bytes": 10443,
+      "sha256": "fa01174aa882cec9e1d67d995ce2f0a3246340f5083c5a3b4cbac9ebc4b29dea",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-07",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-07.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-07.zip",
+      "bytes": 10746,
+      "sha256": "4016f7b59a8067b5ca373c1ecaa25fbe7c6abb96e49616944cf16d4a2da3e9e0",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-08",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-08.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-08.zip",
+      "bytes": 10640,
+      "sha256": "b19844aac155b9f5ddb4a77d3ee3fb4a537ee3783b9ae4ad8b557df6c39df3c5",
+      "official_sha256_verified": true
+    },
+    {
+      "symbol": "ETHUSDT",
+      "interval": "4h",
+      "month": "2026-09",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/4h/ETHUSDT-4h-2026-09.zip",
+      "path": "/workspace/scratch/ee8991abad08/btc4h_nextcandle_v2/data/holdout_2026/raw/ETHUSDT/4h/ETHUSDT-4h-2026-09.zip",
+      "bytes": 10389,
+      "sha256": "9bb8b5ec953a6f5e96ab0470091fb76307d0935ae43332ecd1e442d494e0c7f0",
+      "official_sha256_verified": true
+    }
+  ],
+  "failures": [],
+  "workers": 4
+}
