@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_REAL_V2_FIT",
+  "frozen_at_utc": "2026-10-24T05:43:34.922649+00:00",
+  "settings_sha256": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+  "code_sha256": {
+    "engine_v2.py": "2ab43453d7228c61c67650461e1062f7372bfd3c32a3ecfd51e0bdd3302c8c7c",
+    "features_v2.py": "9b16e71346d7630dad9f99a9b5cf034c7f9dc11090dfe77ad06b5f52fe6cba7e",
+    "feature_specification.json": "5525fdf90506061b95fc89f865e8deb0f67795014bf0a4e07818c02aeec0567e",
+    "settings.json": "ecbbe9d99fb00161c6f613d7347df4f556f8a82a283ba9d34991e77274976f15",
+    "preregistration.json": "a58369d9a1fa0e4603ab15f4afd0df04f60b1c733044f38fd9ceadccf84d15d9",
+    "test_engine_v2.py": "965221269abc95f56b3e05a1c37ffe47699c71a5a52e967c2d9ae672f7d6e8d2",
+    "test_features_v2.py": "48bd340e4ada0341c09eeb97b76964359ba86424e517c254b2c95e1d6532d110",
+    "reference/v1_model.py": "180d76509f1dd6d726c9b94578d10dcc0b569750ea0224b2146a9003ba5f4651",
+    "data_loader_v2.py": "020a285ce8abe969761953d031bd5783362affa37bc2e0c5c30c1522f014ceee",
+    "reproduce_inputs.py": "b630dfb6a8931574473d9721efe3a9dddc9a0aa8f39bb9b7194cb944fbcf77a0",
+    "reference/v1_data_loader_4h.py": "0ccac908c0cdf15081fd8c6548bfa65e3d91b713442d7f26db155fb4f37a3200",
+    "reference/v1_data_loader_15m.py": "413ab9611386415ff0ec72d9a11a1458efe7fdb52e702826d68e4c9c78460daf"
+  },
+  "tests_passed": 25,
+  "test_breakdown": {
+    "features": 10,
+    "engine": 15
+  },
+  "actual_development_fits_before_freeze": 0,
+  "holdout_outcome_or_performance_inspected": false,
+  "independent_code_review": "Root and two review agents found no remaining blocker; full selected policy and recipe integrity issue fixed before freeze",
+  "development_data_sha256": {
+    "data/development/BTCUSDT_15m_2020-01_2025-12.csv.gz": "59a590e1747aa4ae25092d1889b7e38f03fcfbf32b5e027d873cd6f30114788b",
+    "data/development/BTCUSDT_4h_2020-01_2025-12.csv.gz": "651db1d671f6b15eca8ed0638f29bb78b52ab85e20118bd7c51975efd8c932b2",
+    "data/development/ETHUSDT_4h_2020-01_2025-12.csv.gz": "6036b931c1383321491d0858b57c1e92713bf2fca974eb2d1611021b55cca269"
+  },
+  "holdout_data_sha256": {
+    "data/holdout_2026/BTCUSDT_15m_2026-01_2026-09.csv.gz": "518ed9478b83a27a0872fa435cd6ea6391ad81d51e28f393b2521e666052256d",
+    "data/holdout_2026/BTCUSDT_4h_2026-01_2026-09.csv.gz": "687dc951ddb96689661cc09953b4146477828534de867a95cfe80aff06a258aa",
+    "data/holdout_2026/ETHUSDT_4h_2026-01_2026-09.csv.gz": "4f7ec7769e48df92c49f1262ea4fb1342bc5f85a4e25ed5f3bcb4ee6d50a283f"
+  }
+}

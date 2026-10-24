@@ -1,0 +1,2 @@
+status,actual_orders,trading_backtests,future_roundtrip_fee_assumption,funding_evaluated,slippage_evaluated
+NOT_APPLICABLE_CLASSIFICATION_ONLY,0,0,0.0012,False,False

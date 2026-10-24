@@ -1,0 +1,14 @@
+{
+  "study": "BTC4H_NEXTCANDLE_V2_60PCT_20261024",
+  "group": "G4",
+  "phase": "DEVELOPMENT",
+  "status": "COMPLETE",
+  "eligible_combinations": 73,
+  "registered_combinations": 112,
+  "holdout_performance_inspected_during_development_run": false,
+  "publication_prepared_after_evaluation": true,
+  "independent_audit": "PASS",
+  "actual_orders": 0,
+  "trading_backtests": 0,
+  "publication": "REMOTE_VERIFICATION_REQUIRED"
+}
